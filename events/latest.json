@@ -1,0 +1,237 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T13:30:39.107Z",
+  "schemaVersion": 1,
+  "model": "sensenova-6.8-flash-lite",
+  "hotTopics": [],
+  "count": 5,
+  "events": [
+    {
+      "id": "ai_20260904_001",
+      "type": "danger",
+      "tag": "自然灾害",
+      "title": "突发洪涝灾害",
+      "desc": "连日暴雨导致城区多处严重内涝，数千人受灾，基础设施受损严重。灾后重建资金缺口巨大，群众生命财产安全受到威胁。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动应急机制全力救灾",
+          "effects": {
+            "treasury": -800,
+            "happiness": 5,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "申请上级支援联合救灾",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 3,
+            "inspection": 5
+          },
+          "color": "blue"
+        },
+        {
+          "text": "延缓救援等待灾情明朗",
+          "effects": {
+            "happiness": -10,
+            "reputation": -10,
+            "corruption": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_002",
+      "type": "warn",
+      "tag": "经济波动",
+      "title": "龙头企业宣布停产",
+      "desc": "镇内最大的制造企业因市场萎缩宣布停产整顿，预计波及两千名工人就业。当地经济将遭受重大冲击，社会稳定面临考验。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政补贴保企业保就业",
+          "effects": {
+            "treasury": -600,
+            "unemployment": -0.02,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "搭建再就业培训平台",
+          "effects": {
+            "treasury": -200,
+            "unemployment": -0.01,
+            "educationIndex": 3,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "顺其自然减少财政负担",
+          "effects": {
+            "unemployment": 0.04,
+            "happiness": -8,
+            "reputation": -5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_003",
+      "type": "corruption",
+      "tag": "利益输送",
+      "title": "开发商递来红包",
+      "desc": "某地产开发商私下拜访，承诺给予巨额回扣以换取优先开发权。项目本身合法合规，但私相授受可能埋下严重隐患。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "严词拒绝并上报纪检监察",
+          "effects": {
+            "reputation": 6,
+            "corruption": -5,
+            "inspection": 8,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "拒绝但私下记录备案留证",
+          "effects": {
+            "corruption": -2,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "收受贿赂推动项目落地",
+          "effects": {
+            "privateAccount": 300,
+            "treasury": 500,
+            "corruption": 12,
+            "inspection": 10,
+            "reputation": -8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_004",
+      "type": "success",
+      "tag": "招商引资",
+      "title": "新能源项目洽谈",
+      "desc": "一家知名新能源企业拟在镇内投资建设生产基地，预计投资数亿元。项目税收可观，但环评和社区协调工作仍需落实。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "优先保障项目快速落地",
+          "effects": {
+            "treasury": 1000,
+            "gdpMult": 1.08,
+            "reputation": 3,
+            "happiness": -2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "要求企业配套民生投入",
+          "effects": {
+            "treasury": 600,
+            "gdpMult": 1.05,
+            "happiness": 3,
+            "educationIndex": 2,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓等待更优条件",
+          "effects": {
+            "reputation": -2,
+            "happiness": 1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_005",
+      "type": "warn",
+      "tag": "民生诉求",
+      "title": "居民集体上访",
+      "desc": "因老旧小区改造方案争议，数百名居民聚集镇政府门前表达诉求。部分诉求合理但涉及资金调配困难，事态有扩大趋势。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "召开座谈会充分沟通协商",
+          "effects": {
+            "treasury": -300,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "部分满足诉求分批解决",
+          "effects": {
+            "treasury": -150,
+            "happiness": 3,
+            "reputation": 2,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "强硬驱散维持秩序",
+          "effects": {
+            "happiness": -10,
+            "reputation": -8,
+            "corruption": 3,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    }
+  ]
+}

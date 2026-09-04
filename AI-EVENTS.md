@@ -1,14 +1,16 @@
-# AI 随机事件系统（v4.0.0b）
+# AI 随机事件系统（v4.0.0b · Phase 2）
 
 为《设身处地》引入 AI 生成的随机事件：每天凌晨由 GitHub Actions 调用大模型预生成一批事件，推送到 GitHub Pages；游戏启动时自动拉取并注入事件池，玩家可在事件弹窗内对 AI 事件「赞 / 踩」反馈。
 
 ## 功能概览
 
 - 供应商可配置：任意 OpenAI 兼容接口（OpenAI / DeepSeek / 通义 / Moonshot 等），默认 OpenAI。
-- 实时热点联动：可选从 RSS 源抓取热点标题作为生成上下文（可关闭）。
+- 实时热点联动：从 RSS 源抓取热点标题，**强制每个事件取材一条真实热点并本地化到玩家城市**（可关闭）。
+- 城市名注入：事件文本使用 `{city}` 占位符，游戏端展示时替换为玩家城市名，产生「新闻照进现实」的效果。
 - 数值受控：AI 生成的效果字段走白名单 + 范围 clamp，防止失衡数值破坏存档。
 - 自动发布：GitHub Actions 每天北京时间 0:00 定时生成并推送，支持手动触发。
-- 质量反馈：AI 事件弹窗内提供「赞 / 踩」，本地存储持久化。
+- 质量反馈：AI 事件弹窗内提供「赞 / 踩」，本地存储 + 可选上报 GitHub Issues。
+- 微调数据集：每日生成后自动把「事件 + 反馈」汇总为 SFT/DPO 可用的 JSONL 数据集。
 - 个性化预留：已内置脱敏存档快照函数，为后续「上传脱敏数据生成个性化事件」预留接口。
 
 ## 架构与数据流
@@ -18,19 +20,24 @@
 ```
 [GitHub Actions] 每天 0:00 (北京时间)          ← 生成侧（独立，与游戏无关）
    │  1. 抓取热点 RSS（可选）
-   │  2. 调用 OpenAI 兼容接口生成事件
+   │  2. 调用 OpenAI 兼容接口生成事件（强制关联热点 + {city} 占位符）
    │  3. 校验 + 数值 clamp
+   │  4. build-dataset.js：汇总事件 + GitHub Issues 反馈 → 微调数据集
    ▼
-[仓库 events/ 目录]
-   ├── latest.json            ← 游戏端实际拉取
-   ├── ai-events-YYYY-MM-DD.json（当日批次归档）
-   └── index.json             （批次索引，保留 60 天）
+[仓库 events/ + training/ 目录]
+   ├── events/latest.json            ← 游戏端实际拉取
+   ├── events/ai-events-YYYY-MM-DD.json（当日批次归档）
+   ├── events/index.json             （批次索引，保留 60 天）
+   ├── training/ai-events-train-YYYY-MM-DD.jsonl（当日数据集）
+   ├── training/ai-events-train.jsonl（累计合并数据集）
+   └── training/feedback-summary.json（反馈统计）
    │
    ▼  git push → GitHub Pages 发布
 [玩家浏览器]                                   ← 消费侧（只读抓取）
-   ├── js/systems/ai-events.js  从配置地址拉取 latest.json → 校验 → 注入 AI_EVENT_POOL
-   ├── event-system.js          合并内置池 + AI 池 → 随机抽取 → 弹窗
-   └── localStorage             赞/踩反馈持久化
+   ├── js/systems/ai-events.js  拉取 latest.json → 校验 → {city} 替换 → 注入 AI_EVENT_POOL
+   ├── event-system.js          合并内置池 + AI 池 → 随机抽取 → 弹窗（含赞/踩）
+   ├── localStorage             赞/踩反馈持久化
+   └── GitHub Issues API        赞/踩上报（可选，需配置 token）
 ```
 
 ### 游戏端拉取地址配置

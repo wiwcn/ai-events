@@ -407,6 +407,7 @@ async function main() {
   // 3. 分批调用 LLM，累积到目标数量（去重 + 校验）
   const events = [];
   const seenTitles = new Set();
+  let globalIndex = 0; // 全局事件编号（用于生成唯一 ID）
   const maxBatches = Math.ceil(cfg.eventCount / cfg.batchSize) + 2; // 允许少量冗余批次
   for (let b = 1; b <= maxBatches && events.length < cfg.eventCount; b++) {
     console.log(`[AI-Events] 第 ${b}/${maxBatches} 批：调用 LLM 生成 ${cfg.batchSize} 个事件...`);
@@ -417,11 +418,13 @@ async function main() {
     }
     let batchOk = 0;
     for (let i = 0; i < rawEvents.length; i++) {
-      const ev = validateEvent(rawEvents[i], events.length + i, dateStr);
+      // 用全局单调递增计数器生成 ID，避免跨批次因校验/去重跳过导致编号重复
+      const ev = validateEvent(rawEvents[i], globalIndex, dateStr);
       if (!ev) continue;
       const key = ev.title;
       if (seenTitles.has(key)) continue; // 跨批次去重
       seenTitles.add(key);
+      globalIndex++;
       events.push(ev);
       batchOk++;
     }

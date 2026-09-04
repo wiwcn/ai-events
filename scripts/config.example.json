@@ -12,8 +12,9 @@
     "https://feed.cnblogs.com/blog/sitehome/rss",
     "https://www.ifanr.com/feed"
   ],
-  "hotTopicMax": 8,
+  "hotTopicMax": 12,
   "hotTopicTimeoutMs": 12000,
   "maxRetries": 2,
-  "disableThinking": true
+  "disableThinking": true,
+  "feedbackRepo": "wiwcn/ai-events"
 }

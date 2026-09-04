@@ -40,15 +40,21 @@ jobs:
           HOT_TOPIC_ENABLED: ${{ vars.HOT_TOPIC_ENABLED }}
           HOT_TOPIC_SOURCES: ${{ vars.HOT_TOPIC_SOURCES }}
 
+      - name: Build fine-tuning dataset
+        run: node scripts/build-dataset.js
+        env:
+          GH_REPO: wiwcn/ai-events
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events/
+          git add events/ training/
           if ! git diff --cached --quiet; then
-            git commit -m "chore(events): 生成 AI 随机事件 $(date -u +%Y-%m-%d)"
+            git commit -m "chore(events): 生成 AI 随机事件与微调数据集 $(date -u +%Y-%m-%d)"
             git push
-            echo "已推送新事件"
+            echo "已推送新事件与数据集"
           else
-            echo "无事件更新，跳过提交"
+            echo "无更新，跳过提交"
           fi

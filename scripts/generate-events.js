@@ -66,7 +66,7 @@ function loadConfig() {
     seed: env.EVENT_SEED || fileCfg.seed || '',
     hotTopicEnabled: parseBool(env.HOT_TOPIC_ENABLED, fileCfg.hotTopicEnabled, true),
     hotTopicSources: hotSources,
-    hotTopicMax: clampInt(env.HOT_TOPIC_MAX || fileCfg.hotTopicMax, 1, 15, 8),
+    hotTopicMax: clampInt(env.HOT_TOPIC_MAX || fileCfg.hotTopicMax, 1, 20, 12),
     hotTopicTimeoutMs: clampInt(env.HOT_TOPIC_TIMEOUT || fileCfg.hotTopicTimeoutMs, 1000, 30000, 12000),
     outputDir: path.resolve(__dirname, '..', 'events'),
     maxRetries: clampInt(env.AI_MAX_RETRIES || fileCfg.maxRetries, 0, 5, 2),
@@ -231,28 +231,32 @@ function buildPrompt(cfg, hotTopics) {
     .join('\n');
 
   const hotSection = hotTopics.length
-    ? `\n请参考以下近期热点（可选，用于增强真实感；若与游戏场景无关可忽略，不要涉及敏感政治议题）：\n${hotTopics.map((t, i) => `${i + 1}. ${t}`).join('\n')}`
-    : '\n（本次不提供热点，请自由发挥。）';
+    ? `\n以下是今日真实热点新闻标题（每条都必须取材）：
+${hotTopics.map((t, i) => `${i + 1}. ${t}`).join('\n')}`
+    : '\n（本次未提供热点，请自由发挥。）';
 
   const system = `你是游戏《设身处地》的剧情策划。该游戏模拟中国地方官员（镇长/县长/市长）治理城市的全过程，核心指标包括：财政(treasury，单位万)、人口(population)、幸福度(happiness 0-100)、声誉(reputation 0-100)、腐败(corruption 0-100)、监察风险(inspection 0-100)、教育指数、医疗指数、失业率、GDP乘数、功绩。
 
 请为游戏设计一批突发事件。要求：
-1. 题材贴合地方治理场景（自然灾害、经济波动、民生诉求、公共事件、产业动态、舆论热点等），有真实感和戏剧性。
-2. 每个事件 2-3 句描述，3 个选项（分别对应积极/折中/消极处置，或各有取舍），选项文本不超过 30 字。
-3. 选项的 effects 只能使用以下白名单字段，且数值必须在范围内，单位与描述一致：
+1. 每个事件必须取材于用户消息中提供的某条真实热点新闻，把该新闻"本地化"改编成玩家城市里发生的地方治理事件（如某地灾后复产→"{city}灾后复产"、某行业新规→"{city}落实该新规"），让玩家产生"新闻照进现实"的会心一笑。严禁照抄真实人物姓名，只做虚构化改编。
+2. 事件标题/描述中在提到城市处使用占位符 {city}（游戏端会自动替换为玩家城市名），例如"{city}突降暴雨，城区内涝告急"。
+3. 题材贴合地方治理场景（自然灾害、经济波动、民生诉求、公共事件、产业动态、舆论热点等），有真实感和戏剧性。
+4. 每个事件 2-3 句描述，3 个选项（分别对应积极/折中/消极处置，或各有取舍），选项文本不超过 30 字。
+5. 选项的 effects 只能使用以下白名单字段，且数值必须在范围内，单位与描述一致：
 ${effectFields}
-4. 数值要有取舍感（不能所有选项都是正收益），整体量级与"单月财政收支、城市人口"匹配。
-5. 输出必须是严格的 JSON 数组，不要输出任何其他文字或代码块标记。`;
+6. 数值要有取舍感（不能所有选项都是正收益），整体量级与"单月财政收支、城市人口"匹配。
+7. 输出必须是严格的 JSON 数组，不要输出任何其他文字或代码块标记。`;
 
   const user = `请生成 ${cfg.batchSize} 个突发事件。${hotSection}
+每个事件必须从上述热点中选一条作为灵感来源，并在 hotTopic 字段填写该热点标题原文；事件内容要与该热点明显相关（标题或描述中体现），并尽量使用 {city} 占位符指代玩家城市。
 输出格式（JSON 数组，每个元素）：
 {
   "type": "danger|warn|success|corruption|info",
   "tag": "2-4字分类标签",
-  "title": "事件标题（≤20字）",
-  "desc": "事件描述（2-3句）",
+  "title": "事件标题（≤20字，可用{city}）",
+  "desc": "事件描述（2-3句，可用{city}）",
   "weight": 1-5,
-  "hotTopic": "关联热点（无则空字符串）",
+  "hotTopic": "取材的热点标题（必填，不得为空）",
   "choices": [
     { "text": "选项文本", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" },
     { "text": "选项文本", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" },

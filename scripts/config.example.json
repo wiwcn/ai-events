@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://api.openai.com/v1",
+  "apiKey": "",
+  "model": "gpt-4o-mini",
+  "eventCount": 5,
+  "temperature": 0.9,
+  "language": "zh-CN",
+  "hotTopicEnabled": true,
+  "hotTopicSources": [
+    "https://www.chinanews.com.cn/rss/scroll-news.xml",
+    "https://feed.cnblogs.com/blog/sitehome/rss"
+  ],
+  "hotTopicMax": 6,
+  "maxRetries": 2
+}

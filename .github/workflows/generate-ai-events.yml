@@ -1,0 +1,52 @@
+name: Generate AI Events
+
+# 每天凌晨自动预生成 AI 随机事件并推送到仓库（GitHub Pages 由此发布）
+# 北京时间 0:00 = UTC 16:00（前一天）
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch: # 支持手动触发（Actions 页面点 "Run workflow"）
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-events
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate AI events
+        run: node scripts/generate-events.js
+        env:
+          # 供应商可配置：OpenAI / DeepSeek / 通义等任意 OpenAI 兼容端点
+          AI_BASE_URL: ${{ secrets.AI_BASE_URL }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
+          AI_EVENT_COUNT: ${{ vars.AI_EVENT_COUNT }}
+          AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE }}
+          HOT_TOPIC_ENABLED: ${{ vars.HOT_TOPIC_ENABLED }}
+          HOT_TOPIC_SOURCES: ${{ vars.HOT_TOPIC_SOURCES }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add events/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(events): 生成 AI 随机事件 $(date -u +%Y-%m-%d)"
+            git push
+            echo "已推送新事件"
+          else
+            echo "无事件更新，跳过提交"
+          fi

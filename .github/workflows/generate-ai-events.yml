@@ -34,7 +34,9 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
           AI_EVENT_COUNT: ${{ vars.AI_EVENT_COUNT }}
+          AI_BATCH_SIZE: ${{ vars.AI_BATCH_SIZE }}
           AI_TEMPERATURE: ${{ vars.AI_TEMPERATURE }}
+          AI_DISABLE_THINKING: ${{ vars.AI_DISABLE_THINKING }}
           HOT_TOPIC_ENABLED: ${{ vars.HOT_TOPIC_ENABLED }}
           HOT_TOPIC_SOURCES: ${{ vars.HOT_TOPIC_SOURCES }}
 

@@ -1,46 +1,288 @@
 {
   "date": "2026-09-04",
-  "generatedAt": "2026-09-04T13:30:39.107Z",
+  "generatedAt": "2026-09-04T14:39:29.281Z",
   "schemaVersion": 1,
   "model": "sensenova-6.8-flash-lite",
-  "hotTopics": [],
-  "count": 5,
+  "hotTopics": [
+    "中新网即时新闻",
+    "中国首个科学玩具团体标准发布",
+    "广西崇左市宁明县多措并举推进灾后农业复产工作",
+    "文博IP从展厅走向街头 上海旅游节经典活动季启幕",
+    "辽宁省汇聚慈善力量让红山文化“活起来”",
+    "实景园林绘烟火群像 《兰香如故》官宣定档",
+    "福建莆田洪灾安置点灯火暖",
+    "第七届辽洽会深耕东北亚经贸合作 蒙古国担任主宾国"
+  ],
+  "count": 50,
   "events": [
     {
-      "id": "ai_20260904_001",
+      "id": "ai_20260904_0001",
       "type": "danger",
-      "tag": "自然灾害",
-      "title": "突发洪涝灾害",
-      "desc": "连日暴雨导致城区多处严重内涝，数千人受灾，基础设施受损严重。灾后重建资金缺口巨大，群众生命财产安全受到威胁。",
+      "tag": "灾害",
+      "title": "暴雨致城镇内涝",
+      "desc": "连续暴雨导致城区多处积水，沿街商铺停水停电，市民出行受阻。应急部门请求立即调配抢险资源。",
       "condition": null,
-      "weight": 4,
+      "weight": 5,
       "choices": [
         {
-          "text": "启动应急机制全力救灾",
+          "text": "紧急拨款调集排水车与沙袋",
           "effects": {
-            "treasury": -800,
-            "happiness": 5,
-            "reputation": 5,
+            "treasury": -400,
+            "happiness": 6,
+            "reputation": 3,
+            "inspection": 2,
             "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "申请上级支援联合救灾",
+          "text": "协调民间队伍分段清淤",
           "effects": {
-            "treasury": -200,
-            "happiness": 3,
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 1,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "等待上游水位自然回落",
+          "effects": {
+            "happiness": -7,
+            "reputation": -6,
+            "inspection": 5,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "福建莆田洪灾安置点灯火暖",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0003",
+      "type": "success",
+      "tag": "文旅",
+      "title": "文博IP街区招商热",
+      "desc": "本地博物馆推出IP联名街区，文创、餐饮商户扎堆签约。文旅局希望政府配套引流与免租期。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "给予半年免租并投入宣传",
+          "effects": {
+            "treasury": -250,
+            "gdpMult": 1.06,
+            "happiness": 4,
             "reputation": 3,
-            "inspection": 5
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "只提供三个月部分补贴",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.02,
+            "reputation": 1
           },
           "color": "blue"
         },
         {
-          "text": "延缓救援等待灾情明朗",
+          "text": "按市场化租金全额收取",
           "effects": {
-            "happiness": -10,
-            "reputation": -10,
-            "corruption": 5
+            "treasury": 150,
+            "happiness": -2,
+            "corruption": 3,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "文博IP从展厅走向街头 上海旅游节经典活动季启幕",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0005",
+      "type": "warn",
+      "tag": "教育",
+      "title": "科学玩具标准征求意见",
+      "desc": "地方拟出台科学玩具地方标准，要求中小学采购达标产品。教育部门担心预算超支，厂商希望补贴。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "财政补贴学校更新教具",
+          "effects": {
+            "treasury": -300,
+            "educationIndex": 6,
+            "happiness": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "分批推进只补试点校",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "采购外包给关联公司",
+          "effects": {
+            "privateAccount": 60,
+            "corruption": 8,
+            "educationIndex": -1,
+            "inspection": 8,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国首个科学玩具团体标准发布",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0007",
+      "type": "danger",
+      "tag": "农业",
+      "title": "灾后复产资金吃紧",
+      "desc": "洪涝后农田减产，农户急需种子化肥补贴与灌溉修复。财政局提示本季度预算已近临界。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "申请专项债并紧急投放",
+          "effects": {
+            "treasury": -450,
+            "happiness": 5,
+            "gdpMult": 1.03,
+            "inspection": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调银行低息贷款贴息",
+          "effects": {
+            "treasury": -150,
+            "happiness": 3,
+            "gdpMult": 1.01,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "要求农户自筹复产",
+          "effects": {
+            "happiness": -6,
+            "reputation": -5,
+            "unemployment": 0.02,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西崇左市宁明县多措并举推进灾后农业复产工作",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0009",
+      "type": "success",
+      "tag": "经贸",
+      "title": "东北亚洽谈会落地",
+      "desc": "拟承办第七届辽洽会分论坛，蒙古国主宾国到访。商务局请求场馆改造与外宾接待预算。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "高规格承办促招商落地",
+          "effects": {
+            "treasury": -350,
+            "gdpMult": 1.07,
+            "reputation": 4,
+            "happiness": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩规模精简议程",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.02,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "将接待费用转移至企业",
+          "effects": {
+            "treasury": 50,
+            "corruption": 5,
+            "reputation": -3,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第七届辽洽会深耕东北亚经贸合作 蒙古国担任主宾国",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0011",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "三甲转诊患者激增",
+      "desc": "周边县级医院重症转诊骤增，本市三甲床位紧张，患者排队引发不满。卫健局请求扩容与补贴。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "紧急扩建病房并增派医护",
+          "effects": {
+            "treasury": -400,
+            "healthcare": 6,
+            "happiness": 4,
+            "inspection": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "购买民营医院临时床位",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 2,
+            "corruption": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "劝返部分患者回原籍",
+          "effects": {
+            "healthcare": -3,
+            "happiness": -5,
+            "reputation": -4,
+            "inspection": 4
           },
           "color": "red"
         }
@@ -52,39 +294,1867 @@
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260904_002",
+      "id": "ai_20260904_0013",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "道路招标串标疑云",
+      "desc": "三家公司报价高度雷同，知情人士暗示存在围标。纪委要求彻查，施工方则施压希望尽快开工。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "暂停招标并移交调查",
+          "effects": {
+            "corruption": -8,
+            "inspection": 10,
+            "reputation": 2,
+            "treasury": -100,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部复核并重新评标",
+          "effects": {
+            "corruption": -3,
+            "inspection": 6,
+            "treasury": -50,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "按原标书快速定标",
+          "effects": {
+            "privateAccount": 90,
+            "corruption": 10,
+            "inspection": 12,
+            "reputation": -5,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0015",
       "type": "warn",
-      "tag": "经济波动",
-      "title": "龙头企业宣布停产",
-      "desc": "镇内最大的制造企业因市场萎缩宣布停产整顿，预计波及两千名工人就业。当地经济将遭受重大冲击，社会稳定面临考验。",
+      "tag": "就业",
+      "title": "产业园招工难",
+      "desc": "新落地产能扩张急需技工，但本地失业率上升，居民抱怨岗位与技能不匹配。人社部门求助政策。",
       "condition": null,
       "weight": 3,
       "choices": [
         {
-          "text": "财政补贴保企业保就业",
+          "text": "设立免费技能培训补贴",
+          "effects": {
+            "treasury": -250,
+            "unemployment": -0.03,
+            "educationIndex": 3,
+            "happiness": 3,
+            "gdpMult": 1.02,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "对外劳务输入缓解缺口",
+          "effects": {
+            "treasury": -100,
+            "unemployment": -0.01,
+            "population": 400,
+            "happiness": -1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许企业压榨工资提速",
+          "effects": {
+            "gdpMult": 1.04,
+            "happiness": -5,
+            "reputation": -4,
+            "corruption": 3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0017",
+      "type": "success",
+      "tag": "慈善",
+      "title": "红山文化公益活化",
+      "desc": "本地慈善基金会拟联合企业捐赠活化红山文化IP，用于博物馆修复与社区美育。民政局请求背书。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "官方背书并配套配套资金",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 3,
+            "educationIndex": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅出具证明不出资",
+          "effects": {
+            "reputation": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "要求捐赠入账指定账户",
+          "effects": {
+            "privateAccount": 40,
+            "corruption": 5,
+            "inspection": 8,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "辽宁省汇聚慈善力量让红山文化“活起来”",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0019",
+      "type": "info",
+      "tag": "舆情",
+      "title": "短剧爆火引发城市打卡",
+      "desc": "热播剧取景地意外走红，游客激增带来商机，但交通拥堵与商户涨价投诉同步上升。文旅局请求调度。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增派警力与限时客流管制",
+          "effects": {
+            "treasury": -150,
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.03
+          },
+          "color": "green"
+        },
+        {
+          "text": "顺势打造官方旅游路线",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "gdpMult": 1.05,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任市场自发生态",
+          "effects": {
+            "happiness": -3,
+            "reputation": -3,
+            "corruption": 3,
+            "gdpMult": 1.02
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "实景园林绘烟火群像 《兰香如故》官宣定档",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0011",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "城区多处内涝",
+      "desc": "连日强降雨导致主干道积水严重，低洼小区被淹，居民紧急转移。救援车辆频繁出动，部分商铺受损。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "紧急拨款启动应急安置与排水修复",
           "effects": {
             "treasury": -600,
-            "unemployment": -0.02,
-            "happiness": 4,
+            "happiness": 6,
+            "reputation": 5,
+            "inspection": 3,
             "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "搭建再就业培训平台",
+          "text": "联合企业志愿者先期安置并协调支援",
           "effects": {
             "treasury": -200,
-            "unemployment": -0.01,
+            "happiness": 3,
+            "reputation": 2,
+            "inspection": 1,
+            "corruption": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "按流程等待上级统一调度",
+          "effects": {
+            "happiness": -8,
+            "reputation": -5,
+            "inspection": 5,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "福建莆田洪灾安置点灯火暖",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0013",
+      "type": "warn",
+      "tag": "复产",
+      "title": "灾后农业复产受阻",
+      "desc": "汛情过后农田大面积受损，农资价格波动，农户担心收成影响收入。县里需尽快稳定供应链和信心。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "补贴农资并协调保险理赔绿色通道",
+          "effects": {
+            "treasury": -450,
+            "happiness": 5,
+            "reputation": 4,
+            "gdpMult": 1.05,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织农技下乡指导并对接收购订单",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 2,
+            "gdpMult": 1.02,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "任由市场自行调节恢复",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "gdpMult": 0.9500000000000001,
+            "unemployment": 0.02,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西崇左市宁明县多措并举推进灾后农业复产工作",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0015",
+      "type": "success",
+      "tag": "文旅",
+      "title": "文博IP活动季启幕",
+      "desc": "本市拟推出文博IP主题活动季，从展馆延伸至街区，有望带动人流与消费。相关部门希望纳入财政支持。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "重点资助打造沉浸式街区项目",
+          "effects": {
+            "treasury": -350,
+            "happiness": 4,
+            "reputation": 4,
+            "population": 250,
+            "gdpMult": 1.06,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "与商会合作共建小型快闪活动",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.02,
+            "corruption": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂不投入，避免财政占用",
+          "effects": {
+            "happiness": -2,
+            "reputation": -2,
+            "gdpMult": 0.98
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "文博IP从展厅走向街头 上海旅游节经典活动季启幕",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0017",
+      "type": "info",
+      "tag": "教育",
+      "title": "科学玩具团体标准发布",
+      "desc": "国内首个科学玩具团体标准出台，本地玩具企业可借机优化产品并申报创新。教育部门希望联动校园推广。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "资助试点校引入标准玩具与课程",
+          "effects": {
+            "treasury": -250,
+            "educationIndex": 6,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "与企业合作捐赠教具不额外拨款",
+          "effects": {
+            "treasury": -50,
             "educationIndex": 3,
+            "happiness": 2,
+            "reputation": 2,
+            "corruption": 2,
+            "inspection": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "保持现状，不主动推广",
+          "effects": {
+            "educationIndex": -2,
+            "happiness": -1,
+            "reputation": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国首个科学玩具团体标准发布",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0019",
+      "type": "success",
+      "tag": "文旅",
+      "title": "兰香如故定档预热",
+      "desc": "热播剧实景园林在本市取景，片方提出联动宣传与门票补贴方案。旅游与宣传部门期待借势引流。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "投入宣传基金并开放取景地免费游",
+          "effects": {
+            "treasury": -400,
+            "happiness": 4,
+            "reputation": 4,
+            "population": 300,
+            "gdpMult": 1.05,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅提供场地协调与安保支持",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.02,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "拒绝合作以防舆情风险",
+          "effects": {
+            "happiness": -2,
+            "reputation": -2,
+            "gdpMult": 0.98
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "实景园林绘烟火群像 《兰香如故》官宣定档",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0021",
+      "type": "success",
+      "tag": "慈善",
+      "title": "红山文化慈善夜筹备",
+      "desc": "本地文化机构拟举办红山文化主题慈善拍卖，邀请企业家参与。相关部门希望财政给予配套并引导捐赠。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政配套并公开捐赠激励政策",
+          "effects": {
+            "treasury": -250,
+            "reputation": 4,
+            "happiness": 3,
+            "educationIndex": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅做宣传支持，让民间主导",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2,
+            "happiness": 1,
+            "corruption": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不参与以免被质疑作秀",
+          "effects": {
+            "reputation": -2,
+            "happiness": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "辽宁省汇聚慈善力量让红山文化“活起来”",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0023",
+      "type": "success",
+      "tag": "经贸",
+      "title": "辽洽会主宾国合作邀约",
+      "desc": "第七届辽洽会邀请本市参与专题展区，蒙古国担任主宾国。招商部门希望扩大跨境合作与企业对接规模。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "设立专项基金扩大展位与对接会",
+          "effects": {
+            "treasury": -500,
+            "reputation": 4,
+            "gdpMult": 1.06,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "以商会牵头低成本参与展示",
+          "effects": {
+            "treasury": -100,
+            "reputation": 2,
+            "gdpMult": 1.02,
+            "corruption": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓参与，等待更多政策明确",
+          "effects": {
+            "reputation": -2,
+            "gdpMult": 0.98
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第七届辽洽会深耕东北亚经贸合作 蒙古国担任主宾国",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0025",
+      "type": "corruption",
+      "tag": "廉政",
+      "title": "安置物资采购质疑",
+      "desc": "网帖称灾后安置物资采购存在高价中标与围标疑云。群众情绪波动，监察部门要求限期说明。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "立刻成立专班彻查并公开结果",
+          "effects": {
+            "treasury": -100,
+            "corruption": -6,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "先约谈相关负责人并暂停后续招标",
+          "effects": {
+            "treasury": -50,
+            "corruption": -3,
+            "reputation": 2,
+            "inspection": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以流程合规为由不作回应",
+          "effects": {
+            "corruption": 5,
+            "reputation": -6,
+            "happiness": -4,
+            "inspection": 8,
+            "merit": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0027",
+      "type": "warn",
+      "tag": "民生",
+      "title": "老旧小区改造投诉激增",
+      "desc": "多处老旧社区改造进度滞后，加装电梯与管线施工引发噪音和出行不便。居民要求加快进度并补偿损失。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "追加资金并增加夜间施工补偿",
+          "effects": {
+            "treasury": -350,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "优化施工排期并发布进度看板",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持原计划，避免追加成本",
+          "effects": {
+            "happiness": -5,
+            "reputation": -3,
+            "inspection": 2,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0029",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "流感季门诊量暴增",
+      "desc": "流感高峰叠加学校聚集性病例，发热门诊排队严重，医护人手紧张。市民对防疫与诊疗效率提出关切。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "增派临时诊室并采购储备药品",
+          "effects": {
+            "treasury": -400,
+            "healthcare": 6,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "动员社区医生与线上问诊分流",
+          "effects": {
+            "treasury": -100,
+            "healthcare": 3,
+            "happiness": 2,
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "建议市民自行居家观察",
+          "effects": {
+            "healthcare": -4,
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 2,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0021",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "城区内涝引发安置点安置需求",
+      "desc": "连日暴雨导致低洼片区积水严重，群众涌入临时安置点。电力、饮用水与防疫物资告急，舆论关注安置秩序。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "紧急拨款扩容并派驻防疫队伍",
+          "effects": {
+            "treasury": -300,
+            "happiness": 8,
+            "healthcare": 4,
+            "reputation": 5,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅开放相邻学校宿舍缓解压力",
+          "effects": {
+            "treasury": -50,
+            "happiness": -2,
+            "healthcare": -3,
+            "educationIndex": -2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以志愿者名义自行筹措物资",
+          "effects": {
+            "privateAccount": 40,
+            "corruption": 8,
+            "happiness": -5,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "福建莆田洪灾安置点灯火暖",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0023",
+      "type": "warn",
+      "tag": "农业复产",
+      "title": "灾后农田复产资金缺口",
+      "desc": "水淹农田进入抢种窗口期，但农户自筹能力有限。上级专项补贴到位缓慢，地方需垫付种子和农机补贴。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "财政垫付并申请上级专项追加",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.03,
+            "unemployment": -0.02,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "只补贴合作社规模户",
+          "effects": {
+            "treasury": -50,
+            "happiness": -4,
+            "unemployment": 0.01,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "拖延发放等待补贴到位",
+          "effects": {
+            "happiness": -6,
+            "reputation": -4,
+            "gdpMult": 0.96
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西崇左市宁明县多措并举推进灾后农业复产工作",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0025",
+      "type": "success",
+      "tag": "文旅IP",
+      "title": "文博IP联名文创快闪引爆街区",
+      "desc": "本地博物馆IP联名快闪店在老街开街首周客流翻倍。商户联合推出消费券，周边小微商户排队入驻。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "配套交通疏导与商户准入管理",
+          "effects": {
+            "treasury": -50,
+            "reputation": 6,
+            "happiness": 5,
+            "gdpMult": 1.05,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "默许自由摆摊快速扩容",
+          "effects": {
+            "corruption": 6,
+            "happiness": 1,
+            "inspection": 6,
+            "reputation": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "以市容为由提前叫停",
+          "effects": {
+            "happiness": -3,
+            "reputation": -5,
+            "gdpMult": 0.97
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "文博IP从展厅走向街头 上海旅游节经典活动季启幕",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0027",
+      "type": "warn",
+      "tag": "教育",
+      "title": "科学玩具进课堂采购标准争议",
+      "desc": "新发布的科学玩具团体标准引发校方分歧。部分校长担忧产品良莠不齐，家长要求公开采购清单。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "公开招标并公示评审细则",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 5,
+            "happiness": 3,
+            "inspection": 2,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "由教育局指定三家白名单厂商",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 2,
+            "corruption": 7,
+            "inspection": 8
+          },
+          "color": "orange"
+        },
+        {
+          "text": "暂缓采购等待舆情平息",
+          "effects": {
+            "educationIndex": -3,
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国首个科学玩具团体标准发布",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0029",
+      "type": "corruption",
+      "tag": "慈善",
+      "title": "红山文化慈善晚会资金去向遭质疑",
+      "desc": "为弘扬地方文化举办的慈善晚会收到大额捐赠。媒体追问善款公示方式，有市民举报存在回扣。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "第三方审计并全量公示",
+          "effects": {
+            "treasury": -50,
+            "corruption": -8,
+            "reputation": 6,
+            "happiness": 4,
+            "inspection": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅公示大额捐赠人名单",
+          "effects": {
+            "corruption": 3,
+            "reputation": -3,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "将部分款项转入个人账户",
+          "effects": {
+            "privateAccount": 180,
+            "corruption": 12,
+            "reputation": -8,
+            "happiness": -4,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "辽宁省汇聚慈善力量让红山文化“活起来”",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0031",
+      "type": "info",
+      "tag": "经贸",
+      "title": "东北亚经贸会主宾国签约窗口",
+      "desc": "第七届辽洽会以蒙古国为主宾国，多地寻求对接跨境物流与资源贸易。本地园区招商团队提出临时补贴方案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政补贴物流与通关便利化",
+          "effects": {
+            "treasury": -150,
+            "gdpMult": 1.06,
+            "unemployment": -0.02,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅对头部企业定向补贴",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.02,
+            "corruption": 4,
+            "inspection": 4
+          },
+          "color": "orange"
+        },
+        {
+          "text": "不参与以避免地方竞争",
+          "effects": {
+            "gdpMult": 0.98,
+            "unemployment": 0.01,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第七届辽洽会深耕东北亚经贸合作 蒙古国担任主宾国",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0033",
+      "type": "danger",
+      "tag": "公共卫生",
+      "title": "安置点出现呼吸道传染病苗头",
+      "desc": "拥挤的临时安置点陆续出现发热咳嗽病例，疾控中心请求加强筛查。群众担心扩散至学校与养老院。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "分区隔离并派驻流动医疗队",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 6,
+            "happiness": 4,
+            "reputation": 5,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发放口罩劝告自行就医",
+          "effects": {
+            "healthcare": -4,
+            "happiness": -4,
+            "reputation": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "隐瞒病例避免舆情升级",
+          "effects": {
+            "healthcare": -6,
+            "happiness": -6,
+            "reputation": -5,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "福建莆田洪灾安置点灯火暖",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0035",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "影视取景地引发本地居民投诉",
+      "desc": "热播剧组在老城区取景，夜间灯光与噪音影响周边居民。剧组方要求街道配合协调但居民情绪激烈。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "划定拍摄时段并补偿扰民",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "建议剧组自行解决噪音问题",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以文化名片为由要求居民配合",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4,
+            "inspection": 3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "实景园林绘烟火群像 《兰香如故》官宣定档",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0037",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "市政雨排改造中标价被曝异常",
+      "desc": "暴雨后启动的管网改造项目，中标价与预算存在明显偏离。审计部门要求提交详细成本拆解。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动复核并邀请第三方审计",
+          "effects": {
+            "treasury": -50,
+            "corruption": -6,
+            "reputation": 4,
+            "inspection": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由原施工单位出具说明后继续",
+          "effects": {
+            "corruption": 6,
+            "inspection": 6,
+            "reputation": -3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "加快施工以应付上级检查",
+          "effects": {
+            "treasury": -100,
+            "corruption": 10,
+            "happiness": -3,
+            "inspection": 9,
+            "reputation": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "福建莆田洪灾安置点灯火暖",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0039",
+      "type": "success",
+      "tag": "产业",
+      "title": "本地玩具企业获团体标准认证",
+      "desc": "一家本土儿童玩具企业率先通过新发布团体标准，可优先参与政府采购与进校园项目。企业请求地方配套支持。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "给予培训补贴与展会资源",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.04,
+            "educationIndex": 3,
+            "unemployment": -0.01,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅给予一次性认证奖励",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.01,
+            "corruption": 3,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不予额外支持按常规流程",
+          "effects": {
+            "happiness": -2,
+            "gdpMult": 0.99,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国首个科学玩具团体标准发布",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0031",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "城区内涝致道路瘫痪",
+      "desc": "连日暴雨导致主干道积水严重，交通中断，多户居民被困。媒体和市民已开始大量问询与投诉。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "立即启动应急预案，调集消防与武警，全员转移",
+          "effects": {
+            "treasury": -700,
+            "happiness": 10,
+            "reputation": 9,
+            "inspection": 4,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "部分转移群众，重点路段抢险排涝",
+          "effects": {
+            "treasury": -350,
+            "happiness": 3,
+            "reputation": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由属地社区自行处置，暂不拨款",
+          "effects": {
+            "happiness": -12,
+            "reputation": -10,
+            "corruption": 6,
+            "inspection": 8,
+            "merit": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "福建莆田洪灾安置点灯火暖",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0033",
+      "type": "danger",
+      "tag": "复产",
+      "title": "灾后农业亟待恢复",
+      "desc": "连续自然灾害导致大片农田受损，秋收面临减产风险。种粮大户资金紧张，春耕物资供应吃紧。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "发放专项补贴并协调低息农业贷款",
+          "effects": {
+            "treasury": -900,
+            "happiness": 8,
+            "reputation": 7,
+            "gdpMult": 1.05,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅补贴良种与农资，暂缓贷款贴息",
+          "effects": {
+            "treasury": -400,
+            "happiness": 3,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "要求村集体自筹，不予额外拨款",
+          "effects": {
+            "happiness": -8,
+            "reputation": -6,
+            "gdpMult": 0.96,
+            "corruption": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西崇左市宁明县多措并举推进灾后农业复产工作",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0035",
+      "type": "info",
+      "tag": "文创",
+      "title": "文博IP引爆街头经济",
+      "desc": "本市博物馆文物IP联名快闪店在步行街开业，日客流超万人。周边商户要求延长活动周期以争取销售。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "延长活动并配套交通疏导与安保",
+          "effects": {
+            "treasury": -200,
+            "happiness": 6,
+            "reputation": 5,
+            "gdpMult": 1.04,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "按原计划结束，仅维持基础秩序",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "引入商业赞助换取场地冠名",
+          "effects": {
+            "treasury": 300,
+            "privateAccount": 80,
+            "corruption": 8,
+            "reputation": -4,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "文博IP从展厅走向街头 上海旅游节经典活动季启幕",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0037",
+      "type": "info",
+      "tag": "标准",
+      "title": "科学玩具新国标出台",
+      "desc": "全国首个科学玩具团体标准发布，本地两家企业符合门槛，可申报示范项目并享受税收优惠。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立专项奖励并推动企业技改升级",
+          "effects": {
+            "treasury": -300,
+            "gdpMult": 1.06,
+            "educationIndex": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发布政策通知，企业自主申报",
+          "effects": {
+            "educationIndex": 1,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "指定关系企业为唯一示范项目",
+          "effects": {
+            "privateAccount": 200,
+            "corruption": 10,
+            "reputation": -6,
+            "inspection": 9,
+            "gdpMult": 1.03
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国首个科学玩具团体标准发布",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0039",
+      "type": "warn",
+      "tag": "就业",
+      "title": "外向型工厂订单骤减",
+      "desc": "受国际经贸波动影响，本地某出口企业订单下降四成，面临裁员。工会已组织员工静坐协商。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "政府担保贷款并对接新市场订单",
+          "effects": {
+            "treasury": -450,
+            "unemployment": -0.03,
+            "happiness": 5,
+            "gdpMult": 1.03,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放稳岗补贴，缩短工时不裁员",
+          "effects": {
+            "treasury": -250,
+            "unemployment": -0.01,
             "happiness": 2
           },
           "color": "blue"
         },
         {
-          "text": "顺其自然减少财政负担",
+          "text": "由企业与员工自行协商，不予干预",
           "effects": {
             "unemployment": 0.04,
-            "happiness": -8,
+            "happiness": -10,
+            "reputation": -8,
+            "corruption": 3,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第七届辽洽会深耕东北亚经贸合作 蒙古国担任主宾国",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0041",
+      "type": "danger",
+      "tag": "食品安全",
+      "title": "学校食堂疑似变质供餐",
+      "desc": "某中学多名学生餐后出现腹痛呕吐，家长聚集校门口要求彻查。市场监管部门初步怀疑食材过期。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "全校停课调查，封存食材并追责",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 5,
+            "happiness": 4,
+            "reputation": 5,
+            "inspection": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "涉事食堂停业整顿，其余照常",
+          "effects": {
+            "healthcare": 2,
+            "happiness": -3,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "私下安抚家长，压低事件热度",
+          "effects": {
+            "happiness": -14,
+            "reputation": -12,
+            "corruption": 8,
+            "inspection": 12,
+            "healthcare": -4,
+            "merit": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0043",
+      "type": "success",
+      "tag": "文旅",
+      "title": "实景剧拉动夜间消费",
+      "desc": "新推出的实景园林剧目《兰香如故》定档宣传，票务预售火爆。周边酒店餐饮预订量上升，但交通压力加大。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增设夜间公交专线并优化停车场",
+          "effects": {
+            "treasury": -150,
+            "happiness": 7,
+            "reputation": 5,
+            "gdpMult": 1.05,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "保持现状，仅加强现场安保",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "向剧组收取场地冠名费",
+          "effects": {
+            "treasury": 400,
+            "privateAccount": 60,
+            "corruption": 6,
+            "reputation": -3,
+            "inspection": 5
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "实景园林绘烟火群像 《兰香如故》官宣定档",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0045",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "市政道路工程中标异常",
+      "desc": "审计发现某道路改造项目招标中三家投标企业报价高度雷同。举报人实名投诉存在围标串标嫌疑。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "暂停项目，移交纪检监察全面彻查",
+          "effects": {
+            "treasury": -300,
+            "corruption": -10,
+            "reputation": 7,
+            "inspection": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部自查整改，重新评标",
+          "effects": {
+            "treasury": -100,
+            "corruption": -4,
+            "reputation": 1,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以工期为由暂不处理",
+          "effects": {
+            "corruption": 12,
+            "reputation": -9,
+            "inspection": 10,
+            "happiness": -5,
+            "merit": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0047",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "县域医院人手严重不足",
+      "desc": "本地县医院核心科室医生流失严重，专家跳槽至大城市。患者开始外流就医，群众满意度明显下降。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "提高薪酬并引进带编专家团队",
+          "effects": {
+            "treasury": -700,
+            "healthcare": 8,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "通过医联体远程会诊缓解压力",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 3,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，等待上级统筹解决",
+          "effects": {
+            "healthcare": -6,
+            "happiness": -9,
+            "reputation": -7,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0049",
+      "type": "info",
+      "tag": "慈善",
+      "title": "非遗保护获慈善捐赠",
+      "desc": "本地慈善机构联合企业计划为濒危非遗技艺提供资金支持，资金涉及使用规范与公示要求。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "建立专账并公开披露资金流向",
+          "effects": {
+            "treasury": -100,
+            "reputation": 6,
+            "corruption": -5,
+            "inspection": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅内部审核，定期向上级报备",
+          "effects": {
+            "reputation": 2,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由熟悉企业代管资金，简化流程",
+          "effects": {
+            "privateAccount": 120,
+            "corruption": 9,
+            "reputation": -5,
+            "inspection": 8
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "辽宁省汇聚慈善力量让红山文化“活起来”",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0041",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "强降雨致低洼片区被淹",
+      "desc": "连续暴雨使镇区多处积水，居民生活受影响。部分农户农田被淹，复产压力骤增。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动救灾专项，全面复产支持",
+          "effects": {
+            "treasury": -800,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 3,
+            "unemployment": -0.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "分批排涝，重点保障民生",
+          "effects": {
+            "treasury": -450,
+            "happiness": 2,
+            "reputation": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "延后抢修以压缩支出",
+          "effects": {
+            "treasury": -150,
+            "happiness": -6,
+            "reputation": -5,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西崇左市宁明县多措并举推进灾后农业复产工作",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0043",
+      "type": "success",
+      "tag": "文旅",
+      "title": "文博IP街区爆火出圈",
+      "desc": "本地博物馆IP联动街区活动吸引游客激增，商铺客流和就业同步走高。但也带来治安与停车压力。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "联合商户升级交通与安保",
+          "effects": {
+            "treasury": -350,
+            "happiness": 4,
+            "reputation": 4,
+            "gdpMult": 1.06,
+            "unemployment": -0.03,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅临时增岗维持秩序",
+          "effects": {
+            "treasury": -100,
+            "happiness": 1,
+            "gdpMult": 1.02,
+            "unemployment": -0.01,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任拥挤换取门票收益",
+          "effects": {
+            "treasury": 300,
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 8,
+            "gdpMult": 1.04
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "文博IP从展厅走向街头 上海旅游节经典活动季启幕",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0045",
+      "type": "info",
+      "tag": "产业",
+      "title": "科技玩具标准落地",
+      "desc": "国内首个科学玩具团体标准发布，本地玩具企业需加快产品改造。合规升级有望提升竞争力。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "补贴企业完成合规升级",
+          "effects": {
+            "treasury": -400,
+            "gdpMult": 1.08,
+            "educationIndex": 3,
+            "reputation": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织培训，仅引导转型",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.03,
+            "educationIndex": 1,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许小厂延期达标",
+          "effects": {
+            "corruption": 6,
+            "inspection": 10,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国首个科学玩具团体标准发布",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0047",
+      "type": "success",
+      "tag": "开放",
+      "title": "东北亚经贸合作机遇",
+      "desc": "区域经贸合作活动带来外资意向，本地物流和外贸配套需求上升。部分企业担心成本攀升。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "建设一站式外贸服务平台",
+          "effects": {
+            "treasury": -500,
+            "gdpMult": 1.07,
+            "unemployment": -0.02,
+            "reputation": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅举办招商推介会",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.02,
+            "reputation": 1,
+            "population": 100
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许个别项目走捷径",
+          "effects": {
+            "privateAccount": 200,
+            "corruption": 10,
+            "inspection": 14,
+            "reputation": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第七届辽洽会深耕东北亚经贸合作 蒙古国担任主宾国",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0049",
+      "type": "warn",
+      "tag": "民生",
+      "title": "老旧小区加装电梯争议",
+      "desc": "居民就电梯加装分摊费用产生分歧，部分低层住户反对。工程若停滞将影响出行与房价预期。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政贴息促成协商方案",
+          "effects": {
+            "treasury": -250,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "先示范后逐步推广",
+          "effects": {
+            "treasury": -100,
+            "happiness": 1,
+            "reputation": 1,
+            "healthcare": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "搁置项目回避矛盾",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "inspection": 4
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0051",
+      "type": "corruption",
+      "tag": "招标",
+      "title": "市政维修报价异常偏高",
+      "desc": "某道路修缮工程报价明显高于市场水平，内部有人暗示可通过关系压价。审计部门已关注该项目。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "引入第三方审计与公开比价",
+          "effects": {
+            "treasury": -100,
+            "corruption": -8,
+            "inspection": 6,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩工期以控制支出",
+          "effects": {
+            "treasury": -200,
+            "reputation": 1,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "私下收受好处默许高报",
+          "effects": {
+            "privateAccount": 220,
+            "corruption": 12,
+            "inspection": 16,
             "reputation": -5
           },
           "color": "red"
@@ -97,40 +2167,42 @@
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260904_003",
-      "type": "corruption",
-      "tag": "利益输送",
-      "title": "开发商递来红包",
-      "desc": "某地产开发商私下拜访，承诺给予巨额回扣以换取优先开发权。项目本身合法合规，但私相授受可能埋下严重隐患。",
+      "id": "ai_20260904_0053",
+      "type": "danger",
+      "tag": "就业",
+      "title": "外资工厂拟裁员缩减",
+      "desc": "受需求波动影响，某制造企业计划裁员，镇域失业率面临上升压力。上下游配套企业也可能收缩。",
       "condition": null,
-      "weight": 4,
+      "weight": 5,
       "choices": [
         {
-          "text": "严词拒绝并上报纪检监察",
+          "text": "技能培训与转岗对接并补薪",
           "effects": {
-            "reputation": 6,
-            "corruption": -5,
-            "inspection": 8,
+            "treasury": -400,
+            "unemployment": -0.03,
+            "happiness": 4,
+            "educationIndex": 2,
             "merit": 3
           },
           "color": "green"
         },
         {
-          "text": "拒绝但私下记录备案留证",
+          "text": "优先保障核心岗位",
           "effects": {
-            "corruption": -2,
-            "inspection": 3
+            "treasury": -150,
+            "unemployment": -0.01,
+            "happiness": 1,
+            "reputation": 1
           },
           "color": "blue"
         },
         {
-          "text": "收受贿赂推动项目落地",
+          "text": "放任企业自行处置",
           "effects": {
-            "privateAccount": 300,
-            "treasury": 500,
-            "corruption": 12,
-            "inspection": 10,
-            "reputation": -8
+            "unemployment": 0.04,
+            "happiness": -5,
+            "reputation": -4,
+            "gdpMult": 0.9400000000000001
           },
           "color": "red"
         }
@@ -142,43 +2214,44 @@
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260904_004",
-      "type": "success",
-      "tag": "招商引资",
-      "title": "新能源项目洽谈",
-      "desc": "一家知名新能源企业拟在镇内投资建设生产基地，预计投资数亿元。项目税收可观，但环评和社区协调工作仍需落实。",
+      "id": "ai_20260904_0055",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "流感高峰挤压基层接诊",
+      "desc": "流感样病例激增，镇卫生院出现排队与药械紧张。若应对不力，慢性病随访和儿童接种将受影响。",
       "condition": null,
-      "weight": 3,
+      "weight": 4,
       "choices": [
         {
-          "text": "优先保障项目快速落地",
+          "text": "增派流动医疗队并补药械",
           "effects": {
-            "treasury": 1000,
-            "gdpMult": 1.08,
+            "treasury": -300,
+            "healthcare": 5,
+            "happiness": 4,
             "reputation": 3,
-            "happiness": -2,
-            "merit": 3
+            "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "要求企业配套民生投入",
+          "text": "延长门诊并限号分流",
           "effects": {
-            "treasury": 600,
-            "gdpMult": 1.05,
-            "happiness": 3,
-            "educationIndex": 2,
-            "merit": 2
+            "treasury": -100,
+            "healthcare": 2,
+            "happiness": 1,
+            "reputation": 1
           },
           "color": "blue"
         },
         {
-          "text": "暂缓等待更优条件",
+          "text": "压缩基层投入保预算",
           "effects": {
-            "reputation": -2,
-            "happiness": 1
+            "treasury": 100,
+            "healthcare": -5,
+            "happiness": -4,
+            "inspection": 6
           },
-          "color": "yellow"
+          "color": "red"
         }
       ],
       "postEffect": null,
@@ -188,48 +2261,95 @@
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260904_005",
-      "type": "warn",
-      "tag": "民生诉求",
-      "title": "居民集体上访",
-      "desc": "因老旧小区改造方案争议，数百名居民聚集镇政府门前表达诉求。部分诉求合理但涉及资金调配困难，事态有扩大趋势。",
+      "id": "ai_20260904_0057",
+      "type": "success",
+      "tag": "教育",
+      "title": "科学课堂走进乡村校园",
+      "desc": "本地学校引入科学玩具与实验课程，学生参与度提升，家长对教育资源提出更高期待。师资仍需补充。",
       "condition": null,
       "weight": 3,
       "choices": [
         {
-          "text": "召开座谈会充分沟通协商",
+          "text": "专项采购教具并培训教师",
           "effects": {
             "treasury": -300,
-            "happiness": 6,
-            "reputation": 4,
+            "educationIndex": 6,
+            "happiness": 3,
+            "reputation": 2,
             "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "部分满足诉求分批解决",
+          "text": "先做示范课逐步覆盖",
           "effects": {
-            "treasury": -150,
+            "treasury": -100,
+            "educationIndex": 2,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以捐赠名义采购并回扣",
+          "effects": {
+            "privateAccount": 120,
+            "educationIndex": 2,
+            "corruption": 8,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国首个科学玩具团体标准发布",
+      "generatedAt": "2026-09-04",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260904_0059",
+      "type": "info",
+      "tag": "舆情",
+      "title": "网红直播曝古镇宰客",
+      "desc": "短视频曝光部分商户高价售卖纪念品，游客投诉集中。若处置不当，短期文旅收入与声誉都会受损。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "明码标价并引入信用惩戒",
+          "effects": {
+            "treasury": -100,
             "happiness": 3,
+            "reputation": 4,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈涉事商户限期整改",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
             "reputation": 2,
             "inspection": 3
           },
           "color": "blue"
         },
         {
-          "text": "强硬驱散维持秩序",
+          "text": "否认问题回避回应",
           "effects": {
-            "happiness": -10,
-            "reputation": -8,
-            "corruption": 3,
-            "inspection": 5
+            "happiness": -4,
+            "reputation": -5,
+            "gdpMult": 0.96,
+            "inspection": 6
           },
           "color": "red"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "",
+      "hotTopic": "文博IP从展厅走向街头 上海旅游节经典活动季启幕",
       "generatedAt": "2026-09-04",
       "schemaVersion": 1
     }

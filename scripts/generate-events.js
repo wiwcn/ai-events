@@ -8,8 +8,9 @@
  * 特性：
  *  - 供应商可配置：通过环境变量或 scripts/config.json 指定 baseUrl / apiKey / model，
  *    兼容 OpenAI / DeepSeek / 通义（DashScope 兼容模式）等任意 OpenAI 兼容端点。
+ *  - 每日大批量生成：默认 300 条（可配 50-500），按批次调用模型并跨批次去重。
  *  - 数值受控：effects 仅允许白名单字段，且按范围 clamp，防止 AI 生成失衡数值。
- *  - 可选热点联动：从 RSS 源抓取热点标题作为生成上下文（可关闭）。
+ *  - 可选热点联动：从 RSS 源抓取热点标题作为生成上下文（可关闭，内置默认源）。
  *  - 零外部依赖：仅使用 Node 18+ 原生 fetch / fs。
  *
  * 输出：
@@ -31,6 +32,13 @@ const path = require('path');
 // ============================================================
 // 一、配置加载（环境变量优先，其次 scripts/config.json）
 // ============================================================
+// 默认热点源：当环境变量与 config.json 均未配置时使用（保证 Actions 开箱即用）
+const DEFAULT_HOT_SOURCES = [
+  'https://www.chinanews.com.cn/rss/scroll-news.xml',
+  'https://feed.cnblogs.com/blog/sitehome/rss',
+  'https://www.ifanr.com/feed',
+];
+
 function loadConfig() {
   const env = process.env;
   const configPath = path.join(__dirname, 'config.json');
@@ -45,21 +53,27 @@ function loadConfig() {
 
   const hotSourcesEnv = (env.HOT_TOPIC_SOURCES || '').split(',').filter(Boolean);
   const hotSourcesFile = Array.isArray(fileCfg.hotTopicSources) ? fileCfg.hotTopicSources : [];
+  const hotSources = hotSourcesEnv.length ? hotSourcesEnv : (hotSourcesFile.length ? hotSourcesFile : DEFAULT_HOT_SOURCES);
 
   return {
     baseUrl: (env.AI_BASE_URL || fileCfg.baseUrl || 'https://api.openai.com/v1').replace(/\/+$/, ''),
     apiKey: env.AI_API_KEY || fileCfg.apiKey || '',
     model: env.AI_MODEL || fileCfg.model || 'gpt-4o-mini',
-    eventCount: clampInt(env.AI_EVENT_COUNT || fileCfg.eventCount, 3, 20, 5),
+    eventCount: clampInt(env.AI_EVENT_COUNT || fileCfg.eventCount, 50, 500, 300),
+    batchSize: clampInt(env.AI_BATCH_SIZE || fileCfg.batchSize, 5, 100, 15),
     temperature: clampNum(env.AI_TEMPERATURE || fileCfg.temperature, 0, 2, 0.9),
     language: env.EVENT_LANGUAGE || fileCfg.language || 'zh-CN',
     seed: env.EVENT_SEED || fileCfg.seed || '',
     hotTopicEnabled: parseBool(env.HOT_TOPIC_ENABLED, fileCfg.hotTopicEnabled, true),
-    hotTopicSources: hotSourcesEnv.length ? hotSourcesEnv : hotSourcesFile,
-    hotTopicMax: clampInt(env.HOT_TOPIC_MAX || fileCfg.hotTopicMax, 1, 15, 6),
-    hotTopicTimeoutMs: clampInt(env.HOT_TOPIC_TIMEOUT || fileCfg.hotTopicTimeoutMs, 1000, 30000, 8000),
+    hotTopicSources: hotSources,
+    hotTopicMax: clampInt(env.HOT_TOPIC_MAX || fileCfg.hotTopicMax, 1, 15, 8),
+    hotTopicTimeoutMs: clampInt(env.HOT_TOPIC_TIMEOUT || fileCfg.hotTopicTimeoutMs, 1000, 30000, 12000),
     outputDir: path.resolve(__dirname, '..', 'events'),
     maxRetries: clampInt(env.AI_MAX_RETRIES || fileCfg.maxRetries, 0, 5, 2),
+    // 关闭模型思考（reasoning）：部分供应商（如商汤 SenseNova）的推理模型会先输出
+    // 大量思维链，偶发把 token 预算耗尽导致 content 为空。开启后请求体附带
+    // thinking:{type:'disabled'}，把全部预算留给正文，显著提升稳定性。
+    disableThinking: parseBool(env.AI_DISABLE_THINKING, fileCfg.disableThinking, true),
   };
 }
 
@@ -145,7 +159,7 @@ function validateEvent(raw, index, dateStr) {
   }
 
   return {
-    id: `ai_${dateStr.replace(/-/g, '')}_${String(index + 1).padStart(3, '0')}`,
+    id: `ai_${dateStr.replace(/-/g, '')}_${String(index + 1).padStart(4, '0')}`,
     type,
     tag,
     title,
@@ -155,7 +169,10 @@ function validateEvent(raw, index, dateStr) {
     choices,
     postEffect: null,
     source: 'ai',
-    hotTopic: typeof raw.hotTopic === 'string' && raw.hotTopic.trim() ? raw.hotTopic.trim().slice(0, 30) : '',
+    // 清洗模型可能照抄的编号前缀（如 "1. xxx"）
+    hotTopic: typeof raw.hotTopic === 'string' && raw.hotTopic.trim()
+      ? raw.hotTopic.trim().replace(/^\s*\d+[\.、]\s*/, '').slice(0, 30)
+      : '',
     generatedAt: dateStr,
     schemaVersion: 1,
   };
@@ -170,28 +187,34 @@ async function fetchHotTopics(cfg) {
   const topics = [];
 
   const tasks = cfg.hotTopicSources.map(async (url) => {
-    try {
-      const ctrl = new AbortController();
-      const timer = setTimeout(() => ctrl.abort(), cfg.hotTopicTimeoutMs);
-      const resp = await fetch(url, {
-        signal: ctrl.signal,
-        headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AIEventBot/1.0)' },
-      });
-      clearTimeout(timer);
-      if (!resp.ok) return;
-      const xml = await resp.text();
-      // 极简 RSS/Atom 标题提取
-      const titleRe = /<title[^>]*>([^<]+)<\/title>/gi;
-      let m;
-      while ((m = titleRe.exec(xml)) !== null && topics.length < cfg.hotTopicMax) {
-        const t = m[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim();
-        if (t && !seen.has(t)) {
-          seen.add(t);
-          topics.push(t);
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const ctrl = new AbortController();
+        const timer = setTimeout(() => ctrl.abort(), cfg.hotTopicTimeoutMs);
+        const resp = await fetch(url, {
+          signal: ctrl.signal,
+          headers: { 'User-Agent': 'Mozilla/5.0 (compatible; AIEventBot/1.0)' },
+        });
+        clearTimeout(timer);
+        if (!resp.ok) return;
+        const xml = await resp.text();
+        // 极简 RSS/Atom 标题提取（跳过首个标题：通常是源站名，如"中新网即时新闻"）
+        const titleRe = /<title[^>]*>([^<]+)<\/title>/gi;
+        let m;
+        let first = true;
+        while ((m = titleRe.exec(xml)) !== null && topics.length < cfg.hotTopicMax) {
+          if (first) { first = false; continue; }
+          const t = m[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+          if (t && !seen.has(t)) {
+            seen.add(t);
+            topics.push(t);
+          }
         }
+        return; // 成功即返回
+      } catch (e) {
+        console.warn(`[hot] 抓取失败（第 ${attempt + 1} 次）: ${url} → ${e.message}`);
+        if (attempt === 0) await new Promise(r => setTimeout(r, 800));
       }
-    } catch (e) {
-      console.warn('[hot] 抓取失败（已跳过）: ' + url + ' → ' + e.message);
     }
   });
 
@@ -221,7 +244,7 @@ ${effectFields}
 4. 数值要有取舍感（不能所有选项都是正收益），整体量级与"单月财政收支、城市人口"匹配。
 5. 输出必须是严格的 JSON 数组，不要输出任何其他文字或代码块标记。`;
 
-  const user = `请生成 ${cfg.eventCount} 个突发事件。${hotSection}
+  const user = `请生成 ${cfg.batchSize} 个突发事件。${hotSection}
 输出格式（JSON 数组，每个元素）：
 {
   "type": "danger|warn|success|corruption|info",
@@ -259,6 +282,25 @@ function extractJSON(text) {
   if (first >= 0 && last > first) {
     try { return JSON.parse(trimmed.slice(first, last + 1)); } catch (e) {}
   }
+  // 4) 截断恢复：模型可能中途停止导致 JSON 不完整，从末尾逐个 } 截断，抢救完整对象
+  if (first >= 0) {
+    const salvaged = salvageArray(trimmed, first);
+    if (salvaged) return salvaged;
+  }
+  return null;
+}
+
+// 从截断的 JSON 数组中恢复尽可能多的完整事件对象
+function salvageArray(text, firstBracket) {
+  let idx = text.lastIndexOf('}');
+  while (idx > firstBracket) {
+    const candidate = text.slice(firstBracket, idx + 1) + ']';
+    try {
+      const arr = JSON.parse(candidate);
+      if (Array.isArray(arr) && arr.length > 0) return arr;
+    } catch (e) { /* 继续向前截断 */ }
+    idx = text.lastIndexOf('}', idx - 1);
+  }
   return null;
 }
 
@@ -289,7 +331,8 @@ async function callLLM(cfg, system, user) {
           model: cfg.model,
           messages,
           temperature: cfg.temperature,
-          max_tokens: 4000,
+          max_tokens: 8000,
+          ...(cfg.disableThinking ? { thinking: { type: 'disabled' } } : {}),
         }),
       });
 
@@ -299,11 +342,20 @@ async function callLLM(cfg, system, user) {
       }
 
       const data = await resp.json();
-      const content = data.choices && data.choices[0] && data.choices[0].message
-        ? data.choices[0].message.content
-        : '';
-      const parsed = extractJSON(content);
+      const msg = data.choices && data.choices[0] && data.choices[0].message
+        ? data.choices[0].message
+        : null;
+      // 部分供应商（如商汤 SenseNova）偶发把正文放进 reasoning 字段而 content 为空，
+      // 这里对 content 与 reasoning 都尝试解析，保证事件不丢失。
+      const content = msg ? (msg.content || '') : '';
+      const reasoning = msg && typeof msg.reasoning === 'string' ? msg.reasoning : '';
+      let parsed = extractJSON(content);
+      if (!parsed && reasoning) {
+        parsed = extractJSON(reasoning);
+        if (parsed) console.log('[llm] content 为空，已从 reasoning 字段解析出 JSON');
+      }
       if (parsed) return parsed;
+      console.warn(`[llm] 内容无法解析，content 片段: ${String(content).slice(0, 120).replace(/\n/g, ' ')}`);
       throw new Error('模型返回内容无法解析为 JSON');
     } catch (e) {
       lastErr = e;
@@ -349,24 +401,43 @@ async function main() {
     console.log('[AI-Events] 热点联动已关闭或未配置数据源');
   }
 
-  // 2. 构造 prompt 并调用
+  // 2. 构造 prompt
   const { system, user } = buildPrompt(cfg, hotTopics);
-  console.log('[AI-Events] 调用 LLM 生成事件...');
-  const rawEvents = await callLLM(cfg, system, user);
-  if (!Array.isArray(rawEvents)) {
-    throw new Error('模型返回不是数组');
-  }
 
-  // 3. 校验 + 规范化
+  // 3. 分批调用 LLM，累积到目标数量（去重 + 校验）
   const events = [];
-  for (let i = 0; i < rawEvents.length; i++) {
-    const ev = validateEvent(rawEvents[i], i, dateStr);
-    if (ev) events.push(ev);
+  const seenTitles = new Set();
+  const maxBatches = Math.ceil(cfg.eventCount / cfg.batchSize) + 2; // 允许少量冗余批次
+  for (let b = 1; b <= maxBatches && events.length < cfg.eventCount; b++) {
+    console.log(`[AI-Events] 第 ${b}/${maxBatches} 批：调用 LLM 生成 ${cfg.batchSize} 个事件...`);
+    const rawEvents = await callLLM(cfg, system, user);
+    if (!Array.isArray(rawEvents)) {
+      console.warn(`[AI-Events] 第 ${b} 批返回非数组，跳过`);
+      continue;
+    }
+    let batchOk = 0;
+    for (let i = 0; i < rawEvents.length; i++) {
+      const ev = validateEvent(rawEvents[i], events.length + i, dateStr);
+      if (!ev) continue;
+      const key = ev.title;
+      if (seenTitles.has(key)) continue; // 跨批次去重
+      seenTitles.add(key);
+      events.push(ev);
+      batchOk++;
+    }
+    console.log(`[AI-Events] 第 ${b} 批校验通过 ${batchOk} 个，累计 ${events.length}/${cfg.eventCount}`);
+    if (batchOk === 0 && b > 1) {
+      console.warn('[AI-Events] 连续批次无有效事件，提前结束');
+      break;
+    }
+    if (b < maxBatches && events.length < cfg.eventCount) {
+      await new Promise(r => setTimeout(r, 600)); // 批次间隔，避免触发限流
+    }
   }
   if (events.length === 0) {
     throw new Error('所有生成的事件均未通过校验，本次不发布');
   }
-  console.log(`[AI-Events] 校验通过 ${events.length}/${rawEvents.length} 个事件`);
+  console.log(`[AI-Events] 校验通过 ${events.length} 个事件（目标 ${cfg.eventCount}）`);
 
   // 4. 写文件
   const batchFile = `ai-events-${dateStr}.json`;
@@ -410,7 +481,14 @@ async function main() {
   console.log(`[AI-Events] 已更新 latest.json 与 index.json`);
 }
 
-main().catch((e) => {
-  console.error('[AI-Events] 失败：' + e.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((e) => {
+    console.error('[AI-Events] 失败：' + e.message);
+    process.exit(1);
+  });
+}
+
+// 供本地测试复用内部函数（直接运行本脚本时不受影响）
+if (typeof module !== 'undefined' && require.main !== module) {
+  module.exports = { loadConfig, buildPrompt, fetchHotTopics, extractJSON, validateEvent, callLLM, EFFECT_RULES };
+}

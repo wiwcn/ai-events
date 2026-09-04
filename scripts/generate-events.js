@@ -73,7 +73,7 @@ function loadConfig() {
     seed: env.EVENT_SEED || fileCfg.seed || '',
     hotTopicEnabled: parseBool(env.HOT_TOPIC_ENABLED, fileCfg.hotTopicEnabled, true),
     hotTopicSources: hotSources,
-    hotTopicMax: clampInt(env.HOT_TOPIC_MAX || fileCfg.hotTopicMax, 1, 20, 12),
+    hotTopicMax: clampInt(env.HOT_TOPIC_MAX || fileCfg.hotTopicMax, 1, 30, 20),
     hotTopicTimeoutMs: clampInt(env.HOT_TOPIC_TIMEOUT || fileCfg.hotTopicTimeoutMs, 1000, 30000, 12000),
     outputDir: path.resolve(__dirname, '..', 'events'),
     maxRetries: clampInt(env.AI_MAX_RETRIES || fileCfg.maxRetries, 0, 5, 2),
@@ -478,6 +478,16 @@ function isDuplicate(title, seenKeys, seenTitles) {
   return false;
 }
 
+// Fisher-Yates 洗牌（用于每批热点子集随机化）
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
 // ============================================================
 // 八、主流程
 // ============================================================
@@ -496,8 +506,8 @@ async function main() {
     console.log('[AI-Events] 热点联动已关闭或未配置数据源');
   }
 
-  // 2. 构造 prompt
-  const { system, user } = buildPrompt(cfg, hotTopics);
+  // 2. 构造 prompt（基础版；每批会基于洗牌后的热点子集重建）
+  const { system: baseSystem, user: baseUser } = buildPrompt(cfg, hotTopics);
 
   // 3. 分批调用 LLM，累积到目标数量（去重 + 校验）
   const events = [];
@@ -505,9 +515,12 @@ async function main() {
   const seenTitles = [];                 // 本次会话标题（近似去重）
   let globalIndex = 0; // 全局事件编号（用于生成唯一 ID）
   let dupSkipped = 0;  // 被去重跳过的数量
-  const maxBatches = Math.ceil(cfg.eventCount / cfg.batchSize) + 2; // 允许少量冗余批次
+  const maxBatches = Math.ceil(cfg.eventCount / cfg.batchSize) * 2 + 2; // 给去重留冗余批次
   for (let b = 1; b <= maxBatches && events.length < cfg.eventCount; b++) {
-    console.log(`[AI-Events] 第 ${b}/${maxBatches} 批：调用 LLM 生成 ${cfg.batchSize} 个事件...`);
+    // 每批洗牌热点并取子集，避免跨批次题材扎堆、提高去重后产量
+    const batchHot = shuffle(hotTopics).slice(0, Math.min(10, hotTopics.length));
+    const { system, user } = hotTopics.length ? buildPrompt(cfg, batchHot) : { system: baseSystem, user: baseUser };
+    console.log(`[AI-Events] 第 ${b}/${maxBatches} 批：调用 LLM 生成 ${cfg.batchSize} 个事件（本批热点 ${batchHot.length} 条）...`);
     const rawEvents = await callLLM(cfg, system, user);
     if (!Array.isArray(rawEvents)) {
       console.warn(`[AI-Events] 第 ${b} 批返回非数组，跳过`);

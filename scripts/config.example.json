@@ -9,10 +9,16 @@
   "hotTopicEnabled": true,
   "hotTopicSources": [
     "https://www.chinanews.com.cn/rss/scroll-news.xml",
-    "https://feed.cnblogs.com/blog/sitehome/rss",
-    "https://www.ifanr.com/feed"
+    "https://www.people.com.cn/rss/politics.xml",
+    "https://www.ifanr.com/feed",
+    "https://www.36kr.com/feed",
+    "https://sspai.com/feed",
+    "https://www.ithome.com/rss/",
+    "https://www.leiphone.com/feed",
+    "https://www.geekpark.net/rss",
+    "https://feed.cnblogs.com/blog/sitehome/rss"
   ],
-  "hotTopicMax": 12,
+  "hotTopicMax": 20,
   "hotTopicTimeoutMs": 12000,
   "maxRetries": 2,
   "disableThinking": true,

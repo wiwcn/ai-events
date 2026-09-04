@@ -33,10 +33,17 @@ const path = require('path');
 // 一、配置加载（环境变量优先，其次 scripts/config.json）
 // ============================================================
 // 默认热点源：当环境变量与 config.json 均未配置时使用（保证 Actions 开箱即用）
+// 覆盖综合新闻 / 时政 / 科技 / 数码 / 商业 / 汽车 / 生活 / 技术，多源并发抓取、失败自动降级。
 const DEFAULT_HOT_SOURCES = [
-  'https://www.chinanews.com.cn/rss/scroll-news.xml',
-  'https://feed.cnblogs.com/blog/sitehome/rss',
-  'https://www.ifanr.com/feed',
+  'https://www.chinanews.com.cn/rss/scroll-news.xml', // 中新网·综合新闻
+  'https://www.people.com.cn/rss/politics.xml',       // 人民网·时政
+  'https://www.ifanr.com/feed',                       // 爱范儿·科技消费
+  'https://www.36kr.com/feed',                        // 36氪·科技商业
+  'https://sspai.com/feed',                           // 少数派·科技生活
+  'https://www.ithome.com/rss/',                      // IT之家·数码
+  'https://www.leiphone.com/feed',                    // 雷峰网·汽车科技
+  'https://www.geekpark.net/rss',                     // 极客公园·科技
+  'https://feed.cnblogs.com/blog/sitehome/rss',       // 博客园·技术社区
 ];
 
 function loadConfig() {
@@ -179,8 +186,30 @@ function validateEvent(raw, index, dateStr) {
 }
 
 // ============================================================
-// 四、热点抓取（RSS，容错）
+// 四、热点抓取（RSS/Atom，容错）
 // ============================================================
+// 从 RSS/Atom XML 中稳健提取标题：兼容 CDATA 包裹、HTML 实体、嵌套标签。
+function extractTitles(xml) {
+  const titles = [];
+  const re = /<title[^>]*>([\s\S]*?)<\/title>/gi;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    let t = m[1]
+      .replace(/<!\[CDATA\[|\]\]>/g, '')   // 去掉 CDATA 包裹
+      .replace(/<[^>]+>/g, '')             // 去掉残留 HTML 标签
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;|&#x27;/g, "'")
+      .replace(/&#x([0-9a-fA-F]+);/g, (_, h) => String.fromCodePoint(parseInt(h, 16))) // 十六进制数字实体
+      .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(parseInt(d, 10)))          // 十进制数字实体
+      .trim();
+    if (t) titles.push(t);
+  }
+  return titles;
+}
+
 async function fetchHotTopics(cfg) {
   if (!cfg.hotTopicEnabled || !cfg.hotTopicSources.length) return [];
   const seen = new Set();
@@ -198,13 +227,10 @@ async function fetchHotTopics(cfg) {
         clearTimeout(timer);
         if (!resp.ok) return;
         const xml = await resp.text();
-        // 极简 RSS/Atom 标题提取（跳过首个标题：通常是源站名，如"中新网即时新闻"）
-        const titleRe = /<title[^>]*>([^<]+)<\/title>/gi;
-        let m;
-        let first = true;
-        while ((m = titleRe.exec(xml)) !== null && topics.length < cfg.hotTopicMax) {
-          if (first) { first = false; continue; }
-          const t = m[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+        // 跳过首个标题（通常是源站名，如"中新网即时新闻"/"时政频道"）
+        const titles = extractTitles(xml).slice(1);
+        for (const t of titles) {
+          if (topics.length >= cfg.hotTopicMax) return;
           if (t && !seen.has(t)) {
             seen.add(t);
             topics.push(t);
@@ -240,27 +266,28 @@ ${hotTopics.map((t, i) => `${i + 1}. ${t}`).join('\n')}`
 请为游戏设计一批突发事件。要求：
 1. 每个事件必须取材于用户消息中提供的某条真实热点新闻，把该新闻"本地化"改编成玩家城市里发生的地方治理事件（如某地灾后复产→"{city}灾后复产"、某行业新规→"{city}落实该新规"），让玩家产生"新闻照进现实"的会心一笑。严禁照抄真实人物姓名，只做虚构化改编。
 2. 事件标题/描述中在提到城市处使用占位符 {city}（游戏端会自动替换为玩家城市名），例如"{city}突降暴雨，城区内涝告急"。
-3. 题材贴合地方治理场景（自然灾害、经济波动、民生诉求、公共事件、产业动态、舆论热点等），有真实感和戏剧性。
-4. 每个事件 2-3 句描述，3 个选项（分别对应积极/折中/消极处置，或各有取舍），选项文本不超过 30 字。
-5. 选项的 effects 只能使用以下白名单字段，且数值必须在范围内，单位与描述一致：
+3. 题材贴合地方治理场景（自然灾害、经济波动、民生诉求、公共事件、产业动态、舆论热点、基层治理、公共服务等），有真实感和戏剧性。
+4. 描述要丰满有细节：3-4 句，60-180 字，交代事件起因、现场情况、影响范围、涉及群体，避免空泛套话；让玩家读起来像本地新闻通稿。
+5. 每个事件 3-4 个选项（分别对应积极/折中/消极处置，或各有取舍），选项文本 8-30 字，要体现具体处置动作而非口号。
+6. 选项的 effects 只能使用以下白名单字段，且数值必须在范围内，单位与描述一致：
 ${effectFields}
-6. 数值要有取舍感（不能所有选项都是正收益），整体量级与"单月财政收支、城市人口"匹配。
-7. 输出必须是严格的 JSON 数组，不要输出任何其他文字或代码块标记。`;
+7. 数值要有取舍感（不能所有选项都是正收益），整体量级与"单月财政收支、城市人口"匹配。
+8. 输出必须是严格的 JSON 数组，不要输出任何其他文字或代码块标记。`;
 
   const user = `请生成 ${cfg.batchSize} 个突发事件。${hotSection}
-每个事件必须从上述热点中选一条作为灵感来源，并在 hotTopic 字段填写该热点标题原文；事件内容要与该热点明显相关（标题或描述中体现），并尽量使用 {city} 占位符指代玩家城市。
+每个事件必须从上述热点中选一条作为灵感来源，并在 hotTopic 字段填写该热点标题原文；事件内容要与该热点明显相关（标题或描述中体现），并尽量使用 {city} 占位符指代玩家城市。注意：同一批内各事件取材的热点尽量不同，避免题材扎堆重复。
 输出格式（JSON 数组，每个元素）：
 {
   "type": "danger|warn|success|corruption|info",
   "tag": "2-4字分类标签",
   "title": "事件标题（≤20字，可用{city}）",
-  "desc": "事件描述（2-3句，可用{city}）",
+  "desc": "事件描述（3-4句，60-180字，可用{city}，要有起因/现场/影响等细节）",
   "weight": 1-5,
   "hotTopic": "取材的热点标题（必填，不得为空）",
   "choices": [
-    { "text": "选项文本", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" },
-    { "text": "选项文本", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" },
-    { "text": "选项文本", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" }
+    { "text": "具体处置动作", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" },
+    { "text": "具体处置动作", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" },
+    { "text": "具体处置动作", "effects": {"字段": 数值}, "color": "green|blue|yellow|orange|red|gray" }
   ]
 }`;
 
@@ -388,6 +415,70 @@ function todayStr() {
 }
 
 // ============================================================
+// 七.五、去重工具（标题归一化 + 近似重复检测 + 跨天历史去重）
+// ============================================================
+// 归一化标题：去掉 {city} 占位符、标点、空白，统一小写，用于精确去重
+function normalizeKey(title) {
+  return String(title || '')
+    .replace(/\{city\}/g, '')
+    .replace(/[^\u4e00-\u9fa5a-zA-Z0-9]/g, '')
+    .toLowerCase();
+}
+
+// 字符二元组（bigram）集合，用于计算标题相似度
+function bigrams(str) {
+  const s = normalizeKey(str);
+  const set = new Set();
+  for (let i = 0; i < s.length - 1; i++) set.add(s.slice(i, i + 2));
+  return set;
+}
+
+// Jaccard 相似度：两个标题的 bigram 集合交集 / 并集
+function titleSimilarity(a, b) {
+  const A = bigrams(a);
+  const B = bigrams(b);
+  if (A.size === 0 || B.size === 0) return 0;
+  let inter = 0;
+  for (const g of A) if (B.has(g)) inter++;
+  return inter / (A.size + B.size - inter);
+}
+
+// 相似度阈值：高于此值视为近似重复（同一事件换了个说法）
+const DUP_SIM_THRESHOLD = 0.7;
+
+// 读取历史事件标题，用于跨天去重（避免每天重复生成相同事件）
+function loadHistoricalKeys() {
+  const keys = new Set();
+  const dir = path.resolve(__dirname, '..', 'events');
+  if (!fs.existsSync(dir)) return keys;
+  const files = fs.readdirSync(dir)
+    .filter(f => /^ai-events-\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .sort()
+    .slice(-30); // 最近 30 天
+  for (const f of files) {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      if (Array.isArray(data.events)) {
+        for (const ev of data.events) {
+          if (ev && ev.title) keys.add(normalizeKey(ev.title));
+        }
+      }
+    } catch (e) { /* 忽略损坏文件 */ }
+  }
+  return keys;
+}
+
+// 判断是否与已收集事件重复（精确 + 近似）
+function isDuplicate(title, seenKeys, seenTitles) {
+  const key = normalizeKey(title);
+  if (seenKeys.has(key)) return true; // 精确重复（含跨天）
+  for (const t of seenTitles) {
+    if (titleSimilarity(title, t) >= DUP_SIM_THRESHOLD) return true; // 近似重复
+  }
+  return false;
+}
+
+// ============================================================
 // 八、主流程
 // ============================================================
 async function main() {
@@ -410,8 +501,10 @@ async function main() {
 
   // 3. 分批调用 LLM，累积到目标数量（去重 + 校验）
   const events = [];
-  const seenTitles = new Set();
+  const seenKeys = loadHistoricalKeys(); // 跨天历史标题（精确去重，避免每天重复）
+  const seenTitles = [];                 // 本次会话标题（近似去重）
   let globalIndex = 0; // 全局事件编号（用于生成唯一 ID）
+  let dupSkipped = 0;  // 被去重跳过的数量
   const maxBatches = Math.ceil(cfg.eventCount / cfg.batchSize) + 2; // 允许少量冗余批次
   for (let b = 1; b <= maxBatches && events.length < cfg.eventCount; b++) {
     console.log(`[AI-Events] 第 ${b}/${maxBatches} 批：调用 LLM 生成 ${cfg.batchSize} 个事件...`);
@@ -425,14 +518,14 @@ async function main() {
       // 用全局单调递增计数器生成 ID，避免跨批次因校验/去重跳过导致编号重复
       const ev = validateEvent(rawEvents[i], globalIndex, dateStr);
       if (!ev) continue;
-      const key = ev.title;
-      if (seenTitles.has(key)) continue; // 跨批次去重
-      seenTitles.add(key);
+      if (isDuplicate(ev.title, seenKeys, seenTitles)) { dupSkipped++; continue; } // 精确/近似/跨天去重
+      seenKeys.add(normalizeKey(ev.title));
+      seenTitles.push(ev.title);
       globalIndex++;
       events.push(ev);
       batchOk++;
     }
-    console.log(`[AI-Events] 第 ${b} 批校验通过 ${batchOk} 个，累计 ${events.length}/${cfg.eventCount}`);
+    console.log(`[AI-Events] 第 ${b} 批校验通过 ${batchOk} 个，累计 ${events.length}/${cfg.eventCount}（去重跳过累计 ${dupSkipped}）`);
     if (batchOk === 0 && b > 1) {
       console.warn('[AI-Events] 连续批次无有效事件，提前结束');
       break;
@@ -497,5 +590,8 @@ if (require.main === module) {
 
 // 供本地测试复用内部函数（直接运行本脚本时不受影响）
 if (typeof module !== 'undefined' && require.main !== module) {
-  module.exports = { loadConfig, buildPrompt, fetchHotTopics, extractJSON, validateEvent, callLLM, EFFECT_RULES };
+  module.exports = {
+    loadConfig, buildPrompt, fetchHotTopics, extractJSON, validateEvent, callLLM,
+    EFFECT_RULES, extractTitles, normalizeKey, titleSimilarity, isDuplicate, loadHistoricalKeys,
+  };
 }

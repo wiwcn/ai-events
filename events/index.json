@@ -1,6 +1,12 @@
 {
   "batches": [
     {
+      "date": "2026-09-18",
+      "file": "ai-events-2026-09-18.json",
+      "count": 15,
+      "generatedAt": "2026-09-18T18:46:14.499Z"
+    },
+    {
       "date": "2026-09-17",
       "file": "ai-events-2026-09-17.json",
       "count": 30,

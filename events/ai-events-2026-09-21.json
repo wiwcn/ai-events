@@ -1,0 +1,697 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T20:12:23.759Z",
+  "schemaVersion": 1,
+  "model": "sensenova-6.8-flash-lite",
+  "hotTopics": [
+    "中新网即时新闻",
+    "欧盟通过延长对俄制裁方案 期限长达三年",
+    "“一次登记、全国通用” 解码“数据产权身份证”",
+    "2026中网正赛外卡名单公布 郑钦文、孙心然领衔",
+    "王毅同德国外长瓦德富尔通电话",
+    "“黄金周”临近 泰国旅游市场迎中国游客接待高峰",
+    "2026年国际和平日纪念活动在武汉开幕",
+    "俄国家杜马选举初步结果揭晓 统俄党占绝对优势",
+    "“天涯共此时”系列文旅活动亮相2026ATAS年会",
+    "（爱知·名古屋亚运会）中国体操名将张博恒亚运会成功卫冕：全能信心“一直没丢”",
+    "（爱知·名古屋亚运会）男子4X200米自由泳极限翻盘 中国游泳队当日揽5金",
+    "杨利伟：神二十三乘组在太空工作顺利 黎家盈表现非常优秀",
+    "重庆新游轮“世纪梦想号”长江首航",
+    "报告：北京、杭州、深圳位列中国人工智能算力城市排名前三",
+    "（爱知·名古屋亚运会）中国女排“复仇”泰国队 挺进亚运会决赛",
+    "报告：北京在全球城市人才黏性指数中排名第五",
+    "葛兆光台北演讲：汉学研究要懂“行情”",
+    "（爱知·名古屋亚运会）中国女篮大比分击败印尼队 小组头名晋级八强",
+    "第十九届“汉语桥”世界中学生中文比赛收官 美国选手夺冠",
+    "纪录片《丝路青春·乌兹别克斯坦篇》在北京首映"
+  ],
+  "count": 15,
+  "events": [
+    {
+      "id": "ai_20260921_0001",
+      "type": "success",
+      "tag": "数据",
+      "title": "{city}试行数据产权身份证",
+      "desc": "市大数据局试点\"一次登记、全国通用\"的数据产权身份证，本地三家电商企业率先将销售数据确权入库。企业称可凭该证申请授信，但基层网格员反馈登记流程繁琐，商户反映材料清单多达九项，部分小微商家看不懂字段含义。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "简化材料清单，专窗代办",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 5,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "照搬上级流程，按部就班推进",
+          "effects": {
+            "reputation": -2,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓试点，等细则再议",
+          "effects": {
+            "gdpMult": 0.9500000000000001,
+            "reputation": -3,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“一次登记、全国通用” 解码“数据产权身份证”",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0002",
+      "type": "warn",
+      "tag": "体育",
+      "title": "{city}体校体操生备战省运会",
+      "desc": "市体校体操队主力队员临赛出现伤病，家长群在本地论坛刷屏质问训练强度。教练组引用亚运卫冕名将的训练日志回怼，舆论发酵后，市教育局、体育局连夜召开联席会议，家长代表要求公布运动员健康档案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "引入专业队医，公开体检报告",
+          "effects": {
+            "treasury": -200,
+            "happiness": 6,
+            "reputation": 5,
+            "healthcare": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由体校自行处理，压舆论",
+          "effects": {
+            "reputation": -6,
+            "inspection": 6,
+            "happiness": -3
+          },
+          "color": "red"
+        },
+        {
+          "text": "暂停训练，全员休整一周",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": -2,
+            "happiness": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操名将张博恒亚运会成功卫冕：全能",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0003",
+      "type": "info",
+      "tag": "外联",
+      "title": "外宾代表团拟访{city}工业园",
+      "desc": "市委宣传部接到上级函件，德国某州官员代表团将于下月考察{city}先进制造园区，希望对接新能源汽车供应链。接待办估算食宿安保费用约两百万，但对方坚持要安排本地企业\"一对一\"座谈，多家企业担心接待规格过高被媒体质疑铺张。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "简朴接待，聚焦产业对接",
+          "effects": {
+            "treasury": -150,
+            "reputation": 4,
+            "gdpMult": 1.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按最高规格举办欢迎晚宴",
+          "effects": {
+            "treasury": -300,
+            "corruption": 5,
+            "reputation": 1,
+            "inspection": 8
+          },
+          "color": "orange"
+        },
+        {
+          "text": "婉拒接待，发函说明",
+          "effects": {
+            "reputation": -3,
+            "gdpMult": 0.97
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "王毅同德国外长瓦德富尔通电话",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0004",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}承办国际和平日分会场",
+      "desc": "联合国国际和平日纪念活动拟设{city}为内地分会场，市委宣传部需在一周内敲定场地。候选有市图书馆、人民广场、新落成的和平公园，预算上限八十万。活动涉及多国代表，安保方案须报省厅审批。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "选和平公园，主打惠民开放",
+          "effects": {
+            "treasury": -100,
+            "happiness": 7,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "选人民广场，规格拉满",
+          "effects": {
+            "treasury": -250,
+            "reputation": 2,
+            "corruption": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "改办小型线上活动",
+          "effects": {
+            "treasury": -50,
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026年国际和平日纪念活动在武汉开幕",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0005",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}借势\"天涯共此时\"办夜游",
+      "desc": "文旅局拟借\"天涯共此时\"系列文旅活动东风，在古城墙下推中秋诗词夜游，预计投入一百五十万灯光与演艺。方案需平衡本地商户诉求，部分夜市摊主担心客流被拉走，另一些民宿业主则力推联动套餐。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "古城与夜市联动，统一票务",
+          "effects": {
+            "treasury": -150,
+            "happiness": 6,
+            "gdpMult": 1.04,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "只办官方主场，不涉商户",
+          "effects": {
+            "treasury": -100,
+            "reputation": 1,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "砍掉演艺，仅留灯光",
+          "effects": {
+            "treasury": -50,
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“天涯共此时”系列文旅活动亮相2026ATAS年会",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0006",
+      "type": "warn",
+      "tag": "航天",
+      "title": "{city}航天科普馆遇网络舆情",
+      "desc": "市科技馆新开的航天科普馆被网友吐槽票价高于省博物馆，留言提及神舟乘组在太空顺利工作、某年轻航天员表现优秀，呼吁本地青少年应免费进场。馆长解释设备采购与运维成本高，家长群发起联名要求退票。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "学生与军人免费，补贴运维",
+          "effects": {
+            "treasury": -150,
+            "happiness": 7,
+            "educationIndex": 4,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持票价，发布成本说明",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "全额退票并下架项目",
+          "effects": {
+            "treasury": -200,
+            "reputation": 1,
+            "merit": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "杨利伟：神二十三乘组在太空工作顺利 黎家盈表现非常优秀",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0007",
+      "type": "info",
+      "tag": "宣传",
+      "title": "{city}纪录片首映邀请本地取景",
+      "desc": "市宣传部接到国家台函件，拟拍一部丝路主题纪录片，希望{city}作为丝路起点取景地之一，拍摄古丝路驿站遗址与本地匠人。剧组要求开放文物库房，但文旅局担心文物安全与商业开发冲突，预算需协调五十万。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "开放外景，库房不开放",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "全权配合，包括文物特写",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以安全为由婉拒",
+          "effects": {
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "纪录片《丝路青春·乌兹别克斯坦篇》在北京首映",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0008",
+      "type": "warn",
+      "tag": "教育",
+      "title": "{city}承办汉语桥选拔赛",
+      "desc": "市教育局接通知承办第十九届汉语桥世界中学生中文比赛的省赛，要求在一周内改造三所中学的赛场。改造涉及音响、直播设备与外籍选手接待，预算缺口约两百万元。部分家长反对占用高考冲刺周场地。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "启用新建体育馆，避开中学",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "educationIndex": 3,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "压预算，借现有礼堂",
+          "effects": {
+            "treasury": -100,
+            "reputation": -2,
+            "educationIndex": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推辞承办，让给邻市",
+          "effects": {
+            "reputation": -3,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第十九届“汉语桥”世界中学生中文比赛收官 美国选手夺冠",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0009",
+      "type": "success",
+      "tag": "旅游",
+      "title": "{city}黄金周境外游客暴增",
+      "desc": "临近黄金周，{city}接待境外游客同比翻番，本地免税店、口岸、酒店全满，出租车司机反映外语服务跟不上。市商务局拟增设多语种指引，文旅局担心景区承载力超红线，海关则要求延长查验通道。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "增设多语种热线与志愿者",
+          "effects": {
+            "treasury": -200,
+            "happiness": 8,
+            "reputation": 7,
+            "gdpMult": 1.05,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "限流，每日游客总量封顶",
+          "effects": {
+            "treasury": 50,
+            "happiness": -5,
+            "reputation": -3,
+            "gdpMult": 0.96
+          },
+          "color": "orange"
+        },
+        {
+          "text": "什么都不做，让市场自行调节",
+          "effects": {
+            "happiness": -4,
+            "reputation": -4,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“黄金周”临近 泰国旅游市场迎中国游客接待高峰",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0010",
+      "type": "success",
+      "tag": "算力",
+      "title": "{city}申报国家级算力枢纽",
+      "desc": "工信部发布人工智能算力城市排名，京沪深位列前三。{city}虽未入榜，但本地云数据中心运营商联合提出申报省域算力节点，争取国家补贴三亿元。发改委测算需配套投资八千万用于电力扩容与数据中心建设。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全力申报，配套电力扩容",
+          "effects": {
+            "treasury": -800,
+            "gdpMult": 1.1,
+            "reputation": 7,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "试点申报，先做小规模",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.03,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放弃申报，专注民生",
+          "effects": {
+            "gdpMult": 0.9500000000000001,
+            "reputation": -2,
+            "happiness": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "报告：北京、杭州、深圳位列中国人工智能算力城市排名前三",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0011",
+      "type": "danger",
+      "tag": "数据",
+      "title": "{city}数据身份证泄露事件",
+      "desc": "本地一家刚完成数据产权登记的电商企业数据库遭黑产窃取，客户手机号、订单地址被打包出售。市网信办连夜介入，受害商户达上千家，公安立案调查。企业坚称已按新登记要求加固，质疑平台漏洞。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动应急，赔偿商户损失",
+          "effects": {
+            "treasury": -600,
+            "happiness": 5,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓登记新政，全面审计",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 0.9500000000000001,
+            "inspection": 5,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "让企业自行担责，政府免责",
+          "effects": {
+            "reputation": -7,
+            "happiness": -5,
+            "corruption": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“一次登记、全国通用” 解码“数据产权身份证”",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0012",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}体校训练视频被质疑虐待",
+      "desc": "一名体操学员家长在短视频平台发布训练视频，称教练体罚学生，播放量破百万。体校回应称系高强度基础训练，但评论区质疑声浪持续。上级主管部门要求{city}限期调查，涉事教练已暂停执教。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "第三方介入，公开调查结果",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "educationIndex": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部处理，劝家长撤视频",
+          "effects": {
+            "reputation": -8,
+            "inspection": 7,
+            "corruption": 5
+          },
+          "color": "red"
+        },
+        {
+          "text": "解散该队，转做普通体育课",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": -3,
+            "happiness": 1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操名将张博恒亚运会成功卫冕：全能",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0013",
+      "type": "info",
+      "tag": "外宾",
+      "title": "{city}机场迎外宾专机保障",
+      "desc": "市外办接到通知，某国外长将随元首访华期间在{city}短暂停留，需在支线机场安排专机保障。机场跑道仅能起降中型客机，安保、安检、海关通道均需加急调试，财政额外支出约一百五十万。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "省厅协调，借用省会机场",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "本地机场全规格保障",
+          "effects": {
+            "treasury": -300,
+            "reputation": 2,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推辞接待，请上级协调",
+          "effects": {
+            "reputation": -4,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "王毅同德国外长瓦德富尔通电话",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0014",
+      "type": "success",
+      "tag": "外交",
+      "title": "{city}入选和平日国际友城",
+      "desc": "国家台办拟在{city}设立国际和平友城项目，对接五国地方政府，开展青年交流、非遗互展。友城办需在一月内完成场地签约与首批互访接待，预算上限两百万元，地方商会表达出资意愿。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "政企共担，启动首批互访",
+          "effects": {
+            "treasury": -150,
+            "reputation": 6,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "全财政承担，办成样板",
+          "effects": {
+            "treasury": -300,
+            "reputation": 4,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "降级为线上交流活动",
+          "effects": {
+            "treasury": -50,
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026年国际和平日纪念活动在武汉开幕",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0015",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "{city}丝路驿站改造疑标黑",
+      "desc": "市纪委监委收到举报，{city}丝路驿站文旅改造工程项目存在围标迹象。中标单位为本地一家成立仅半年的工程公司，其法人与某副局长存在亲属关系。项目金额三千二百万，工程款已支付百分之六十。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "配合纪委，暂停付款彻查",
+          "effects": {
+            "treasury": -500,
+            "corruption": -8,
+            "reputation": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "私下约谈局长，内部消化",
+          "effects": {
+            "corruption": 8,
+            "inspection": 10,
+            "reputation": -4
+          },
+          "color": "red"
+        },
+        {
+          "text": "继续付款，等调查结论",
+          "effects": {
+            "treasury": -200,
+            "corruption": 5,
+            "reputation": -3,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "纪录片《丝路青春·乌兹别克斯坦篇》在北京首映",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    }
+  ]
+}

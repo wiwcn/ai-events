@@ -1,2878 +1,511 @@
 {
-  "date": "2026-09-20",
-  "generatedAt": "2026-09-20T18:27:58.313Z",
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T20:12:23.760Z",
   "schemaVersion": 1,
   "model": "sensenova-6.8-flash-lite",
   "hotTopics": [
     "中新网即时新闻",
-    "警惕！“高仿”版证券交易App以假乱真 股民被骗200万",
-    "美官员称美军不会对胡塞武装发动进攻性打击",
-    "“湾区升明月”2026大湾区电影音乐晚会在澳门唱响",
-    "中美经贸磋商在美国纽约开始举行",
-    "第八届 “科学探索奖”深圳颁奖 诞生首位“95后”获奖者",
-    "（爱知·名古屋亚运会）综合消息：中国游泳队首日收获六金  中国代表团多金入账",
-    "从“享惠”到“共赢” 东博会促进区域经贸合作提质升级",
-    "亚太青年创新创业合作伙伴计划在广州发布",
-    "中欧青年领袖对话活动在浙江举行",
-    "泰国多地遭强降雨致山体滑坡",
-    "专家在上海解读《威克岛战俘》背后的中美民间情谊",
-    "第五届数贸会探馆：机器人秀绝活 多国展商赴数字之约",
-    "丝路文化在乌兹别克斯坦“陶器之都”的交融与新生",
-    "合肥市台胞台青金融服务驿站揭牌",
-    "铸牢共同体 中华一家亲丨走进“五一大会”旧址 感悟民族团结力量",
-    "石榴花开 籽籽同心｜一碗加加面，越“加”越有味",
-    "AI拓展中国—东盟产业协作新空间",
-    "内蒙古自治区体育局原党组书记、局长谭景峰被开除党籍",
-    "探需东博会 这些领域缘何成为东盟客商关注点"
+    "欧盟通过延长对俄制裁方案 期限长达三年",
+    "“一次登记、全国通用” 解码“数据产权身份证”",
+    "2026中网正赛外卡名单公布 郑钦文、孙心然领衔",
+    "王毅同德国外长瓦德富尔通电话",
+    "“黄金周”临近 泰国旅游市场迎中国游客接待高峰",
+    "2026年国际和平日纪念活动在武汉开幕",
+    "俄国家杜马选举初步结果揭晓 统俄党占绝对优势",
+    "“天涯共此时”系列文旅活动亮相2026ATAS年会",
+    "（爱知·名古屋亚运会）中国体操名将张博恒亚运会成功卫冕：全能信心“一直没丢”",
+    "（爱知·名古屋亚运会）男子4X200米自由泳极限翻盘 中国游泳队当日揽5金",
+    "杨利伟：神二十三乘组在太空工作顺利 黎家盈表现非常优秀",
+    "重庆新游轮“世纪梦想号”长江首航",
+    "报告：北京、杭州、深圳位列中国人工智能算力城市排名前三",
+    "（爱知·名古屋亚运会）中国女排“复仇”泰国队 挺进亚运会决赛",
+    "报告：北京在全球城市人才黏性指数中排名第五",
+    "葛兆光台北演讲：汉学研究要懂“行情”",
+    "（爱知·名古屋亚运会）中国女篮大比分击败印尼队 小组头名晋级八强",
+    "第十九届“汉语桥”世界中学生中文比赛收官 美国选手夺冠",
+    "纪录片《丝路青春·乌兹别克斯坦篇》在北京首映"
   ],
-  "count": 71,
+  "count": 15,
   "events": [
     {
-      "id": "ai_20260920_0001",
+      "id": "ai_20260921_0001",
       "type": "success",
-      "tag": "产业",
-      "title": "{city}抢抓东盟产业协作机遇",
-      "desc": "乘着AI拓展中国—东盟产业协作新空间的热潮，{city}招商局接到一批东盟电子、新能源代工企业的落地意向，涉及投资约3.2亿元。企业要求配套算力与跨境数据通道，周边土地和用工吃紧。若能顺利签约，预计新增就业岗位800余个，但短期内需垫付基础设施配套费用。",
+      "tag": "数据",
+      "title": "{city}试行数据产权身份证",
+      "desc": "市大数据局试点\"一次登记、全国通用\"的数据产权身份证，本地三家电商企业率先将销售数据确权入库。企业称可凭该证申请授信，但基层网格员反馈登记流程繁琐，商户反映材料清单多达九项，部分小微商家看不懂字段含义。",
       "condition": null,
       "weight": 3,
       "choices": [
         {
-          "text": "追加财政补贴建设算力专区，优先签约",
-          "effects": {
-            "treasury": -800,
-            "unemployment": -0.02,
-            "gdpMult": 1.06,
-            "reputation": 4,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "分阶段签约，先落地产能再补配套",
-          "effects": {
-            "treasury": -200,
-            "unemployment": -0.01,
-            "gdpMult": 1.02,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "暂缓落地，等待上级专项规划",
-          "effects": {
-            "reputation": -3,
-            "unemployment": 0.01,
-            "merit": -1
-          },
-          "color": "gray"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "AI拓展中国—东盟产业协作新空间",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0002",
-      "type": "warn",
-      "tag": "外压",
-      "title": "{city}港外贸订单受国际局势波动",
-      "desc": "美官员表态美军不会对胡塞武装发动进攻性打击，但红海航运风险仍在，{city}港一批跨境电商、外贸小商品的出口订单面临延迟和运费上涨。本地约40家中小外贸企业反映现金流吃紧，担心年底出现集中违约和裁员。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "设立外贸纾困基金，贴息稳订单",
-          "effects": {
-            "treasury": -600,
-            "unemployment": -0.01,
-            "reputation": 3,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "协调银行展期贷款，企业自筹运费",
+          "text": "简化材料清单，专窗代办",
           "effects": {
             "treasury": -100,
-            "inspection": 2,
-            "corruption": 2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "不干预，由企业自主消化风险",
-          "effects": {
-            "unemployment": 0.02,
-            "happiness": -4,
-            "reputation": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "美官员称美军不会对胡塞武装发动进攻性打击",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0003",
-      "type": "danger",
-      "tag": "灾害",
-      "title": "{city}山区强降雨山体滑坡",
-      "desc": "受持续性强降雨影响，{city}北部山区多个乡镇出现山体滑坡，两条乡村道路被掩埋，约1200名群众受影响，部分村民房屋出现裂缝。气象部门预警未来48小时仍有强降水，安置点和电力通信抢修压力大，转移群众情绪紧张。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "启动一级响应，全员转移避险",
-          "effects": {
-            "treasury": -700,
-            "happiness": 5,
+            "happiness": 4,
             "reputation": 5,
-            "merit": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "分区转移，优先安置危房群众",
-          "effects": {
-            "treasury": -350,
-            "happiness": 1,
-            "inspection": 3
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "仅安排村干部巡查，暂不大规模转移",
-          "effects": {
-            "happiness": -6,
-            "reputation": -5,
-            "inspection": 5
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "泰国多地遭强降雨致山体滑坡",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0004",
-      "type": "success",
-      "tag": "经贸",
-      "title": "{city}借东博会对接东盟客商",
-      "desc": "东博会期间，东盟客商高度关注东盟与本地的数字贸易、绿色能源和先进制造合作。{city}商贸局组织12家本地企业参展，签下5份意向协议，涉及跨境电商仓储、光伏组件组装等领域。但参展商反映展位与物流成本高，希望政府分担部分费用。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "全额补贴参展费用，扩大合作",
-          "effects": {
-            "treasury": -500,
-            "gdpMult": 1.05,
-            "reputation": 3,
+            "gdpMult": 1.02,
             "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "按签约额阶梯补贴参展费",
-          "effects": {
-            "treasury": -200,
-            "gdpMult": 1.02,
-            "corruption": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "企业自理费用，仅提供信息对接",
+          "text": "照搬上级流程，按部就班推进",
           "effects": {
             "reputation": -2,
-            "gdpMult": 1
-          },
-          "color": "gray"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "探需东博会 这些领域缘何成为东盟客商关注点",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0005",
-      "type": "info",
-      "tag": "舆情",
-      "title": "{city}突发事件被即时新闻推送",
-      "desc": "一条关于{city}老旧小区改造停工的视频被即时新闻类平台推送，短时间内阅读量破百万。视频显示部分居民因补偿方案分歧聚集在工地门口，施工方以资金未到位为由暂停作业。市民对政府处理效率提出质疑，相关部门正紧急核查。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "48小时内召开协调会，公开补偿细则",
-          "effects": {
-            "treasury": -200,
-            "happiness": 4,
-            "reputation": 4,
-            "inspection": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "先发布情况说明，方案另行征求意见",
-          "effects": {
-            "reputation": 1,
-            "happiness": -1,
-            "inspection": 3
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "不予回应，避免引发更大关注",
-          "effects": {
-            "reputation": -5,
-            "happiness": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中新网即时新闻",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0006",
-      "type": "success",
-      "tag": "外交",
-      "title": "{city}承办中欧青年领袖对话",
-      "desc": "中欧青年领袖对话活动落地{city}举办，来自欧中两地的百余名青年代表参加产业、教育、环保主题分论坛。活动带来一定城市曝光度，也有本地高校和企业对接合作的机会。但接待、安保与场地费用不菲，且舆论对活动实际成效存在质疑。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "高规格承办，配套产业对接专场",
-          "effects": {
-            "treasury": -900,
-            "reputation": 6,
-            "happiness": 3,
-            "merit": 3,
-            "gdpMult": 1.03
-          },
-          "color": "green"
-        },
-        {
-          "text": "简化流程，重点办对接会",
-          "effects": {
-            "treasury": -300,
-            "reputation": 2,
-            "gdpMult": 1.01
-          },
-          "color": "blue"
-        },
-        {
-          "text": "婉拒承办，节省财政",
-          "effects": {
-            "reputation": -3,
-            "merit": -1
-          },
-          "color": "gray"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中欧青年领袖对话活动在浙江举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0007",
-      "type": "info",
-      "tag": "文旅",
-      "title": "{city}丝路陶艺文化节落户",
-      "desc": "借丝路文化在乌兹别克斯坦陶器之都交融新生的话题热度，{city}文化部门拟引进一场丝路陶艺文化节，联合本地非遗工坊和陶瓷厂参展。预计吸引游客2万余人次，带动餐饮住宿消费，但活动执行方报价偏高，且部分资金来自不明来源的'赞助'。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "公开招投标，财政适度补贴",
-          "effects": {
-            "treasury": -400,
-            "happiness": 3,
-            "reputation": 3,
-            "inspection": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "接受赞助但需书面审计",
-          "effects": {
-            "treasury": -100,
-            "corruption": 6,
-            "inspection": 6,
-            "happiness": 2
-          },
-          "color": "orange"
-        },
-        {
-          "text": "取消活动，避免资金风险",
-          "effects": {
-            "happiness": -2,
-            "reputation": -1,
-            "corruption": -2
-          },
-          "color": "yellow"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "丝路文化在乌兹别克斯坦“陶器之都”的交融与新生",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0008",
-      "type": "warn",
-      "tag": "经贸",
-      "title": "{city}外贸企业关切中美磋商",
-      "desc": "中美经贸磋商在纽约开始举行，{city}出口的机电、汽车零部件企业对关税走向高度敏感。约30家企业反映在手订单占七成来自北美，担心磋商结果影响未来半年产能安排，部分企业已开始提前调整排产和库存。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "组织企业座谈会，发布出口预警",
-          "effects": {
-            "treasury": -150,
-            "unemployment": -0.01,
-            "reputation": 2,
-            "gdpMult": 1.01
-          },
-          "color": "green"
-        },
-        {
-          "text": "引导企业拓展东南亚市场",
-          "effects": {
-            "treasury": -250,
-            "gdpMult": 1.04
-          },
-          "color": "blue"
-        },
-        {
-          "text": "保持观望，不主动介入",
-          "effects": {
-            "gdpMult": 0.97,
-            "unemployment": 0.02,
-            "reputation": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0009",
-      "type": "success",
-      "tag": "数贸",
-      "title": "{city}机器人展带动数贸热度",
-      "desc": "第五届数贸会探馆期间，机器人秀绝活成为焦点，多国展商奔赴数字之约。{city}一家本地机器人企业受邀展出，现场签约意向订单金额超1.5亿元，本地配套零部件厂商订单同步回暖。企业提出希望政府在人才公寓和研发补贴上给予支持。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "设立机器人产业专项基金",
-          "effects": {
-            "treasury": -1000,
-            "gdpMult": 1.08,
-            "educationIndex": 4,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "以税收返还代替直接补贴",
-          "effects": {
-            "treasury": -300,
-            "gdpMult": 1.03,
-            "corruption": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "仅提供场地，不提供资金",
-          "effects": {
-            "gdpMult": 1,
-            "reputation": -1
-          },
-          "color": "gray"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "第五届数贸会探馆：机器人秀绝活 多国展商赴数字之约",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0010",
-      "type": "info",
-      "tag": "民族",
-      "title": "{city}民族团结主题活动走热",
-      "desc": "在铸牢共同体、中华一家亲的氛围下，{city}组织了一次民族团结主题活动，各族干部群众走进本地'五一大会'式旧址开展参观学习，现场反响热烈。活动提升了群众认同感，但也暴露出部分少数民族群众在就业、子女入学上仍有具体诉求。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "配套就业培训与就学绿色通道",
-          "effects": {
-            "treasury": -450,
-            "happiness": 5,
-            "educationIndex": 3,
-            "reputation": 4,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "仅开展宣讲，暂不新增投入",
-          "effects": {
-            "happiness": 1,
-            "reputation": 1,
-            "inspection": 2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "削减活动预算，避免形式主义",
-          "effects": {
-            "happiness": -2,
-            "reputation": -1
-          },
-          "color": "gray"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "铸牢共同体 中华一家亲丨走进“五一大会”旧址 感悟民族团结力",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0011",
-      "type": "corruption",
-      "tag": "廉政",
-      "title": "{city}东盟合作项目被举报",
-      "desc": "一名内部人员向监察部门举报，{city}近期承接的东盟产业协作项目存在评标围标和回扣嫌疑，涉及资金约600万元。举报材料附有转账流水，若属实将影响多个企业资格和财政合规性。市纪委监委已介入初步核查，舆论持续关注。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "立即立项调查，暂停涉事项目",
-          "effects": {
-            "treasury": -100,
-            "corruption": -8,
-            "inspection": 5,
-            "reputation": -3,
-            "gdpMult": 0.96,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "边查边推，避免影响进度",
-          "effects": {
             "corruption": 3,
-            "inspection": 8,
-            "gdpMult": 1.01,
-            "reputation": -1
-          },
-          "color": "orange"
-        },
-        {
-          "text": "压下去，不予公开回应",
-          "effects": {
-            "corruption": 6,
-            "inspection": 12,
-            "reputation": -6,
-            "happiness": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "AI拓展中国—东盟产业协作新空间",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0012",
-      "type": "info",
-      "tag": "人才",
-      "title": "{city}青年领袖活动留人难",
-      "desc": "中欧青年领袖对话活动后，多位参会青年向{city}人社局咨询落户与就业政策，但反馈本地青年公寓紧张、薪资竞争力不足。若不能及时改善，恐流失一批潜力人才，影响未来产业创新氛围。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "增设青年公寓与入职补贴",
-          "effects": {
-            "treasury": -700,
-            "population": 400,
-            "educationIndex": 3,
-            "happiness": 3,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "与本地企业联合提供岗位包",
-          "effects": {
-            "treasury": -200,
-            "population": 150,
-            "unemployment": -0.01
-          },
-          "color": "blue"
-        },
-        {
-          "text": "维持现行政策，不作调整",
-          "effects": {
-            "population": -100,
-            "happiness": -2,
-            "educationIndex": -1
-          },
-          "color": "gray"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中欧青年领袖对话活动在浙江举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0013",
-      "type": "warn",
-      "tag": "出口",
-      "title": "{city}机电出口订单波动",
-      "desc": "中美经贸磋商在纽约进行期间，{city}机电园区内多家企业订单报价频繁调整，部分北美客户推迟签单，园区产能利用率下降约8个百分点。企业提出希望政府协助对接内需市场，避免生产线闲置和工人返岗延迟。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "举办内销对接会，拓宽市场",
-          "effects": {
-            "treasury": -250,
-            "unemployment": -0.01,
-            "gdpMult": 1.02,
-            "reputation": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "提供短期稳岗补贴",
-          "effects": {
-            "treasury": -400,
-            "unemployment": -0.02,
-            "inspection": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "让企业自主调整产能",
-          "effects": {
-            "unemployment": 0.02,
-            "gdpMult": 0.98,
-            "happiness": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0014",
-      "type": "success",
-      "tag": "经贸",
-      "title": "{city}区域经贸展升级",
-      "desc": "{city}借势区域经贸合作提质升级，拟举办特色商品展销会。周边县市客商与本地龙头企业意向签约，关注跨境电商、冷链物流等新兴领域。展馆人流密集，展位招商一度告急。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "扩容展馆并补贴龙头企业",
-          "effects": {
-            "treasury": -200,
-            "reputation": 5,
-            "happiness": 3,
-            "gdpMult": 1.06,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "维持原规模自然招商",
-          "effects": {
-            "treasury": -50,
-            "reputation": 2,
-            "gdpMult": 1.02,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "压缩预算只办线上展",
-          "effects": {
-            "treasury": 50,
-            "reputation": -4,
-            "gdpMult": 0.96,
-            "happiness": -2,
-            "inspection": 3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "从“享惠”到“共赢” 东博会促进区域经贸合作提质升级",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0015",
-      "type": "info",
-      "tag": "文化",
-      "title": "{city}陶艺文创园落成",
-      "desc": "{city}引入丝路陶艺非遗匠人组建文创工坊，主打‘交融与新生’主题。首月预约制工坊爆满，带动周边民宿订单上涨。但本地工匠担心技艺被外来团队主导，出现署名权争议。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "设立非遗联合署名与分成",
-          "effects": {
-            "treasury": -100,
-            "reputation": 6,
-            "happiness": 4,
-            "educationIndex": 3,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "维持现有合作条款",
-          "effects": {
-            "reputation": 1,
-            "happiness": -1,
-            "inspection": 2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "驱逐外来团队独占品牌",
-          "effects": {
-            "treasury": -50,
-            "reputation": -6,
-            "happiness": -3,
-            "gdpMult": 0.9500000000000001,
-            "merit": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "丝路文化在乌兹别克斯坦“陶器之都”的交融与新生",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0016",
-      "type": "warn",
-      "tag": "招商",
-      "title": "{city}客商探需引争议",
-      "desc": "{city}接待东盟客商代表团考察新能源汽车零部件、光伏与跨境电商。代表们要求税收优惠、用地指标与通关便利化，本地环保部门对其中一家工厂的水排指标提出保留意见，招商与环保拉锯。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "环保达标前提下落地",
-          "effects": {
-            "treasury": -150,
-            "reputation": 4,
-            "gdpMult": 1.05,
-            "inspection": 4,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "只签意向延后落地",
-          "effects": {
-            "treasury": -50,
-            "reputation": 1,
-            "gdpMult": 1.01,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "违规放水换取落地",
-          "effects": {
-            "treasury": 100,
-            "corruption": 8,
-            "inspection": 10,
-            "reputation": -5,
-            "merit": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "探需东博会 这些领域缘何成为东盟客商关注点",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0017",
-      "type": "success",
-      "tag": "团结",
-      "title": "{city}民族团结主题月",
-      "desc": "{city}以‘铸牢共同体 中华一家亲’为主题举办民族团结月活动，组织社区合唱、结对帮扶、民族团结故事会。多民族家庭参与热情高，但个别社区反映活动经费被挪用于宣传物料，引发群众议论。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "公开账目并回访社区",
-          "effects": {
-            "treasury": -50,
-            "reputation": 6,
-            "happiness": 4,
-            "inspection": 2,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "低调补发补贴了事",
-          "effects": {
-            "treasury": -100,
-            "reputation": 1,
-            "happiness": 1,
-            "corruption": -2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "压下舆情不处理",
-          "effects": {
-            "reputation": -5,
-            "happiness": -4,
-            "corruption": 5,
-            "inspection": 6,
-            "merit": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "铸牢共同体 中华一家亲丨走进“五一大会”旧址 感悟民族团结力",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0018",
-      "type": "warn",
-      "tag": "外贸",
-      "title": "{city}外贸企业磋商潮",
-      "desc": "{city}多家外贸企业受中美经贸磋商信号影响，紧急约谈银行与货代锁定汇率与舱位。订单波动导致临时用工激增，又出现部分小厂借机囤货涨价、拖欠货款，地方金融办与商务部门连夜协调。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "设外贸风险补偿基金",
-          "effects": {
-            "treasury": -250,
-            "reputation": 4,
-            "happiness": 2,
-            "gdpMult": 1.04,
-            "unemployment": -0.02,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "仅组织银企对接会",
-          "effects": {
-            "treasury": -50,
-            "reputation": 2,
-            "gdpMult": 1.01,
-            "unemployment": -0.01,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "放任市场自行调节",
-          "effects": {
-            "reputation": -3,
-            "happiness": -2,
-            "gdpMult": 0.96,
-            "unemployment": 0.02,
-            "inspection": 2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0019",
-      "type": "info",
-      "tag": "民生",
-      "title": "{city}加加面小吃街开业",
-      "desc": "{city}在老街改造区开设‘加加面’特色小吃街，主打‘越加越有味’的现点现加菜模式，首日排队排到街尾。但燃气、油烟与食安检查人手不足，居民反映油烟扰民，商户则担心罚款影响客流。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "加装集中烟道并抽检",
-          "effects": {
-            "treasury": -100,
-            "happiness": 4,
-            "reputation": 3,
-            "healthcare": 1,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "限时营业错峰经营",
-          "effects": {
-            "happiness": 1,
-            "reputation": 1,
-            "inspection": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "默许违规扩大营业",
-          "effects": {
-            "treasury": 50,
-            "happiness": -3,
-            "reputation": -4,
-            "healthcare": -2,
-            "corruption": 4,
-            "inspection": 5
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "石榴花开 籽籽同心｜一碗加加面，越“加”越有味",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0020",
-      "type": "danger",
-      "tag": "灾害",
-      "title": "{city}强降雨滑坡告急",
-      "desc": "{city}连续强降雨引发山体滑坡，两处在建工地围墙倾倒，一条村道中断，约300名村民被转移安置。现场有2名工人失联，道路抢通设备受雨阻滞留，电力部门同步启动应急保电。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "全域封山并直升机搜救",
-          "effects": {
-            "treasury": -500,
-            "happiness": 3,
-            "reputation": 7,
-            "healthcare": 2,
-            "inspection": 3,
-            "merit": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "分段管控优先保村道",
-          "effects": {
-            "treasury": -200,
-            "happiness": 1,
-            "reputation": 3,
-            "inspection": 2,
-            "merit": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "压缩救援队伍与物资",
-          "effects": {
-            "treasury": 100,
-            "happiness": -6,
-            "reputation": -8,
-            "healthcare": -3,
-            "corruption": 5,
-            "inspection": 8,
-            "merit": -4
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "泰国多地遭强降雨致山体滑坡",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0021",
-      "type": "info",
-      "tag": "人文",
-      "title": "{city}中美情谊纪录片展映",
-      "desc": "{city}文化宫举办中美民间情谊主题纪录片展映与专家对谈，观众对‘威克岛战俘’背后的故事反响热烈，报名人数超额近三成。现场也有观众质疑史料表述，要求主办方公开审核流程。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "邀请学界双盲评审",
-          "effects": {
-            "treasury": -50,
-            "reputation": 4,
-            "happiness": 2,
-            "educationIndex": 3,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "限定场次低调放映",
-          "effects": {
-            "reputation": 1,
-            "inspection": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "取消活动回避争议",
-          "effects": {
-            "reputation": -3,
-            "happiness": -2,
-            "educationIndex": -2,
-            "merit": -1
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "专家在上海解读《威克岛战俘》背后的中美民间情谊",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0022",
-      "type": "success",
-      "tag": "体育",
-      "title": "{city}游泳赛事夺冠潮",
-      "desc": "{city}承办区域游泳邀请赛，本地选手首日斩获多枚金牌，场馆爆满，周边酒店客房被订满。赛事组织方提出延长赛程与追加转播权，但训练中心场地紧张、家长投诉报名门槛不透明。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "公开报名规则延长赛程",
-          "effects": {
-            "treasury": -150,
-            "reputation": 5,
-            "happiness": 4,
-            "educationIndex": 2,
-            "gdpMult": 1.03,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "维持原赛程与报名制",
-          "effects": {
-            "treasury": -50,
-            "reputation": 1,
-            "gdpMult": 1.01,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "出售名额给赞助企业",
-          "effects": {
-            "treasury": 200,
-            "reputation": -6,
-            "happiness": -4,
-            "corruption": 6,
-            "inspection": 6,
-            "merit": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "（爱知·名古屋亚运会）综合消息：中国游泳队首日收获六金  中",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0023",
-      "type": "warn",
-      "tag": "展会",
-      "title": "{city}经贸展签约激增",
-      "desc": "{city}在区域经贸展集中签约，跨境电商、冷链物流成为东盟客商关注点。签约额超预期但其中3家企业未提交环评与用工备案，市场监管与人社部门要求补材料，展会主办方催促现场盖章。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "限时补正并公示名单",
-          "effects": {
-            "treasury": -100,
-            "reputation": 4,
-            "inspection": 5,
-            "gdpMult": 1.04,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "暂缓盖章走补流程",
-          "effects": {
-            "treasury": -50,
-            "reputation": 1,
-            "gdpMult": 1.01,
-            "inspection": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "先盖章后补材料",
-          "effects": {
-            "treasury": 100,
-            "corruption": 7,
-            "inspection": 9,
-            "reputation": -4,
-            "merit": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "探需东博会 这些领域缘何成为东盟客商关注点",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0024",
-      "type": "success",
-      "tag": "非遗",
-      "title": "{city}丝路陶艺进课堂",
-      "desc": "{city}将丝路陶艺非遗引入中小学美育课程，邀请匠人驻校工坊授课。首批试点学校家长报名踊跃，但部分家长质疑课时占用正课，教育局要求提交课时安排与作业评估方案。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "课外科普学分并行",
-          "effects": {
-            "treasury": -100,
-            "reputation": 4,
-            "happiness": 3,
-            "educationIndex": 4,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "缩减频次改为周中社团",
-          "effects": {
-            "reputation": 1,
-            "educationIndex": 1,
-            "happiness": 1,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "外包给商业培训机构",
-          "effects": {
-            "treasury": 50,
-            "reputation": -4,
-            "educationIndex": -3,
-            "corruption": 5,
-            "inspection": 5,
-            "merit": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "丝路文化在乌兹别克斯坦“陶器之都”的交融与新生",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0025",
-      "type": "warn",
-      "tag": "谈判",
-      "title": "{city}外资洽谈遇冷",
-      "desc": "{city}接待外资洽谈团讨论中美经贸磋商后的供应链调整方案，三家企业推迟签约要求评估政策稳定性。本地园区管委会提出补贴方案，财政口担心形成‘补贴依赖’，商务口力主抢单。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "一次性补贴绑定产出",
-          "effects": {
-            "treasury": -300,
-            "reputation": 4,
-            "gdpMult": 1.05,
-            "unemployment": -0.02,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "提供政策咨询不补贴",
-          "effects": {
-            "reputation": 1,
-            "gdpMult": 1.01,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "私下承诺超额补贴",
-          "effects": {
-            "treasury": 150,
-            "corruption": 9,
-            "inspection": 11,
-            "reputation": -5,
-            "merit": -4
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0026",
-      "type": "info",
-      "tag": "美食",
-      "title": "{city}加加面联名活动",
-      "desc": "{city}推出加加面与本地老字号联名活动，主打‘越加越有味’的限定套餐，社交媒体热度攀升。联名协议中收益分成与品牌授权条款模糊，老字号担心被低价引流，监管部门接到消费者投诉。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "重签分成与授权条款",
-          "effects": {
-            "treasury": -50,
-            "reputation": 4,
-            "happiness": 3,
-            "inspection": 2,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "暂停联名待调解",
-          "effects": {
-            "reputation": 1,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "默许低价引流活动",
-          "effects": {
-            "treasury": 100,
-            "reputation": -4,
-            "happiness": -2,
-            "corruption": 4,
-            "inspection": 4,
-            "merit": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "石榴花开 籽籽同心｜一碗加加面，越“加”越有味",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0027",
-      "type": "danger",
-      "tag": "应急",
-      "title": "{city}暴雨响应升级",
-      "desc": "{city}气象台连发暴雨红色预警，多处下穿通道积水、地铁停运，学校与养老院启动转移预案。部分老旧小区排水管网老化，社区网格员不足，救援物资调配出现信息滞后，群众在社交平台求援。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "启动一级响应全员上岗",
-          "effects": {
-            "treasury": -500,
-            "happiness": 4,
-            "reputation": 7,
-            "healthcare": 3,
-            "inspection": 4,
-            "merit": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "重点保学校与养老院",
-          "effects": {
-            "treasury": -200,
-            "happiness": 2,
-            "reputation": 3,
-            "inspection": 2,
-            "merit": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "沿用往年预案不升级",
-          "effects": {
-            "treasury": 50,
-            "happiness": -7,
-            "reputation": -8,
-            "healthcare": -3,
-            "corruption": 4,
-            "inspection": 7,
-            "merit": -4
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "泰国多地遭强降雨致山体滑坡",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0028",
-      "type": "success",
-      "tag": "招商",
-      "title": "{city}承接东博会产业链转移",
-      "desc": "东博会客商代表团抵达{city}考察，对本地新能源、电子信息园区表现出浓厚兴趣，多家东盟企业表达落地意向。招商局连夜梳理政策包，但园区配套和审批流程能否跟上节奏，考验着政府效率。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "推出东博会专项优惠政策包",
-          "effects": {
-            "treasury": -300,
-            "reputation": 6,
-            "gdpMult": 1.05,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "加快园区配套建设进度",
-          "effects": {
-            "treasury": -500,
-            "happiness": 4,
-            "gdpMult": 1.03
-          },
-          "color": "blue"
-        },
-        {
-          "text": "暂缓回应，先观望客商动向",
-          "effects": {
-            "reputation": -4,
-            "inspection": 3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "探需东博会 这些领域缘何成为东盟客商关注点",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0029",
-      "type": "info",
-      "tag": "文化",
-      "title": "{city}举办丝路陶艺文化交流周",
-      "desc": "乌兹别克斯坦'陶器之都'艺术团体受邀来{city}举办为期一周的陶艺交流展，本地非遗传承人积极参与对话。活动带动文旅消费，但场馆安保和跨境签证手续让文旅局忙得不可开交。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "加派安保并开通绿色通道",
-          "effects": {
-            "treasury": -150,
-            "reputation": 5,
-            "happiness": 4,
-            "population": 200
-          },
-          "color": "green"
-        },
-        {
-          "text": "按标准流程办理，不额外加码",
-          "effects": {
-            "reputation": -2,
-            "inspection": 2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "争取上级文旅专项资金支持",
-          "effects": {
-            "treasury": 200,
-            "merit": 2
-          },
-          "color": "blue"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "丝路文化在乌兹别克斯坦\"陶器之都\"的交融与新生",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0030",
-      "type": "success",
-      "tag": "科教",
-      "title": "{city}青年科学家获全国探索奖",
-      "desc": "{city}本地科研人员王博士在全国'科学探索奖'评选中脱颖而出，成为本届最年轻的获奖者之一。消息传出后，市科技局接到省厅祝贺电话，同时也收到多份人才争夺函，本地留住人才的压力骤增。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "提供安家补贴和实验室支持",
-          "effects": {
-            "treasury": -400,
-            "educationIndex": 5,
-            "reputation": 6,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "仅发放一次性奖励金",
-          "effects": {
-            "treasury": -100,
-            "educationIndex": 2,
-            "happiness": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "不予额外补助，正常发放奖金",
-          "effects": {
-            "reputation": -5,
-            "happiness": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "第八届 \"科学探索奖\"深圳颁奖 诞生首位\"95后\"获奖者",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0031",
-      "type": "warn",
-      "tag": "经贸",
-      "title": "中美磋商波及{city}出口企业",
-      "desc": "中美新一轮经贸磋商在纽约展开，{city}多家机电出口企业订单出现波动，部分厂商反映美方客户推迟签约。外贸局紧急召开企业座谈会，听取困难诉求，但短期内无法左右国际谈判进程。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "发放外贸稳岗补贴",
-          "effects": {
-            "treasury": -350,
-            "unemployment": -0.02,
-            "happiness": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "组织企业开拓东盟市场",
-          "effects": {
-            "treasury": -100,
-            "gdpMult": 1.02,
-            "merit": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "静观其变，不主动干预",
-          "effects": {
-            "unemployment": 0.03,
-            "reputation": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0032",
-      "type": "success",
-      "tag": "文旅",
-      "title": "湾区晚会带动{city}文旅消费",
-      "desc": "大湾区电影音乐晚会热度溢出，{city}作为周边热门目的地迎来游客激增，酒店预订率同比上涨40%。景区周边交通拥堵、餐饮价格飞涨引发市民吐槽，文旅和市场监管部门需协同应对。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "联合市场监管开展价格巡查",
-          "effects": {
-            "treasury": -100,
-            "reputation": 5,
-            "happiness": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "增设临时停车场和接驳线路",
-          "effects": {
-            "treasury": -200,
-            "happiness": 3,
-            "population": 300
-          },
-          "color": "blue"
-        },
-        {
-          "text": "放任市场自行调节",
-          "effects": {
-            "reputation": -6,
-            "happiness": -4
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "\"湾区升明月\"2026大湾区电影音乐晚会在澳门唱响",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0033",
-      "type": "danger",
-      "tag": "反诈",
-      "title": "{city}股民遭高仿证券App诈骗",
-      "desc": "{city}市民李某被仿冒证券交易App骗取200万元，受害者发现时资金已被层层转移。反诈中心紧急介入调查，但假App下载量已超万，更多市民可能面临风险，社会恐慌情绪蔓延。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "联合通信运营商全面封禁假App",
-          "effects": {
-            "treasury": -100,
-            "reputation": 7,
-            "happiness": 5,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "开展社区反诈宣传月活动",
-          "effects": {
-            "treasury": -50,
-            "happiness": 3,
-            "inspection": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "仅个案处理，不做全面排查",
-          "effects": {
-            "reputation": -8,
-            "happiness": -5,
-            "corruption": 3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "警惕！\"高仿\"版证券交易App以假乱真 股民被骗200万",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0034",
-      "type": "success",
-      "tag": "团结",
-      "title": "{city}民族团结主题活动引关注",
-      "desc": "{city}多民族社区举办'中华一家亲'主题活动，各族群众共庆佳节，活动吸引周边村镇居民参与。民族宗教事务局计划将经验推广至全市，但基层经费紧张，能否持续办下去仍是问题。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "申请上级民族团结专项经费",
-          "effects": {
-            "treasury": 250,
-            "reputation": 5,
-            "happiness": 4,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "依托社区自筹办小型活动",
-          "effects": {
-            "happiness": 2,
-            "reputation": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "今年办完为止，明年再说",
-          "effects": {
-            "happiness": -2,
-            "reputation": -2
-          },
-          "color": "yellow"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "铸牢共同体 中华一家亲丨走进\"五一大会\"旧址 感悟民族团结力",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0035",
-      "type": "success",
-      "tag": "青年",
-      "title": "亚太青年创业计划在{city}落地",
-      "desc": "亚太青年创新创业合作伙伴计划在{city}设立分站，首批20个青年项目入驻孵化器。市人社局配套出台青年创业扶持措施，但场地租金和导师资源能否跟上，还需进一步协调。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "减免孵化器首年租金并配备导师",
-          "effects": {
-            "treasury": -200,
-            "unemployment": -0.02,
-            "educationIndex": 3,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "仅提供标准孵化政策，不加码",
-          "effects": {
-            "unemployment": -0.01,
-            "reputation": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "暂缓对接，等上级批复后再说",
-          "effects": {
-            "reputation": -4,
-            "inspection": 3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "亚太青年创新创业合作伙伴计划在广州发布",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0036",
-      "type": "info",
-      "tag": "教育",
-      "title": "{city}中学开展中美友谊历史课",
-      "desc": "{city}一所中学以《威克岛战俘》故事为素材开展爱国主义教育课程，引发家长和社会讨论。部分家长认为内容过于敏感，教育局需在教育导向和家长诉求间寻找平衡，教学方案面临修订压力。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "邀请专家修订课程方案后再推行",
-          "effects": {
-            "treasury": -100,
-            "educationIndex": 4,
-            "reputation": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "维持原方案，强调历史客观性",
-          "effects": {
-            "happiness": -2,
-            "reputation": 1
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "取消该课程主题",
-          "effects": {
-            "reputation": -4,
-            "educationIndex": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "专家在上海解读《威克岛战俘》背后的中美民间情谊",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0037",
-      "type": "success",
-      "tag": "产业",
-      "title": "AI赋能{city}产业升级提速",
-      "desc": "国内头部AI企业与{city}签署战略合作协议，计划在本地建设智能工厂和数据中心，带动上下游产业链集聚。但土地指标紧张、数据安全监管要求高，项目落地需跨部门联动推进。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "协调用地指标并组建专班推进",
-          "effects": {
-            "treasury": -300,
-            "gdpMult": 1.08,
-            "reputation": 6,
-            "merit": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "先签框架协议，分期实施",
-          "effects": {
-            "gdpMult": 1.03,
-            "reputation": 3
-          },
-          "color": "blue"
-        },
-        {
-          "text": "以安全审查为由暂缓签约",
-          "effects": {
-            "reputation": -5,
-            "inspection": 4,
-            "gdpMult": 0.9500000000000001
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "AI拓展中国—东盟产业协作新空间",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0038",
-      "type": "danger",
-      "tag": "灾害",
-      "title": "{city}遭遇台风外围暴雨袭击",
-      "desc": "台风外围环流带来持续强降雨，{city}城区多处路段积水，低洼小区和地下车库进水。市防汛指挥部启动应急响应，转移群众2000余人，但电力抢修和灾后复产压力巨大，财政承压明显。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "紧急拨付救灾资金并启动灾后重建",
-          "effects": {
-            "treasury": -800,
-            "happiness": 6,
-            "reputation": 7,
-            "merit": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "申请上级应急资金，分期拨付",
-          "effects": {
-            "treasury": -200,
-            "happiness": 3,
-            "inspection": 3
-          },
-          "color": "blue"
-        },
-        {
-          "text": "让受灾群众自行申报，走常规流程",
-          "effects": {
-            "happiness": -8,
-            "reputation": -6
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "探需东博会 这些领域缘何成为东盟客商关注点",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0039",
-      "type": "corruption",
-      "tag": "监管",
-      "title": "{city}金融监管漏洞被媒体曝光",
-      "desc": "某财经媒体调查发现，{city}一家持牌证券公司的假App推广链路涉及本地代理商违规操作，事件迅速发酵。地方金融监管局面临问责压力，需彻查代理链条，但内部自查可能牵出更多违规问题。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "全面彻查代理链条并公开通报",
-          "effects": {
-            "reputation": 6,
-            "happiness": 5,
-            "corruption": -5,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "内部处理，低调化解舆情",
-          "effects": {
-            "corruption": 3,
-            "inspection": 8,
-            "reputation": -2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "推给上级监管，等待指导意见",
-          "effects": {
-            "reputation": -6,
-            "corruption": 2,
-            "inspection": 5
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "警惕！\"高仿\"版证券交易App以假乱真 股民被骗200万",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0040",
-      "type": "warn",
-      "tag": "民生",
-      "title": "{city}老旧小区加装电梯引纠纷",
-      "desc": "{city}多个老旧小区推进加装电梯改造，高层住户强烈支持，但低层住户以采光、噪音、房价下跌为由反对，部分业主甚至阻挠施工。社区调解多轮未果，市政府需在民意间寻找平衡。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "补贴低层住户并优化电梯设计方案",
-          "effects": {
-            "treasury": -350,
-            "happiness": 5,
-            "reputation": 5
-          },
-          "color": "green"
-        },
-        {
-          "text": "由社区组织三方协商，按比例分摊",
-          "effects": {
-            "treasury": -50,
-            "happiness": 2,
-            "inspection": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "暂缓推进，等居民自行达成共识",
-          "effects": {
-            "happiness": -4,
-            "reputation": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "铸牢共同体 中华一家亲丨走进\"五一大会\"旧址 感悟民族团结力",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0041",
-      "type": "success",
-      "tag": "外贸",
-      "title": "{city}跨境电商借AI开辟新市场",
-      "desc": "{city}跨境电商产业园引入AI选品和智能翻译系统，帮助中小卖家精准对接东盟市场，出口额同比增长35%。但部分企业反映合规培训和数据跨境传输规则不清，需政府提供政策指引。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "组织跨境电商合规培训专场",
-          "effects": {
-            "treasury": -100,
-            "gdpMult": 1.04,
-            "educationIndex": 3,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "发布政策指引手册，企业自行解读",
-          "effects": {
-            "treasury": -50,
-            "gdpMult": 1.02
-          },
-          "color": "blue"
-        },
-        {
-          "text": "不作为，让市场自行探索",
-          "effects": {
-            "inspection": 4,
-            "reputation": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "AI拓展中国—东盟产业协作新空间",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0042",
-      "type": "info",
-      "tag": "外交",
-      "title": "{city}承办中美地方经贸论坛",
-      "desc": "中美经贸磋商大背景下，{city}被选为地方经贸论坛承办地，将有美方商会代表参会。外办和安全部门需联合制定接待方案，但美方代表的安保等级和议题敏感度引发内部争议。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "高标准安保+丰富议程，展现开放姿态",
-          "effects": {
-            "treasury": -400,
-            "reputation": 7,
-            "gdpMult": 1.03,
-            "merit": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "按标准流程接待，控制安保成本",
-          "effects": {
-            "treasury": -100,
-            "reputation": 3
-          },
-          "color": "blue"
-        },
-        {
-          "text": "以安全顾虑为由婉拒承办",
-          "effects": {
-            "reputation": -6,
             "inspection": 4
           },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓试点，等细则再议",
+          "effects": {
+            "gdpMult": 0.9500000000000001,
+            "reputation": -3,
+            "merit": -1
+          },
           "color": "red"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "“一次登记、全国通用” 解码“数据产权身份证”",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0043",
-      "type": "info",
-      "tag": "文化活动",
-      "title": "{city}影视音乐晚会落地",
-      "desc": "受大湾区影视音乐晚会热潮启发，一家知名演出公司拟在{city}举办一场大型明星演唱会。当地文旅局和公安部门连夜评估场地承载力，粉丝已自发在社交平台组建应援群，预计带来数万人流与消费，同时给城市治安、交通和舆情带来不小压力。",
+      "id": "ai_20260921_0002",
+      "type": "warn",
+      "tag": "体育",
+      "title": "{city}体校体操生备战省运会",
+      "desc": "市体校体操队主力队员临赛出现伤病，家长群在本地论坛刷屏质问训练强度。教练组引用亚运卫冕名将的训练日志回怼，舆论发酵后，市教育局、体育局连夜召开联席会议，家长代表要求公布运动员健康档案。",
       "condition": null,
       "weight": 3,
       "choices": [
         {
-          "text": "批准举办并配套安保补贴",
+          "text": "引入专业队医，公开体检报告",
           "effects": {
-            "treasury": -300,
-            "happiness": 8,
-            "reputation": 6,
-            "merit": 2,
-            "gdpMult": 1.05
+            "treasury": -200,
+            "happiness": 6,
+            "reputation": 5,
+            "healthcare": 3,
+            "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "限流至一万人并加派警力",
+          "text": "由体校自行处理，压舆论",
           "effects": {
-            "treasury": -100,
-            "happiness": 3,
-            "reputation": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "以安全为由不予批复",
-          "effects": {
-            "happiness": -4,
-            "reputation": -5,
-            "gdpMult": 0.97
+            "reputation": -6,
+            "inspection": 6,
+            "happiness": -3
           },
           "color": "red"
+        },
+        {
+          "text": "暂停训练，全员休整一周",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": -2,
+            "happiness": 2
+          },
+          "color": "yellow"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "“湾区升明月”2026大湾区电影音乐晚会在澳门唱响",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操名将张博恒亚运会成功卫冕：全能",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0044",
-      "type": "success",
-      "tag": "经贸合作",
-      "title": "{city}东博会招商对接",
-      "desc": "东博会促进区域经贸合作的势头正劲，一批东盟客商专程来{city}考察，希望签约共建跨境电子组装产业园。商务局连夜准备政策包和税收优惠方案，但财政吃紧，市里对让利幅度和后续产能爬坡周期分歧很大。",
+      "id": "ai_20260921_0003",
+      "type": "info",
+      "tag": "外联",
+      "title": "外宾代表团拟访{city}工业园",
+      "desc": "市委宣传部接到上级函件，德国某州官员代表团将于下月考察{city}先进制造园区，希望对接新能源汽车供应链。接待办估算食宿安保费用约两百万，但对方坚持要安排本地企业\"一对一\"座谈，多家企业担心接待规格过高被媒体质疑铺张。",
       "condition": null,
-      "weight": 4,
+      "weight": 2,
       "choices": [
         {
-          "text": "三年所得税全免加配套",
+          "text": "简朴接待，聚焦产业对接",
           "effects": {
-            "treasury": -600,
-            "gdpMult": 1.08,
-            "unemployment": -0.03,
-            "reputation": 6,
+            "treasury": -150,
+            "reputation": 4,
+            "gdpMult": 1.03,
             "merit": 3
           },
           "color": "green"
         },
         {
-          "text": "两年减半征收谨慎让利",
+          "text": "按最高规格举办欢迎晚宴",
           "effects": {
-            "treasury": -200,
-            "gdpMult": 1.04,
-            "unemployment": -0.01,
-            "merit": 1
+            "treasury": -300,
+            "corruption": 5,
+            "reputation": 1,
+            "inspection": 8
           },
-          "color": "blue"
+          "color": "orange"
         },
         {
-          "text": "仅签署意向不落地",
+          "text": "婉拒接待，发函说明",
           "effects": {
             "reputation": -3,
-            "gdpMult": 0.98
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "从“享惠”到“共赢” 东博会促进区域经贸合作提质升级",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0045",
-      "type": "info",
-      "tag": "青年外交",
-      "title": "{city}中欧青年对话",
-      "desc": "浙江一场中欧青年领袖对话引发热烈反响，{city}本地高校联合商会申请承办续场，邀请德国、法国、俄罗斯的青年创业者与当地青年创业团队面对面。活动涉及签证、翻译、场地等多项费用，团委和教育局担心办砸影响国际形象。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "全额拨款并全程保障",
-          "effects": {
-            "treasury": -200,
-            "reputation": 7,
-            "educationIndex": 4,
-            "happiness": 4,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "校企共建各承担一半",
-          "effects": {
-            "treasury": -100,
-            "reputation": 3,
-            "educationIndex": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "婉拒承办请求",
-          "effects": {
-            "reputation": -4,
-            "happiness": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中欧青年领袖对话活动在浙江举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0046",
-      "type": "warn",
-      "tag": "AI产业",
-      "title": "{city}AI产业园争议",
-      "desc": "AI拓展中国—东盟产业协作的浪潮下，一家AI企业计划在{city}工业园区落地训练算力中心。环评指出该机房年耗电巨大，可能挤占周边居民电网并推高电价；企业承诺带来大量高薪岗位，市民论坛分成支持与反对两大阵营。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "特批落地并升级电网",
-          "effects": {
-            "treasury": -450,
-            "gdpMult": 1.07,
-            "unemployment": -0.03,
-            "happiness": -3,
-            "reputation": 3,
-            "merit": 2
+            "gdpMult": 0.97
           },
           "color": "yellow"
-        },
-        {
-          "text": "要求企业自建微电网",
-          "effects": {
-            "treasury": -50,
-            "gdpMult": 1.03,
-            "unemployment": -0.01,
-            "happiness": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "以能耗为由否决",
-          "effects": {
-            "reputation": -3,
-            "gdpMult": 0.97,
-            "happiness": 2
-          },
-          "color": "red"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "AI拓展中国—东盟产业协作新空间",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "王毅同德国外长瓦德富尔通电话",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0047",
-      "type": "info",
-      "tag": "民族团结",
-      "title": "{city}民族团结纪念馆开馆",
-      "desc": "受“五一大会”旧址展陈启发，{city}一座闲置文化宫被改造为民族团结纪念馆，集中展示本地各民族融合发展的实物史料。开馆在即，文化馆提出需要采购展品、编排讲解员并举办系列主题活动，预算审批陷入反复。",
+      "id": "ai_20260921_0004",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}承办国际和平日分会场",
+      "desc": "联合国国际和平日纪念活动拟设{city}为内地分会场，市委宣传部需在一周内敲定场地。候选有市图书馆、人民广场、新落成的和平公园，预算上限八十万。活动涉及多国代表，安保方案须报省厅审批。",
       "condition": null,
-      "weight": 2,
+      "weight": 3,
       "choices": [
         {
-          "text": "追加预算办主题周",
-          "effects": {
-            "treasury": -150,
-            "happiness": 6,
-            "reputation": 5,
-            "educationIndex": 3,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "按基础预算开馆",
-          "effects": {
-            "treasury": -50,
-            "happiness": 3,
-            "reputation": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "延后半年再开馆",
-          "effects": {
-            "happiness": -3,
-            "reputation": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "铸牢共同体 中华一家亲丨走进“五一大会”旧址 感悟民族团结力",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0048",
-      "type": "danger",
-      "tag": "自然灾害",
-      "title": "{city}连日强降雨山体滑坡",
-      "desc": "受台风外围影响，{city}北部山区连续降雨72小时，多处边坡饱和，凌晨发生山体滑坡，掩埋两座护林站和三户村民。道路中断、通信断续，消防、武警和民兵连夜进山搜救，救援物资运输因塌方受阻，群众安置点急需帐篷和食品。",
-      "condition": null,
-      "weight": 5,
-      "choices": [
-        {
-          "text": "紧急调拨救灾物资并抢修道路",
-          "effects": {
-            "treasury": -500,
-            "happiness": -2,
-            "reputation": 7,
-            "healthcare": 3,
-            "merit": 4
-          },
-          "color": "green"
-        },
-        {
-          "text": "先安置群众道路缓修",
-          "effects": {
-            "treasury": -250,
-            "happiness": -5,
-            "reputation": 2,
-            "merit": 2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "仅发布预警不启动应急预案",
-          "effects": {
-            "happiness": -8,
-            "reputation": -7,
-            "inspection": 12,
-            "merit": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "泰国多地遭强降雨致山体滑坡",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0049",
-      "type": "info",
-      "tag": "历史教育",
-      "title": "{city}战俘营遗址讲座",
-      "desc": "受《威克岛战俘》研究成果启发，{city}档案馆联合地方大学邀请专家开讲二战时期一段被尘封的国际救援故事。讲座引发本地市民兴趣，纪念馆预约爆满，但档案数字化经费与专家差旅费尚未落实，历史学会希望趁热扩展为系列课程。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "资助系列课程并数字化档案",
-          "effects": {
-            "treasury": -150,
-            "educationIndex": 5,
-            "happiness": 4,
-            "reputation": 4,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "支持单场讲座费用",
-          "effects": {
-            "treasury": -50,
-            "educationIndex": 2,
-            "happiness": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "由民间自筹不出资",
-          "effects": {
-            "educationIndex": -1,
-            "reputation": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "专家在上海解读《威克岛战俘》背后的中美民间情谊",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0050",
-      "type": "info",
-      "tag": "美食文化",
-      "title": "{city}加加面美食节",
-      "desc": "一碗加加面“越加越有味”的短视频爆火，{city}多家面馆顺势联合发起“加加面美食节”，计划在主街摆出百家摊位并邀请网红直播。城管担心占道经营影响交通，市场监管局担心食品安全，餐饮协会则力推借势打响本地小吃名片。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "划定专区并强化食安抽检",
+          "text": "选和平公园，主打惠民开放",
           "effects": {
             "treasury": -100,
             "happiness": 7,
-            "reputation": 5,
-            "gdpMult": 1.04,
-            "healthcare": 2,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "限时三天小范围试点",
-          "effects": {
-            "treasury": -50,
-            "happiness": 3,
-            "gdpMult": 1.01,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "以市容为由全面叫停",
-          "effects": {
-            "happiness": -5,
-            "reputation": -4,
-            "gdpMult": 0.98
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "石榴花开 籽籽同心｜一碗加加面，越“加”越有味",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0051",
-      "type": "corruption",
-      "tag": "金融诈骗",
-      "title": "{city}高仿证券App骗局",
-      "desc": "一名本地股民发现“高仿”版证券交易App以假乱真，被骗走两百万元。受害人在社区群控诉，要求{city}地方证监局和网信办彻查推广链条。网信部门顺藤摸瓜发现多个本地MCN和写字楼代理涉嫌参与引流，是否立案、如何处置引发内部争议。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "联合公安彻查并公开通报",
-          "effects": {
-            "treasury": -100,
-            "corruption": -6,
-            "reputation": 8,
-            "happiness": 5,
-            "inspection": 5,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "内部处理不对外发布",
-          "effects": {
-            "corruption": -1,
-            "inspection": 10,
-            "happiness": -3,
-            "reputation": -3
-          },
-          "color": "orange"
-        },
-        {
-          "text": "默许代理继续推广",
-          "effects": {
-            "corruption": 8,
-            "happiness": -6,
-            "reputation": -8,
-            "inspection": 14,
-            "merit": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "警惕！“高仿”版证券交易App以假乱真 股民被骗200万",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0052",
-      "type": "success",
-      "tag": "科技奖励",
-      "title": "{city}95后科学探索奖得主",
-      "desc": "受第八届“科学探索奖”深圳颁奖启发，{city}大学一位95后青年教师获得省级青年科技人才称号，学校希望借此举办颁奖典礼并设立奖学金。教育局与财政局围绕奖项冠名、科研配套经费展开讨论，校友企业主动请缨赞助。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "设立青年科学家基金",
-          "effects": {
-            "treasury": -250,
-            "educationIndex": 6,
             "reputation": 6,
-            "happiness": 4,
             "merit": 3
           },
           "color": "green"
         },
         {
-          "text": "只办颁奖礼不长期投入",
-          "effects": {
-            "treasury": -50,
-            "educationIndex": 2,
-            "reputation": 3,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "建议学校自行举办",
-          "effects": {
-            "educationIndex": -1,
-            "reputation": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "第八届 “科学探索奖”深圳颁奖 诞生首位“95后”获奖者",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0053",
-      "type": "warn",
-      "tag": "演艺风险",
-      "title": "{city}明星档期违约风波",
-      "desc": "一场拟引进的湾区晚会级明星在临演前因档期与档期冲突违约，{city}主办方已预付百万定金并投入大量宣传。粉丝现场聚集要求退票，赞助商威胁扣款，文旅局担心事件发酵影响城市诚信形象，是否追责、是否改期成为焦点。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "启动法务追偿并全额退款",
+          "text": "选人民广场，规格拉满",
           "effects": {
             "treasury": -250,
-            "happiness": -4,
-            "reputation": 4,
-            "inspection": 4,
-            "merit": 2
-          },
-          "color": "blue"
-        },
-        {
-          "text": "紧急请替补艺人救场",
-          "effects": {
-            "treasury": -200,
-            "happiness": 2,
-            "reputation": 1,
-            "gdpMult": 1.01,
-            "merit": 1
+            "reputation": 2,
+            "corruption": 3
           },
           "color": "yellow"
         },
         {
-          "text": "压着不处理等风头过去",
+          "text": "改办小型线上活动",
           "effects": {
-            "happiness": -7,
-            "reputation": -6,
-            "corruption": 3,
-            "merit": -2
+            "treasury": -50,
+            "reputation": -2,
+            "merit": -1
           },
-          "color": "red"
+          "color": "gray"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "“湾区升明月”2026大湾区电影音乐晚会在澳门唱响",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "2026年国际和平日纪念活动在武汉开幕",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0054",
+      "id": "ai_20260921_0005",
       "type": "success",
-      "tag": "外贸园区",
-      "title": "{city}东盟跨境电商枢纽",
-      "desc": "借东博会区域经贸合作提质升级之势，{city}海关总署批复一处综合保税区升级跨境电商综试区。园区一期已建成，但招商团队、报关系统和物流配套仍缺位，商务局希望借势引进头部平台，财政局对前期垫付提出质疑。",
+      "tag": "文旅",
+      "title": "{city}借势\"天涯共此时\"办夜游",
+      "desc": "文旅局拟借\"天涯共此时\"系列文旅活动东风，在古城墙下推中秋诗词夜游，预计投入一百五十万灯光与演艺。方案需平衡本地商户诉求，部分夜市摊主担心客流被拉走，另一些民宿业主则力推联动套餐。",
       "condition": null,
-      "weight": 4,
+      "weight": 3,
       "choices": [
         {
-          "text": "一次性投入配套与招商奖励",
+          "text": "古城与夜市联动，统一票务",
           "effects": {
-            "treasury": -500,
-            "gdpMult": 1.09,
-            "unemployment": -0.02,
-            "reputation": 5,
+            "treasury": -150,
+            "happiness": 6,
+            "gdpMult": 1.04,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "只办官方主场，不涉商户",
+          "effects": {
+            "treasury": -100,
+            "reputation": 1,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "砍掉演艺，仅留灯光",
+          "effects": {
+            "treasury": -50,
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“天涯共此时”系列文旅活动亮相2026ATAS年会",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0006",
+      "type": "warn",
+      "tag": "航天",
+      "title": "{city}航天科普馆遇网络舆情",
+      "desc": "市科技馆新开的航天科普馆被网友吐槽票价高于省博物馆，留言提及神舟乘组在太空顺利工作、某年轻航天员表现优秀，呼吁本地青少年应免费进场。馆长解释设备采购与运维成本高，家长群发起联名要求退票。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "学生与军人免费，补贴运维",
+          "effects": {
+            "treasury": -150,
+            "happiness": 7,
+            "educationIndex": 4,
+            "reputation": 6,
             "merit": 3
           },
           "color": "green"
         },
         {
-          "text": "分期投入按业绩拨付",
+          "text": "维持票价，发布成本说明",
           "effects": {
-            "treasury": -200,
-            "gdpMult": 1.04,
-            "unemployment": -0.01,
-            "reputation": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "暂缓升级维持原状",
-          "effects": {
-            "gdpMult": 0.97,
-            "reputation": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "从“享惠”到“共赢” 东博会促进区域经贸合作提质升级",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0055",
-      "type": "info",
-      "tag": "国际交流",
-      "title": "{city}中俄青年创业营",
-      "desc": "中欧青年领袖对话活动落幕后，{city}一家本地孵化器申请承接中俄青年创业营续场，希望孵化一批跨境贸易和AI项目。但营地涉及外籍人员住宿、签证和意识形态管理，国安部门和教育局担心办出舆情问题。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "办营并配强审核与保障",
-          "effects": {
-            "treasury": -150,
-            "educationIndex": 4,
-            "reputation": 5,
-            "happiness": 3,
-            "inspection": 4,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "缩减规模仅限线上交流",
-          "effects": {
-            "treasury": -50,
-            "educationIndex": 1,
-            "reputation": 1,
-            "inspection": 2,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "以涉外风险为由拒绝",
-          "effects": {
-            "educationIndex": -1,
-            "reputation": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中欧青年领袖对话活动在浙江举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0056",
-      "type": "warn",
-      "tag": "算力监管",
-      "title": "{city}AI公司数据外泄",
-      "desc": "一家落户{city}的AI协作平台被曝将东盟客户训练数据上传至境外服务器，疑似违反数据安全条例。网信办介入调查，企业辩称只是“技术备份”，东盟合作方已要求终止合同，本地就业三百余人悬而未决。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "立案处罚并公开通报",
-          "effects": {
-            "treasury": 100,
-            "corruption": -3,
-            "reputation": 6,
-            "inspection": 8,
-            "unemployment": 0.02,
-            "gdpMult": 0.97,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "约谈整改暂不处罚",
-          "effects": {
-            "corruption": 1,
-            "inspection": 11,
-            "reputation": -2,
-            "gdpMult": 0.99
+            "reputation": -4,
+            "happiness": -3
           },
           "color": "orange"
         },
         {
-          "text": "私下协调放行项目",
+          "text": "全额退票并下架项目",
           "effects": {
-            "corruption": 7,
-            "reputation": -5,
-            "inspection": 14,
-            "merit": -2
+            "treasury": -200,
+            "reputation": 1,
+            "merit": -1
           },
-          "color": "red"
+          "color": "yellow"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "AI拓展中国—东盟产业协作新空间",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "杨利伟：神二十三乘组在太空工作顺利 黎家盈表现非常优秀",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0057",
+      "id": "ai_20260921_0007",
       "type": "info",
-      "tag": "民族教育",
-      "title": "{city}双语研学营开班",
-      "desc": "受“走进五一大会旧址”民族团结教育启发，{city}教育局联合民宗委开办民族地区学生暑期双语研学营，计划接收周边县乡学生三十名。但接送车辆、住宿食堂和翻译老师均面临缺口，财政紧平衡下如何保障成为难题。",
+      "tag": "宣传",
+      "title": "{city}纪录片首映邀请本地取景",
+      "desc": "市宣传部接到国家台函件，拟拍一部丝路主题纪录片，希望{city}作为丝路起点取景地之一，拍摄古丝路驿站遗址与本地匠人。剧组要求开放文物库房，但文旅局担心文物安全与商业开发冲突，预算需协调五十万。",
       "condition": null,
       "weight": 2,
       "choices": [
         {
-          "text": "全额补贴并加派翻译",
-          "effects": {
-            "treasury": -100,
-            "educationIndex": 4,
-            "happiness": 5,
-            "reputation": 4,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "压缩规模仅收二十人",
+          "text": "开放外景，库房不开放",
           "effects": {
             "treasury": -50,
-            "educationIndex": 2,
-            "happiness": 2,
-            "reputation": 1,
-            "merit": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "改为线上课程替代",
-          "effects": {
-            "educationIndex": -2,
-            "happiness": -3,
-            "reputation": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "铸牢共同体 中华一家亲丨走进“五一大会”旧址 感悟民族团结力",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0058",
-      "type": "success",
-      "tag": "经贸",
-      "title": "{city}举办经贸洽谈周",
-      "desc": "参照中美经贸磋商背景，{city}本周举办招商引资洽谈周，拟签约项目23个，涉及新能源、生物医药和智能制造。部分外商对地方审批流程和环保标准提出异议，要求提前明确政策口径。商务局请求市政府协助协调。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "成立专班逐项对接审批",
-          "effects": {
-            "treasury": -100,
-            "reputation": 6,
-            "gdpMult": 1.05,
+            "reputation": 4,
+            "gdpMult": 1.02,
             "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "按标准流程正常推进",
+          "text": "全权配合，包括文物特写",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以安全为由婉拒",
           "effects": {
             "reputation": -2,
-            "gdpMult": 1.01
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "放缓签约，规避环保风险",
-          "effects": {
-            "reputation": -5,
-            "gdpMult": 0.9500000000000001
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0059",
-      "type": "success",
-      "tag": "展会",
-      "title": "东盟客商考察{city}产业园",
-      "desc": "借东博会热度，一批东盟客商考察{city}电子与家电产业园，表达对本地供应链配套和用工稳定度的兴趣。园区现有企业反映招工季节性缺口，物流口岸通关效率成为主要顾虑。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "开通客商绿色通道服务",
-          "effects": {
-            "treasury": -100,
-            "reputation": 7,
-            "gdpMult": 1.06,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "组织常规考察接待",
-          "effects": {
-            "treasury": -50,
-            "reputation": 2,
-            "gdpMult": 1.02
-          },
-          "color": "blue"
-        },
-        {
-          "text": "以流程为由暂缓承诺",
-          "effects": {
-            "reputation": -4,
-            "gdpMult": 0.96
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "探需东博会 这些领域缘何成为东盟客商关注点",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0060",
-      "type": "success",
-      "tag": "外贸",
-      "title": "{city}外贸企业迎来订单潮",
-      "desc": "受区域经贸合作升级带动，{city}纺织服装和家具出口企业陆续接到东南亚订单，旺季产能吃紧。企业希望政府协调运输、报关与用工支持，但也担心补贴集中投放引发行业哄抢。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "发放定向出口稳岗补贴",
-          "effects": {
-            "treasury": -250,
-            "happiness": 4,
-            "unemployment": -0.02,
-            "gdpMult": 1.07,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "搭建共享物流平台",
-          "effects": {
-            "treasury": -100,
-            "reputation": 3,
-            "gdpMult": 1.03
-          },
-          "color": "blue"
-        },
-        {
-          "text": "由企业自行解决运力",
-          "effects": {
-            "reputation": -3,
-            "happiness": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "从“享惠”到“共赢” 东博会促进区域经贸合作提质升级",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0061",
-      "type": "danger",
-      "tag": "体育",
-      "title": "{city}选拔集训突发伤病",
-      "desc": "参考亚运会中国游泳队夺金，{city}选拔集训队备战省运会，一名年轻选手在训练中晕倒送医，初步诊断为过度训练引发心血管不适。家长质疑训练强度与医疗保障，要求彻查并公示。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "引入专业医疗监督训练",
-          "effects": {
-            "treasury": -150,
-            "healthcare": 5,
-            "reputation": 6,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "调整训练计划并约谈教练",
-          "effects": {
-            "treasury": -50,
-            "reputation": 1,
-            "happiness": -1
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "维持原计划以保成绩",
-          "effects": {
-            "reputation": -7,
-            "happiness": -4,
-            "inspection": 8,
             "merit": -1
           },
-          "color": "red"
+          "color": "gray"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "（爱知·名古屋亚运会）综合消息：中国游泳队首日收获六金  中",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "纪录片《丝路青春·乌兹别克斯坦篇》在北京首映",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0062",
-      "type": "corruption",
-      "tag": "反腐",
-      "title": "{city}原体育局领导被审查",
-      "desc": "参照内蒙古自治区体育局原负责人被开除党籍的新闻，{city}纪委监委通报，市体育局原党组书记涉嫌违规插手赛事承办和器材采购，正接受审查调查。多名群众举报其利用职权收受回扣。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "彻查并公开审计结果",
-          "effects": {
-            "treasury": -50,
-            "corruption": -8,
-            "reputation": 5,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "内部处理低调结案",
-          "effects": {
-            "corruption": -2,
-            "reputation": -3,
-            "inspection": 6
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "压下举报，保护涉事领导",
-          "effects": {
-            "corruption": 9,
-            "reputation": -8,
-            "privateAccount": 120,
-            "inspection": 15,
-            "merit": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "内蒙古自治区体育局原党组书记、局长谭景峰被开除党籍",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0063",
-      "type": "success",
-      "tag": "统战",
-      "title": "{city}红色教育基地挂牌",
-      "desc": "参考'五一大会'旧址传承，{city}拟将一处民国时期地方议事旧址改造为民族团结教育基地，预计纳入中小学研学线路。文物部门提醒修缮需保留原貌，教育口希望尽快开放引流。",
+      "id": "ai_20260921_0008",
+      "type": "warn",
+      "tag": "教育",
+      "title": "{city}承办汉语桥选拔赛",
+      "desc": "市教育局接通知承办第十九届汉语桥世界中学生中文比赛的省赛，要求在一周内改造三所中学的赛场。改造涉及音响、直播设备与外籍选手接待，预算缺口约两百万元。部分家长反对占用高考冲刺周场地。",
       "condition": null,
       "weight": 3,
       "choices": [
         {
-          "text": "高标准修缮并配套研学",
+          "text": "启用新建体育馆，避开中学",
           "effects": {
             "treasury": -200,
-            "educationIndex": 6,
+            "happiness": 5,
+            "educationIndex": 3,
             "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "压预算，借现有礼堂",
+          "effects": {
+            "treasury": -100,
+            "reputation": -2,
+            "educationIndex": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推辞承办，让给邻市",
+          "effects": {
+            "reputation": -3,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第十九届“汉语桥”世界中学生中文比赛收官 美国选手夺冠",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0009",
+      "type": "success",
+      "tag": "旅游",
+      "title": "{city}黄金周境外游客暴增",
+      "desc": "临近黄金周，{city}接待境外游客同比翻番，本地免税店、口岸、酒店全满，出租车司机反映外语服务跟不上。市商务局拟增设多语种指引，文旅局担心景区承载力超红线，海关则要求延长查验通道。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "增设多语种热线与志愿者",
+          "effects": {
+            "treasury": -200,
+            "happiness": 8,
+            "reputation": 7,
+            "gdpMult": 1.05,
             "merit": 3
           },
           "color": "green"
         },
         {
-          "text": "最小化修缮快速开放",
+          "text": "限流，每日游客总量封顶",
           "effects": {
-            "treasury": -50,
-            "educationIndex": 2,
-            "reputation": 1
+            "treasury": 50,
+            "happiness": -5,
+            "reputation": -3,
+            "gdpMult": 0.96
+          },
+          "color": "orange"
+        },
+        {
+          "text": "什么都不做，让市场自行调节",
+          "effects": {
+            "happiness": -4,
+            "reputation": -4,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“黄金周”临近 泰国旅游市场迎中国游客接待高峰",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0010",
+      "type": "success",
+      "tag": "算力",
+      "title": "{city}申报国家级算力枢纽",
+      "desc": "工信部发布人工智能算力城市排名，京沪深位列前三。{city}虽未入榜，但本地云数据中心运营商联合提出申报省域算力节点，争取国家补贴三亿元。发改委测算需配套投资八千万用于电力扩容与数据中心建设。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全力申报，配套电力扩容",
+          "effects": {
+            "treasury": -800,
+            "gdpMult": 1.1,
+            "reputation": 7,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "试点申报，先做小规模",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.03,
+            "reputation": 3,
+            "merit": 2
           },
           "color": "blue"
         },
         {
-          "text": "改作商业开发出租",
+          "text": "放弃申报，专注民生",
           "effects": {
-            "treasury": 200,
-            "reputation": -6,
-            "happiness": -3,
+            "gdpMult": 0.9500000000000001,
+            "reputation": -2,
+            "happiness": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "报告：北京、杭州、深圳位列中国人工智能算力城市排名前三",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0011",
+      "type": "danger",
+      "tag": "数据",
+      "title": "{city}数据身份证泄露事件",
+      "desc": "本地一家刚完成数据产权登记的电商企业数据库遭黑产窃取，客户手机号、订单地址被打包出售。市网信办连夜介入，受害商户达上千家，公安立案调查。企业坚称已按新登记要求加固，质疑平台漏洞。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动应急，赔偿商户损失",
+          "effects": {
+            "treasury": -600,
+            "happiness": 5,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓登记新政，全面审计",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 0.9500000000000001,
+            "inspection": 5,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "让企业自行担责，政府免责",
+          "effects": {
+            "reputation": -7,
+            "happiness": -5,
             "corruption": 4
           },
           "color": "red"
@@ -2880,358 +513,184 @@
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "铸牢共同体 中华一家亲丨走进“五一大会”旧址 感悟民族团结力",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "“一次登记、全国通用” 解码“数据产权身份证”",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0064",
-      "type": "info",
-      "tag": "国际",
-      "title": "{city}高校举办战俘史讲座",
-      "desc": "参照威克岛战俘史料解读，{city}一所高校承办二战民间情谊主题学术讲座，邀请海外学者线上参与，拟设中英对照展馆。市文旅局希望借势打造城市人文名片，但也担心议题敏感引发舆情。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "联合文旅打造人文品牌",
-          "effects": {
-            "treasury": -100,
-            "reputation": 5,
-            "educationIndex": 3,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "仅做学术讲座不对外宣传",
-          "effects": {
-            "reputation": 1,
-            "inspection": 2
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "以敏感为由取消活动",
-          "effects": {
-            "reputation": -3,
-            "happiness": -1
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "专家在上海解读《威克岛战俘》背后的中美民间情谊",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0065",
+      "id": "ai_20260921_0012",
       "type": "warn",
       "tag": "舆情",
-      "title": "{city}境外事件引发误读",
-      "desc": "受国际地缘摩擦影响，{city}本地论坛出现'美军将对某海域发动打击'的传言，部分市民焦虑抢购应急物资，超市食盐与净水片短时脱销。网信办请求政府发布权威信息以平抑恐慌。",
+      "title": "{city}体校训练视频被质疑虐待",
+      "desc": "一名体操学员家长在短视频平台发布训练视频，称教练体罚学生，播放量破百万。体校回应称系高强度基础训练，但评论区质疑声浪持续。上级主管部门要求{city}限期调查，涉事教练已暂停执教。",
       "condition": null,
-      "weight": 3,
+      "weight": 4,
       "choices": [
         {
-          "text": "发布权威辟谣并储备物资",
+          "text": "第三方介入，公开调查结果",
           "effects": {
-            "treasury": -50,
-            "reputation": 6,
-            "happiness": 4,
+            "treasury": -100,
+            "reputation": 4,
+            "educationIndex": 2,
             "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "通过社区群发通知",
+          "text": "内部处理，劝家长撤视频",
           "effects": {
-            "happiness": 1,
-            "reputation": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "不予回应静观其变",
-          "effects": {
-            "reputation": -5,
-            "happiness": -3
+            "reputation": -8,
+            "inspection": 7,
+            "corruption": 5
           },
           "color": "red"
+        },
+        {
+          "text": "解散该队，转做普通体育课",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": -3,
+            "happiness": 1
+          },
+          "color": "yellow"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "美官员称美军不会对胡塞武装发动进攻性打击",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操名将张博恒亚运会成功卫冕：全能",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0066",
+      "id": "ai_20260921_0013",
       "type": "info",
-      "tag": "媒体",
-      "title": "{city}融媒体中心扩编",
-      "desc": "参考中新网即时新闻模式，{city}拟新建全媒体即时新闻平台，整合政务、交通、应急信息，目标30分钟内发布本地热点。编制与运维经费缺口较大，财政与编办要求明确绩效指标。",
+      "tag": "外宾",
+      "title": "{city}机场迎外宾专机保障",
+      "desc": "市外办接到通知，某国外长将随元首访华期间在{city}短暂停留，需在支线机场安排专机保障。机场跑道仅能起降中型客机，安保、安检、海关通道均需加急调试，财政额外支出约一百五十万。",
       "condition": null,
       "weight": 2,
       "choices": [
         {
-          "text": "扩编并签订绩效合同",
+          "text": "省厅协调，借用省会机场",
           "effects": {
-            "treasury": -200,
-            "reputation": 5,
-            "happiness": 3,
+            "treasury": -100,
+            "reputation": 4,
             "merit": 2
           },
           "color": "green"
         },
         {
-          "text": "以实习生代偿编制",
+          "text": "本地机场全规格保障",
           "effects": {
-            "treasury": -50,
-            "reputation": 1,
-            "inspection": 3
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "暂缓建设节省预算",
-          "effects": {
-            "reputation": -3
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中新网即时新闻",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0067",
-      "type": "danger",
-      "tag": "民生",
-      "title": "{city}面馆食品安全抽检不合格",
-      "desc": "受民族团结美食周带动，{city}多家面馆客流暴增，抽检发现3家商户使用过期调料、后厨卫生不达标。监管局要求连夜整改，商户抗议称停业将造成重大损失，消费者已投诉多名就餐者腹泻。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "责令停业并公开通报",
-          "effects": {
-            "treasury": -50,
-            "healthcare": 3,
-            "reputation": 4,
-            "happiness": -2,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "限期整改后恢复营业",
-          "effects": {
-            "reputation": 1,
-            "happiness": -1
-          },
-          "color": "yellow"
-        },
-        {
-          "text": "口头提醒不予处罚",
-          "effects": {
-            "corruption": 4,
-            "healthcare": -4,
-            "reputation": -5,
-            "inspection": 8,
-            "privateAccount": 80
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "石榴花开 籽籽同心｜一碗加加面，越“加”越有味",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0068",
-      "type": "success",
-      "tag": "教育",
-      "title": "{city}引入东盟职业教育合作",
-      "desc": "借东博会区域合作升级，{city}职业院校拟与东盟国家共建智能制造实训基地，引进双语课程与设备。教育部门担心师资跟不上，财政部门需配套实训补贴，企业承诺提供实习岗位。",
-      "condition": null,
-      "weight": 3,
-      "choices": [
-        {
-          "text": "全额配套并引进师资",
-          "effects": {
-            "treasury": -250,
-            "educationIndex": 7,
-            "unemployment": -0.03,
-            "reputation": 4,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "校企共建分摊成本",
-          "effects": {
-            "treasury": -50,
-            "educationIndex": 3,
-            "gdpMult": 1.02
-          },
-          "color": "blue"
-        },
-        {
-          "text": "取消合作控制风险",
-          "effects": {
-            "reputation": -3,
-            "educationIndex": -2
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "从“享惠”到“共赢” 东博会促进区域经贸合作提质升级",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0069",
-      "type": "corruption",
-      "tag": "利益",
-      "title": "{city}赛事承办招标疑云",
-      "desc": "参考体育系统反腐案例，{city}筹备市级运动会，承办招标中某公司低价中标后转包给关联公司，监理发现材料以次充好。纪检部门接到匿名举报，要求彻查是否存在围标与利益输送。",
-      "condition": null,
-      "weight": 4,
-      "choices": [
-        {
-          "text": "叫停合同启动专项审计",
-          "effects": {
-            "treasury": -50,
-            "corruption": -7,
-            "reputation": 5,
-            "merit": 3
-          },
-          "color": "green"
-        },
-        {
-          "text": "补签合同继续执行",
-          "effects": {
-            "reputation": -2,
-            "corruption": 3,
+            "treasury": -300,
+            "reputation": 2,
             "inspection": 6
           },
           "color": "yellow"
         },
         {
-          "text": "与投标公司私下和解",
+          "text": "推辞接待，请上级协调",
           "effects": {
-            "corruption": 10,
-            "reputation": -7,
-            "privateAccount": 150,
-            "inspection": 16,
-            "merit": -3
+            "reputation": -4,
+            "merit": -1
           },
           "color": "red"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "内蒙古自治区体育局原党组书记、局长谭景峰被开除党籍",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "王毅同德国外长瓦德富尔通电话",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     },
     {
-      "id": "ai_20260920_0070",
+      "id": "ai_20260921_0014",
       "type": "success",
-      "tag": "产业",
-      "title": "{city}新能源项目签约落地",
-      "desc": "受中美经贸磋商缓和预期影响，外资对本地新能源制造项目态度转暖，{city}洽谈的光储一体化基地拟下月开工。项目涉及土地指标、环评与配套电网，需市政府协调发改与自然资源部门。",
+      "tag": "外交",
+      "title": "{city}入选和平日国际友城",
+      "desc": "国家台办拟在{city}设立国际和平友城项目，对接五国地方政府，开展青年交流、非遗互展。友城办需在一月内完成场地签约与首批互访接待，预算上限两百万元，地方商会表达出资意愿。",
       "condition": null,
       "weight": 3,
       "choices": [
         {
-          "text": "组建项目专班加速审批",
+          "text": "政企共担，启动首批互访",
           "effects": {
-            "treasury": -100,
-            "gdpMult": 1.08,
-            "reputation": 5,
-            "unemployment": -0.02,
+            "treasury": -150,
+            "reputation": 6,
+            "happiness": 4,
             "merit": 3
           },
           "color": "green"
         },
         {
-          "text": "按常规流程审批",
+          "text": "全财政承担，办成样板",
           "effects": {
-            "gdpMult": 1.02,
-            "reputation": 1
-          },
-          "color": "blue"
-        },
-        {
-          "text": "要求企业先缴保证金",
-          "effects": {
-            "treasury": 200,
-            "reputation": -4,
-            "gdpMult": 0.97
-          },
-          "color": "red"
-        }
-      ],
-      "postEffect": null,
-      "source": "ai",
-      "hotTopic": "中美经贸磋商在美国纽约开始举行",
-      "generatedAt": "2026-09-20",
-      "schemaVersion": 1
-    },
-    {
-      "id": "ai_20260920_0071",
-      "type": "info",
-      "tag": "文化",
-      "title": "{city}非遗研学线路开放",
-      "desc": "受东盟客商关注带动，{city}文旅局拟推出非遗研学线路，串联老字号作坊与传统技艺体验点。运营方希望政府补贴门票与交通，教育部门希望纳入中小学社会实践学分，存在经费与排期冲突。",
-      "condition": null,
-      "weight": 2,
-      "choices": [
-        {
-          "text": "补贴线路并纳入学分",
-          "effects": {
-            "treasury": -100,
-            "educationIndex": 4,
-            "happiness": 4,
-            "reputation": 3,
-            "merit": 2
-          },
-          "color": "green"
-        },
-        {
-          "text": "仅对外开放商业运营",
-          "effects": {
-            "treasury": 50,
-            "educationIndex": -1,
-            "reputation": 1
+            "treasury": -300,
+            "reputation": 4,
+            "corruption": 3,
+            "inspection": 4
           },
           "color": "yellow"
         },
         {
-          "text": "暂缓开放控制支出",
+          "text": "降级为线上交流活动",
           "effects": {
-            "happiness": -2,
-            "reputation": -2
+            "treasury": -50,
+            "reputation": -2,
+            "merit": -1
           },
-          "color": "red"
+          "color": "gray"
         }
       ],
       "postEffect": null,
       "source": "ai",
-      "hotTopic": "探需东博会 这些领域缘何成为东盟客商关注点",
-      "generatedAt": "2026-09-20",
+      "hotTopic": "2026年国际和平日纪念活动在武汉开幕",
+      "generatedAt": "2026-09-21",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260921_0015",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "{city}丝路驿站改造疑标黑",
+      "desc": "市纪委监委收到举报，{city}丝路驿站文旅改造工程项目存在围标迹象。中标单位为本地一家成立仅半年的工程公司，其法人与某副局长存在亲属关系。项目金额三千二百万，工程款已支付百分之六十。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "配合纪委，暂停付款彻查",
+          "effects": {
+            "treasury": -500,
+            "corruption": -8,
+            "reputation": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "私下约谈局长，内部消化",
+          "effects": {
+            "corruption": 8,
+            "inspection": 10,
+            "reputation": -4
+          },
+          "color": "red"
+        },
+        {
+          "text": "继续付款，等调查结论",
+          "effects": {
+            "treasury": -200,
+            "corruption": 5,
+            "reputation": -3,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "纪录片《丝路青春·乌兹别克斯坦篇》在北京首映",
+      "generatedAt": "2026-09-21",
       "schemaVersion": 1
     }
   ]

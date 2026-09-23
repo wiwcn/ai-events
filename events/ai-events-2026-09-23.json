@@ -1,0 +1,3900 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T19:24:09.778Z",
+  "schemaVersion": 1,
+  "model": "sensenova-6.8-flash-lite",
+  "hotTopics": [
+    "中新网即时新闻",
+    "第十三届丝绸之路国际电影节闭幕 导演谢飞获终身成就奖",
+    "（爱知·名古屋亚运会）中国体操女团实现亚运会14连冠",
+    "（爱知·名古屋亚运会）综合消息：中国泳军单日获六金 体操女团实现亚运会14连冠",
+    "伊朗总统：愿意谈判合作 不接受强权威胁",
+    "警惕套路！利用AI批量生成软文“搭车”引流被判侵权",
+    "中国成功发射卫星互联网低轨26组卫星",
+    "五万张卡片与三千场球赛：美国教师池欧的洛阳十二载",
+    "中国科学院院士傅伯杰荣获2026年沃尔沃环境奖",
+    "广西壮族自治区贵港市政协副主席黄星荣接受审查调查",
+    "原重庆新华书店集团一级专务肖陵被开除党籍",
+    "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+    "海南热带海洋学院原副院长吴清江接受审查调查",
+    "南北剧种同台竞艳 十四位“梅花奖”名家齐聚合肥",
+    "七千柿树结硕果 杭州西溪火柿映秋吸引游人",
+    "贵州黔西：丰收节里丰收忙",
+    "河南安阳：中秋临近酥皮月饼走俏市场",
+    "（爱知·名古屋亚运会）中国队获亚运会男女4X100米混合泳接力冠军",
+    "我国成功发射卫星互联网低轨26组卫星",
+    "三星堆-金沙多学科研究新成果在北京发布"
+  ],
+  "count": 87,
+  "events": [
+    {
+      "id": "ai_20260923_0001",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}柿子节游人如织",
+      "desc": "秋分之后，{city}西郊万亩柿林挂满火红果实，游客携家带口纷至沓来，网红打卡点一度拥堵。本地民宿订单暴涨，但道路与公厕压力骤增，部分商户借机涨价。市文旅局希望借势打造秋季招牌活动，同时控制安全与秩序风险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "加派警力与环卫，免费开放停车场",
+          "effects": {
+            "treasury": -100,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "与商户联合推出限时优惠套餐",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "gdpMult": 1.03,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "限制单日游客入园人数",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "gdpMult": 0.97
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "七千柿树结硕果 杭州西溪火柿映秋吸引游人",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0002",
+      "type": "corruption",
+      "tag": "廉政",
+      "title": "{city}出版系统落马官员",
+      "desc": "纪委监委通报，{city}原新华书店集团一级专务某某人严重违纪违法，收受礼品礼金、违规插手出版项目招标，被开除党籍并移送司法。群众对文化系统腐败反应强烈，要求彻查同系统关联人员。上级要求举一反三，开展全行业警示教育。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "联合审计开展全系统专项清查",
+          "effects": {
+            "treasury": -50,
+            "corruption": -8,
+            "inspection": 6,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织全行业廉政警示教育大会",
+          "effects": {
+            "corruption": -4,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓相关项目招标等待结论",
+          "effects": {
+            "gdpMult": 0.98,
+            "inspection": 4,
+            "reputation": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0003",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}发布考古新成果",
+      "desc": "依托{city}出土青铜器与古遗址，多学科联合研究团队召开成果发布会，公布碳十四测年、DNA分析与冶金工艺等多项突破。当地博物馆预约爆满，周边文创商店销售额翻倍。学界期待后续开放更多田野资料与数字化档案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "投入经费开放数字考古数据库",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 6,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "推出考古主题研学旅游路线",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.04,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅举办新闻发布会不做延伸",
+          "effects": {
+            "reputation": -2,
+            "educationIndex": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "三星堆-金沙多学科研究新成果在北京发布",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0004",
+      "type": "warn",
+      "tag": "外贸",
+      "title": "{city}外贸企业遇强压",
+      "desc": "受国际地缘摩擦影响，{city}两家主要出口企业收到美方威胁性信函，要求降低对特定国家供货比例，否则面临关税与审查。企业连夜召开董事会，员工担心订单被砍、产线停工。商务局希望政府出面协调应对，避免波及上下游。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "组织法律援助团对接企业谈判",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "启动外贸稳定基金补贴受影响订单",
+          "effects": {
+            "treasury": -150,
+            "unemployment": -0.02,
+            "happiness": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "提醒企业自行应对不介入",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3,
+            "gdpMult": 0.97
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "伊朗总统：愿意谈判合作 不接受强权威胁",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0005",
+      "type": "success",
+      "tag": "民生",
+      "title": "{city}酥皮月饼热销",
+      "desc": "中秋临近，{city}老字号糕点铺排队两小时仍供不应求，本地酥皮月饼因低糖低油配方受到年轻人追捧。多家烘焙店临时扩产，但产能受限，网络代购与黄牛抢票现象浮现。市监部门担心食品安全与价格炒作。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "抽检产品并公示合格批次",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "支持老字号扩产发放设备补贴",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.03,
+            "unemployment": -0.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许市场自由定价与代购",
+          "effects": {
+            "happiness": -3,
+            "corruption": 3,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南安阳：中秋临近酥皮月饼走俏市场",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0006",
+      "type": "corruption",
+      "tag": "纪检",
+      "title": "{city}政协领导受审查",
+      "desc": "上级纪委监委通报，{city}某政协副主席接受纪律审查和监察调查，涉嫌在工程发包与征地补偿中收受好处费。其分管科室工作人员情绪波动，部分项目审批被临时叫停。群众呼吁同步开展同级干部廉政自查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "联合开展同级干部廉政自查",
+          "effects": {
+            "corruption": -7,
+            "inspection": 7,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂停其分管领域项目审批",
+          "effects": {
+            "gdpMult": 0.97,
+            "inspection": 5,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持正常审批节奏避免扰动",
+          "effects": {
+            "corruption": 4,
+            "inspection": 3,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西壮族自治区贵港市政协副主席黄星荣接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0007",
+      "type": "success",
+      "tag": "科技",
+      "title": "{city}卫星互联网落地",
+      "desc": "低轨卫星互联网新一组卫星成功发射，{city}作为地面站试点城市之一，多家物流企业已申请接入测试。偏远乡镇山区将率先受益，偏远矿区与学校有望实现千兆接入。但基站建设与频谱协调仍需财政投入。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "拨款建设偏远地区地面站",
+          "effects": {
+            "treasury": -200,
+            "educationIndex": 4,
+            "healthcare": 3,
+            "gdpMult": 1.03,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "与运营商共建共享降低投入",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.02,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓试点等待更多技术成熟",
+          "effects": {
+            "gdpMult": 0.98,
+            "reputation": -3
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "我国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0008",
+      "type": "info",
+      "tag": "舆情",
+      "title": "{city}突发舆情刷屏",
+      "desc": "某地即时新闻推送引发全国关注，{city}相关话题被网友转发评论激增，涉及城市管理细节被放大讨论。本地论坛、短视频平台同步发酵，部分断章取义视频带偏舆论。宣传部要求迅速核实并发布权威通报。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "24小时内发布权威通报与回应",
+          "effects": {
+            "reputation": 5,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "邀请媒体记者实地采访",
+          "effects": {
+            "reputation": 3,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "冷处理等待舆情自然消散",
+          "effects": {
+            "reputation": -6,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0009",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}外籍教师深耕十二载",
+      "desc": "一位在华任教十二年的外籍教师向{city}捐赠三万张教学卡片与三千场比赛记录档案，希望建立青少年体育与语言融合的公益项目。当地教育局与团委反响热烈，但场馆、师资与经费配套仍存缺口。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨款配套建设青少年体育语言中心",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 6,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "依托现有学校场地合作共建",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 3,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅接受档案捐赠不建实体项目",
+          "effects": {
+            "educationIndex": -2,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "五万张卡片与三千场球赛：美国教师池欧的洛阳十二载",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0010",
+      "type": "warn",
+      "tag": "通信",
+      "title": "{city}偏远山区通信盲区",
+      "desc": "继低轨卫星互联网发射成功，{city}多个偏远山区与地质灾害频发点位反映传统基站长期欠费停摆，群众通话依赖山区小店代打。应急部门提醒汛期预警信息难以送达。财政与通信部门联合评估，短期修复与长期替代方案存在分歧。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "优先修复现有基站并接入卫星备份",
+          "effects": {
+            "treasury": -150,
+            "healthcare": 2,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "全面替换为卫星直连终端",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.03,
+            "healthcare": 3,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状仅发放应急通信补贴",
+          "effects": {
+            "treasury": -50,
+            "happiness": -3,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0011",
+      "type": "warn",
+      "tag": "文旅",
+      "title": "{city}柿子采摘季拥堵",
+      "desc": "秋季采摘旺季，{city}东郊果园日均接待车辆超三千辆，周边村道出现长时间拥堵，部分游客与村民因停车位发生口角。交警与城管连夜协调，但果园周边配套设施明显不足，舆情开始发酵。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "增设临时停车场与接驳班车",
+          "effects": {
+            "treasury": -50,
+            "happiness": 5,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "实施果园门票预约制",
+          "effects": {
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "限流封路保障村民出行",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "gdpMult": 0.97
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "七千柿树结硕果 杭州西溪火柿映秋吸引游人",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0012",
+      "type": "corruption",
+      "tag": "文化",
+      "title": "{city}出版项目围标疑云",
+      "desc": "针对近期某出版系统反腐通报，{city}审计部门发现两家出版社年度图书印制项目中存在投标文件雷同、评标专家集中来源可疑等问题。相关项目负责人已被约谈，但尚未启动立案程序。业内呼吁建立更严格的招标监督机制。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "立案调查并公开处理结果",
+          "effects": {
+            "corruption": -8,
+            "inspection": 8,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "修订招标细则加强专家轮换",
+          "effects": {
+            "corruption": -4,
+            "merit": 1,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "内部整改不公开通报",
+          "effects": {
+            "corruption": 3,
+            "reputation": -4,
+            "inspection": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0013",
+      "type": "success",
+      "tag": "文博",
+      "title": "{city}古遗址数字复原",
+      "desc": "借助多学科考古新成果，{city}市文物局联合高校完成一处重要古遗址的三维数字复原，公众可通过官方小程序免费参观。研学团队与高校学生报名踊跃，但服务器扩容与后续维护成本需要评估。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "扩容服务器并开放API接口",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 5,
+            "happiness": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "与旅游平台合作推出文创门票",
+          "effects": {
+            "treasury": 50,
+            "gdpMult": 1.02,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "限制访问量保护文物数据",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "三星堆-金沙多学科研究新成果在北京发布",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0014",
+      "type": "warn",
+      "tag": "外交",
+      "title": "{city}外资项目谈判僵局",
+      "desc": "受国际形势影响，{city}某外资装备制造项目在中方合作条款上陷入僵局，对方提出增加对等反制条款。项目涉及三百余岗位与配套供应链，地方招商局与企业均担忧谈判破裂导致投资撤走。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "组织专班驻厂协助谈判",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.03,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "提供土地与税收优惠挽留",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.04,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "接受对方条款尽快签约",
+          "effects": {
+            "corruption": 5,
+            "reputation": -3,
+            "gdpMult": 1.02
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "伊朗总统：愿意谈判合作 不接受强权威胁",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0015",
+      "type": "success",
+      "tag": "产业",
+      "title": "{city}月饼产业链升级",
+      "desc": "中秋前夕，{city}传统糕点产业借酥皮月饼走红顺势推动产业升级，多家企业引入冷链与自动化生产线，并联合农科院研发低糖配方。订单外溢带动包装、物流等上下游就业，但也出现同业恶性价格竞争苗头。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "设立产业基金扶持技改升级",
+          "effects": {
+            "treasury": -150,
+            "gdpMult": 1.05,
+            "unemployment": -0.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织行业联盟规范价格行为",
+          "effects": {
+            "reputation": 3,
+            "corruption": -3,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任市场自由竞争",
+          "effects": {
+            "unemployment": 0.01,
+            "corruption": 2,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南安阳：中秋临近酥皮月饼走俏市场",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0016",
+      "type": "corruption",
+      "tag": "反腐",
+      "title": "{city}政协原副主席被查",
+      "desc": "{city}市政协原党组成员、副主席芮某某被省纪委监委立案审查调查，涉嫌严重违纪违法，现已采取留置措施。此前该官员主政期间，在城建、教育等领域多次为特定企业违规开绿灯，被多名干部实名举报。调查牵出涉及工程款挪用、亲属经商等线索，群众强烈要求彻查到底。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全力配合上级纪委监委彻查到底",
+          "effects": {
+            "corruption": -8,
+            "reputation": 6,
+            "happiness": 3,
+            "merit": 2,
+            "inspection": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调处理，避免影响本地招商",
+          "effects": {
+            "corruption": 4,
+            "reputation": -3,
+            "happiness": -2,
+            "inspection": 8,
+            "merit": -1
+          },
+          "color": "orange"
+        },
+        {
+          "text": "同步自查本地干部队伍作风",
+          "effects": {
+            "corruption": -5,
+            "reputation": 4,
+            "inspection": 3,
+            "happiness": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0017",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}运动员亚运会夺金",
+      "desc": "亚运会激战正酣，{city}培养的游泳名将单日连夺两金，体操队团体项目也闯入决赛。消息传出，全城球迷自发聚集市中心广场大屏前欢呼，多家媒体连线采访。市政府接到祝贺电话上千通，家长纷纷送锦旗到学校，要求追加体育投入。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加专项奖金并扩建训练馆",
+          "effects": {
+            "treasury": -800,
+            "happiness": 6,
+            "reputation": 4,
+            "educationIndex": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放小额奖金并开表彰会",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅口头表扬，不做额外投入",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）综合消息：中国泳军单日获六金 体操女团",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0018",
+      "type": "success",
+      "tag": "科技",
+      "title": "低轨卫星覆盖{city}全域",
+      "desc": "我国成功发射卫星互联网低轨卫星组，{city}被列入首批地面站试点城市。山区、乡村通信长期受地形限制，群众多次反映信号不稳。此次组网后，全市可实现5G与卫星融合覆盖，但地面配套设施建设资金尚未落实。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "自筹资金启动地面站配套建设",
+          "effects": {
+            "treasury": -1500,
+            "reputation": 5,
+            "happiness": 4,
+            "gdpMult": 1.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "申报专项债并引入企业投资",
+          "effects": {
+            "treasury": -300,
+            "reputation": 3,
+            "gdpMult": 1.02,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓建设，等待上级配套",
+          "effects": {
+            "happiness": -1,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "我国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0019",
+      "type": "warn",
+      "tag": "外交",
+      "title": "{city}外向企业受国际局势冲击",
+      "desc": "国际形势骤然紧张，某大国释放强硬信号，多家{city}出口企业接到海外客户订单推迟通知。全市外贸依存度高达40%，电子、纺织企业订单量短期下滑两成，工人面临加班取消、待岗风险，行业商会紧急召开应对会议。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动外贸纾困基金补贴企业",
+          "effects": {
+            "treasury": -1200,
+            "unemployment": -0.02,
+            "happiness": 3,
+            "reputation": 3,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织企业开拓一带一路市场",
+          "effects": {
+            "treasury": -400,
+            "gdpMult": 1.01,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由企业自行应对，政府不介入",
+          "effects": {
+            "unemployment": 0.03,
+            "happiness": -3,
+            "reputation": -2,
+            "gdpMult": 0.96
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "伊朗总统：愿意谈判合作 不接受强权威胁",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0020",
+      "type": "warn",
+      "tag": "AI侵权",
+      "title": "{city}企业AI软文批量侵权",
+      "desc": "网监部门通报，{city}多家MCN机构利用AI批量生成软文，盗用本地知名作家、博主内容引流，被权利人集体起诉。法院判定构成侵权，需赔偿并下架违规内容，涉事公司涉及从业人员近千人，部分员工面临失业风险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全市清查并依法从严处罚",
+          "effects": {
+            "treasury": -150,
+            "reputation": 4,
+            "happiness": 2,
+            "unemployment": 0.01,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈企业并推动合规转型",
+          "effects": {
+            "treasury": -100,
+            "reputation": 2,
+            "gdpMult": 0.99
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂不处理，保护本土互联网企业",
+          "effects": {
+            "reputation": -4,
+            "happiness": -2,
+            "corruption": 3,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "警惕套路！利用AI批量生成软文\"搭车\"引流被判侵权",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0021",
+      "type": "info",
+      "tag": "民生",
+      "title": "{city}便民热线24小时在线",
+      "desc": "为响应群众'随手办'诉求，{city}政务服务热线升级为7×24小时智能+人工双通道。试点首周受理工单1.2万件，投诉量集中在物业、占道经营、垃圾清运等领域，群众满意度显著提升，但坐席人员超负荷运转。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "扩招坐席并培训应急能力",
+          "effects": {
+            "treasury": -350,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入第三方外包分流",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，控制编制成本",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0022",
+      "type": "corruption",
+      "tag": "反腐",
+      "title": "{city}新华书店系统腐败案",
+      "desc": "原{city}新华书店集团一级专务肖某某被开除党籍，其利用教材征订、门店出租权限，长期收受供应商回扣、违规插手工程招标。案件牵涉12个县区分社，多名中层干部接受调查，教育系统师生和家长要求彻查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面清查教育系统采购链条",
+          "effects": {
+            "corruption": -9,
+            "reputation": 5,
+            "happiness": 4,
+            "educationIndex": 2,
+            "merit": 3,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅处理举报人提及的少数人",
+          "effects": {
+            "corruption": 3,
+            "reputation": -2,
+            "inspection": 5
+          },
+          "color": "orange"
+        },
+        {
+          "text": "推动招标全流程数字化公开",
+          "effects": {
+            "treasury": -300,
+            "corruption": -5,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0023",
+      "type": "corruption",
+      "tag": "审查",
+      "title": "{city}政协副主席被查",
+      "desc": "{city}政协副主席黄某某涉嫌严重违纪违法，目前正接受省纪委监委纪律审查和监察调查。据传其分管城建与文旅领域多年，近期多个项目出现结算异常。当地舆论哗然，多名政协委员联名递交监督建议书。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "配合调查并主动移交相关项目档案",
+          "effects": {
+            "corruption": -7,
+            "reputation": 5,
+            "happiness": 3,
+            "merit": 2,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "召开专题民主生活会深刻反思",
+          "effects": {
+            "corruption": -4,
+            "reputation": 2,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "低调应对，避免引发连锁反应",
+          "effects": {
+            "corruption": 4,
+            "reputation": -4,
+            "inspection": 8,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西壮族自治区贵港市政协副主席黄星荣接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0024",
+      "type": "warn",
+      "tag": "产业",
+      "title": "{city}外贸订单大幅下滑",
+      "desc": "受国际地缘冲突影响，{city}主要出口产品所在海外市场订单骤降三成，多家企业启动减员程序，预计影响就业5000余人。港口吞吐量和工厂开工率同步下行，本地物流、餐饮等配套行业也受到波及。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "发放稳岗补贴和减税降费",
+          "effects": {
+            "treasury": -1000,
+            "unemployment": -0.03,
+            "happiness": 3,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "推动外贸转内销市场",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.01,
+            "unemployment": -0.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由企业自行消化压力",
+          "effects": {
+            "unemployment": 0.04,
+            "happiness": -4,
+            "gdpMult": 0.9500000000000001,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "伊朗总统：愿意谈判合作 不接受强权威胁",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0025",
+      "type": "success",
+      "tag": "航天",
+      "title": "{city}建地面卫星接收站",
+      "desc": "卫星互联网工程新一轮组网发射成功，{city}郊外山区被选为重要地面接收站选址。当地村民既期待就业机会又担忧征地补偿，村委会已组织三场说明会，市发改委要求30日内提交征地及补偿方案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "足额补偿并按期交付场地",
+          "effects": {
+            "treasury": -1800,
+            "reputation": 4,
+            "happiness": 3,
+            "gdpMult": 1.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "以地入股换长期收益分成",
+          "effects": {
+            "treasury": -400,
+            "gdpMult": 1.04,
+            "happiness": 1,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压价补偿，节省财政开支",
+          "effects": {
+            "treasury": 200,
+            "happiness": -5,
+            "reputation": -3,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0026",
+      "type": "warn",
+      "tag": "文娱",
+      "title": "{city}戏曲进校园遇冷",
+      "desc": "全市中小学'戏曲进校园'活动启动，但部分学校以课程紧张为由敷衍安排，学生参与度低。家长质疑财政投入产出比，市文旅局与教育局协调后建议引入名家驻校、增设选修课等形式提升吸引力。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加经费请名家驻校授课",
+          "effects": {
+            "treasury": -500,
+            "educationIndex": 3,
+            "happiness": 3,
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "改为课后社团选修形式",
+          "effects": {
+            "educationIndex": 1,
+            "happiness": 1,
+            "treasury": -100
+          },
+          "color": "blue"
+        },
+        {
+          "text": "终止活动，节省教育经费",
+          "effects": {
+            "treasury": 200,
+            "educationIndex": -2,
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "南北剧种同台竞艳 十四位\"梅花奖\"名家齐聚合肥",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0027",
+      "type": "danger",
+      "tag": "舆情",
+      "title": "{city}官员违纪引发舆情",
+      "desc": "{city}某区副区长涉嫌违纪消息在网络发酵，相关短视频播放量破千万。网民质疑本地政治生态，多地媒体转载，上级纪委已介入。市政府连夜召开新闻发布会，要求相关部门说明情况并稳定舆情。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "主动通报进展并接受监督",
+          "effects": {
+            "corruption": -8,
+            "reputation": 6,
+            "happiness": 3,
+            "merit": 3,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发简短声明不透露细节",
+          "effects": {
+            "reputation": -2,
+            "happiness": -1,
+            "inspection": 6
+          },
+          "color": "orange"
+        },
+        {
+          "text": "删除相关短视频并追责平台",
+          "effects": {
+            "reputation": -5,
+            "happiness": -3,
+            "corruption": 2,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0028",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}承办省级体操集训",
+      "desc": "省体操队将{city}体育宫定为亚运会后封闭集训基地，为期三个月。全市迎来专业运动员、教练员近百人，本地餐饮、酒店订单翻倍，学校体育社团也迎来观摩交流机会，市体育局建议提升场馆硬件水平。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "升级场馆硬件并配套保障",
+          "effects": {
+            "treasury": -900,
+            "happiness": 4,
+            "reputation": 4,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "免费开放场馆供市民观赛",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状不投入改造",
+          "effects": {
+            "reputation": -1,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）综合消息：中国泳军单日获六金 体操女团",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0029",
+      "type": "success",
+      "tag": "科技",
+      "title": "{city}低轨卫星发射成功",
+      "desc": "我国卫星互联网低轨26组卫星成功发射，{city}作为配套产业基地之一，承担部分通信设备与地面站建设任务。项目进入验收阶段，地方财政与就业双受益，但需应对工期压力与环保评估。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "成立专班加快验收",
+          "effects": {
+            "treasury": 600,
+            "reputation": 4,
+            "gdpMult": 1.05,
+            "unemployment": -0.01
+          },
+          "color": "green"
+        },
+        {
+          "text": "分批推进兼顾环保",
+          "effects": {
+            "treasury": 300,
+            "reputation": 2,
+            "happiness": 2,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓项目观望市场",
+          "effects": {
+            "treasury": -100,
+            "reputation": -3,
+            "gdpMult": 0.96
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "我国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0030",
+      "type": "corruption",
+      "tag": "反腐",
+      "title": "{city}教育口原副职被调查",
+      "desc": "市属一所高校原副职领导因涉嫌违规审批基建项目与收受供应商利益被上级纪委监委审查调查。其在职期间负责的体育馆改造工程账目不清，引发师生与家长质疑，舆论压力骤增。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动专项审计并公开",
+          "effects": {
+            "treasury": -400,
+            "reputation": 5,
+            "corruption": -8,
+            "inspection": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部核查低调处理",
+          "effects": {
+            "treasury": -100,
+            "reputation": -2,
+            "corruption": -2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以稳定为由延后公布",
+          "effects": {
+            "reputation": -6,
+            "corruption": 3,
+            "inspection": 8,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "海南热带海洋学院原副院长吴清江接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0031",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}组建省队混合泳接力",
+      "desc": "受亚运会混合泳接力夺冠的激励，{city}市体育局决定组建市级混合泳接力代表队，备战下届省运会。游泳协会已联系到多位退役省队教练，但财政预算吃紧，器材、训练基地改造、外训差旅等费用估算近800万。家长代表希望借势普及少儿游泳课程，但教练团队担心训练资源被摊薄。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额拨付800万组建代表队",
+          "effects": {
+            "treasury": -800,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "拨400万，其余社会筹款",
+          "effects": {
+            "treasury": -400,
+            "happiness": 3,
+            "reputation": 2,
+            "corruption": -2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "改为补贴少儿游泳推广",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "healthcare": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获亚运会男女4X100米混合泳接",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0032",
+      "type": "info",
+      "tag": "文旅",
+      "title": "{city}三星堆文物特展开幕",
+      "desc": "市文旅局拟引进三星堆-金沙多学科研究成果特展，展品逾200件，预计举办60天。博物馆改造与安保费用需300万，但文旅部门预测可带动周边住宿餐饮消费，预计带来2500万间接税收。同时有市民担心特展挤压本地非遗展档期。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额支持特展并配套营销",
+          "effects": {
+            "treasury": -500,
+            "reputation": 5,
+            "happiness": 3,
+            "gdpMult": 0.9
+          },
+          "color": "green"
+        },
+        {
+          "text": "分档期与本地非遗联展",
+          "effects": {
+            "treasury": -200,
+            "reputation": 3,
+            "educationIndex": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "因预算紧张取消特展",
+          "effects": {
+            "reputation": -4,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "三星堆-金沙多学科研究新成果在北京发布",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0033",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}突发不实消息刷屏",
+      "desc": "今日{city}本地论坛突传一则'某主干道塌陷'的假消息，配图系外网旧照拼接，短时间内转发破万。市应急管理局已接到上百条市民询问，119、120、市政热线被占线。网信办要求两小时内核查并回应，否则可能升级为省级舆情事件。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "连夜核查并召开新闻发布会",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "委托平台发情况说明",
+          "effects": {
+            "reputation": 2,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不回应，让消息自然冷却",
+          "effects": {
+            "reputation": -8,
+            "happiness": -5,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0034",
+      "type": "success",
+      "tag": "农旅",
+      "title": "{city}柿子节引万人打卡",
+      "desc": "郊区青坪村七千亩柿树挂果，'火柿映秋'景观吸引周边城市游客涌入。村委会申请设立为期10天的柿子节，需要搭建舞台、安保、交通疏导等，预算约260万。但部分村民担心过度商业化破坏田园风貌，环保NGO呼吁限制单日客流。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额拨款办柿子节",
+          "effects": {
+            "treasury": -250,
+            "happiness": 4,
+            "reputation": 4,
+            "gdpMult": 0.9
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入企业赞助共担成本",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "corruption": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅做交通疏导不发补贴",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "七千柿树结硕果 杭州西溪火柿映秋吸引游人",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0035",
+      "type": "warn",
+      "tag": "外交",
+      "title": "{city}涉外企业面临谈判压力",
+      "desc": "受国际局势影响，{city}经开区一家中资企业与伊朗合作方就能源设备采购合同纠纷升级，对方威胁中止合作。企业请求市商务局介入协调，但法律团队提示若强硬施压可能波及全市对中东贸易信心。海关总署已关注此事。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "商务局牵头斡旋并垫付关税",
+          "effects": {
+            "treasury": -200,
+            "reputation": 3,
+            "gdpMult": 0.9,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "建议企业走国际仲裁",
+          "effects": {
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不介入，由企业自行处置",
+          "effects": {
+            "reputation": -4,
+            "gdpMult": 0.9
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "伊朗总统：愿意谈判合作 不接受强权威胁",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0036",
+      "type": "corruption",
+      "tag": "审查",
+      "title": "{city}教育局原副局长被查",
+      "desc": "市纪委监委通报，市教育局原副局长王某涉嫌严重违纪违法，正接受审查调查。王某曾主管教育基建与校服采购，其在任期间多所学校教学楼改造项目存在围标疑云。市人大要求一周内提交专项审计报告，家长群情绪激动。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "彻查并公开整改报告",
+          "effects": {
+            "treasury": -100,
+            "corruption": -8,
+            "reputation": 5,
+            "inspection": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部自查低调处理",
+          "effects": {
+            "corruption": -2,
+            "reputation": -3,
+            "inspection": 8
+          },
+          "color": "orange"
+        },
+        {
+          "text": "拖延调查，等待上级指示",
+          "effects": {
+            "corruption": 4,
+            "reputation": -6,
+            "happiness": -4,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "海南热带海洋学院原副院长吴清江接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0037",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}承办南北剧种联演",
+      "desc": "市委宣传部争取到'南北剧种同台'分会场资格，14位梅花奖名家将于市大剧院连续演出7晚。剧场改造、演员接待、宣传物料等费用约420万。工会代表希望增加基层职工专场，文旅局则担心场次加多拉高成本。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额支持并增设职工专场",
+          "effects": {
+            "treasury": -500,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "只保障7晚正式演出",
+          "effects": {
+            "treasury": -300,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压缩到3晚并缩减接待规格",
+          "effects": {
+            "treasury": -150,
+            "reputation": -2,
+            "happiness": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "南北剧种同台竞艳 十四位“梅花奖”名家齐聚合肥",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0038",
+      "type": "info",
+      "tag": "教育",
+      "title": "{city}外派教师扎根十二年",
+      "desc": "本市一位赴美任教的李老师即将结束十二年海外支教，回国后拟在{city}创办公益英语角，计划面向留守儿童。她已联系到5万张自制学习卡片和三千场球赛的经验素材，但公益场地、师资培训需政府配套约150万。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "划拨场地并配套150万",
+          "effects": {
+            "treasury": -150,
+            "educationIndex": 5,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "提供场地但自筹资金",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不予支持，引导社会捐资",
+          "effects": {
+            "reputation": -3,
+            "educationIndex": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "五万张卡片与三千场球赛：美国教师池欧的洛阳十二载",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0039",
+      "type": "warn",
+      "tag": "网安",
+      "title": "{city}AI软文侵权案告急",
+      "desc": "市网信办接到举报，本地一家MCN机构利用AI批量生成软文'搭车'本地政务热点引流，侵权案件已立案3起。该机构粉丝量过百万，波及多家本地品牌。市司法局请求网信办联合处置，但业内担心过度监管影响自媒体生态。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "约谈机构并出台AI内容规范",
+          "effects": {
+            "treasury": -50,
+            "corruption": -3,
+            "reputation": 4,
+            "inspection": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅对涉事MCN开罚单",
+          "effects": {
+            "treasury": 50,
+            "corruption": -1,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不予干预，让市场调节",
+          "effects": {
+            "corruption": 4,
+            "reputation": -4,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "警惕套路！利用AI批量生成软文“搭车”引流被判侵权",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0040",
+      "type": "success",
+      "tag": "影视",
+      "title": "{city}丝绸之路电影节分会场",
+      "desc": "{city}被选为丝绸之路国际电影节分会场，将举办3场中外影片展映与导演见面会。市电影局申请改造老城区影院、增派安保与双语志愿者，预算约380万。本地影视公司希望借此对接国际合作项目，但担心档期与国庆叠加。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额拨款并对接产业合作",
+          "effects": {
+            "treasury": -500,
+            "reputation": 5,
+            "happiness": 3,
+            "gdpMult": 0.9,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "缩减展映场次保重点",
+          "effects": {
+            "treasury": -250,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "改期到次年淡季举办",
+          "effects": {
+            "treasury": -100,
+            "reputation": -3,
+            "happiness": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "第十三届丝绸之路国际电影节闭幕 导演谢飞获终身成就奖",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0041",
+      "type": "danger",
+      "tag": "灾害",
+      "title": "{city}暴雨致古运河水位告急",
+      "desc": "受台风外围影响，{city}连日暴雨，古运河水位超警戒1.2米，沿岸300余户居民已启动转移预案。市防汛指挥部请求紧急调用沙袋、抽水泵船，并申请启动市级应急财政。文旅部门担忧古运河沿岸景点受损影响黄金周收入。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动一级响应并全力转移",
+          "effects": {
+            "treasury": -800,
+            "happiness": 4,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "局部转移并加强巡查",
+          "effects": {
+            "treasury": -300,
+            "happiness": 2,
+            "reputation": 2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "仅加固堤坝暂不转移",
+          "effects": {
+            "treasury": -100,
+            "happiness": -6,
+            "reputation": -5,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0042",
+      "type": "corruption",
+      "tag": "招投标",
+      "title": "{city}安置房项目围标疑云",
+      "desc": "市纪委监委接到匿名举报，{city}城南安置项目招标中三家施工单位投标文件格式雷同，疑似围标。项目涉及资金1.2亿，若查实需重新招标，将延迟交付6个月，影响3000户回迁。开发商联名施压要求'不影响工程进度'。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "彻底停标彻查并追责",
+          "effects": {
+            "corruption": -10,
+            "reputation": 6,
+            "happiness": -2,
+            "inspection": 8,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "补充审查但不停工",
+          "effects": {
+            "corruption": -3,
+            "reputation": 1,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "驳回举报，加快交付",
+          "effects": {
+            "corruption": 8,
+            "reputation": -6,
+            "happiness": -3,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "海南热带海洋学院原副院长吴清江接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0043",
+      "type": "info",
+      "tag": "舆情",
+      "title": "{city}市民热议亚运夺金",
+      "desc": "受中国队混合泳夺冠的带动，{city}市民论坛游泳话题热度暴涨，市游泳协会一周内收到5000多份少儿培训报名。但现有教练仅12人，场馆容量已达极限，部分家长质疑培训质量与学费定价。体育局急需给出回应。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "扩建场馆并招新教练",
+          "effects": {
+            "treasury": -350,
+            "happiness": 4,
+            "healthcare": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "分流到社会培训机构",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂停新增报名",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获亚运会男女4X100米混合泳接",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0044",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}柿子丰收带动电商",
+      "desc": "{city}郊区柿子进入集中上市期，七千亩柿树预计产果4500吨。本地电商协会申请搭建直播基地并配套冷链物流，预算约220万。但部分果农反映收购价被压低，环保部门也提醒柿饼加工废水需达标排放。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "建基地并补贴冷链物流",
+          "effects": {
+            "treasury": -300,
+            "gdpMult": 0.9,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅补贴果农收购价",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "gdpMult": 0.9
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不干预，市场化运作",
+          "effects": {
+            "happiness": -3,
+            "reputation": -3,
+            "corruption": 2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "七千柿树结硕果 杭州西溪火柿映秋吸引游人",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0045",
+      "type": "warn",
+      "tag": "影视",
+      "title": "{city}影视基地AI侵权纠纷",
+      "desc": "{city}影视基地引进的一家家AI影视公司被诉生成内容侵犯多位编剧著作权，案件进入二审。基地正与该片方合拍一部古装剧，若判决不利需下架素材，已投入320万。市司法局请求牵头调解，片方则要求政府担保。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "牵头调解并设立版权基金",
+          "effects": {
+            "treasury": -200,
+            "corruption": -3,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "建议片方自行和解",
+          "effects": {
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由政府出具担保函",
+          "effects": {
+            "treasury": -100,
+            "corruption": 5,
+            "reputation": -3,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "警惕套路！利用AI批量生成软文“搭车”引流被判侵权",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0046",
+      "type": "danger",
+      "tag": "应急",
+      "title": "{city}突发强降雨内涝",
+      "desc": "受副热带高压边缘影响，{city}连续48小时暴雨，城区3处下穿通道积水超80厘米，地铁2号线首站临时封闭。120累计出动14次，低洼老旧小区1200余户停水停电，学校启动停课预案。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动一级响应，征调沙袋沙包",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "reputation": 3,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅派遣排涝车按例巡查",
+          "effects": {
+            "treasury": -50,
+            "happiness": -6,
+            "reputation": -3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "封闭地铁线并疏散群众",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 4,
+            "gdpMult": 0.96
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0047",
+      "type": "info",
+      "tag": "外交",
+      "title": "{city}外贸企业遇美方施压",
+      "desc": "{city}某机电出口龙头企业收到美方客户邮件，要求接受新的合规审查条款，否则暂停订单。企业负责人向市政府求助，担忧全年3000万美元订单受影响，涉及上下游200余名员工岗位。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "协调商会组团应对审查",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.03,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由企业自行谈判不干预",
+          "effects": {
+            "unemployment": 0.02,
+            "happiness": -2
+          },
+          "color": "gray"
+        },
+        {
+          "text": "补贴企业转内销市场",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.02,
+            "unemployment": -0.01
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "伊朗总统：愿意谈判合作 不接受强权威胁",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0048",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}承办戏曲名家展演",
+      "desc": "市文旅局申请承办南北剧种展演周，将邀请十余位名家赴{city}演出，为期7天。市民反响热烈，但场馆档期紧张，安保、食宿、宣传预算合计缺口约200万。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全额拨款并承担安保",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "向企业定向赞助拉票",
+          "effects": {
+            "treasury": 50,
+            "corruption": 3,
+            "reputation": 2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "缩减至3天并压缩场次",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "南北剧种同台竞艳 十四位“梅花奖”名家齐聚合肥",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0049",
+      "type": "corruption",
+      "tag": "监察",
+      "title": "{city}政协副主席被调查",
+      "desc": "市纪委监委通报，{city}政协副主席因涉嫌严重违纪违法接受审查调查，其在任期间分管城建与文旅。舆论关注其与多个房地产开发项目的关联，多名干部正在接受询问。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "主动配合彻查并公开通报",
+          "effects": {
+            "reputation": 3,
+            "happiness": 2,
+            "corruption": -3,
+            "inspection": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调处理避免影响招商",
+          "effects": {
+            "corruption": 4,
+            "inspection": 8,
+            "reputation": -3
+          },
+          "color": "red"
+        },
+        {
+          "text": "暂停其分管项目审计",
+          "effects": {
+            "treasury": -100,
+            "reputation": 2,
+            "inspection": 4,
+            "merit": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西壮族自治区贵港市政协副主席黄星荣接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0050",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}体操队夺冠冲刺",
+      "desc": "{city}体操队在省级锦标赛中表现亮眼，有望冲击全国冠军。教练组申请追加经费用于海外集训与器材更新，但市财政预算已接近上限，需要权衡教育、医疗等多头支出。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加100万专项经费",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持原预算不改",
+          "effects": {
+            "happiness": -1,
+            "reputation": -1
+          },
+          "color": "gray"
+        },
+        {
+          "text": "拉体育品牌冠名赞助",
+          "effects": {
+            "treasury": 50,
+            "corruption": 2,
+            "reputation": 1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操女团实现亚运会14连冠",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0051",
+      "type": "corruption",
+      "tag": "纪律",
+      "title": "{city}原政协副主席被双开",
+      "desc": "{city}原政协副主席芮某被开除党籍和公职，其在任期间违反中央八项规定精神，违规收受礼金，插手工程招投标。案件牵出三名下属干部，引发干部队伍思想波动。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "召开警示教育大会",
+          "effects": {
+            "treasury": -50,
+            "corruption": -3,
+            "reputation": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "保持沉默不作回应",
+          "effects": {
+            "corruption": 2,
+            "happiness": -2
+          },
+          "color": "gray"
+        },
+        {
+          "text": "公开其受贿细节",
+          "effects": {
+            "reputation": 3,
+            "corruption": -2,
+            "inspection": 6,
+            "happiness": -1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0052",
+      "type": "success",
+      "tag": "教育",
+      "title": "外籍教师扎根{city}十余年",
+      "desc": "{city}一中一位外籍英语教师坚守十二载，累计辅导学生参与国际赛事获奖数百次，家长口碑极佳。校方申请颁发荣誉市民称号并给予安家补贴，但预算有限。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "颁发荣誉并给予安家补贴",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 4,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅授予荣誉称号",
+          "effects": {
+            "educationIndex": 1,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "婉拒不给予特殊待遇",
+          "effects": {
+            "happiness": -2,
+            "educationIndex": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "五万张卡片与三千场球赛：美国教师池欧的洛阳十二载",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0053",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}中秋糕点市场走俏",
+      "desc": "中秋临近，{city}传统酥皮月饼销量同比上涨60%，多家老字号排队出货。市场监管部门接到投诉，部分小店存在过期原料、卫生不合格问题，舆情正在发酵。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "组织专项检查并公示",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 3,
+            "healthcare": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "提醒企业自查即可",
+          "effects": {
+            "healthcare": -2,
+            "happiness": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "对老字号实施绿色通道",
+          "effects": {
+            "gdpMult": 1.02,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南安阳：中秋临近酥皮月饼走俏市场",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0054",
+      "type": "corruption",
+      "tag": "出版",
+      "title": "市新华书店前高管被处分",
+      "desc": "{city}新华书店集团原一级专务肖某被开除党籍，其在任期间违规发放津贴、违规经营图书采购。事件暴露出版系统监管盲区，多名中层干部正在配合调查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全系统开展廉洁排查",
+          "effects": {
+            "treasury": -50,
+            "corruption": -3,
+            "inspection": 5,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅处理涉案人员不扩查",
+          "effects": {
+            "corruption": 2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "引入第三方审计",
+          "effects": {
+            "treasury": -100,
+            "corruption": -4,
+            "merit": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0055",
+      "type": "info",
+      "tag": "政务",
+      "title": "{city}收到省级督查通报",
+      "desc": "省督查组对{city}营商环境开展专项督查，反馈存在政务审批慢、企业诉求响应不及时等问题，要求在30日内整改到位并公开结果。相关处室正连夜梳理台账。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "连夜整改并公开清单",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "merit": 2,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "形式整改报送材料",
+          "effects": {
+            "inspection": 8,
+            "corruption": 2
+          },
+          "color": "red"
+        },
+        {
+          "text": "约谈涉事处室负责人",
+          "effects": {
+            "reputation": 1,
+            "happiness": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0056",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}谈判事件被外媒炒作",
+      "desc": "某国际媒体以{city}一桩招商引资合同纠纷为切入点，炒作地方监管不力话题，文章阅读量超50万。本地企业担忧声誉受损，希望市政府出面回应。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "发布官方声明澄清事实",
+          "effects": {
+            "reputation": 2,
+            "gdpMult": 1.01
+          },
+          "color": "green"
+        },
+        {
+          "text": "不予回应避免发酵",
+          "effects": {
+            "reputation": -3,
+            "gdpMult": 0.98
+          },
+          "color": "gray"
+        },
+        {
+          "text": "邀请媒体实地采访",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "happiness": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "伊朗总统：愿意谈判合作 不接受强权威胁",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0057",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}推出非遗研学项目",
+      "desc": "市文旅局联合教育局推出青铜器与陶器非遗研学路线，串联三处遗址与两所博物馆，面向中小学周末开放。首批试点学校申请名额爆满，家长反响热烈。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加经费扩大试点",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 4,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现有规模",
+          "effects": {
+            "educationIndex": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "引入商业机构运营",
+          "effects": {
+            "treasury": 50,
+            "corruption": 2,
+            "educationIndex": 1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "三星堆-金沙多学科研究新成果在北京发布",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0058",
+      "type": "info",
+      "tag": "文娱",
+      "title": "{city}戏曲进校园启动",
+      "desc": "市文旅局与教育局合作，邀请本省戏曲名家走进{city}中小学校园，开展为期一个月的研学演出。各校反响积极，但交通、场地、保险等配套费用预计超80万。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全额承担配套费用",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 3,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由各校自筹部分经费",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "寻求戏曲协会赞助",
+          "effects": {
+            "corruption": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "南北剧种同台竞艳 十四位“梅花奖”名家齐聚合肥",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0059",
+      "type": "corruption",
+      "tag": "反腐",
+      "title": "{city}干部落马引发连锁",
+      "desc": "{city}一名处级干部在审查中牵出三名下属违规报销、收受回扣问题，涉及金额约120万元。案件正在深挖中，涉及多个职能部门，群众反映强烈。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "彻查所有涉案人员",
+          "effects": {
+            "corruption": -4,
+            "reputation": 3,
+            "inspection": 6,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅处理直接责任人",
+          "effects": {
+            "corruption": 1,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "组织全市廉政教育",
+          "effects": {
+            "treasury": -50,
+            "corruption": -2,
+            "happiness": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0060",
+      "type": "warn",
+      "tag": "廉政",
+      "title": "{city}文化系统原高管被开除党籍",
+      "desc": "市纪委监委通报，市新华书店集团原一级专务张某因严重违纪违法被开除党籍。调查显示其长期违规插手图书发行采购、收受供应商回扣，累计涉案金额数百万元。该集团正与多所中小学签订教辅配送合同，舆论哗然。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "立即启动全市教辅采购公开招标",
+          "effects": {
+            "treasury": -200,
+            "reputation": 6,
+            "corruption": -5,
+            "inspection": 8,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由纪检组内部清查后低调处理",
+          "effects": {
+            "treasury": 50,
+            "corruption": 2,
+            "inspection": 12,
+            "reputation": -4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "冻结账户等待上级批复",
+          "effects": {
+            "reputation": 3,
+            "inspection": 15,
+            "unemployment": 0.01
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0061",
+      "type": "corruption",
+      "tag": "反腐",
+      "title": "{city}政协原副主席被双开",
+      "desc": "市政协原党组成员、副主席刘某被开除党籍和公职。经查其利用分管城建职务便利，在道路工程和老旧小区改造项目中违规插手，收受工程老板现金及房产。其任期内主导的三条市政道路至今仍有投诉未结。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面复核其任内所有城建项目",
+          "effects": {
+            "treasury": -500,
+            "reputation": 8,
+            "corruption": -8,
+            "inspection": 10,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅查处直接关联项目其余放行",
+          "effects": {
+            "treasury": 100,
+            "corruption": 3,
+            "inspection": 5,
+            "reputation": -3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "移交线索后不再主动追查",
+          "effects": {
+            "corruption": 5,
+            "inspection": 18,
+            "reputation": -6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0062",
+      "type": "warn",
+      "tag": "监管",
+      "title": "{city}高校原副院长接受审查",
+      "desc": "市热带海洋学院原副院长吴某因涉嫌严重违纪违法接受审查调查。举报材料显示其分管科研经费期间，多次虚列课题组成员套取科研经费超200万元，并违规发放津贴。学院师生已联名要求彻查。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合财政局彻查近三年科研经费",
+          "effects": {
+            "treasury": -150,
+            "reputation": 5,
+            "corruption": -6,
+            "inspection": 8,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂扣其在职项目经费待查",
+          "effects": {
+            "treasury": 100,
+            "unemployment": 0.01,
+            "inspection": 6
+          },
+          "color": "blue"
+        },
+        {
+          "text": "建议其主动辞职免予追责",
+          "effects": {
+            "corruption": 4,
+            "reputation": -5,
+            "inspection": 14
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "海南热带海洋学院原副院长吴清江接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0063",
+      "type": "success",
+      "tag": "荣誉",
+      "title": "{city}院士获国际环境大奖",
+      "desc": "中科院院士、我市生态环境研究中心首席专家获2026年沃尔沃环境奖，表彰其在黄土高原生态治理领域的开创性贡献。该专家长期在{city}开展水土保持试验，带动周边三个县生态修复项目落地，国际影响力显著提升。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "举办颁奖欢迎仪式并追加科研投入",
+          "effects": {
+            "treasury": -300,
+            "reputation": 10,
+            "happiness": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调发函祝贺不安排接待",
+          "effects": {
+            "reputation": 2,
+            "corruption": -1,
+            "treasury": 50
+          },
+          "color": "blue"
+        },
+        {
+          "text": "借势宣传并洽谈生态产业合作",
+          "effects": {
+            "treasury": 400,
+            "gdpMult": 1.05,
+            "reputation": 6,
+            "happiness": 3
+          },
+          "color": "green"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国科学院院士傅伯杰荣获2026年沃尔沃环境奖",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0064",
+      "type": "info",
+      "tag": "产业",
+      "title": "{city}承接低轨卫星产业链配套",
+      "desc": "中国成功发射卫星互联网低轨26组卫星，国家级星链组网进入快车道。{city}高新区多家电子企业已收到上游卫星制造厂的配套订单意向，涉及高频天线、馈电电缆等关键部件。市工信局正调研产能匹配情况。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "设立专项补贴鼓励本地企业扩产",
+          "effects": {
+            "treasury": -600,
+            "gdpMult": 1.08,
+            "unemployment": -0.02,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅协调现有产能消化不追加投入",
+          "effects": {
+            "gdpMult": 1.02,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "引入外地代工企业快速投产",
+          "effects": {
+            "treasury": 200,
+            "gdpMult": 1.04,
+            "unemployment": -0.01,
+            "corruption": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0065",
+      "type": "warn",
+      "tag": "经济",
+      "title": "AI批量软文引流被判侵权波及本地企业",
+      "desc": "全国通报利用AI批量生成软文\"搭车\"引流的侵权案件，{city}一家电商代运营公司因使用AI批量生成品牌软文被判赔80万元。该公司承接本地近百家中小商家推广业务，合同集中到期引发连锁违约风险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "组织AI合规培训并补贴改造",
+          "effects": {
+            "treasury": -200,
+            "reputation": 4,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈涉事公司限期整改",
+          "effects": {
+            "unemployment": 0.01,
+            "reputation": -1,
+            "corruption": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "责令停业整顿直至合规",
+          "effects": {
+            "unemployment": 0.03,
+            "reputation": 2,
+            "inspection": 5
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "警惕套路！利用AI批量生成软文\"搭车\"引流被判侵权",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0066",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}游泳俱乐部包揽混合泳接力",
+      "desc": "{city}市游泳队派出选手加入省队集训，在亚运会男女4X100米混合泳接力项目中助力中国队夺冠。本地青少年游泳报名量较上月激增三倍，市体育中心的训练场地已满负荷运转，家长呼吁增设公共泳道。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "拨款扩建市民游泳训练中心",
+          "effects": {
+            "treasury": -400,
+            "happiness": 6,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调高校场馆错峰开放",
+          "effects": {
+            "treasury": 50,
+            "happiness": 3,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "鼓励民营资本竞标承办赛事",
+          "effects": {
+            "treasury": 300,
+            "gdpMult": 1.03,
+            "corruption": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获亚运会男女4X100米混合泳接",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0067",
+      "type": "success",
+      "tag": "产业",
+      "title": "{city}酥皮月饼产销两旺",
+      "desc": "中秋临近，{city}老字号糕点厂推出的酥皮月饼热销市场，单日产能打满仍供不应求。订单已排至节后，带动周边馅料加工厂、包装企业联动生产，临时用工需求激增，部分工人反映加班报酬拖欠。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "介入调解并核查用工合同",
+          "effects": {
+            "treasury": 100,
+            "happiness": 4,
+            "reputation": 3,
+            "corruption": -2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布加班工资预警不主动介入",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "鼓励企业自主协商灵活处理",
+          "effects": {
+            "corruption": 2,
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南安阳：中秋临近酥皮月饼走俏市场",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0068",
+      "type": "info",
+      "tag": "科技",
+      "title": "{city}布局卫星互联网地面站",
+      "desc": "我国再次成功发射卫星互联网低轨26组卫星，全国多地启动地面接收站选址工作。{city}地处西部山区、电磁干扰低，被多家通信运营商列为重点候选节点。运营商已提出投资共建协议，市发改委正在评估用地与配套条件。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "批准选址并给予土地优惠",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.07,
+            "unemployment": -0.01,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "要求运营商承担全部建设费用",
+          "effects": {
+            "treasury": 500,
+            "gdpMult": 1.03,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓审批等待上级统一规划",
+          "effects": {
+            "gdpMult": 0.97,
+            "reputation": -2,
+            "inspection": 3
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "我国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0069",
+      "type": "danger",
+      "tag": "舆情",
+      "title": "{city}体育代表团体操项目夺冠",
+      "desc": "{city}体校培养的选手随省队出征，中国体操女团实现亚运会14连冠，相关话题刷屏本地媒体。但本地多家民间体校借势宣传\"冠军教练\"却未获授权，家长质疑培训费用上涨后课程缩水，引发舆论关注。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "约谈违规机构并公示整改清单",
+          "effects": {
+            "happiness": 4,
+            "reputation": 4,
+            "corruption": -2,
+            "inspection": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "转发官方喜报不主动查违规",
+          "effects": {
+            "happiness": 1,
+            "reputation": -2,
+            "corruption": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "借势举办全市青少年体测",
+          "effects": {
+            "treasury": -150,
+            "happiness": 5,
+            "educationIndex": 3,
+            "merit": 1
+          },
+          "color": "green"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操女团实现亚运会14连冠",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0070",
+      "type": "warn",
+      "tag": "廉政",
+      "title": "{city}高校科研经费乱象曝光",
+      "desc": "受海南某高校副院长被查事件影响，本地多所高校主动排查科研经费使用情况。{city}大学自曝近三年存在十余起虚列开支、重复报销现象，涉案金额约150万元。学术委员会要求对涉事项目全面审计并追责。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "支持全面审计并追究项目负责人",
+          "effects": {
+            "treasury": -100,
+            "corruption": -6,
+            "reputation": 5,
+            "inspection": 8,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由校内自查不对外公开结果",
+          "effects": {
+            "corruption": 2,
+            "inspection": 10,
+            "reputation": -3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "暂缓审计优先保障科研进度",
+          "effects": {
+            "corruption": 4,
+            "inspection": 15,
+            "reputation": -5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "海南热带海洋学院原副院长吴清江接受审查调查",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0071",
+      "type": "warn",
+      "tag": "治理",
+      "title": "{city}政协领导被双开引发信任危机",
+      "desc": "市政协原副主席被双开后，当地市民通过政务热线密集反映\"工程烂尾、验收走过场\"等问题，一周内累计投诉230余件。部分市民质疑市政监督体系失效，要求公开近三年重大工程审计结果。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "公开近三年工程审计摘要",
+          "effects": {
+            "treasury": -200,
+            "reputation": 7,
+            "happiness": 4,
+            "corruption": -3,
+            "inspection": 6
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅回复投诉但不上网公开",
+          "effects": {
+            "happiness": -2,
+            "reputation": -4,
+            "inspection": 8
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以程序为由拒绝信息公开",
+          "effects": {
+            "reputation": -7,
+            "happiness": -5,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "甘肃省兰州市政协原党组成员、副主席芮文刚被\"双开\"",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0072",
+      "type": "info",
+      "tag": "文化",
+      "title": "{city}推动阅读空间升级",
+      "desc": "受地方文化系统反腐案影响，{city}市图书馆及新华书店同步启动采购流程阳光化改革。三家出版社供应商主动申请进入备选库，市民建议增设社区分馆，目前主城区人均藏书量偏低、借阅需求持续增长。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "公开招标并增设五个社区分馆",
+          "effects": {
+            "treasury": -350,
+            "reputation": 6,
+            "happiness": 4,
+            "educationIndex": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "简化流程选本地供应商快速落地",
+          "effects": {
+            "treasury": 100,
+            "corruption": 3,
+            "reputation": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂不新增分馆仅优化采购制度",
+          "effects": {
+            "reputation": 2,
+            "corruption": -2,
+            "inspection": 4
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0073",
+      "type": "success",
+      "tag": "民生",
+      "title": "月饼热销带动{city}就业回稳",
+      "desc": "中秋前夕{city}糕点行业订单暴增，三家企业追加招聘制饼、包装、物流岗位共计1200余个，吸纳大量临时务工人员。市人社局监测显示本月制造业失业率较上月下降0.8个百分点，居民消费信心回暖。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立临时用工保障热线",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "unemployment": -0.02,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布行业用工指引供企业参考",
+          "effects": {
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不主动干预让市场自行调节",
+          "effects": {
+            "unemployment": 0.01,
+            "reputation": -1,
+            "corruption": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南安阳：中秋临近酥皮月饼走俏市场",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0074",
+      "type": "warn",
+      "tag": "监管",
+      "title": "{city}企业AI营销违规被罚",
+      "desc": "本市某电商代运营公司因用AI批量生成软文\"搭车\"知名品牌被判侵权，赔偿80万元并列入经营异常名录。公司承接本地近百家商家推广，违约风险外溢，商家要求政府协调退款或转介合规服务商。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "搭建合规AI营销服务商白名单",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "happiness": 3,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调涉事公司分期退款",
+          "effects": {
+            "unemployment": 0.01,
+            "corruption": 2,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "引导商家自行承担损失",
+          "effects": {
+            "happiness": -4,
+            "reputation": -4,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "警惕套路！利用AI批量生成软文\"搭车\"引流被判侵权",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0075",
+      "type": "info",
+      "tag": "科技",
+      "title": "{city}争取卫星互联网试点",
+      "desc": "我国成功发射卫星互联网低轨26组卫星，{city}拟申请成为低轨卫星落地试点城市。当地企业、电信运营商与高校纷纷递交合作意向书，希望率先在农业遥感、山区通信等领域落地应用。试点若获批，将带来新一轮投资与税收，但初期基础设施投入巨大。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全力申报并配套3000万基建资金",
+          "effects": {
+            "treasury": -2000,
+            "reputation": 8,
+            "gdpMult": 1.06,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合周边三市共同申报",
+          "effects": {
+            "treasury": -800,
+            "reputation": 4,
+            "gdpMult": 1.02,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓申报，专注传统产业",
+          "effects": {
+            "treasury": 200,
+            "reputation": -3,
+            "gdpMult": 0.98
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "我国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0076",
+      "type": "corruption",
+      "tag": "反腐",
+      "title": "{city}新华书店原高管被查",
+      "desc": "参照某省级新华书店集团一级专务被开除党籍通报，{city}出版集团原副总经理涉嫌利用教材采购权收受回扣，目前已配合组织调查。市纪委监委介入，部分基层学校反映曾收到不明来源的'教辅推荐函'。教育系统群众反响强烈，要求彻查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面彻查并追责至分管副市长",
+          "effects": {
+            "corruption": -12,
+            "reputation": 6,
+            "inspection": 8,
+            "merit": 2,
+            "treasury": -200
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部处理，公布通报不点名",
+          "effects": {
+            "corruption": -4,
+            "reputation": -3,
+            "inspection": 12
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以人事调整方式低调结案",
+          "effects": {
+            "corruption": 5,
+            "reputation": -8,
+            "inspection": 15,
+            "privateAccount": 30
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0077",
+      "type": "success",
+      "tag": "文体",
+      "title": "{city}承办亚洲青年体操邀请赛",
+      "desc": "借中国体操女团亚运会14连冠之势，{city}体育局提议承办明年亚洲青年体操邀请赛，并计划新建专业训练馆。地方媒体与学校体育老师积极响应，但场馆建设需一次性投入约1500万，赛后运营维护亦是难题。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "按高标准新建训练馆承办",
+          "effects": {
+            "treasury": -1500,
+            "happiness": 8,
+            "reputation": 7,
+            "educationIndex": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "改造现有体育场馆降低成本",
+          "effects": {
+            "treasury": -500,
+            "happiness": 4,
+            "reputation": 4,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒邀请，资金改投民生",
+          "effects": {
+            "treasury": 600,
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操女团实现亚运会14连冠",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0078",
+      "type": "info",
+      "tag": "农文旅",
+      "title": "{city}七千柿树迎丰收季",
+      "desc": "借杭州西溪火柿映秋之势，{city}北郊某柿子古树群进入盛果期，七千余棵百年柿树挂满红果，吸引周边游客前来采摘打卡。文旅局计划打造'火柿节'，但交通拥堵、采摘安全与村民收益分配成为新挑战。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "举办火柿节并投资景区改造",
+          "effects": {
+            "treasury": -600,
+            "happiness": 6,
+            "reputation": 5,
+            "population": 300,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "与村民合作社联合运营分润",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "reputation": 3,
+            "gdpMult": 1.01,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "限制游客数量保护生态",
+          "effects": {
+            "treasury": 100,
+            "happiness": -2,
+            "reputation": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "七千柿树结硕果 杭州西溪火柿映秋吸引游人",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0079",
+      "type": "info",
+      "tag": "科技",
+      "title": "{city}邀请环境专家来指导",
+      "desc": "参照某科学院院士荣获沃尔沃环境奖的热度，{city}生态环境局拟邀请国内知名生态治理专家来华指导本地生态修复项目。若合作成功，有望在山水林田湖草治理方面获得国家级课题支持，但需配套科研经费与团队。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "设专项基金签约共建实验室",
+          "effects": {
+            "treasury": -800,
+            "educationIndex": 6,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "以短期咨询方式合作",
+          "effects": {
+            "treasury": -150,
+            "educationIndex": 2,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒，避免财政压力",
+          "effects": {
+            "treasury": 100,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国科学院院士傅伯杰荣获2026年沃尔沃环境奖",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0080",
+      "type": "info",
+      "tag": "通信",
+      "title": "{city}山区卫星通信试点",
+      "desc": "卫星互联网低轨26组卫星成功发射后，{city}西部山区因基站覆盖不足长期通信不畅，农牧民呼吁引入卫星直连终端。通信运营商提出共建方案，需配套地面站与补贴终端费用，但偏远山区投资回收周期长。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额补贴终端并建地面站",
+          "effects": {
+            "treasury": -1200,
+            "happiness": 7,
+            "reputation": 5,
+            "population": 200,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "政企共担，运营商主投",
+          "effects": {
+            "treasury": -300,
+            "happiness": 3,
+            "reputation": 3,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，等待省级规划",
+          "effects": {
+            "treasury": 200,
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0081",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}突发舆情事件",
+      "desc": "一则关于{city}某小区强拆的短视频在社交平台迅速发酵，'即时新闻'类媒体纷纷跟进，网友质疑政府粗暴执法。现场视频显示执法人员与居民对峙，舆情呈上升态势，市委办公室要求连夜回应，避免形成全国性事件。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "立即成立调查组并公开道歉",
+          "effects": {
+            "treasury": -100,
+            "reputation": 6,
+            "happiness": 4,
+            "inspection": 5,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "由街道办回应，淡化处理",
+          "effects": {
+            "treasury": 50,
+            "reputation": -5,
+            "happiness": -3,
+            "inspection": 8
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "约谈涉事开发商压热度",
+          "effects": {
+            "treasury": 200,
+            "reputation": -8,
+            "corruption": 4,
+            "privateAccount": 20
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0082",
+      "type": "info",
+      "tag": "文旅",
+      "title": "{city}三星堆式考古发现",
+      "desc": "参照三星堆-金沙多学科研究新成果发布的热度，{city}考古所宣布在本市东部平原发现一处史前遗址，出土青铜器与陶器数千件。文旅局与博物馆计划打造考古IP，但遗址保护、学术发表与商业开发之间的平衡至关重要。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "保护优先，建遗址博物馆",
+          "effects": {
+            "treasury": -1000,
+            "educationIndex": 8,
+            "reputation": 6,
+            "happiness": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "学术合作，联合高校发布",
+          "effects": {
+            "treasury": -300,
+            "educationIndex": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "快速开发文创旅游产品",
+          "effects": {
+            "treasury": 400,
+            "educationIndex": -3,
+            "reputation": -2,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "三星堆-金沙多学科研究新成果在北京发布",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0083",
+      "type": "info",
+      "tag": "基建",
+      "title": "{city}申报卫星导航服务示范区",
+      "desc": "在低轨卫星互联网布局背景下，{city}发改委拟联合交通、应急、农业部门申报国家级卫星导航应用示范区，覆盖智慧物流、防汛预警、精准农业三大方向。示范区获批后中央将配套专项扶持资金，但需先期自筹配套投入。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "自筹配套并联合申报",
+          "effects": {
+            "treasury": -1500,
+            "reputation": 6,
+            "gdpMult": 1.05,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "只申报智慧物流单一方向",
+          "effects": {
+            "treasury": -400,
+            "reputation": 3,
+            "gdpMult": 1.02,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓申报，观望政策",
+          "effects": {
+            "treasury": 200,
+            "reputation": -2,
+            "gdpMult": 0.99
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "我国成功发射卫星互联网低轨26组卫星",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0084",
+      "type": "corruption",
+      "tag": "反腐",
+      "title": "{city}出版系统窝案曝光",
+      "desc": "以新华书店原高管被开除党籍为契机，{city}审计局在专项审计中发现市属三家出版单位存在教辅采购回扣、虚假印刷合同等问题，涉及金额过千万。多名中层干部被约谈，教育系统群众要求彻底整顿出版发行秩序。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面审计并追缴回款",
+          "effects": {
+            "corruption": -10,
+            "reputation": 6,
+            "treasury": 1200,
+            "inspection": 8,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "整改制度不追个人",
+          "effects": {
+            "corruption": -2,
+            "reputation": -3,
+            "inspection": 10
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以内部整改报告应付",
+          "effects": {
+            "corruption": 4,
+            "reputation": -6,
+            "inspection": 15,
+            "privateAccount": 40
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "原重庆新华书店集团一级专务肖陵被开除党籍",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0085",
+      "type": "success",
+      "tag": "文体",
+      "title": "{city}体操少年夺冠引热潮",
+      "desc": "受中国体操女团亚运会14连冠的带动，{city}某中学体操队在省青年锦标赛上夺得团体冠军，三名主力队员收到国家队选拔通知。家长与市民反响热烈，学校提议扩建体操训练基地，社会培训需求激增。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "扩建训练基地并设奖学金",
+          "effects": {
+            "treasury": -500,
+            "educationIndex": 5,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入社会力量共建俱乐部",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 3,
+            "happiness": 3,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "顺其自然，不额外投入",
+          "effects": {
+            "treasury": 100,
+            "educationIndex": -1,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国体操女团实现亚运会14连冠",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0086",
+      "type": "info",
+      "tag": "农文旅",
+      "title": "{city}打造火柿生态旅游区",
+      "desc": "借鉴杭州西溪火柿映秋案例，{city}南部山区规划'千亩火柿生态旅游区'，结合采摘、民宿、康养业态，预计带动三千农户增收。但涉及生态红线审批与集体土地流转，村民对补偿标准存在分歧。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "足额补偿并优先聘用本地村民",
+          "effects": {
+            "treasury": -900,
+            "happiness": 6,
+            "population": 400,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入民企主导，政府参股",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 3,
+            "corruption": 2,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓立项，规避风险",
+          "effects": {
+            "treasury": 150,
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "七千柿树结硕果 杭州西溪火柿映秋吸引游人",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260923_0087",
+      "type": "info",
+      "tag": "科普",
+      "title": "{city}举办环境科学讲座",
+      "desc": "为庆祝某环境科学院士荣获国际环境大奖，{city}科技局与市图书馆联合举办'生态与未来'系列公益讲座，预计吸引两千市民参与。活动将免费发放科普读物，并计划向青少年推广生态文明教育，但场地与印刷成本需财政支持。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "全额资助并扩大规模",
+          "effects": {
+            "treasury": -200,
+            "educationIndex": 4,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "与高校共建小型沙龙",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 2,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "取消活动节省开支",
+          "effects": {
+            "treasury": 100,
+            "happiness": -1,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中国科学院院士傅伯杰荣获2026年沃尔沃环境奖",
+      "generatedAt": "2026-09-23",
+      "schemaVersion": 1
+    }
+  ]
+}

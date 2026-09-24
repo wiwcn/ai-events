@@ -1,0 +1,3488 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T19:42:05.370Z",
+  "schemaVersion": 1,
+  "model": "sensenova-6.8-flash-lite",
+  "hotTopics": [
+    "中新网即时新闻",
+    "今年中秋“十五的月亮十七圆” 最佳赏月时段→",
+    "香港大坑“火龙”起舞欢庆中秋",
+    "（爱知·名古屋亚运会）中国队获得羽毛球男子团体银牌",
+    "习近平出席美国总统特朗普在白宫举行的欢迎仪式",
+    "习近平：不以善小而不为，不以恶小而为之",
+    "新华图讯丨习近平同美国总统特朗普小范围交流",
+    "习近平：美方应慎重处理台湾问题",
+    "习言道 | 中美不必讳言竞争，但竞争应该是良性的、有边界的",
+    "习近平谈中东局势",
+    "（爱知·名古屋亚运会）乒乓球女子团体决赛：中国队夺得冠军",
+    "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+    "六盘山好物入闽 宁夏隆德农文旅推介招商活动福州启幕",
+    "文化观察：昆曲传承 守正更要“入心”",
+    "跨越山海寻根祭祖 第八届尧都民间祭拜尧帝大典在山西临汾举行",
+    "首届关公文化论坛在山西运城举行 专家学者共探关公文化时代价值",
+    "湖南岳阳让亚洲赛事走进“城市客厅”",
+    "画家张鹰：用油画讲好西藏故事",
+    "2026中国—东盟教育交流周配套活动“山海共此时”国际青年中秋音乐诗会在贵阳启幕",
+    "习近平同美国总统特朗普小范围交流"
+  ],
+  "count": 74,
+  "events": [
+    {
+      "id": "ai_20260924_0001",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}承办乒乓球团体赛",
+      "desc": "{city}体育局接到通知，拟承办全国乒乓球女子团体赛分站赛。场馆改造资金缺口较大，但赛事落地有望带动旅游消费、提升城市知名度。球迷协会已发起众筹，酒店餐饮同步预热，但安保压力骤增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额拨款改造场馆",
+          "effects": {
+            "treasury": -400,
+            "happiness": 6,
+            "reputation": 7,
+            "inspection": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合赞助商共担成本",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 5,
+            "corruption": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒并改为市级联赛",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": -3,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）乒乓球女子团体决赛：中国队夺得冠军",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0002",
+      "type": "warn",
+      "tag": "舆论",
+      "title": "{city}市长访美被质疑",
+      "desc": "{city}市长赴海外参加经贸洽谈，期间在社交媒体发布与外方官员合照，被网民质疑'外交行为越界'。舆论发酵至地方两会提案，要求规范官员境外访问流程。外事办和网信办紧急磋商，市委要求48小时内回应。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "公开澄清并规范流程",
+          "effects": {
+            "reputation": 4,
+            "happiness": 2,
+            "inspection": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "私下约谈市长低调处理",
+          "effects": {
+            "reputation": -1,
+            "happiness": -2,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不回应让舆情自然消退",
+          "effects": {
+            "reputation": -6,
+            "happiness": -3,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平出席美国总统特朗普在白宫举行的欢迎仪式",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0003",
+      "type": "warn",
+      "tag": "外交",
+      "title": "{city}美企投资生变",
+      "desc": "{city}招商引资引入的美资新能源项目突然放缓投资节奏，美方以'地缘风险'为由推迟二期设备采购。当地200余名工人面临停工风险，园区管委会紧急召集协调会。企业法务提示，直接干预可能引发国际纠纷。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "协调国企承接部分订单",
+          "effects": {
+            "treasury": -250,
+            "unemployment": -0.02,
+            "gdpMult": 1.02,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放稳岗补贴待观望",
+          "effects": {
+            "treasury": -150,
+            "unemployment": -0.01,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任企业自行协商",
+          "effects": {
+            "unemployment": 0.03,
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习言道 | 中美不必讳言竞争，但竞争应该是良性的、有边界的",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0004",
+      "type": "success",
+      "tag": "合作",
+      "title": "{city}签跨境合作备忘录",
+      "desc": "{city}与海外友好城市就'建设性战略稳定合作'签署旅游互免签备忘录，双方文旅局将联合推出航线补贴。机场和高铁枢纽客流预计增长15%，海关、边检需要提前扩容。市发改委测算，三年可拉动服务业增加值显著。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "配套补贴并扩容口岸",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.05,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅签协议不投资金",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.01,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓签署观察效果",
+          "effects": {
+            "reputation": -2,
+            "gdpMult": 0.98
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0005",
+      "type": "info",
+      "tag": "文化",
+      "title": "{city}举办关公文化节",
+      "desc": "{city}拟借首届关公文化论坛热度举办本土关公文化节，邀请专家学者到{city}讲学。活动覆盖庙会、戏曲、研学游，预计拉动周边民宿和餐饮。但部分学者质疑商业化过重，可能稀释文化内涵。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "高规格请名家讲学",
+          "effects": {
+            "treasury": -200,
+            "educationIndex": 3,
+            "reputation": 5,
+            "happiness": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "精简版庙会走量",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压缩规模仅办内部研讨",
+          "effects": {
+            "reputation": -2,
+            "educationIndex": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届关公文化论坛在山西运城举行 专家学者共探关公文化时代价值",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0006",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}羽毛球青训出成绩",
+      "desc": "{city}市队羽毛球少年团在省联赛夺得银牌，消息引爆本地家长圈。体育局借机提议扩建青训基地，并设立后备人才专项基金。教育局测算，若打通'体教融合'，可缓解学生体质下降问题。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "立项扩建青训基地",
+          "effects": {
+            "treasury": -300,
+            "educationIndex": 4,
+            "healthcare": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放奖金并办表彰",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅通报表扬",
+          "effects": {
+            "happiness": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获得羽毛球男子团体银牌",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0007",
+      "type": "info",
+      "tag": "城市",
+      "title": "{city}打造'城市客厅'",
+      "desc": "{city}拟借鉴亚洲赛事落户城市的经验，把中央公园改造为'城市客厅'，承办国际会议和市集。规划涉及市政绿化迁移、地下管廊升级。周边居民担心噪音和停车，物业联名上访。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "分阶段改造并征询民意",
+          "effects": {
+            "treasury": -350,
+            "happiness": 2,
+            "reputation": 4,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "快速开工先建核心区",
+          "effects": {
+            "treasury": -300,
+            "happiness": -1,
+            "reputation": 2,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓项目重新调研",
+          "effects": {
+            "treasury": -50,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "湖南岳阳让亚洲赛事走进\"城市客厅\"",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0008",
+      "type": "warn",
+      "tag": "治理",
+      "title": "{city}推行'小恶不纵'新规",
+      "desc": "{city}司法局试点'不以善小而不为，不以恶小而为之'执法新规，对占道经营、高空抛物、遛狗不牵绳等小额违规加大处罚。首月开出罚单激增，基层执法人员人手紧张，部分商户抗议。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增编执法队并配智能巡查",
+          "effects": {
+            "treasury": -200,
+            "happiness": 2,
+            "reputation": 4,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "首月以劝导为主",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "全额开罚不解释",
+          "effects": {
+            "treasury": 200,
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：不以善小而不为，不以恶小而为之",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0009",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}油画讲本土故事",
+      "desc": "知名油画家受邀到{city}采风，将本地非遗、古建和乡村风貌搬上画布。市文旅局拟办'油画里的{city}'巡展，联合同行院校设写生基地。部分画家要求驻留补贴和住宿保障。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "设立驻留补贴与基地",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 2,
+            "reputation": 4,
+            "happiness": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅办一次展览",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒合作",
+          "effects": {
+            "reputation": -1,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "画家张鹰：用油画讲好西藏故事",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0010",
+      "type": "danger",
+      "tag": "舆情",
+      "title": "{city}涉台议题被炒作",
+      "desc": "{city}某高校师生在海外论坛上讨论涉台话题，被境外媒体剪辑为'{city}地方鼓吹'，引发网络舆情。市委网信办紧急介入，学校面临上级约谈，师生情绪紧张。需在不激化矛盾前提下回应。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "官方声明+校内思政补课",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "happiness": 1,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈涉事教师低调处理",
+          "effects": {
+            "reputation": -2,
+            "corruption": 2,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "封锁信息不对外发声",
+          "effects": {
+            "reputation": -7,
+            "happiness": -4,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：美方应慎重处理台湾问题",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0011",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}亚运余热引办赛潮",
+      "desc": "受亚运会带动，{city}多家企业提出申办国际赛事，市发改委收到6份赛事申请。财政测算，全年若接3项以上，场馆运维和安保支出将超预算。市民体育热情高涨，但担心'办赛扰民'。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "择优承办2项并引入商业赞助",
+          "effects": {
+            "treasury": -150,
+            "gdpMult": 1.03,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅承办1项低成本赛事",
+          "effects": {
+            "treasury": -100,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "全部拒绝以免超支",
+          "effects": {
+            "happiness": -2,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）乒乓球女子团体决赛：中国队夺得冠军",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0012",
+      "type": "corruption",
+      "tag": "招商",
+      "title": "{city}跨境项目涉贪疑云",
+      "desc": "{city}某跨境产业园项目招标被举报存在围标串标，涉及三名国企中层与一家咨询公司。纪委已立案初核，资金流向指向境外账户。若查实，需追责并补办招标，但项目工期可能延后半年。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "彻查并公开整改方案",
+          "effects": {
+            "treasury": -200,
+            "corruption": -8,
+            "reputation": 5,
+            "inspection": 8
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部消化重招不公布",
+          "effects": {
+            "treasury": -100,
+            "corruption": -3,
+            "reputation": -2,
+            "inspection": 10
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "压案不上报",
+          "effects": {
+            "treasury": 50,
+            "corruption": 8,
+            "reputation": -6,
+            "inspection": 15
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0013",
+      "type": "info",
+      "tag": "外交",
+      "title": "{city}接待外访友好团",
+      "desc": "{city}市委外事办安排接待海外友好城市议会代表团，行程含产业园区、社区和高校。接待标准按'建设性战略稳定关系'基调拟定，力求务实友好。酒店、车队、翻译资源需重新调配。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "按标准接待并回访邀约",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "gdpMult": 1.01
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩行程仅参观园区",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "委托外事办全权处理",
+          "effects": {
+            "treasury": -50,
+            "inspection": 3
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0014",
+      "type": "warn",
+      "tag": "教育",
+      "title": "{city}体教融合试点争议",
+      "desc": "{city}教育局试点'不以善小而不为'式微体育激励，将课间操、跳绳纳入德育积分。家长担心增加课业负担，教师反映执行口径不一。若推广，可提升学生体质，但可能挤压学科课时。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "试点扩围并配套教研",
+          "effects": {
+            "treasury": -150,
+            "educationIndex": 3,
+            "healthcare": 2,
+            "happiness": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持小范围试点",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 1,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "叫停试点回归原方案",
+          "effects": {
+            "educationIndex": -1,
+            "happiness": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：不以善小而不为，不以恶小而为之",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0015",
+      "type": "success",
+      "tag": "文旅招商",
+      "title": "{city}举办农文旅推介招商活动",
+      "desc": "市文旅局牵头在会展中心举办{city}农文旅推介招商活动，邀请长三角客商考察本地高原农产品基地与古村落资源。现场展示菌菇、小杂粮、蜂蜜等地理标志产品，并播放非遗技艺短片。多家企业现场签约合作意向，文旅消费预期带动明显，但招商落地资金尚需财政配套。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "配套300万专项补贴招商落地",
+          "effects": {
+            "treasury": -300,
+            "gdpMult": 1.06,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅给予税费减免不掏财政",
+          "effects": {
+            "gdpMult": 1.02,
+            "corruption": 3,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "活动办完即收摊，不再跟进",
+          "effects": {
+            "reputation": -4,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "六盘山好物入闽 宁夏隆德农文旅推介招商活动福州启幕",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0016",
+      "type": "info",
+      "tag": "外贸竞争",
+      "title": "{city}外贸企业研讨良性竞争边界",
+      "desc": "市商务局组织{city}外贸企业召开专题座谈会，结合中美贸易关系新动向，讨论如何在竞争中守住合规底线。多家机电、纺织企业反映订单波动，部分小厂被曝以低价倾销、虚报原产地抢单。外贸协会呼吁建立行业自律公约，避免恶性竞争损害整体声誉。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "牵头制定行业自律公约并公示",
+          "effects": {
+            "corruption": -3,
+            "reputation": 4,
+            "gdpMult": 1.01
+          },
+          "color": "green"
+        },
+        {
+          "text": "放任市场自由博弈不干预",
+          "effects": {
+            "corruption": 5,
+            "gdpMult": 0.97,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暗中补贴龙头挤出中小厂",
+          "effects": {
+            "treasury": -400,
+            "corruption": 8,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习言道 | 中美不必讳言竞争，但竞争应该是良性的、有边界的",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0017",
+      "type": "success",
+      "tag": "非遗传承",
+      "title": "{city}昆曲进校园守正入心",
+      "desc": "市文旅与教育部门联合推动昆曲进校园活动，邀请国家级非遗传承人走进{city}第一中学开设晨间社团课。学生用校歌旋律改编《牡丹亭》选段在艺术节上演，引发家长热议。传承人坦言年轻人愿意'入心'而非只守旧谱，但经费与师资缺口较大。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨款80万建昆曲传习基地",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 6,
+            "happiness": 3,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "与文化馆合作分摊成本",
+          "effects": {
+            "educationIndex": 3,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "取消活动以压缩预算",
+          "effects": {
+            "educationIndex": -3,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "文化观察：昆曲传承 守正更要“入心”",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0018",
+      "type": "info",
+      "tag": "外事接待",
+      "title": "{city}接待境外考察团小范围交流",
+      "desc": "市外办接到通知，一支境外工商界考察团将于本周来{city}考察产业园区与营商环境。上级要求参照重要外事惯例，安排小范围闭门交流并严格控制接待规格。市委办公厅担忧接待标准过高易被追责，过低又恐失礼影响签约意向。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "按标准接待并公开行程清单",
+          "effects": {
+            "treasury": -100,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "超规格接待以博签约意向",
+          "effects": {
+            "treasury": -400,
+            "inspection": 12,
+            "corruption": 6,
+            "gdpMult": 1.03
+          },
+          "color": "orange"
+        },
+        {
+          "text": "取消接待以避风险",
+          "effects": {
+            "reputation": -5,
+            "gdpMult": 0.96
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平同美国总统特朗普小范围交流",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0019",
+      "type": "warn",
+      "tag": "能源安全",
+      "title": "{city}应对中东局势能源波动",
+      "desc": "受中东局势影响，国际油价短线跳涨，{city}成品油零售价即将上调，物流与公交运营成本高企。市政府召集能源、交通、物价部门会商，担心居民出行与货运企业叫苦。市发改委拟启动平抑机制，但地方储备油数量有限。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动公交物流补贴平抑油价",
+          "effects": {
+            "treasury": -500,
+            "happiness": 5,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅对公交补贴，物流自理",
+          "effects": {
+            "treasury": -200,
+            "happiness": 2,
+            "unemployment": 0.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "顺价传导不加补贴",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平谈中东局势",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0020",
+      "type": "success",
+      "tag": "体育赛事",
+      "title": "{city}市队乒乓球夺冠庆典",
+      "desc": "{city}市乒乓球代表队在本届亚洲运动会女子团体决赛中一路过关斩将，最终夺得金牌，市体育馆设大屏直播吸引数万市民围观。队里小队员赛后接受采访激动落泪，市体育局收到上级嘉奖通报。群众性乒乓运动热度飙升，民间报名培训激增。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨款50万建青少年乒乓基地",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "educationIndex": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "奖励教练组奖金5万",
+          "effects": {
+            "happiness": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不发文不兑现，低调收场",
+          "effects": {
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）乒乓球女子团体决赛：中国队夺得冠军",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0021",
+      "type": "info",
+      "tag": "民俗赏月",
+      "title": "{city}中秋'十五的月亮十七圆'",
+      "desc": "天文台发布本月中秋将出现'十五的月亮十七圆'的天象奇观，最佳赏月时段为19:45至21:30，{city}多处观景平台预计人满为患。文旅部门提前发布安全提示，但市民自发组织的广场赏月派对已悄然升温，夜间人流压力骤增。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "增派警力交警保障观景安全",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅在官网发布提示不增员",
+          "effects": {
+            "reputation": -1,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "封场观景台避拥挤风险",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "今年中秋“十五的月亮十七圆” 最佳赏月时段→",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0022",
+      "type": "success",
+      "tag": "民俗节庆",
+      "title": "{city}大坑火龙庆中秋引热议",
+      "desc": "{city}老城区仿照香港大坑传统举办'火龙'巡游庆中秋，村民抬着插满松香烛的火龙在街巷穿行祈福，吸引大量游客与短视频博主打卡。活动引发对本地民俗传承与文化IP打造的讨论，但巡游当晚周边商铺被要求临时停业，商户叫苦不迭。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "补贴商户停业损失并推广IP",
+          "effects": {
+            "treasury": -150,
+            "happiness": 4,
+            "reputation": 4,
+            "gdpMult": 1.03
+          },
+          "color": "green"
+        },
+        {
+          "text": "只办巡游，不补偿商户",
+          "effects": {
+            "happiness": -2,
+            "reputation": -2,
+            "gdpMult": 1.01
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "取消巡游以保商户经营",
+          "effects": {
+            "happiness": -3,
+            "reputation": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "香港大坑“火龙”起舞欢庆中秋",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0023",
+      "type": "corruption",
+      "tag": "廉政警示",
+      "title": "{city}干部小恶积重引发举报",
+      "desc": "市纪委监委通报，{city}某街道办一名中层干部长期收受小礼品、虚开发票报销差旅，积少成多涉案数十万。群众举报材料中提及'善小不为之、恶小不为'等廉政箴言，引发基层干部作风自查热潮。上级要求限期整改并追缴违纪所得。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "彻查追缴并公开通报整改",
+          "effects": {
+            "corruption": -8,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部批评教育从轻处理",
+          "effects": {
+            "corruption": 2,
+            "inspection": 8,
+            "reputation": -3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "压下举报不上报纪委",
+          "effects": {
+            "corruption": 10,
+            "reputation": -6,
+            "inspection": 15
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：不以善小而不为，不以恶小而为之",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0024",
+      "type": "warn",
+      "tag": "体育士气",
+      "title": "{city}羽球队银牌引发讨论",
+      "desc": "{city}市羽毛球队在亚洲运动会男子团体决赛中以两分惜败，仅获银牌。赛后部分网民质疑赛前集训经费使用去向，体育局召开新闻发布会回应训练与场地投入情况。市民群众意见分化，有人呼吁继续支持，有人要求审计账目。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "主动公开集训账目接受监督",
+          "effects": {
+            "reputation": 3,
+            "happiness": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "追加奖金提振士气",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "回避回应不表态",
+          "effects": {
+            "reputation": -4,
+            "inspection": 6,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获得羽毛球男子团体银牌",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0025",
+      "type": "warn",
+      "tag": "外联招商",
+      "title": "{city}农特产进闽推介受阻",
+      "desc": "{city}农投集团计划将本地菌菇、小杂粮送往福建福州参加农文旅推介活动，却在通关时因一批蜂蜜检疫证明缺失被海关暂扣。企业负责人急得连夜联系农业、海关、市场监管三方协调。错过本届活动将导致下半年订单大幅缩水。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "协调加急复检并补贴企业损失",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.03,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "只协调加急，不补损失",
+          "effects": {
+            "gdpMult": 1.01,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "让企业自行承担后果",
+          "effects": {
+            "gdpMult": 0.9500000000000001,
+            "happiness": -3,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "六盘山好物入闽 宁夏隆德农文旅推介招商活动福州启幕",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0026",
+      "type": "info",
+      "tag": "外贸风向",
+      "title": "{city}外贸商会研判竞争格局",
+      "desc": "{city}外贸商会组织企业家研读中美经贸最新动向，多家企业反映对美出口订单波动加剧。部分中小外贸公司被建议转向东南亚市场，商会拟牵头搭建共享外贸服务平台。市商务局希望借势推动外贸结构升级，但平台搭建需财政投入。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "拨款200万共建外贸服务平台",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.05,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "提供场地不投资金",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.02,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不予支持，让企业自谋",
+          "effects": {
+            "gdpMult": 0.96,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习言道 | 中美不必讳言竞争，但竞争应该是良性的、有边界的",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0027",
+      "type": "success",
+      "tag": "校园文艺",
+      "title": "{city}中学昆曲社团走红网络",
+      "desc": "{city}一所中职学校昆曲社团在短视频平台发布《牡丹亭》选段改编版，三天内播放量破百万。社团指导老师为退休文化馆昆曲演员，因排练场地与经费紧张已多次婉拒校外演出邀请。市教育部门拟将其纳入市级美育示范项目，但需新增专项预算。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "纳入示范项目并增拨预算",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 5,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "口头表彰不加预算",
+          "effects": {
+            "educationIndex": 1,
+            "reputation": 1,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "叫停以免资源过度倾斜",
+          "effects": {
+            "educationIndex": -3,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "文化观察：昆曲传承 守正更要“入心”",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0028",
+      "type": "warn",
+      "tag": "接待标准",
+      "title": "{city}外宾接待预算争议",
+      "desc": "{city}拟接待一批境外政商考察团，市委办按标准编制接待方案，但商务局希望提高规格以促成签约。纪检部门提醒'不以善小而不为'，反对超标准安排食宿与礼品。三方就接待预算反复博弈，最终方案尚难定稿。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "严格按标准执行并报备行程",
+          "effects": {
+            "treasury": -100,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "适当上浮接待标准促成签约",
+          "effects": {
+            "treasury": -350,
+            "gdpMult": 1.04,
+            "inspection": 10,
+            "corruption": 4
+          },
+          "color": "orange"
+        },
+        {
+          "text": "压到最低标准接待",
+          "effects": {
+            "treasury": -50,
+            "reputation": -4,
+            "gdpMult": 0.97
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：不以善小而不为，不以恶小而为之",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0029",
+      "type": "info",
+      "tag": "能源保供",
+      "title": "{city}物流企业油价压力加大",
+      "desc": "受中东局势外溢影响，{city}成品油零售价连续上调，本地多家物流与快递企业反映每车成本增加80-150元。市交通运输局收到企业联名反映，请求启动油价补贴或临时减免部分路桥费。财政紧张情况下，补贴范围与额度成为博弈焦点。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "对重点物流企业定向补贴",
+          "effects": {
+            "treasury": -400,
+            "happiness": 4,
+            "unemployment": -0.01,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "临时减免路桥通行费",
+          "effects": {
+            "treasury": -250,
+            "gdpMult": 1.02,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由企业自行承担成本",
+          "effects": {
+            "happiness": -4,
+            "unemployment": 0.03,
+            "gdpMult": 0.97
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平谈中东局势",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0030",
+      "type": "warn",
+      "tag": "民俗活动",
+      "title": "{city}中秋火龙夜游引发拥堵",
+      "desc": "{city}老街区为庆中秋举办'火龙'巡游，数千市民自发聚集，主干道临时断行，部分商铺提前打烊。消防部门接到多起'火龙烧到路边花池'的小火警，所幸无人员伤亡。文旅局向镇政府求援，希望平衡市民热情与公共安全。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "联合消防划定安全区，增派警力引导",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "reputation": 4,
+            "corruption": -2
+          },
+          "color": "green"
+        },
+        {
+          "text": "强制叫停活动，避免隐患",
+          "effects": {
+            "happiness": -6,
+            "reputation": -3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "放任自由，事后追责商户",
+          "effects": {
+            "happiness": 3,
+            "reputation": -4,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "香港大坑“火龙”起舞欢庆中秋",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0031",
+      "type": "info",
+      "tag": "国际关系",
+      "title": "{city}对台贸易企业咨询潮",
+      "desc": "受高层关于慎重处理台湾问题的表态影响，{city}对台贸易企业老板集体到商务局咨询出口合规事宜。部分跨境电商反映订单波动，担心海关查验趋严。企业诉求集中在关税口径和通关效率上，希望政府给出明确指引。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "召开专场座谈会，发布合规指引",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "建议企业观望，不主动表态",
+          "effects": {
+            "reputation": -2,
+            "happiness": -1,
+            "corruption": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "借机扶持本地替代供应商",
+          "effects": {
+            "treasury": 100,
+            "gdpMult": 1.02,
+            "reputation": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：美方应慎重处理台湾问题",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0032",
+      "type": "success",
+      "tag": "文旅活动",
+      "title": "{city}赏月晚会吸引游客",
+      "desc": "今年中秋'十五的月亮十七圆'的天文奇观引发市民热议，{city}滨江公园顺势举办免费赏月晚会，预计超两万人到场。周边停车场爆满，外卖订单量翻三倍，多家酒店提前订满。文旅局希望政府配套灯光和安保预算。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "追加50万安保预算，延长演出",
+          "effects": {
+            "treasury": -50,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅维持基础安保，控制成本",
+          "effects": {
+            "happiness": 1,
+            "reputation": -1,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "向商家收费分摊安保成本",
+          "effects": {
+            "treasury": 50,
+            "happiness": -2,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "今年中秋“十五的月亮十七圆” 最佳赏月时段→",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0033",
+      "type": "info",
+      "tag": "国际交流",
+      "title": "{city}青年诗会筹备启动",
+      "desc": "受中国—东盟教育交流周'山海共此时'音乐诗会启幕带动，{city}教育局计划联合高校举办面向东盟留学生的小型诗会，拟邀请东盟国家学生参与。项目需对接外事、文旅、财政多个部门，预算缺口约30万，希望争取上级专项支持。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "申请上级专项，足额拨付预算",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 4,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "缩减规模，仅办线上直播",
+          "effects": {
+            "educationIndex": 1,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由企业赞助冠名，减少财政支出",
+          "effects": {
+            "educationIndex": 2,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026中国—东盟教育交流周配套活动“山海共此时”国际青年中",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0034",
+      "type": "warn",
+      "tag": "体育产业",
+      "title": "{city}羽毛球青训基地选址争议",
+      "desc": "受中国队羽毛球男团摘银激励，{city}体育局拟在城郊一块旧厂房改建青训基地，计划引进退役运动员执教。周边村民担心训练噪音影响休息，向镇政府递交联名信。部分企业则主动提出冠名赞助，希望换取场地广告权。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "错峰训练+隔音改造，公示方案",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 3,
+            "happiness": 2,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓建设，重新选址评估",
+          "effects": {
+            "reputation": -2,
+            "merit": -1,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "接受企业冠名，承诺不扰民",
+          "effects": {
+            "treasury": 100,
+            "educationIndex": 2,
+            "corruption": 3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获得羽毛球男子团体银牌",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0035",
+      "type": "corruption",
+      "tag": "廉政提醒",
+      "title": "{city}公务接待被点名整改",
+      "desc": "上级廉政警示强调'不以善小而不为，不以恶小而为之'，{city}财政局抽查发现三起超标准公务接待，单次超标约800元。涉事单位负责人已书面检讨，纪检组要求全镇统一开展自查自纠，限期一周上报整改报告。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额追回超标费用，全员通报",
+          "effects": {
+            "corruption": -6,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅批评教育，不再追缴",
+          "effects": {
+            "corruption": 3,
+            "inspection": 5,
+            "reputation": -1
+          },
+          "color": "red"
+        },
+        {
+          "text": "借机调整公务接待标准文件",
+          "effects": {
+            "corruption": -2,
+            "reputation": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：不以善小而不为，不以恶小而为之",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0036",
+      "type": "success",
+      "tag": "文化IP",
+      "title": "{city}关公文化节招商洽谈",
+      "desc": "首届关公文化论坛在山西运城举行，引发多地文化IP热。{city}一位民间关帝庙管理人来镇政府洽谈，希望联合开发关公文创园区，可带来年游客约15万人次。但规划涉及文物红线和土地性质变更，需多部门会签，风险与收益并存。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "成立专班，依法依规推进",
+          "effects": {
+            "treasury": 200,
+            "gdpMult": 1.03,
+            "reputation": 4,
+            "inspection": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂不落地，先做线上宣传",
+          "effects": {
+            "reputation": 1,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "加速审批，简化流程换速度",
+          "effects": {
+            "treasury": 250,
+            "gdpMult": 1.05,
+            "corruption": 4,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届关公文化论坛在山西运城举行 专家学者共探关公文化时代价值",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0037",
+      "type": "info",
+      "tag": "外事接待",
+      "title": "{city}涉外礼宾方案上报",
+      "desc": "受高层与美国总统小范围交流带动，{city}拟承接一批外宾临时考察团，需制定礼宾方案。外事办提出安保、翻译、餐饮、医疗四项标配需求，预算需求约60万。财政局担心一次性支出过大，建议分摊到接待企业和上级。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "全额财政保障，确保规格",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "happiness": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "邀请本地企业共担费用",
+          "effects": {
+            "reputation": 2,
+            "corruption": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "缩减接待规模，节约开支",
+          "effects": {
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平同美国总统特朗普小范围交流",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0038",
+      "type": "warn",
+      "tag": "能源安全",
+      "title": "{city}加油站应对中东局势",
+      "desc": "受中东局势波动影响，国际油价单日跳涨4%。{city}辖区两家民营加油站被曝囤油待涨，市监局接到12315投诉。发改委要求本地油站24小时保供稳价，必要时动用战略储备，否则吊销经营许可。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合督查，动用储备稳价",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发函提醒，不强制干预",
+          "effects": {
+            "happiness": -3,
+            "corruption": 2,
+            "reputation": -1
+          },
+          "color": "orange"
+        },
+        {
+          "text": "默许囤油，换取企业捐款",
+          "effects": {
+            "treasury": 50,
+            "corruption": 6,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平谈中东局势",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0039",
+      "type": "info",
+      "tag": "外事礼宾",
+      "title": "{city}白宫欢迎仪式同款礼宾",
+      "desc": "受高层出席白宫欢迎仪式影响，{city}拟举办一场市级外宾欢迎晚宴，参考礼宾规格制定方案。酒店方报价每桌1800元，共30桌，需财政一次性拨付约60万。办公室担心被上级质疑铺张，建议压缩桌数。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "按规格执行，预留机动预算",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "corruption": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩至15桌，节约开支",
+          "effects": {
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由企业赞助办宴，财政免单",
+          "effects": {
+            "reputation": 2,
+            "corruption": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平出席美国总统特朗普在白宫举行的欢迎仪式",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0040",
+      "type": "success",
+      "tag": "教育惠民",
+      "title": "{city}东盟留学生奖学金",
+      "desc": "对标东盟教育交流周精神，{city}教育局拟设立东盟留学生奖学金，覆盖本地三所高校。预计覆盖80名学生，年支出约100万，资金来源可走财政、企业、校友三方共担。校友会主动请缨承担30%。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "三方共担，财政拿出大头",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 5,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅设少量名额试点",
+          "effects": {
+            "educationIndex": 2,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "完全由企业冠名，减少财政",
+          "effects": {
+            "educationIndex": 2,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026中国—东盟教育交流周配套活动“山海共此时”国际青年中",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0041",
+      "type": "danger",
+      "tag": "舆情危机",
+      "title": "{city}中秋夜突发群体聚集",
+      "desc": "中秋之夜，{city}一网红夜市因'十五的月亮十七圆'话题爆火，两小时涌入超8000人，远超承载上限。现场出现推搡、晕倒、走失儿童等险情，120接到23起呼救，119出动6辆消防车疏通。社交媒体已出现热搜苗头。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "立即封路疏散，启动应急",
+          "effects": {
+            "treasury": -100,
+            "happiness": -2,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "加强警力，逐步分流",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 1,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "事后追责，暂不干预",
+          "effects": {
+            "happiness": -8,
+            "reputation": -6,
+            "corruption": 2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "今年中秋“十五的月亮十七圆” 最佳赏月时段→",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0042",
+      "type": "warn",
+      "tag": "廉政自查",
+      "title": "{city}中秋廉洁提醒",
+      "desc": "上级发出中秋廉洁提醒，强调'不以善小而不为，不以恶小而为之'。{city}镇纪委排查发现两家下属单位在节前采购月饼礼盒，单价超标，合计1.2万元。涉事人员态度不一，有的主张主动上缴，有的认为'逢节必有礼'属惯例。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全额退还，全员警示教育",
+          "effects": {
+            "corruption": -5,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部消化，不对外通报",
+          "effects": {
+            "corruption": 3,
+            "inspection": 4,
+            "reputation": -1
+          },
+          "color": "red"
+        },
+        {
+          "text": "折算为职工福利，公示",
+          "effects": {
+            "corruption": -1,
+            "happiness": 2,
+            "inspection": 1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：不以善小而不为，不以恶小而为之",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0043",
+      "type": "success",
+      "tag": "体育激励",
+      "title": "{city}羽毛球冠军回家乡",
+      "desc": "受亚运会羽毛球男团银牌激励，{city}籍退役羽毛球冠军受邀回乡，将举办一场青少年训练公开课，预计吸引500名小球员参与。体育局希望借此设立青少年羽毛球青训点，长期投入约80万/年，家长协会已联名支持。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全额投入，挂牌青训点",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 5,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅办公开课，不建长期点",
+          "effects": {
+            "educationIndex": 1,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由培训机构承办，财政零投入",
+          "effects": {
+            "educationIndex": 1,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获得羽毛球男子团体银牌",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0044",
+      "type": "info",
+      "tag": "区域合作",
+      "title": "{city}对台招商项目洽谈",
+      "desc": "受高层表态影响，{city}拟邀请一批台湾企业家考察本地营商环境，主题聚焦精密制造和现代农业。招商办希望争取到3-5家落地，但台商普遍对'慎重处理台湾问题'表态敏感，需要政府明确承诺和优惠条件。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "出台专项扶持，公开承诺",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.04,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现状，不主动加码",
+          "effects": {
+            "reputation": -2,
+            "gdpMult": 0.98
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "借机扶持大陆同类企业",
+          "effects": {
+            "treasury": 50,
+            "gdpMult": 1.02,
+            "reputation": -1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：美方应慎重处理台湾问题",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0045",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}油画节开幕",
+      "desc": "受西藏题材油画巡展启发，{city}文化馆联合本地画协举办'高原故事·{city}新篇'油画展。百余幅作品以本地山川、牧区生活、民族节庆为题材，开馆当日吸引两千余名市民参观，周边文创摊位日销售额破十万，文旅局希望借此带动淡季客流。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加财政补贴并延长展期",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合商场做文创联名",
+          "effects": {
+            "treasury": 50,
+            "happiness": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "按原计划如期闭幕",
+          "effects": {
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "画家张鹰：用油画讲好西藏故事",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0046",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}乒乓队夺冠",
+      "desc": "市体校培养的乒乓女子团体队在省青年赛决赛中3:1逆转东道主，为{city}时隔八年重夺该项冠军。队员赛后接受采访称训练场地长期紧张，希望市政府能升级训练馆并引进外教，教练组已提交三年建设方案，预算约四百二十万。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨付预算升级训练馆",
+          "effects": {
+            "treasury": -400,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "分两年分期建设",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅发放夺冠奖金",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）乒乓球女子团体决赛：中国队夺得冠军",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0047",
+      "type": "danger",
+      "tag": "舆情",
+      "title": "{city}舆情风暴骤起",
+      "desc": "一则关于{city}某社区违建强拆的短视频在网络上疯传，累计播放量超八百万次。视频画面模糊、当事人身份不明，但评论区已出现大量针对市政府的指责。网信办接到上级提示，要求24小时内查明事实并统一对外口径，否则将面临通报批评。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "立即成立联合调查组",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "inspection": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布情况说明并辟谣",
+          "effects": {
+            "reputation": -2,
+            "happiness": -3,
+            "inspection": 6
+          },
+          "color": "orange"
+        },
+        {
+          "text": "冷处理暂不回应",
+          "effects": {
+            "reputation": -6,
+            "happiness": -4,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0048",
+      "type": "warn",
+      "tag": "外贸",
+      "title": "{city}外贸企业观望",
+      "desc": "受中美关系波动影响，{city}开发区内七家对美出口为主的纺织与家电企业连续三个月订单量下滑，部分工厂减产40%。企业家协会递交联名信，请求政府协助拓展东南亚、中东市场并提供出口信用保险补贴，否则年底或将裁员逾三千人。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "补贴企业开拓新兴市场",
+          "effects": {
+            "treasury": -250,
+            "unemployment": -0.02,
+            "gdpMult": 1.04,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发放稳岗补贴",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状让市场调节",
+          "effects": {
+            "unemployment": 0.03,
+            "gdpMult": 0.9500000000000001,
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：美方应慎重处理台湾问题",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0049",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}承办亚洲赛事",
+      "desc": "经省体育局推荐，{city}有望承办下一届亚洲室内田径锦标赛，预计带来直接投资一千二百万，可拉动酒店、餐饮、交通行业增收约四千八百万。但现有主场馆灯光、跑道等级不达标，需在八个月内完成改造并新增两座临时看台，工期紧、协调难度大。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全力承接并改造场馆",
+          "effects": {
+            "treasury": -1200,
+            "gdpMult": 1.08,
+            "reputation": 6,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "与邻市联合承办",
+          "effects": {
+            "treasury": -500,
+            "gdpMult": 1.04,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒以保财政",
+          "effects": {
+            "treasury": 50,
+            "reputation": -3,
+            "happiness": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "湖南岳阳让亚洲赛事走进'城市客厅'",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0050",
+      "type": "success",
+      "tag": "外交",
+      "title": "{city}举办国际论坛",
+      "desc": "省厅批复同意{city}承办'一带一路'地方合作分论坛，将有十二国驻华使馆官员及五百余名中外客商出席。会场设在市会展中心，预计带来协议签约额超八亿元。但外宾接待标准、安保、翻译、餐饮等综合开支预估九百五十万，需报市政府常务会议审定。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "按国宾级标准筹备",
+          "effects": {
+            "treasury": -950,
+            "reputation": 6,
+            "gdpMult": 1.06,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "精简规模控制成本",
+          "effects": {
+            "treasury": -400,
+            "reputation": 3,
+            "gdpMult": 1.03
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒承办申请",
+          "effects": {
+            "treasury": 100,
+            "reputation": -4,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平出席美国总统特朗普在白宫举行的欢迎仪式",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0051",
+      "type": "info",
+      "tag": "经贸",
+      "title": "{city}招商引资洽谈",
+      "desc": "受中美高层小范围交流的积极信号提振，三家美资制造企业主动联系{city}招商局，意向投资总额达三点二亿元，涉及新能源汽车零部件与精密仪器。美方代表提出落地即开工的特殊审批请求，希望简化环评流程并享受首年税收全免，市里正在权衡合规性与吸引力。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "开通绿色通道引进",
+          "effects": {
+            "treasury": 300,
+            "gdpMult": 1.07,
+            "inspection": 8,
+            "corruption": 3,
+            "merit": 2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "按常规流程审批",
+          "effects": {
+            "treasury": 100,
+            "gdpMult": 1.03,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以合规为由拒绝",
+          "effects": {
+            "gdpMult": 0.99,
+            "reputation": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "新华图讯丨习近平同美国总统特朗普小范围交流",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0052",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}祭典香火旺",
+      "desc": "受山西尧都祭祖大典启发，{city}古文化区举办的'根脉寻源'祭祖大典吸引三万余名海内外同宗后裔回城参与。周边民宿一夜售罄，古街日均客流翻三倍，但现场交通拥堵、临时厕所不足、垃圾清运压力骤增，古建群防火等级也面临严峻考验。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增派警力扩容交通",
+          "effects": {
+            "treasury": -150,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "限流入场并预约制",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持原方案不调整",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "跨越山海寻根祭祖 第八届尧都民间祭拜尧帝大典在山西临汾举行",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0053",
+      "type": "warn",
+      "tag": "外资",
+      "title": "{city}外资信心波动",
+      "desc": "受中美关系阶段性缓和但仍有反复的影响，{city}开发区内四家美资企业暂停新增投资计划，两家在谈项目推迟签约。企业界普遍担忧供应链与关税政策，外资办建议启动应急预案，争取省里设立外资稳定基金，预计需地方配套支出三百八十万。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立稳定基金稳外资",
+          "effects": {
+            "treasury": -400,
+            "gdpMult": 1.04,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "一对一走访企业",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 1.01,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "静观其变不干预",
+          "effects": {
+            "gdpMult": 0.96,
+            "unemployment": 0.02,
+            "happiness": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0054",
+      "type": "info",
+      "tag": "体育",
+      "title": "{city}羽球队摘银",
+      "desc": "市羽毛球集训队在省锦标赛男团决赛中2:3惜败，摘得银牌，创下近五年最好成绩。队员赛后情绪低落，教练组建议增设心理辅导课程并引进专业体能师，预算约六十万。俱乐部赞助方表示若成绩继续提升可追加两百万投资，市体育局正在权衡投入。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "加投教练与心理团队",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅奖励奖金不扩编",
+          "effects": {
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂停训练预算",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）中国队获得羽毛球男子团体银牌",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0055",
+      "type": "warn",
+      "tag": "文旅",
+      "title": "{city}油画展投诉",
+      "desc": "市美术馆引进的'西藏风情油画展'因部分作品被质疑涉及敏感宗教符号，引发市民投诉与网络讨论。票务平台退票申请已达七百三十张，文旅局与主办方紧急协商，须在48小时内决定是撤展、加注释还是维持展出，处理不当将影响年末文化考核。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "撤展并退款补偿",
+          "effects": {
+            "treasury": -100,
+            "reputation": 2,
+            "happiness": 1,
+            "inspection": 4
+          },
+          "color": "blue"
+        },
+        {
+          "text": "加注说明保留展出",
+          "effects": {
+            "treasury": -50,
+            "happiness": -2,
+            "inspection": 8,
+            "reputation": -1
+          },
+          "color": "orange"
+        },
+        {
+          "text": "维持原状不予回应",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "画家张鹰：用油画讲好西藏故事",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0056",
+      "type": "danger",
+      "tag": "民生",
+      "title": "{city}台风预警",
+      "desc": "气象台发布台风橙色预警，预计48小时内{city}沿海片区将出现十二级以上阵风与三百毫米降雨，城区内涝、海边作业安全、低洼小区被困等风险上升。应急办需立即启动I级响应，转移约两万名群众，预计直接财政投入逾一千二百万。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动I级响应全员转移",
+          "effects": {
+            "treasury": -1200,
+            "happiness": 4,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "重点片区转移其他观望",
+          "effects": {
+            "treasury": -500,
+            "happiness": -2,
+            "reputation": 1,
+            "inspection": 5
+          },
+          "color": "orange"
+        },
+        {
+          "text": "按常规四级响应处理",
+          "effects": {
+            "treasury": -100,
+            "happiness": -8,
+            "reputation": -6,
+            "inspection": 15
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0057",
+      "type": "corruption",
+      "tag": "审计",
+      "title": "{city}赛事预算疑云",
+      "desc": "上级审计组在抽查{city}上一届省级体育赛事时发现，场馆改造与安保外包两项支出存在明显高于市场价的情况，涉及金额约六百二十万，相关经办人已被约谈。财政局要求限期出具专项说明，若查实违规将追责并追缴资金，舆论也在关注。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "主动彻查并公开结果",
+          "effects": {
+            "treasury": -300,
+            "reputation": 4,
+            "corruption": -6,
+            "inspection": 10,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部整改不公开",
+          "effects": {
+            "treasury": -100,
+            "corruption": -2,
+            "inspection": 14,
+            "reputation": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "拖延敷衍审计",
+          "effects": {
+            "corruption": 5,
+            "reputation": -6,
+            "inspection": 18,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "湖南岳阳让亚洲赛事走进'城市客厅'",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0058",
+      "type": "success",
+      "tag": "外交",
+      "title": "{city}接待外宾访",
+      "desc": "受中美关系改善氛围带动，美国俄亥俄州友好城市代表团将于下周访问{city}，考察新能源汽车产业与职业教育合作。外事办拟安排市领导出席欢迎晚宴，并推动两市签署青年交换计划，预计带来长期人才与文化收益，但接待标准需合规不逾矩。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "按合规高标准接待",
+          "effects": {
+            "treasury": -250,
+            "reputation": 5,
+            "happiness": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "精简流程节约开支",
+          "effects": {
+            "treasury": -100,
+            "reputation": 2,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "推给区县自行安排",
+          "effects": {
+            "treasury": 50,
+            "reputation": -3,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平出席美国总统特朗普在白宫举行的欢迎仪式",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0059",
+      "type": "info",
+      "tag": "外交",
+      "title": "{city}外宾座谈",
+      "desc": "借中美高层小范围交流的东风，{city}将接待来访美企代表团，就供应链本地化与人才培训议题座谈。企业界期待签署合作备忘录，但也提醒政府不宜在公开表态中过度承诺政策优惠，以免后续兑现压力与合规风险。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "签署备忘录并承诺配套",
+          "effects": {
+            "treasury": -150,
+            "gdpMult": 1.05,
+            "reputation": 3,
+            "corruption": 2,
+            "merit": 1
+          },
+          "color": "orange"
+        },
+        {
+          "text": "仅座谈不签备忘录",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒接待",
+          "effects": {
+            "treasury": 50,
+            "reputation": -3,
+            "gdpMult": 0.99
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "新华图讯丨习近平同美国总统特朗普小范围交流",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0060",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}举办中秋龙舟灯会",
+      "desc": "值此中秋佳节，{city}文化局举办'火龙起舞'传统灯会庆祝团圆。活动在市中心广场举行，预计吸引数千市民和游客参与，届时将有舞龙表演、花灯展览和传统美食摊位。此举旨在弘扬传统文化，提升城市文化氛围。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全力支持并增加经费投入",
+          "effects": {
+            "treasury": -50,
+            "happiness": 8,
+            "reputation": 5,
+            "population": 100,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现有预算正常举办",
+          "effects": {
+            "happiness": 4,
+            "reputation": 2,
+            "population": 50,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "缩减规模节约开支",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1,
+            "population": -50
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "取消活动专注其他事务",
+          "effects": {
+            "treasury": 50,
+            "happiness": -5,
+            "reputation": -3,
+            "population": -100,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "香港大坑'火龙'起舞欢庆中秋",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0061",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}承办国际青年音乐节",
+      "desc": "教育文化部收到通知，{city}将作为'山海共此时'国际青年音乐诗会的承办地。活动将吸引来自东盟国家的青年艺术家参与，展现文化交流成果。市政府需协调场地、安保及接待工作，预计提升城市国际知名度。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "高规格接待确保万无一失",
+          "effects": {
+            "treasury": -150,
+            "happiness": 6,
+            "reputation": 8,
+            "educationIndex": 5,
+            "population": 200,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按标准流程承办活动",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 4,
+            "educationIndex": 3,
+            "population": 100,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "精简活动节约财政支出",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 1,
+            "educationIndex": 1,
+            "population": 50,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推辞承办寻求其他机会",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "reputation": -2,
+            "educationIndex": -2,
+            "population": -50
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026中国—东盟教育交流周配套活动'山海共此时'国际青年中",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0062",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}迎来亚洲乒乓球赛事",
+      "desc": "体育部门接获通知，{city}体育馆将承办亚洲乒乓球锦标赛分站赛。赛事预计吸引专业运动员、裁判及数千名观众，对场馆设施和服务水平提出较高要求。此次赛事有望提升{city}体育城市形象，带动相关产业发展。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全力保障赛事成功举行",
+          "effects": {
+            "treasury": -200,
+            "happiness": 7,
+            "reputation": 6,
+            "population": 150,
+            "gdpMult": 1.02,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按常规标准承办赛事",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 3,
+            "population": 100,
+            "gdpMult": 1.01,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "减少投入维持基本运营",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "population": 50,
+            "gdpMult": 1,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "谢绝承办减轻财政负担",
+          "effects": {
+            "treasury": 100,
+            "happiness": -2,
+            "reputation": -3,
+            "population": -50,
+            "gdpMult": 0.99
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）乒乓球女子团体决赛：中国队夺得冠军",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0063",
+      "type": "info",
+      "tag": "民生",
+      "title": "{city}赏月安全提示发布",
+      "desc": "天文台预报今年中秋'十五的月亮十七圆'，{city}将出现最佳赏月时段。公园、广场等公共区域预计人流激增，需加强安全管理。市防汛指挥部要求各部门做好人流疏导和应急准备，确保市民安全赏月。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "部署大量警力保障安全",
+          "effects": {
+            "treasury": -100,
+            "happiness": 6,
+            "reputation": 5,
+            "inspection": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布安全提示加强巡逻",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3,
+            "inspection": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅在主要区域加强管理",
+          "effects": {
+            "happiness": 2,
+            "reputation": 1,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "顺其自然不做特别安排",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "今年中秋'十五的月亮十七圆' 最佳赏月时段→",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0064",
+      "type": "danger",
+      "tag": "外交",
+      "title": "{city}应对中美关系紧张影响",
+      "desc": "受中美关系波动影响，{city}外贸企业订单出现下滑趋势。多家出口企业反映，部分美国客户推迟下单，造成生产线闲置。市商务局需紧急制定应对方案，帮助企业寻找新市场并稳定员工就业。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "推出外贸企业帮扶政策",
+          "effects": {
+            "treasury": -150,
+            "happiness": 5,
+            "reputation": 4,
+            "unemployment": -0.02,
+            "gdpMult": 1.01,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织企业开拓新市场",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 2,
+            "unemployment": -0.01,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅对重点企业提供援助",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "gdpMult": 1.01,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂不干预任其自然调整",
+          "effects": {
+            "treasury": 50,
+            "happiness": -4,
+            "reputation": -3,
+            "unemployment": 0.03,
+            "gdpMult": 0.98,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平同美国总统特朗普小范围交流",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0065",
+      "type": "success",
+      "tag": "艺术",
+      "title": "{city}引进西藏主题画展",
+      "desc": "{city}美术馆与专业艺术机构合作，将引进'用油画讲好西藏故事'主题画展。展览将展示30余幅反映西藏自然风光和人文风情的高水平油画作品。市文旅局认为此举将丰富市民文化生活，提升城市艺术品味。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全额资助画展并提供配套活动",
+          "effects": {
+            "treasury": -100,
+            "happiness": 7,
+            "reputation": 6,
+            "educationIndex": 4,
+            "population": 100,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "部分资助并寻求企业赞助",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3,
+            "educationIndex": 2,
+            "population": 50,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅承担场地费用其他自办",
+          "effects": {
+            "happiness": 2,
+            "reputation": 1,
+            "educationIndex": 1,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "婉拒合作节省财政开支",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "reputation": -2,
+            "educationIndex": -2,
+            "population": -50
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "画家张鹰：用油画讲好西藏故事",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0066",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}居民中秋食品需求激增",
+      "desc": "中秋临近，{city}超市和农贸市场月饼、水果等节日食品销量猛增，部分区域出现供应紧张。市场监管局需确保食品安全，防止假冒伪劣产品流入市场。同时需协调商家增加库存，满足市民节日消费需求。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "加强市场监管保障食品安全",
+          "effects": {
+            "treasury": -50,
+            "happiness": 6,
+            "reputation": 5,
+            "healthcare": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织商家增加节日供应",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3,
+            "healthcare": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅对重点商家进行检查",
+          "effects": {
+            "happiness": 2,
+            "reputation": 1,
+            "healthcare": 1,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "完全依靠市场调节",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "healthcare": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "今年中秋'十五的月亮十七圆' 最佳赏月时段→",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0067",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}策划特色中秋文化活动",
+      "desc": "{city}文化馆联合社区策划'传统与现代'中秋主题活动。活动包括花灯制作、诗词朗诵、家庭团圆宴等，旨在传承传统文化，增强社区凝聚力。预计将有数千家庭参与，促进邻里和谐，营造浓厚节日氛围。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "大规模推广并增加社区覆盖",
+          "effects": {
+            "treasury": -100,
+            "happiness": 8,
+            "reputation": 6,
+            "population": 100,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按计划推进活动实施",
+          "effects": {
+            "treasury": -50,
+            "happiness": 5,
+            "reputation": 3,
+            "population": 50,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "精简活动集中资源",
+          "effects": {
+            "happiness": 2,
+            "reputation": 1,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "取消活动节省行政开支",
+          "effects": {
+            "treasury": 50,
+            "happiness": -4,
+            "reputation": -3,
+            "population": -50
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "香港大坑'火龙'起舞欢庆中秋",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0068",
+      "type": "danger",
+      "tag": "经济",
+      "title": "{city}出口企业面临订单危机",
+      "desc": "受中美经贸关系不确定因素影响，{city}多家出口导向型制造企业面临订单取消风险。部分企业已收到海外客户推迟交货通知，可能导致生产线停工，影响员工就业和企业营收。市经信局需紧急协调应对措施。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动外贸企业应急预案",
+          "effects": {
+            "treasury": -200,
+            "happiness": 6,
+            "reputation": 5,
+            "unemployment": -0.03,
+            "gdpMult": 1.03,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织企业对接新市场",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 3,
+            "unemployment": -0.02,
+            "gdpMult": 1.02,
+            "merit": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅对大型企业提供支持",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 1,
+            "unemployment": -0.01,
+            "gdpMult": 1.01,
+            "merit": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持现状观望市场变化",
+          "effects": {
+            "treasury": 100,
+            "happiness": -5,
+            "reputation": -4,
+            "unemployment": 0.04,
+            "gdpMult": 0.97,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0069",
+      "type": "corruption",
+      "tag": "廉政",
+      "title": "{city}中秋节日廉政提醒",
+      "desc": "纪检监察部门发布中秋廉政提醒，要求党员干部严格遵守廉洁过节规定。{city}部分机关单位反映收到不明来源礼品礼金，需加强节前廉政教育。监察局计划开展专项监督检查，确保节日风清气正。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "开展全面廉政检查教育",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 6,
+            "corruption": -8,
+            "inspection": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布廉政提醒加强监督",
+          "effects": {
+            "happiness": 2,
+            "reputation": 4,
+            "corruption": -5,
+            "inspection": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅对重点部门进行检查",
+          "effects": {
+            "happiness": 1,
+            "reputation": 2,
+            "corruption": -3,
+            "inspection": 2,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂不开展特殊检查",
+          "effects": {
+            "reputation": -3,
+            "corruption": 5,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平出席美国总统特朗普在白宫举行的欢迎仪式",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0070",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}承办乒乓球冠军赛",
+      "desc": "国家体育总局批准{city}承办全国乒乓球冠军赛分站赛。赛事将汇集全国顶尖选手，预计吸引大量体育爱好者和观众。市体育局需确保场馆设施、安保服务和接待工作达到高标准，提升{city}体育城市品牌。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全力保障赛事完美呈现",
+          "effects": {
+            "treasury": -200,
+            "happiness": 7,
+            "reputation": 7,
+            "population": 200,
+            "gdpMult": 1.03,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "按标准承办确保基本质量",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 4,
+            "population": 100,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "简化流程降低运营成本",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 1,
+            "population": 50,
+            "gdpMult": 1.01,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推辞承办减轻财政压力",
+          "effects": {
+            "treasury": 50,
+            "happiness": -4,
+            "reputation": -5,
+            "population": -50,
+            "gdpMult": 0.98,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）乒乓球女子团体决赛：中国队夺得冠军",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0071",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}中秋期间交通压力大",
+      "desc": "中秋假期临近，{city}火车站、机场和高速公路出入口预计客流激增。市交通局预测将出现交通拥堵和停车难问题，需提前制定疏导方案。同时部分景点和商圈将迎来游客高峰，要求相关部门做好服务保障。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "启动交通疏导应急预案",
+          "effects": {
+            "treasury": -100,
+            "happiness": 7,
+            "reputation": 5,
+            "inspection": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "增加公共交通班次",
+          "effects": {
+            "treasury": -50,
+            "happiness": 5,
+            "reputation": 3,
+            "inspection": 2,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅对重点路段进行管理",
+          "effects": {
+            "happiness": 2,
+            "reputation": 1,
+            "inspection": 1,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "完全依靠市场化调节",
+          "effects": {
+            "treasury": 50,
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "今年中秋'十五的月亮十七圆' 最佳赏月时段→",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0072",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}打造特色文化品牌",
+      "desc": "{city}文旅局计划借鉴'用油画讲好西藏故事'成功经验，推出本土文化主题系列活动。活动包括地方历史展览、民俗体验、非遗展示等，旨在打造具有{city}特色的文化品牌。此举预计将提升城市文化影响力，吸引更多游客。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全力打造城市文化品牌",
+          "effects": {
+            "treasury": -150,
+            "happiness": 8,
+            "reputation": 7,
+            "population": 200,
+            "gdpMult": 1.03,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "分阶段推出文化活动",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "reputation": 4,
+            "population": 100,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "先试点后推广活动",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 2,
+            "population": 50,
+            "gdpMult": 1.01,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂停计划集中其他资源",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "reputation": -4,
+            "population": -50,
+            "gdpMult": 0.99
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "画家张鹰：用油画讲好西藏故事",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0073",
+      "type": "info",
+      "tag": "国际",
+      "title": "{city}接待国际代表团来访",
+      "desc": "受中美关系改善影响，{city}将接待来自美国的经贸代表团。代表团计划考察{city}产业园区和重点企业，寻求合作机会。市外办需做好接待安排，确保交流顺利进行，展示{city}良好形象。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "高规格接待展现开放姿态",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 6,
+            "population": 100,
+            "gdpMult": 1.04,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按标准流程安排接待",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 3,
+            "population": 50,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "精简接待节约接待费用",
+          "effects": {
+            "happiness": 1,
+            "reputation": 1,
+            "gdpMult": 1.01,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓接待等待进一步通知",
+          "effects": {
+            "treasury": 50,
+            "reputation": -3,
+            "gdpMult": 0.99
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平：把中美建设性战略稳定关系从愿景转化为行动",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260924_0074",
+      "type": "corruption",
+      "tag": "廉政",
+      "title": "{city}中秋期间廉政风险防控",
+      "desc": "纪检监察部门监测发现，{city}部分企业存在以节日名义进行不当商务往来的迹象。有群众反映收到商业贿赂邀请，涉及金额较大。监察局需加强节日前后监督检查，防止腐败行为借节日之机发生。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "开展廉政风险专项排查",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 6,
+            "corruption": -10,
+            "inspection": 8,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "加强节前廉政警示教育",
+          "effects": {
+            "happiness": 2,
+            "reputation": 4,
+            "corruption": -6,
+            "inspection": 5,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅对高风险部门进行检查",
+          "effects": {
+            "happiness": 1,
+            "reputation": 2,
+            "corruption": -3,
+            "inspection": 3,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持常规监督不特别加强",
+          "effects": {
+            "reputation": -3,
+            "corruption": 5,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习近平出席美国总统特朗普在白宫举行的欢迎仪式",
+      "generatedAt": "2026-09-24",
+      "schemaVersion": 1
+    }
+  ]
+}

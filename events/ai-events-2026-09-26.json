@@ -1,0 +1,4886 @@
+{
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T18:57:03.259Z",
+  "schemaVersion": 1,
+  "model": "sensenova-6.8-flash-lite",
+  "hotTopics": [
+    "时政频道",
+    "学习卡丨“人不负青山，青山定不负人”",
+    "镜观·足迹｜呵护千山万水 擘画永续发展",
+    "学习手记 | “环境就是民生”",
+    "刘国中在安徽调研时强调 全力以赴夺取夏粮丰收 全面打牢秋粮生产基础",
+    "韩正会见中美高级别二轨对话美方代表团",
+    "国务院印发《关于开展第四次全国农业普查的通知》",
+    "中央军委主席习近平签署命令 发布《军事设施建设条例》",
+    "丁薛祥在山西调研时强调 守好公平公正“生命线” 确保实现“平安高考”目标",
+    "中共中央办公厅印发《党组讨论和决定党员处分事项工作程序规定》",
+    "全国人大常委会启动节约能源法执法检查",
+    "【文脉华章】非遗焕新 生生不息丨用太极招式来炒茶！西湖龙井如何“撩”动全世界的心？",
+    "天天学习丨中南海月刊（2025.05）",
+    "习语丨“人不负青山，青山定不负人”",
+    "韩正将赴法国出席联合国海洋大会并访问西班牙",
+    "美丽中国我先行｜“植”此青绿",
+    "微视频｜共建清洁美丽世界",
+    "学习新语·中华文明丨泱泱中华的文明曙光",
+    "多地升级信用修复服务 助力经营主体重塑良好信用",
+    "河南卢氏：“小议事”撬动“大治理”"
+  ],
+  "count": 110,
+  "events": [
+    {
+      "id": "ai_20260926_0001",
+      "type": "info",
+      "tag": "普查",
+      "title": "{city}启动第四次农业普查",
+      "desc": "国务院印发通知部署第四次全国农业普查，{city}须于三个月内完成入户登记。镇村两级人力紧张，部分农户对数据用途存疑拒绝配合。统计部门担心漏报影响上级转移支付。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "增聘临时普查员并入户宣讲政策",
+          "effects": {
+            "treasury": -200,
+            "reputation": 4,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由村干部代填，节省人力成本",
+          "effects": {
+            "treasury": -50,
+            "inspection": 6,
+            "corruption": 4,
+            "reputation": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推迟到秋收后再组织入户",
+          "effects": {
+            "inspection": 10,
+            "reputation": -3,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国务院印发《关于开展第四次全国农业普查的通知》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0002",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}矿山复绿被表扬",
+      "desc": "媒体聚焦{city}废弃矿区生态修复案例，'人不负青山'的治理思路被上级点名肯定。市自然资源局拟扩大复绿面积，但财政与用地指标均需重新协调。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "追加专项资金，三年内完成全域复绿",
+          "effects": {
+            "treasury": -400,
+            "reputation": 7,
+            "happiness": 5,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入社会资本以生态修复换用地指标",
+          "effects": {
+            "reputation": 4,
+            "merit": 2,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，仅做样板点位宣传",
+          "effects": {
+            "reputation": 2,
+            "happiness": -2,
+            "merit": 1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习语丨“人不负青山，青山定不负人”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0003",
+      "type": "danger",
+      "tag": "军事",
+      "title": "{city}拟建军事设施用地争议",
+      "desc": "依据新发布的军事设施建设条例，军方拟在{city}城郊划出一块土地建设配套营房。该地块原规划为物流园区，涉地方企业已投入约2000万元。市里收到通知后陷入两难。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "依法优先保障，补偿企业并异地重建",
+          "effects": {
+            "treasury": -650,
+            "reputation": 5,
+            "gdpMult": 0.98,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "建议军方选址微调至备用地块",
+          "effects": {
+            "reputation": 2,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以地方发展为由申请缓建",
+          "effects": {
+            "reputation": -4,
+            "inspection": 8,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中央军委主席习近平签署命令 发布《军事设施建设条例》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0004",
+      "type": "warn",
+      "tag": "环境",
+      "title": "{city}河水异味引投诉",
+      "desc": "市民反映{city}滨水大道段河水泛起异味并漂浮泡沫，'环境就是民生'的话题迅速登上本地热搜。环保部门初步检测疑似上游造纸厂偷排，涉及居民约1.2万户。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合执法端源头并公开整改进度",
+          "effects": {
+            "treasury": -100,
+            "happiness": 6,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "先投净化药剂应急后追溯排污方",
+          "effects": {
+            "treasury": -200,
+            "happiness": 2,
+            "corruption": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "回应称属正常现象，暂不处理",
+          "effects": {
+            "happiness": -7,
+            "reputation": -5,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | “环境就是民生”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0005",
+      "type": "info",
+      "tag": "文化",
+      "title": "{city}出土新石器遗址",
+      "desc": "基建施工在{city}旧城区意外揭露一处新石器时代聚落遗址，'泱泱中华的文明曙光'成为市民热议话题。文保部门要求停工配合勘探，但工程工期紧张，开发商施压强烈。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全面停工考古并同步规划遗址公园",
+          "effects": {
+            "treasury": -350,
+            "educationIndex": 4,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "局部发掘，其余边建边保",
+          "effects": {
+            "educationIndex": 1,
+            "corruption": 2,
+            "gdpMult": 1.01
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "尽快覆盖保护，恢复施工",
+          "effects": {
+            "educationIndex": -3,
+            "reputation": -3,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习新语·中华文明丨泱泱中华的文明曙光",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0006",
+      "type": "info",
+      "tag": "舆情",
+      "title": "{city}政务直播翻车",
+      "desc": "市政务频道直播回应民生问题时，主持人念错政策数据被网友截图传播，'时政频道'相关话题冲上热搜。市民对政务信息准确性产生质疑，宣传部连夜制定补救方案。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "公开致歉并上线政策校对流程",
+          "effects": {
+            "reputation": 4,
+            "happiness": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "删除相关视频，低调处理",
+          "effects": {
+            "reputation": -2,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "要求平台限流并追责主持人",
+          "effects": {
+            "reputation": -3,
+            "happiness": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "时政频道",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0007",
+      "type": "info",
+      "tag": "外交",
+      "title": "{city}承接二轨对话接待",
+      "desc": "中美高级别二轨对话美方代表团拟在{city}开展为期五天的实地走访。市里需安排安保、食宿与接待动线，接待预算较常规活动上浮约40%，外事办正在权衡标准。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "按高标准接待并配套城市形象宣传",
+          "effects": {
+            "treasury": -500,
+            "reputation": 6,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "按普通外事标准接待，不额外宣传",
+          "effects": {
+            "treasury": -200,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒接待，建议改由省会承办",
+          "effects": {
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正会见中美高级别二轨对话美方代表团",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0008",
+      "type": "corruption",
+      "tag": "党建",
+      "title": "{city}处分程序被通报",
+      "desc": "中央新印发的党员处分事项工作程序规定施行后，{city}某党组被上级巡视反馈'程序倒置、记录缺失'问题。涉事科室多名干部面临问责，市委组织部要求限期整改。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全员培训并建立处分流程留痕台账",
+          "effects": {
+            "treasury": -50,
+            "corruption": -5,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅整改涉事科室，其他不变",
+          "effects": {
+            "corruption": -2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推卸给原分管干部，不予深究",
+          "effects": {
+            "corruption": 4,
+            "reputation": -4,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中共中央办公厅印发《党组讨论和决定党员处分事项工作程序规定》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0009",
+      "type": "warn",
+      "tag": "产业",
+      "title": "{city}化肥涨价冲击秋播",
+      "desc": "秋粮生产临近，{city}农资市场化肥价格单月上涨18%，小农户普遍反映种植成本压力大。农技推广部门提示若不及时干预，秋播面积或缩减约8%。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立农资稳价补贴并直补到户",
+          "effects": {
+            "treasury": -250,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈肥企要求限价，不补财政",
+          "effects": {
+            "reputation": 2,
+            "corruption": 3,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不干预，由市场自行调节",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "刘国中在安徽调研时强调 全力以赴夺取夏粮丰收 全面打牢秋粮生",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0010",
+      "type": "warn",
+      "tag": "能耗",
+      "title": "{city}园区限电告急",
+      "desc": "执行节能法新标准后，{city}工业园区高峰时段电力缺口达12%。三家出口企业反映订单交付面临违约风险，外贸局与供电公司正紧急协商错峰用电方案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "错峰调度并补贴节能改造费用",
+          "effects": {
+            "treasury": -300,
+            "gdpMult": 1.02,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "对重点企业实施保供电倾斜",
+          "effects": {
+            "gdpMult": 1.01,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "全面拉闸限电，按统一标准执行",
+          "effects": {
+            "gdpMult": 0.96,
+            "unemployment": 0.02,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0011",
+      "type": "info",
+      "tag": "宣传",
+      "title": "{city}生态宣传片拟上报",
+      "desc": "市委宣传部计划制作一部聚焦{city}生态修复的宣传片参评省里重点项目，呼应'人不负青山'主题。预算约180万元，但市里同时有多项民生支出在排队。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "批准预算，力争省级奖项宣传",
+          "effects": {
+            "treasury": -200,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩预算，采用轻量短视频形式",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓制作，资金优先投向民生",
+          "effects": {
+            "reputation": -1,
+            "happiness": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习语丨“人不负青山，青山定不负人”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0012",
+      "type": "corruption",
+      "tag": "基建",
+      "title": "{city}营房配套招标存疑",
+      "desc": "军事设施配套营房周边道路工程招标中，{city}一家本地企业以明显低于成本价中标。纪检组接到匿名举报，称评标专家与投标方存在私下接触，案件正在核查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "中止合同全面调查并追究评标责任",
+          "effects": {
+            "corruption": -6,
+            "reputation": 4,
+            "treasury": -100,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓拨付工程款，先核查再决定",
+          "effects": {
+            "corruption": -2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持中标结果，避免影响工期",
+          "effects": {
+            "corruption": 5,
+            "reputation": -3,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中央军委主席习近平签署命令 发布《军事设施建设条例》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0013",
+      "type": "danger",
+      "tag": "环保",
+      "title": "{city}化工废水泄漏",
+      "desc": "{city}化工园区一家企业夜间废水偷排致下游河段水质骤降，'环境就是民生'再度被市民热议。受影响居民饮用安全用水需求激增，环保、公安、应急多部门连夜处置。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "封园溯源，免费送水并监测居民健康",
+          "effects": {
+            "treasury": -300,
+            "happiness": 6,
+            "healthcare": 3,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发布水质通报，由企业自行赔偿",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂不公开，先内部协调处理",
+          "effects": {
+            "corruption": 4,
+            "inspection": 10,
+            "happiness": -6,
+            "reputation": -5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | “环境就是民生”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0014",
+      "type": "success",
+      "tag": "营商",
+      "title": "{city}信用修复窗口上线",
+      "desc": "近期{city}多家中小微企业因历史欠税、欠费被列入经营异常名录，订单接连丢失。市场监管局推出\"信用修复一件事\"综合服务，3个工作日办结率大幅提升。企业代表希望政策再简化，但税务、司法数据打通存在卡点。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "组建专班联动税务司法，限时办结",
+          "effects": {
+            "treasury": -200,
+            "happiness": 8,
+            "reputation": 10,
+            "gdpMult": 1.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现状仅优化窗口流程",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "借机清理僵尸企业压缩主体",
+          "effects": {
+            "unemployment": 0.02,
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0015",
+      "type": "warn",
+      "tag": "外交",
+      "title": "{city}企业海外投资问询",
+      "desc": "驻{city}某外贸企业接到海外客户催单，同时接到上级关于\"中美经贸对话背景下企业合规审查\"的通知。商务部门要求企业说明供应链涉美情况，部分企业担心影响出口业务。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "成立专班帮企业做合规自查",
+          "effects": {
+            "treasury": -200,
+            "reputation": 6,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "转发上级文件由企业自查",
+          "effects": {
+            "inspection": 5,
+            "happiness": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "鼓励企业转向内销市场",
+          "effects": {
+            "gdpMult": 1.01,
+            "unemployment": 0.02,
+            "happiness": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正会见中美高级别二轨对话美方代表团",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0016",
+      "type": "warn",
+      "tag": "生态",
+      "title": "{city}山洪致河道淤塞",
+      "desc": "连日暴雨后{city}北部山区发生山洪，下游河道被泥沙淤塞，沿岸6个村组农田面临次生灾害风险。市水利局已启动应急响应，但清理工程量超出预期，环保部门担心清淤泥浆污染水质。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "调拨专项资金环保清淤同步",
+          "effects": {
+            "treasury": -800,
+            "happiness": 10,
+            "reputation": 8,
+            "healthcare": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "先抢通河道，泥浆后处置",
+          "effects": {
+            "treasury": -300,
+            "happiness": 5,
+            "reputation": -3,
+            "healthcare": -3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "请村民自行清淤，财政少补",
+          "effects": {
+            "treasury": -100,
+            "happiness": -8,
+            "reputation": -6,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "镜观·足迹｜呵护千山万水 擘画永续发展",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0017",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}古城文明展引客",
+      "desc": "{city}依托本地出土文物举办\"泱泱中华文明曙光\"主题展，首周末接待游客3.2万人次，带动周边民宿、餐饮收入激增。但景区承载力不足，市民反映交通拥堵、停车困难。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "增开通勤公交并优化动线",
+          "effects": {
+            "treasury": -250,
+            "happiness": 9,
+            "reputation": 7,
+            "gdpMult": 1.04,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "限流售票，控制日接待量",
+          "effects": {
+            "treasury": 150,
+            "happiness": -4,
+            "reputation": 1,
+            "gdpMult": 1.01
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持现状，鼓励游客自行前往",
+          "effects": {
+            "happiness": -6,
+            "reputation": -5,
+            "healthcare": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习新语·中华文明丨泱泱中华的文明曙光",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0018",
+      "type": "danger",
+      "tag": "环境",
+      "title": "{city}化工园区异味扰民",
+      "desc": "{city}南部化工园区连续三晚散发刺鼻异味，3000余名居民向12345热线投诉，部分家长要求学校停课。生态环境部门监测发现夜间排放数据异常，涉事企业存在偷排嫌疑。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "联合执法彻查，依法关停整改",
+          "effects": {
+            "treasury": -350,
+            "happiness": 11,
+            "reputation": 9,
+            "healthcare": 3,
+            "merit": 4,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈企业限期整改，柔性处置",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "inspection": 7
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由企业补偿居民，息事宁人",
+          "effects": {
+            "privateAccount": 80,
+            "corruption": 8,
+            "happiness": -5,
+            "reputation": -6,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | \"环境就是民生\"",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0019",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}矿山生态修复招标",
+      "desc": "{city}西郊废弃矿山生态修复项目招标即将截止，涉及土地3800亩，计划恢复为生态林和光伏发电基地。三家企业竞标，本地生态企业希望获得优先权，担心外企业中标后资金外流。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "公开竞标择优中标，配套光伏补贴",
+          "effects": {
+            "treasury": 600,
+            "happiness": 6,
+            "reputation": 5,
+            "gdpMult": 1.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "定向支持本地企业中标",
+          "effects": {
+            "treasury": 300,
+            "corruption": 6,
+            "inspection": 10,
+            "happiness": -3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "暂缓招标，先做环评论证",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习卡丨\"人不负青山，青山定不负人\"",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0020",
+      "type": "warn",
+      "tag": "节能",
+      "title": "{city}落实节约能源法检查",
+      "desc": "全国人大常委会启动节约能源法执法检查，{city}被列入重点抽查城市。市发改委摸底发现，全市高耗能企业用电同比超标，公共建筑能效改造进度滞后，面临通报风险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政补贴推动公共建筑节能改造",
+          "effects": {
+            "treasury": -700,
+            "reputation": 6,
+            "gdpMult": 1.01,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "对企业下达能耗限额指标",
+          "effects": {
+            "treasury": -100,
+            "unemployment": 0.02,
+            "happiness": -4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "数据\"美化\"应对检查",
+          "effects": {
+            "corruption": 10,
+            "inspection": 15,
+            "reputation": -8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0021",
+      "type": "success",
+      "tag": "环保",
+      "title": "{city}河长制成效评估",
+      "desc": "{city}\"共建清洁美丽世界\"专项行动中，河长制工作接受上级暗访。全市12条主要河流水质由去年三类升至二类，但城乡结合部仍有3处偷排暗管未查处，群众反映钓鱼时见白泡沫。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "无人机+AI巡查清除偷排暗管",
+          "effects": {
+            "treasury": -200,
+            "happiness": 8,
+            "reputation": 7,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "公示成效数据邀市民监督",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "淡化问题，重点宣传成绩",
+          "effects": {
+            "happiness": -3,
+            "reputation": -4,
+            "corruption": 4,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "微视频｜共建清洁美丽世界",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0022",
+      "type": "corruption",
+      "tag": "信访",
+      "title": "{city}信用修复投诉激增",
+      "desc": "近期{city}政务服务大厅\"信用修复\"窗口投诉翻倍，多名企业主反映被要求额外提交材料、等待时间超过承诺时限。监察部门接到实名举报，怀疑存在窗口人员收受好处费、故意拖延。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "纪委监委介入彻查，公开处理",
+          "effects": {
+            "corruption": -8,
+            "happiness": 7,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "整改流程，加强窗口培训",
+          "effects": {
+            "treasury": -100,
+            "corruption": -3,
+            "happiness": 2,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "压下举报，内部批评教育",
+          "effects": {
+            "corruption": 9,
+            "inspection": 14,
+            "reputation": -8,
+            "privateAccount": 120
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0023",
+      "type": "warn",
+      "tag": "基层治理",
+      "title": "{city}议事会决议争议",
+      "desc": "{city}某社区议事会表决同意老旧小区改造方案，但反对业主以\"程序违规\"为由向区信访局申诉，要求重开议事。社区书记压力骤增，担心影响年终考核和试点经验总结。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "邀请律师指导，重开议事程序",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由街道办出具裁定，原案生效",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "叫停改造，暂缓议事会试点",
+          "effects": {
+            "treasury": -50,
+            "happiness": -5,
+            "reputation": -4,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：\"小议事\"撬动\"大治理\"",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0024",
+      "type": "info",
+      "tag": "涉外",
+      "title": "{city}涉外企业座谈邀请",
+      "desc": "在国家级经贸对话背景下，商务部邀请{city}外向型企业代表赴京参加二轨对话企业圆桌会。市商务局收到通知，要求选送2家企业发言，企业担心涉密信息不便公开。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "选送龙头企业，配套保密培训",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "以地方商会名义整体参会",
+          "effects": {
+            "treasury": -100,
+            "reputation": 3,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒邀请，理由涉密不宜",
+          "effects": {
+            "reputation": -3,
+            "gdpMult": 0.98
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正会见中美高级别二轨对话美方代表团",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0025",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}考古新发现发布",
+      "desc": "{city}博物馆公布一处新发掘遗址，年代上溯至距今4500年，出土玉器和陶器逾600件，被列为年度全国十大考古发现。文旅局计划顺势打造\"中华文明曙光\"研学路线。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "财政投资研学路线与展陈升级",
+          "effects": {
+            "treasury": -600,
+            "happiness": 7,
+            "reputation": 8,
+            "gdpMult": 1.05,
+            "educationIndex": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入社会资本运营，PPP模式",
+          "effects": {
+            "treasury": 100,
+            "corruption": 4,
+            "inspection": 5,
+            "gdpMult": 1.03
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "低调处理，避免过度商业化",
+          "effects": {
+            "reputation": -2,
+            "educationIndex": 1,
+            "happiness": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习新语·中华文明丨泱泱中华的文明曙光",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0026",
+      "type": "warn",
+      "tag": "农业",
+      "title": "{city}耕地质量监测滞后",
+      "desc": "第四次农业普查启动前夕，{city}农业农村局自查发现，全市耕地质量监测点布设率仅68%，低于省级75%的考核线。市里拟加快布设，但财政紧张，部分乡镇要求延期。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "申请专项债加快监测点建设",
+          "effects": {
+            "treasury": 400,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "分两批建设，年内完成80%",
+          "effects": {
+            "treasury": -150,
+            "reputation": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "上报延期，理由财政困难",
+          "effects": {
+            "reputation": -5,
+            "inspection": 8,
+            "merit": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国务院印发《关于开展第四次全国农业普查的通知》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0027",
+      "type": "warn",
+      "tag": "能源",
+      "title": "{city}节能执法突击检查",
+      "desc": "全国人大常委会启动节约能源法执法检查，{city}被抽中接受实地督查。检查组深入工业园区与重点用能企业，发现部分厂房夜间违规开高耗能设备，能耗报表存在虚报嫌疑，环保与财政部门连夜配合核查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面停工整改涉事企业",
+          "effects": {
+            "treasury": -200,
+            "corruption": -4,
+            "happiness": -3,
+            "reputation": 5,
+            "gdpMult": 0.9400000000000001
+          },
+          "color": "green"
+        },
+        {
+          "text": "限期整改并公示台账",
+          "effects": {
+            "treasury": -50,
+            "corruption": -2,
+            "reputation": 3,
+            "inspection": 5
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由主管科长私下协调放行",
+          "effects": {
+            "privateAccount": 120,
+            "corruption": 8,
+            "reputation": -6,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0028",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}青山修复见效",
+      "desc": "落实“人不负青山，青山定不负人”理念，{city}连续三年推进矿山复绿与河道整治，当地居民幸福感提升，游客数量增长。但上级拟将其打造为样板点，要求扩面提质，财政压力骤增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "申报专项生态补偿资金",
+          "effects": {
+            "treasury": 200,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "分阶段扩绿避免一次性投入",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓扩面优先保民生",
+          "effects": {
+            "happiness": 2,
+            "reputation": -3,
+            "merit": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习卡丨“人不负青山，青山定不负人”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0029",
+      "type": "info",
+      "tag": "基层治理",
+      "title": "{city}“小议事”破难题",
+      "desc": "借鉴基层议事经验，{city}试点“村（居）民议事厅”破解老旧小区加装电梯、垃圾堆放等纠纷。首场议事会因意见分歧激烈，部分业主当场离场，媒体关注此事进展。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "引入社工组织第三方调解",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "强制公示投票方案推进",
+          "effects": {
+            "happiness": -2,
+            "reputation": 1,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓议题并内部协调",
+          "effects": {
+            "happiness": -1,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：“小议事”撬动“大治理”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0030",
+      "type": "success",
+      "tag": "非遗经济",
+      "title": "{city}非遗炒茶走红",
+      "desc": "当地茶农传承太极招式炒茶技艺被短视频爆火，{city}文旅局顺势打造“太极炒茶节”，订单暴增但茶叶供应紧张。部分作坊为赶工雇佣无证工人，食品安全部门介入抽检。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "补贴茶农扩产并严抓食安",
+          "effects": {
+            "treasury": -150,
+            "happiness": 4,
+            "reputation": 5,
+            "gdpMult": 1.04
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅加强抽检不扩产",
+          "effects": {
+            "reputation": 2,
+            "happiness": -1,
+            "inspection": 4
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许作坊赶工增收",
+          "effects": {
+            "gdpMult": 1.06,
+            "corruption": 4,
+            "inspection": 9
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "【文脉华章】非遗焕新 生生不息丨用太极招式来炒茶！西湖龙井如",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0031",
+      "type": "warn",
+      "tag": "高考",
+      "title": "{city}高考安保升级",
+      "desc": "上级强调“平安高考”目标，{city}考点周边施工噪音、交通拥堵与考生焦虑投诉激增。公安、教育、城管多部门联动，部分家长要求暂停附近工地，影响项目工期。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面停工考点周边三公里",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅夜间限噪并增派警力",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "施工照常仅口头提示",
+          "effects": {
+            "happiness": -3,
+            "reputation": -4,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "丁薛祥在山西调研时强调 守好公平公正“生命线” 确保实现“平",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0032",
+      "type": "success",
+      "tag": "环境民生",
+      "title": "{city}河道黑臭治理验收",
+      "desc": "响应“环境就是民生”理念，{city}完成三条城市河道黑臭水体治理并通过省级验收。沿线居民幸福感回升，但部分市民质疑水质反弹、要求持续监测与信息公开。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "建立水质实时公开平台",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "委托第三方定期抽测",
+          "effects": {
+            "treasury": -200,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂停监测节省开支",
+          "effects": {
+            "treasury": 100,
+            "happiness": -3,
+            "reputation": -3
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | “环境就是民生”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0033",
+      "type": "info",
+      "tag": "外交出海",
+      "title": "{city}借势海洋产业出海",
+      "desc": "国家领导人赴法国出席联合国海洋大会，{city}本地海洋装备企业获海外订单意向，但面临技术标准不匹配、外汇结算合规等问题，商务局紧急组织对接会。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立海外技术对接专班",
+          "effects": {
+            "treasury": -150,
+            "gdpMult": 1.06,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅召开企业座谈会",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由企业自负对接成本",
+          "effects": {
+            "gdpMult": 0.96,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正将赴法国出席联合国海洋大会并访问西班牙",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0034",
+      "type": "info",
+      "tag": "政策学习",
+      "title": "{city}学习月刊部署会议",
+      "desc": "市委要求学习最新政策月刊，{city}召开党政联席会，议题涉及营商环境、民生短板与干部作风。部分基层干部反映学习负担重，担心流于形式，督查部门关注落实情况。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "精简会议并合并通报",
+          "effects": {
+            "happiness": 3,
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "按惯例逐项学习通报",
+          "effects": {
+            "reputation": 1,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以书面材料替代集中会议",
+          "effects": {
+            "happiness": -1,
+            "reputation": -2,
+            "inspection": 5
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "天天学习丨中南海月刊（2025.05）",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0035",
+      "type": "danger",
+      "tag": "节能违规",
+      "title": "{city}高耗能项目被举报",
+      "desc": "环保举报人实名反映{city}新落地电镀项目未经节能审查擅自投产，能耗指标远超申报值。项目系本地引资重点，停办将影响年度GDP目标，主管部门左右为难。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "立即停办并公开处罚",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 0.92,
+            "reputation": 4,
+            "corruption": -3
+          },
+          "color": "green"
+        },
+        {
+          "text": "补办手续限时整改",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "inspection": 6
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压下举报保项目进度",
+          "effects": {
+            "privateAccount": 200,
+            "corruption": 10,
+            "reputation": -5,
+            "inspection": 15
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0036",
+      "type": "success",
+      "tag": "农业数据",
+      "title": "{city}农业普查试点告捷",
+      "desc": "{city}作为全国农业普查试点市率先完成数据采集，运用卫星遥感与无人机核实地块信息，数据质量获省级表扬。上级拟在全市推广经验，需追加技术与培训投入。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "追加经费全面推广试点经验",
+          "effects": {
+            "treasury": -300,
+            "reputation": 6,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅培训骨干分批推进",
+          "effects": {
+            "treasury": -100,
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓推广维持原方案",
+          "effects": {
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国务院印发《关于开展第四次全国农业普查的通知》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0037",
+      "type": "corruption",
+      "tag": "腐败风险",
+      "title": "{city}议事会被人操控",
+      "desc": "{city}某村议事会被少数乡绅操纵，议题从加装电梯被改为集体土地出让，村民代表签字造假。纪检组已介入，若处理不当将引发群体性上访。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "彻查并公开处理责任人",
+          "effects": {
+            "corruption": -6,
+            "reputation": 5,
+            "happiness": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部批评教育了事",
+          "effects": {
+            "corruption": -1,
+            "reputation": -2,
+            "inspection": 8
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "默许结果避免上访",
+          "effects": {
+            "corruption": 6,
+            "happiness": -4,
+            "reputation": -5,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：“小议事”撬动“大治理”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0038",
+      "type": "info",
+      "tag": "非遗传承",
+      "title": "{city}炒茶技艺申报非遗",
+      "desc": "{city}地方炒茶技艺拟申报省级非遗，需传承人证明、工艺流程文档与保护措施。部分老茶农不愿公开祖传秘方，申报工作陷入僵局，文旅部门多方协调。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "补贴传承人签订共享协议",
+          "effects": {
+            "treasury": -150,
+            "reputation": 5,
+            "educationIndex": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "先申报基础流程再补细节",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放弃申报保留商业秘密",
+          "effects": {
+            "reputation": -2,
+            "gdpMult": 0.98
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "【文脉华章】非遗焕新 生生不息丨用太极招式来炒茶！西湖龙井如",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0039",
+      "type": "warn",
+      "tag": "考务安全",
+      "title": "{city}考生作弊窝点曝光",
+      "desc": "{city}警方查获高考作弊电子器材窝点，多名考生涉案，部分系本市应届生。家长要求彻查学校监管责任，教育部门面临问责压力，需平衡执纪与考生前途。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "依法严惩并公开警示",
+          "effects": {
+            "reputation": 5,
+            "happiness": 2,
+            "merit": 3,
+            "corruption": -2
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调处理保护考生隐私",
+          "effects": {
+            "reputation": -1,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "向涉案家庭收取“协调费”",
+          "effects": {
+            "privateAccount": 150,
+            "corruption": 9,
+            "reputation": -6,
+            "inspection": 14
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "丁薛祥在山西调研时强调 守好公平公正“生命线” 确保实现“平",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0040",
+      "type": "warn",
+      "tag": "信用",
+      "title": "{city}信用修复新政落地",
+      "desc": "上级部署升级信用修复服务，{city}市场监管局启动专项窗口，帮助曾被行政处罚的小微企业重塑良好信用。首批申请企业超80家，涉及食品、建筑、电商等多个行业。企业普遍反映流程较繁，基层窗口人手紧张，部分材料反复退回，舆论关注修复效率与公平性。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增设专班，压缩办理时限至5日",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "happiness": 2,
+            "merit": 2,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持原流程，分批受理",
+          "effects": {
+            "reputation": -1,
+            "happiness": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "委托第三方代办，收取服务费",
+          "effects": {
+            "treasury": 50,
+            "privateAccount": 30,
+            "corruption": 6,
+            "reputation": -3,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0041",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}植树造林攻坚",
+      "desc": "全市响应绿色行动号召，{city}林业部门计划在荒山荒坡完成3.5万亩义务植树。春季气温回升，但部分地块权属存在争议，村民担心占用耕地；志愿者报名踊跃，苗木供应却出现短缺，个别乡镇上报数据与实际成活率差距较大。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增购苗木并开展跟踪管护考核",
+          "effects": {
+            "treasury": -200,
+            "reputation": 4,
+            "happiness": 2,
+            "merit": 3,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "优先完成形象工程路段",
+          "effects": {
+            "treasury": -100,
+            "reputation": 1,
+            "corruption": 2,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "缩减任务指标，仅完成一半",
+          "effects": {
+            "treasury": -50,
+            "reputation": -3,
+            "happiness": -1,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "美丽中国我先行｜“植”此青绿",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0042",
+      "type": "warn",
+      "tag": "海洋",
+      "title": "{city}港口环保压力骤增",
+      "desc": "联合国海洋大会即将召开，沿海的{city}被纳入重点督查名单。市区内近岸养殖区污水直排、渔民违规使用电鱼设备等问题被卫星遥感锁定。环保部门要求限期整改，否则将对港口吞吐业务开具罚单，约4000名渔民的生计面临影响。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "发放转型补贴，引导渔民上岸",
+          "effects": {
+            "treasury": -600,
+            "reputation": 5,
+            "happiness": 2,
+            "healthcare": 1,
+            "merit": 3,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "突击整治，暂不补偿渔民",
+          "effects": {
+            "treasury": -50,
+            "reputation": -2,
+            "happiness": -4,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "默许现状，等会议过去再说",
+          "effects": {
+            "corruption": 3,
+            "reputation": -5,
+            "inspection": 14,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正将赴法国出席联合国海洋大会并访问西班牙",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0043",
+      "type": "success",
+      "tag": "环境",
+      "title": "{city}共建清洁美丽家园",
+      "desc": "市生态环境局联合宣传部门推出共建清洁美丽世界主题微视频征集活动，{city}入围全省候选单位。活动面向市民征集街巷清洁、垃圾分类等纪实短片，参与人数破万，但部分短视频内容存在摆拍痕迹，本地环卫部门经费有限，难以持续运营。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "投入专项资金打造精品作品",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "happiness": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发动群众自主创作零预算",
+          "effects": {
+            "reputation": 1,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放弃投稿，节省预算",
+          "effects": {
+            "reputation": -2,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "微视频｜共建清洁美丽世界",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0044",
+      "type": "info",
+      "tag": "外交",
+      "title": "{city}中美二轨对话分会场",
+      "desc": "中美高级别二轨对话在{city}设立学术分会场，本地高校与研究机构被点名承办。接待任务突然下达，需在两周内完成场地改造、外宾住宿与安全保障。财政部门表示预算需自筹一部分，安保部门担忧外籍人员集中带来的舆情风险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额保障接待，配齐双语服务",
+          "effects": {
+            "treasury": -300,
+            "reputation": 5,
+            "educationIndex": 2,
+            "merit": 3,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩规模，仅接待核心代表团",
+          "effects": {
+            "treasury": -100,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以场地不足为由推辞承办",
+          "effects": {
+            "treasury": 50,
+            "reputation": -4,
+            "educationIndex": -1,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正会见中美高级别二轨对话美方代表团",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0045",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}山水永续发展蓝图",
+      "desc": "响应呵护千山万水擘画永续发展号召，{city}自然资源部门启动山水林田湖草沙一体化保护规划编制。规划覆盖3个重点流域，涉及退耕还林、湿地修复、矿山复绿三大工程，总投资预计12亿，但地方财力紧张，需争取上级专项资金。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "高规格编制方案申请中央专项",
+          "effects": {
+            "treasury": -150,
+            "reputation": 4,
+            "healthcare": 1,
+            "merit": 4,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "缩减工程范围，量力而行",
+          "effects": {
+            "treasury": -50,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "缓行规划，优先发展经济",
+          "effects": {
+            "treasury": 100,
+            "gdpMult": 1.02,
+            "reputation": -3,
+            "happiness": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "镜观·足迹｜呵护千山万水 擘画永续发展",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0046",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}青山不负人行动",
+      "desc": "以人不负青山青山定不负人为主题，{city}生态环境局推出生态补偿机制，对保护林地的农户按亩发放补贴。首批纳入补贴的农户约2200户，但林权纠纷案件在同期激增，部分村干部截留补贴款被举报，舆情在本地论坛发酵。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动专项审计，公开资金流向",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "happiness": 3,
+            "corruption": -3,
+            "merit": 3,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓发放，先调解林权纠纷",
+          "effects": {
+            "reputation": -1,
+            "happiness": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "默许村干支配，换取配合",
+          "effects": {
+            "privateAccount": 50,
+            "corruption": 8,
+            "reputation": -4,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "习语丨“人不负青山，青山定不负人”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0047",
+      "type": "danger",
+      "tag": "民生",
+      "title": "{city}经营主体信用危机",
+      "desc": "受信用修复新政利好消息影响，{city}多家濒临破产的小微企业扎堆申请信用修复，但部分企业通过伪造证明材料骗取授信，导致本地两家小贷公司出现坏账。涉及金额约800万，债权人联名上访，地方金融监管部门介入调查，舆情快速扩散。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "联合司法打击伪造，公开黑名单",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "corruption": -2,
+            "merit": 3,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "调解债权人，分期偿还",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "happiness": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "动用财政兜底化解坏账",
+          "effects": {
+            "treasury": -700,
+            "reputation": 2,
+            "corruption": 3,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0048",
+      "type": "warn",
+      "tag": "产业",
+      "title": "{city}农业普查数据博弈",
+      "desc": "第四次农业普查进入入户阶段，{city}部分乡镇为争取上级产业扶持资金，授意普查员对生猪存栏数、经济作物种植面积做虚增处理。上级抽查发现数据偏离正常区间，普查办要求限期核查，涉及多个种植合作社与养殖大户的利益。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "约谈乡镇，重做实地核查",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "corruption": -3,
+            "merit": 3,
+            "inspection": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "小范围修正，保住整体形象",
+          "effects": {
+            "reputation": -2,
+            "corruption": 2,
+            "inspection": 7
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持原数据，争取更多扶持",
+          "effects": {
+            "treasury": 200,
+            "reputation": -5,
+            "corruption": 5,
+            "inspection": 15,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国务院印发《关于开展第四次全国农业普查的通知》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0049",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}绿色微视频全国展映",
+      "desc": "{city}报送的共建清洁美丽世界主题微视频入围全国展映名单，将参加中央级平台展播。视频拍摄团队要求追加剪辑与翻译经费，宣传部门希望借此提升城市知名度，但财政部门指出预算已超支，且同期还有防汛演练与开学季保障任务。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加经费，制作双语版展播",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "happiness": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "原版展播，节省预算",
+          "effects": {
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放弃展映，经费转防汛演练",
+          "effects": {
+            "reputation": -2,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "微视频｜共建清洁美丽世界",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0050",
+      "type": "warn",
+      "tag": "治理",
+      "title": "{city}议事会遭质疑",
+      "desc": "{city}推广的小议事制度在推进老旧小区加装电梯项目时陷入僵局，部分楼栋业主集体反对低层住户利益受损，议事会表决结果被质疑程序不公。矛盾引发集体上访，媒体报道后本地论坛出现质疑基层治理形式化的舆论，上级纪委开始关注。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "引入第三方调解，重开听证",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "happiness": 2,
+            "merit": 3,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "街道办拍板，按多数意见执行",
+          "effects": {
+            "reputation": -2,
+            "happiness": -2,
+            "corruption": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "叫停议事会，全面自查",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "happiness": -1,
+            "inspection": 5
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：“小议事”撬动“大治理”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0051",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}植树成果上中央媒体",
+      "desc": "{city}春季义务植树成果被中央级媒体专题报道，报道中点名表扬本地荒山变绿洲的典型案例。报道带动外地游客到访周边林区，预计增收约150万，但部分被报道地块的林木成活率经林业部门核查仅62%，存在虚报风险，一旦曝光将影响声誉。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "补植补造，公开整改报告",
+          "effects": {
+            "treasury": -150,
+            "reputation": 3,
+            "corruption": -2,
+            "merit": 2,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "宣传成果，淡化核查问题",
+          "effects": {
+            "reputation": 2,
+            "corruption": 3,
+            "inspection": 9
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "主动撤回报道，全面整改",
+          "effects": {
+            "treasury": -50,
+            "reputation": -1,
+            "merit": 1,
+            "inspection": 3
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "美丽中国我先行｜“植”此青绿",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0052",
+      "type": "danger",
+      "tag": "舆情",
+      "title": "{city}信用修复窗口遭差评",
+      "desc": "有市民在上级政务服务平台反映{city}信用修复窗口办事效率低、工作人员态度差，差评被转发至本地政务微博热搜。市市场监管局连夜回应，但内部排查发现窗口存在收受中介回扣的违规线索，涉事窗口已被暂停服务，约300家企业申请积压。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "彻查回扣线索，公开处理结果",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "corruption": -4,
+            "merit": 3,
+            "inspection": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "加派人手恢复窗口，低调处理",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "corruption": 2,
+            "inspection": 7
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "压下事件，避免舆情扩散",
+          "effects": {
+            "reputation": -5,
+            "corruption": 4,
+            "inspection": 16,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0053",
+      "type": "info",
+      "tag": "军设",
+      "title": "{city}军事设施用地征迁",
+      "desc": "上级下发《军事设施建设条例》配套细则，{city}拟在北部山区选址建设民兵训练基地。初步规划涉及3个行政村约1200亩集体土地，部分村民因补偿标准和搬迁安置方案提出异议，信访量在一周内激增，部队建设窗口期紧迫。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "公开听证并提高补偿至1.2倍",
+          "effects": {
+            "treasury": -500,
+            "reputation": 4,
+            "happiness": 3,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "按标准补偿并加快办理",
+          "effects": {
+            "treasury": -250,
+            "reputation": 2,
+            "happiness": 1,
+            "inspection": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓选址另行协调",
+          "effects": {
+            "reputation": -3,
+            "merit": -3,
+            "inspection": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中央军委主席习近平签署命令 发布《军事设施建设条例》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0054",
+      "type": "warn",
+      "tag": "信用",
+      "title": "{city}中小企业信用修复潮",
+      "desc": "省厅下达信用修复服务升级文件后，{city}市场监管局统计到全市有逾460家经营主体存在历史失信记录，涉及餐饮、建材、物流等行业。部分商户因罚款未缴清无法参与政府招投标，业主联名到政务大厅求助，媒体已介入跟踪。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设专班一周内集中办理",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "线上办理+分期补缴",
+          "effects": {
+            "reputation": 2,
+            "happiness": 1,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持原流程不予简化",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3,
+            "unemployment": 0.01
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0055",
+      "type": "corruption",
+      "tag": "党纪",
+      "title": "{city}党组处分程序受质疑",
+      "desc": "根据《党组讨论和决定党员处分事项工作程序规定》，{city}城管局党组拟对一名涉事副科长作出党内警告。但纪检组发现处分会议记录缺失、回避名单不全、被处分人未到场申辩，程序瑕疵被上级巡视组通报，引发基层干部议论。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "重开会补正全部程序",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "corruption": -3,
+            "inspection": 6
+          },
+          "color": "blue"
+        },
+        {
+          "text": "培训后再行处分",
+          "effects": {
+            "reputation": 1,
+            "corruption": -1,
+            "inspection": 8
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "搁置处分避免争议",
+          "effects": {
+            "reputation": -3,
+            "corruption": 4,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中共中央办公厅印发《党组讨论和决定党员处分事项工作程序规定》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0056",
+      "type": "success",
+      "tag": "协商",
+      "title": "{city}小院议事撬动大治理",
+      "desc": "借鉴卢氏经验，{city}东巷社区试点'小院议事厅'，由楼栋长牵头组织居民讨论老旧小区加装电梯、飞线充电等难题。首轮议事成功协调32户居民分摊电梯加装费用，但部分低层住户担心采光受损仍持保留态度，需进一步做通工作。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政补贴低层住户三成",
+          "effects": {
+            "treasury": -150,
+            "reputation": 4,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入第三方采光评估",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂停加装转做充电桩",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1,
+            "merit": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：'小议事'撬动'大治理'",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0057",
+      "type": "danger",
+      "tag": "环境",
+      "title": "{city}河道污染被曝光",
+      "desc": "环保自媒体暗访发现{city}南河上游两家印染厂直排废水，河水呈酱油色，下游养殖户鱼类大量死亡，沿岸村民饮水告急。生态环境部明令'环境就是民生'，省厅已介入督办，市人大将同步质询，舆情持续发酵，处置窗口仅剩48小时。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "立即停产并启动水生态修复",
+          "effects": {
+            "treasury": -400,
+            "reputation": 5,
+            "happiness": 4,
+            "healthcare": 2,
+            "inspection": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "限产改造+安装在线监测",
+          "effects": {
+            "treasury": -150,
+            "reputation": 2,
+            "happiness": 2,
+            "inspection": 8
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以罚款代替停产",
+          "effects": {
+            "treasury": 100,
+            "reputation": -6,
+            "happiness": -4,
+            "corruption": 3,
+            "merit": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | '环境就是民生'",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0058",
+      "type": "info",
+      "tag": "学习",
+      "title": "{city}党委中心组学习月",
+      "desc": "市委理论学习中心组发布本月学习清单，要求围绕中南海月刊相关议题开展研讨。{city}部分下属单位存在以会议传达代替个人研读、学习笔记抄袭AI等敷衍现象，被上级督查通报。需尽快组织补课并建立考核机制，避免学习流于形式。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "补课+心得体会抽查",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2,
+            "corruption": -1,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "线上答题积分排名",
+          "effects": {
+            "reputation": 1,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持现状不再加码",
+          "effects": {
+            "reputation": -2,
+            "corruption": 2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "天天学习丨中南海月刊（2025.05）",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0059",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}湿地修复项目竣工",
+      "desc": "历时两年，{city}东湖湿地公园修复工程迎来验收，累计补植芦苇、芦苇香蒲等水生植物180亩，迁回鸟类24种，本地白鹭种群恢复明显。但周边农户反映湿地划界后部分传统滩涂被禁渔，生计受影响，要求配套生态补偿方案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立岗位生态护林员",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放一次性禁渔补偿",
+          "effects": {
+            "treasury": -200,
+            "happiness": 2,
+            "reputation": 1,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持禁渔不予补偿",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "镜观·足迹｜呵护千山万水 擘画永续发展",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0060",
+      "type": "corruption",
+      "tag": "采购",
+      "title": "{city}防汛物资采购被举报",
+      "desc": "有内部人员举报{city}应急管理局今年防汛物资采购项目存在围标，三家中标企业实控人疑似同一人，沙袋单价较市场价高40%。纪委监委已立案，工程处干部情绪紧张，部分承包商上门打招呼。处置稍有不慎将影响汛期备汛大局。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "配合调查并公开整改",
+          "effects": {
+            "treasury": 100,
+            "reputation": 4,
+            "corruption": -4,
+            "inspection": 8,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓项目重启招标",
+          "effects": {
+            "treasury": -50,
+            "corruption": -1,
+            "inspection": 6,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压举报继续推进",
+          "effects": {
+            "reputation": -5,
+            "corruption": 6,
+            "inspection": 10,
+            "merit": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中共中央办公厅印发《党组讨论和决定党员处分事项工作程序规定》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0061",
+      "type": "info",
+      "tag": "军地",
+      "title": "{city}军民融合对接会",
+      "desc": "依托新出台的《军事设施建设条例》，{city}拟举办首届军民融合对接会，邀请辖区12家军工配套企业参展。财政局测算场地、安保、宣传等经费缺口约80万元，部分企业担心被摊派赞助，工商联建议明确费用分摊机制，避免出现强制收费嫌疑。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "财政全额承担经费",
+          "effects": {
+            "treasury": -100,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "企业自愿赞助+财政兜底",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "取消对接会节省开支",
+          "effects": {
+            "treasury": 100,
+            "reputation": -3,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中央军委主席习近平签署命令 发布《军事设施建设条例》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0062",
+      "type": "success",
+      "tag": "营商环境",
+      "title": "{city}信用修复惠及千企",
+      "desc": "省里信用修复新政落地一个月，{city}市场监管局主动走访320家'失信'企业，提供政策辅导和代办服务，已有186家完成修复，可重新参与政府采购。工商联反映企业获得感提升明显，但仍有部分小微企业因历史债务问题反复申诉，需配套法律援助。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "开通法律援助绿色通道",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "引导企业分期还款",
+          "effects": {
+            "reputation": 2,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现有流程不扩展",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1,
+            "unemployment": 0.01
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0063",
+      "type": "warn",
+      "tag": "协商",
+      "title": "{city}物业纠纷激化",
+      "desc": "{city}翠湖小区多名业主联名投诉物业长期侵占公共收益，电梯广告费、停车费未公示，业委会选举受阻。社区党委借鉴'小议事'经验组织三方协商会，但物业公司临时撤场，导致垃圾堆积、电梯停运，影响居民1200余户正常出行。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "街道接管+公开审计",
+          "effects": {
+            "treasury": -150,
+            "happiness": 5,
+            "reputation": 4,
+            "inspection": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入第三方物业临管",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 2,
+            "inspection": 4
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由业主自行处置",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4,
+            "merit": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：'小议事'撬动'大治理'",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0064",
+      "type": "info",
+      "tag": "农经",
+      "title": "{city}农普数据质量抽查",
+      "desc": "国家统计局农普办对{city}开展数据质量抽查，发现部分乡镇为完成粮食产量指标存在虚报亩产、瞒报弃耕田块等现象，涉及2个乡、8个行政村。普查办公室要求限期整改，否则将影响全市普查评价等级和财政转移支付系数，需在两周内完成复核。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "聘请第三方入户复核",
+          "effects": {
+            "treasury": -100,
+            "reputation": 3,
+            "inspection": 6,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "自查自纠并追责",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2,
+            "corruption": -1,
+            "inspection": 8,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持数据不再修改",
+          "effects": {
+            "reputation": -4,
+            "corruption": 3,
+            "merit": -3,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国务院印发《关于开展第四次全国农业普查的通知》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0065",
+      "type": "success",
+      "tag": "水安全",
+      "title": "{city}饮水安全攻坚收官",
+      "desc": "践行'环境就是民生'理念，{city}投入两年时间完成农村供水管网改造，覆盖28个行政村、1.6万户农户，水质合格率达99.2%。验收组抽查发现个别村仍存在冬季冻管漏损，村民建议加装保温层，但财政已无追加空间，需平衡短期支出与长期效益。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "申请专项债加保温",
+          "effects": {
+            "treasury": -250,
+            "healthcare": 3,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "农户自筹+财政贴息",
+          "effects": {
+            "treasury": -50,
+            "healthcare": 1,
+            "happiness": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状待明年预算",
+          "effects": {
+            "happiness": -2,
+            "healthcare": -1,
+            "reputation": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | '环境就是民生'",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0066",
+      "type": "success",
+      "tag": "产业",
+      "title": "{city}非遗茶文化展引爆关注",
+      "desc": "{city}老城区举办非遗茶文化展，引入太极炒茶表演，街区人流量翻倍，民宿与餐饮订单激增。茶农合作社希望政府补贴传承人驻场，但财政压力不小。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "拨款300万扶持传承人驻场与品牌包装",
+          "effects": {
+            "treasury": -300,
+            "reputation": 8,
+            "happiness": 6,
+            "merit": 3,
+            "gdpMult": 1.03
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合茶农众筹，政府只出场地补贴",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "happiness": 3,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂不投入，等市场化自然发酵",
+          "effects": {
+            "reputation": -3,
+            "happiness": -2,
+            "corruption": 1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "【文脉华章】非遗焕新 生生不息丨用太极招式来炒茶！西湖龙井如",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0067",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}青山修复工程验收",
+      "desc": "三年矿山修复区进入生态验收，植被覆盖率回升至65%，村民回流明显。上级要求追加水土保持监测，财政紧张但生态红利可期。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "追加400万建长效监测站",
+          "effects": {
+            "treasury": -400,
+            "reputation": 9,
+            "happiness": 5,
+            "population": 150,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入社会资本运营生态修复",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "corruption": 3,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "验收达标即可，不再追加投入",
+          "effects": {
+            "treasury": 50,
+            "reputation": -4,
+            "happiness": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习卡丨“人不负青山，青山定不负人”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0068",
+      "type": "warn",
+      "tag": "监察",
+      "title": "{city}迎接节能法专项检查",
+      "desc": "上级启动节约能源法执法检查，{city}三家高耗能企业被点名，能耗数据涉嫌虚报。检查组下周进驻，整改窗口期不到两周。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "主动停产整改并公开数据",
+          "effects": {
+            "treasury": -250,
+            "reputation": 7,
+            "unemployment": 0.01,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "补装在线监测设备应付检查",
+          "effects": {
+            "treasury": -150,
+            "inspection": 5,
+            "corruption": 4,
+            "reputation": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "由企业主私下沟通检查组",
+          "effects": {
+            "corruption": 10,
+            "inspection": 12,
+            "reputation": -6,
+            "privateAccount": 30
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0069",
+      "type": "success",
+      "tag": "环保",
+      "title": "{city}河岸绿廊生态修复",
+      "desc": "{city}母亲河沿岸湿地修复完成一期，候鸟回归观测记录刷新。环保组织拟申请国家级示范，但二期预算尚未落实。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "申报专项资金300万推进二期",
+          "effects": {
+            "treasury": -300,
+            "reputation": 9,
+            "happiness": 6,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "与环保组织共建共管",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "happiness": 4,
+            "corruption": -1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "二期暂缓，优先民生支出",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "镜观·足迹｜呵护千山万水 擘画永续发展",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0070",
+      "type": "success",
+      "tag": "营商",
+      "title": "{city}信用修复窗口开放",
+      "desc": "{city}市场监管局上线信用修复绿色通道，三家被惩戒中小企业申请复牌，涉及上下游用工约120人。企业希望加快办理，但材料核查压力大。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "抽调专班72小时办结并公示",
+          "effects": {
+            "treasury": -50,
+            "reputation": 8,
+            "unemployment": -0.02,
+            "gdpMult": 1.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按常规流程逐件审核",
+          "effects": {
+            "reputation": 2,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓受理，等上级细则",
+          "effects": {
+            "reputation": -5,
+            "unemployment": 0.02,
+            "happiness": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0071",
+      "type": "success",
+      "tag": "环境",
+      "title": "{city}清洁世界示范创建",
+      "desc": "{city}申报全球清洁美丽世界示范城市，需要完成垃圾末端处理提标与河湖水体达标两项硬指标，验收前还有三个月。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动垃圾焚烧厂提标改造500万",
+          "effects": {
+            "treasury": -500,
+            "reputation": 10,
+            "happiness": 6,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "外包给环保企业特许经营",
+          "effects": {
+            "treasury": -50,
+            "corruption": 4,
+            "reputation": 4
+          },
+          "color": "orange"
+        },
+        {
+          "text": "暂不申报，避免资源浪费",
+          "effects": {
+            "reputation": -4,
+            "happiness": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "微视频｜共建清洁美丽世界",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0072",
+      "type": "corruption",
+      "tag": "纪检",
+      "title": "{city}党员处分程序被投诉",
+      "desc": "上级下发《党组讨论和决定党员处分事项工作程序规定》后，{city}某基层支部处分之一事被纪检投诉，称未集体讨论、材料缺失。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "立即复核并补开党委会",
+          "effects": {
+            "corruption": -6,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由纪委出具说明函了结",
+          "effects": {
+            "corruption": 3,
+            "inspection": 8
+          },
+          "color": "orange"
+        },
+        {
+          "text": "搁置处理，避风头",
+          "effects": {
+            "corruption": 8,
+            "inspection": 12,
+            "reputation": -6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中共中央办公厅印发《党组讨论和决定党员处分事项工作程序规定》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0073",
+      "type": "info",
+      "tag": "舆情",
+      "title": "{city}政务短视频出圈",
+      "desc": "{city}宣传部一条政务短视频播放破千万，网友热议政策科普形式。上级拟推广经验，要求一周内拿出可复制的宣传方案。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "组建专班复制推广矩阵",
+          "effects": {
+            "treasury": -100,
+            "reputation": 8,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现有节奏，自然发酵",
+          "effects": {
+            "reputation": 3,
+            "corruption": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "停止拍摄，避免形式主义质疑",
+          "effects": {
+            "reputation": -3,
+            "happiness": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "时政频道",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0074",
+      "type": "danger",
+      "tag": "农业",
+      "title": "{city}秋粮种源告急",
+      "desc": "{city}农业局发现本地种业公司被抽查出种子纯度不达标，秋播季在即，农户集中囤种受阻。涉及播种面积约3万亩。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "紧急调拨省种源并补贴差价",
+          "effects": {
+            "treasury": -350,
+            "reputation": 8,
+            "happiness": 6,
+            "gdpMult": 1.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "责令种业公司先行垫付",
+          "effects": {
+            "treasury": -50,
+            "corruption": 4,
+            "reputation": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "由农户自行承担换种损失",
+          "effects": {
+            "happiness": -6,
+            "reputation": -5,
+            "unemployment": 0.02
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "刘国中在安徽调研时强调 全力以赴夺取夏粮丰收 全面打牢秋粮生",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0075",
+      "type": "warn",
+      "tag": "能源",
+      "title": "{city}工业园区限产告急",
+      "desc": "节能法执法检查延伸检查中，{city}工业园区三家企业被列入高耗能清单，面临限产50%整改。园区产值占全市GDP近四成。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "限产同时补贴节能改造",
+          "effects": {
+            "treasury": -400,
+            "reputation": 5,
+            "gdpMult": 0.97,
+            "unemployment": 0.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "申请延后整改窗口",
+          "effects": {
+            "treasury": -100,
+            "inspection": 10,
+            "corruption": 3,
+            "reputation": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "默许企业继续生产",
+          "effects": {
+            "inspection": 15,
+            "corruption": 7,
+            "reputation": -8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0076",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}非遗传承人直播带货",
+      "desc": "{city}文旅局组织非遗传承人首次直播带货，单场销售额破80万元，手工艺品订单排至下季度。但部分产品被指工艺不达标。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "建立非遗产品溯源认证体系",
+          "effects": {
+            "treasury": -150,
+            "reputation": 8,
+            "happiness": 5,
+            "gdpMult": 1.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "抽检不合格批次下架",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "corruption": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂不干预，市场自净化",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "【文脉华章】非遗焕新 生生不息丨用太极招式来炒茶！西湖龙井如",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0077",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}水源地保护升级",
+      "desc": "{city}上游村庄发现违规排污管道，威胁城市饮用水源地。环保与公安联合排查，需决定是否划设永久生态保护红线。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "划定红线并征收退出补偿",
+          "effects": {
+            "treasury": -450,
+            "reputation": 9,
+            "happiness": 4,
+            "healthcare": 4,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "关停排污点，暂不划红线",
+          "effects": {
+            "treasury": -100,
+            "reputation": 3,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅通报批评，不追加投入",
+          "effects": {
+            "reputation": -5,
+            "happiness": -4,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "镜观·足迹｜呵护千山万水 擘画永续发展",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0078",
+      "type": "warn",
+      "tag": "营商",
+      "title": "{city}中小企业信用黑名单争议",
+      "desc": "{city}三家被列经营异常名录的企业提交信用修复申请，称影响贷款与投标。市民质疑修复标准过严，营商环境指数面临下调。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "简化修复流程并公开标准",
+          "effects": {
+            "treasury": -50,
+            "reputation": 7,
+            "unemployment": -0.02,
+            "gdpMult": 1.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持原标准，个案听证",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "搁置修复，等待上级指引",
+          "effects": {
+            "reputation": -5,
+            "happiness": -3,
+            "inspection": 4
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0079",
+      "type": "warn",
+      "tag": "节能执法",
+      "title": "{city}迎节约能源法执法检查",
+      "desc": "全国人大常委会启动节约能源法执法检查，{city}被抽中作为实地调研点。检查组将重点核查重点用能单位能耗台账、公共建筑能效标识与落后产能淘汰进度。市发改委估算若整改不到位，将面临通报与限期整改压力。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "自筹资金完成落后产能淘汰",
+          "effects": {
+            "treasury": -800,
+            "reputation": 8,
+            "gdpMult": 0.9,
+            "unemployment": 0.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "申请专项资金分两期整改",
+          "effects": {
+            "treasury": -300,
+            "reputation": 3,
+            "inspection": 3,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅做台账补齐应付检查",
+          "effects": {
+            "treasury": -50,
+            "reputation": -6,
+            "inspection": 12,
+            "corruption": 5,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0080",
+      "type": "success",
+      "tag": "夏粮丰收",
+      "title": "{city}夏粮抢收进入冲刺",
+      "desc": "市领导在田间地头调研夏粮生产，要求全力以赴夺取夏粮丰收，为秋粮打基础。{city}主粮区连续高温，收割机调度紧张，部分农户反映烘干仓储能力不足。农业农村部门呼吁加急调度跨区作业队伍与临时烘干点。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "征调跨区机收队+搭建临时烘干棚",
+          "effects": {
+            "treasury": -450,
+            "happiness": 5,
+            "gdpMult": 0.9,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "补贴农户购买烘干机分期还款",
+          "effects": {
+            "treasury": -250,
+            "happiness": 3,
+            "gdpMult": 0.9
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅发倡议书动员社会运力",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "gdpMult": 0.9
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "刘国中在安徽调研时强调 全力以赴夺取夏粮丰收 全面打牢秋粮生",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0081",
+      "type": "info",
+      "tag": "清洁美丽",
+      "title": "{city}争创清洁美丽示范城",
+      "desc": "上级发出共建清洁美丽世界号召，{city}拟申报省级清洁美丽城市示范点。环保局调研发现城区仍有零星秸秆焚烧与工地扬尘，市民对公园水质有投诉。若申报成功可获配套资金，但需完成限期治理。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全面治理+加装扬尘在线监测",
+          "effects": {
+            "treasury": -600,
+            "happiness": 6,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "重点整治城区+外围暂缓",
+          "effects": {
+            "treasury": -200,
+            "happiness": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂不申报，规避治理成本",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "微视频｜共建清洁美丽世界",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0082",
+      "type": "warn",
+      "tag": "海洋保护",
+      "title": "{city}沿海渔业转型压力",
+      "desc": "国家即将出席联合国海洋大会，对沿海地区海洋生态提出更高要求。{city}近海养殖区被指出存在网箱超密度与违规排污问题，远洋渔船燃油消耗亦受关注。渔政部门需在本周内提交整改方案。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "限期拆除违规网箱并补偿渔民",
+          "effects": {
+            "treasury": -700,
+            "happiness": 2,
+            "reputation": 6,
+            "gdpMult": 0.9,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "分批改造+推行生态养殖补贴",
+          "effects": {
+            "treasury": -350,
+            "happiness": 3,
+            "reputation": 2,
+            "gdpMult": 0.9
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以渔民生计为由缓办",
+          "effects": {
+            "reputation": -8,
+            "inspection": 10,
+            "happiness": -3,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正将赴法国出席联合国海洋大会并访问西班牙",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0083",
+      "type": "info",
+      "tag": "外交",
+      "title": "{city}借势海洋大会招商",
+      "desc": "国家领导人即将赴法国出席联合国海洋大会，{city}海事办抓住窗口期，拟对接国际海洋经济议题。市招商局准备了一份《蓝色经济招商白皮书》，涉及海洋牧场、深海装备等方向，但预算紧张，方案尚未定稿。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "加急编撰白皮书并赴会对接",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "gdpMult": 1.03,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "派两名科员远程参会",
+          "effects": {
+            "reputation": 1,
+            "gdpMult": 1.01
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以经费紧张为由暂不参会",
+          "effects": {
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正将赴法国出席联合国海洋大会并访问西班牙",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0084",
+      "type": "info",
+      "tag": "学习",
+      "title": "{city}组织学习月刊",
+      "desc": "中南海月刊（2025.5）发布，市委理论学习中心组要求各单位一周内完成学习。宣传部拟召开专题研讨会，但恰逢夏收农忙，乡镇干部请假较多，部分基层单位反映学习流于形式、笔记造假。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "实地调研式学习并抽查笔记",
+          "effects": {
+            "reputation": 3,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "线上签到打卡完成学习",
+          "effects": {
+            "happiness": -2,
+            "inspection": 3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "以农忙为由延后学习",
+          "effects": {
+            "reputation": -3,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "天天学习丨中南海月刊（2025.05）",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0085",
+      "type": "warn",
+      "tag": "涉外",
+      "title": "{city}接待二轨对话代表团",
+      "desc": "中美高级别二轨对话美方代表团访华，{city}被临时指定为接待城市之一。外办需在三天内备好考察点，涉及开发区、高校、文化场馆，接待标准和安保预算均未下达，地方财政压力陡增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "按标准接待并提前踩点",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩接待规格",
+          "effects": {
+            "treasury": -50,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "借机推销地方特产礼包",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正会见中美高级别二轨对话美方代表团",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0086",
+      "type": "success",
+      "tag": "文明",
+      "title": "{city}考古新发现引关注",
+      "desc": "{city}周边农田施工时意外发现一处疑似新石器时代遗址，文物局连夜派员保护现场。专家初步判断可能属中华文明曙光期遗存，若能确认将提升{city}文化名片，但保护费用与开发诉求分歧明显。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面停工保护并申请文保基金",
+          "effects": {
+            "treasury": -200,
+            "reputation": 6,
+            "merit": 3,
+            "gdpMult": 0.98
+          },
+          "color": "green"
+        },
+        {
+          "text": "局部发掘其余照旧",
+          "effects": {
+            "treasury": -50,
+            "reputation": -2,
+            "inspection": 5
+          },
+          "color": "orange"
+        },
+        {
+          "text": "以不影响工期为由继续施工",
+          "effects": {
+            "reputation": -5,
+            "inspection": 8,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习新语·中华文明丨泱泱中华的文明曙光",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0087",
+      "type": "warn",
+      "tag": "农业",
+      "title": "{city}抢收夏粮保丰收",
+      "desc": "国家强调全力以赴夺取夏粮丰收，{city}夏收进入关键期，但连续阴雨导致小麦霉变风险上升，农机调度紧张。部分农户因晾晒场地不足要求政府介入，农业局建议紧急启动烘干中心与救灾补贴。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启用烘干中心并发放救灾补贴",
+          "effects": {
+            "treasury": -150,
+            "happiness": 5,
+            "merit": 3,
+            "gdpMult": 1.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调学校体育馆临时晾晒",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由农户自行解决",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "刘国中在安徽调研时强调 全力以赴夺取夏粮丰收 全面打牢秋粮生",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0088",
+      "type": "info",
+      "tag": "政务",
+      "title": "{city}政务频道改版",
+      "desc": "市级时政频道拟改版升级，宣传部要求一个月内完成内容重构、增设民生板块。但目前栏目组人手不足，外包团队报价偏高，且旧版流量下滑，改版预算审批尚未通过。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "拨付专项预算外包制作",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部人员兼职完成改版",
+          "effects": {
+            "happiness": -1,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓改版继续运营旧版",
+          "effects": {
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "时政频道",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0089",
+      "type": "info",
+      "tag": "信用",
+      "title": "{city}升级信用修复服务",
+      "desc": "市市场监管局接到上级通知，要求一个月内上线信用修复线上平台，助力逾期经营主体重塑信用。但涉及税务、社保、司法等多部门数据打通，技术采购与数据共享协议尚未签订，企业诉求迫切。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合多部门共建信用平台",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "gdpMult": 1.04,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "先上线简易版再迭代",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "采购第三方平台托管",
+          "effects": {
+            "treasury": -50,
+            "corruption": 3,
+            "inspection": 5,
+            "reputation": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0090",
+      "type": "warn",
+      "tag": "生态",
+      "title": "{city}山水生态承压",
+      "desc": "上级通报{city}上游矿山违规排放导致河道水质下降，\"呵护千山万水\"要求落地。生态环境局连夜排查发现3处偷排点，但涉事企业为本地纳税大户，关停将影响当地就业与税收，处置方案争议较大。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "立即关停并移交司法",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "unemployment": 0.03,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "限期整改并加强巡查",
+          "effects": {
+            "happiness": -1,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由企业补缴生态保证金",
+          "effects": {
+            "treasury": 100,
+            "corruption": 4,
+            "inspection": 6,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "镜观·足迹｜呵护千山万水 擘画永续发展",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0091",
+      "type": "success",
+      "tag": "民生",
+      "title": "{city}环境即民生专项",
+      "desc": "市委将\"环境就是民生\"列为年度主题，群众对{city}公园改造、噪音治理、垃圾清运等诉求集中爆发。住建局提出改造方案但资金缺口较大，部分老旧小区居民已聚集反映问题，需尽快回应。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "申请专项债启动公园改造",
+          "effects": {
+            "treasury": -300,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "先治理噪音与清运问题",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以财政困难为由推迟改造",
+          "effects": {
+            "happiness": -5,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | \"环境就是民生\"",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0092",
+      "type": "info",
+      "tag": "学习",
+      "title": "{city}干部学习考核",
+      "desc": "市委办公厅下发通知，要求将《中南海月刊》学习内容纳入干部年度考核，未达标者影响晋升。组织部担心基层应付了事，拟增设线上答题与现场抽考，但技术平台尚未搭建，考核标准也未统一。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "搭建答题平台并现场抽考",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由各单位自行报送学习材料",
+          "effects": {
+            "inspection": 4,
+            "corruption": 2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "暂缓考核，仅作软性要求",
+          "effects": {
+            "reputation": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "天天学习丨中南海月刊（2025.05）",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0093",
+      "type": "warn",
+      "tag": "涉外",
+      "title": "{city}二轨对话配套接待",
+      "desc": "{city}作为二轨对话接待城市，外办临时要求增设商务对接环节，邀请本地企业家与美方代表座谈。但商务局的对接名单存在资质核查漏洞，部分企业涉嫌关联境外资金，合规审查迫在眉睫。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "严格审查并剔除问题企业",
+          "effects": {
+            "reputation": 3,
+            "inspection": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "全部邀请由企业自行说明",
+          "effects": {
+            "corruption": 3,
+            "inspection": 5
+          },
+          "color": "orange"
+        },
+        {
+          "text": "取消商务对接环节",
+          "effects": {
+            "reputation": -2,
+            "happiness": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "韩正会见中美高级别二轨对话美方代表团",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0094",
+      "type": "success",
+      "tag": "文明",
+      "title": "{city}文明曙光文旅推介",
+      "desc": "借中华文明曙光期考古发现热度，{city}文旅局拟推出\"文明曙光\"主题文旅线路，串联遗址、博物馆、研学基地。但景区接待能力不足，部分文保单位尚未完成修缮，线路推广预算与门票定价争议较大。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "修缮景区并推出研学线路",
+          "effects": {
+            "treasury": -150,
+            "happiness": 4,
+            "gdpMult": 1.05,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "先推免费研学再收门票",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "高价门票快速回收成本",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习新语·中华文明丨泱泱中华的文明曙光",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0095",
+      "type": "warn",
+      "tag": "农业",
+      "title": "{city}秋粮打基础启动",
+      "desc": "国家部署全面打牢秋粮生产基础，{city}农业农村局收到指令需三个月内完成良种补贴、田间指导、病虫害防控三件事。但补贴资金尚未到账，基层农技员流失严重，部分农户反映种子价格虚高。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "先行垫付补贴并补招农技员",
+          "effects": {
+            "treasury": -150,
+            "happiness": 4,
+            "merit": 2,
+            "gdpMult": 1.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合农资企业打折促销",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "等待资金到位后再启动",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "刘国中在安徽调研时强调 全力以赴夺取夏粮丰收 全面打牢秋粮生",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0096",
+      "type": "info",
+      "tag": "普查",
+      "title": "{city}农普入户遇冷",
+      "desc": "第四次全国农业普查即将启动，{city}抽调干部下乡入户登记。部分农户怀疑普查员身份，拒绝开门；少数大户担心数据影响补贴，隐瞒农机数量和经营面积。镇农办反映，今年流转地比例上升，传统台账已难以覆盖真实情况。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "发放身份证加红头文件，逐户上门核验",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "依托村委会代填，抽查10%即可",
+          "effects": {
+            "treasury": -50,
+            "corruption": 2,
+            "inspection": 6,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓普查，等中央督导再启动",
+          "effects": {
+            "reputation": -4,
+            "merit": -3,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国务院印发《关于开展第四次全国农业普查的通知》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0097",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}老小区供暖漏风",
+      "desc": "寒潮将至，{city}多个老旧小区反映供暖管道渗漏，部分楼栋室温仅12℃。物业推诿称管网属市政资产，市政回应称已移交物业。街道办接到上百起投诉，媒体正蹲点采访，居民自发在微信群组织维权。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "财政垫付抢修，限期3天恢复供暖",
+          "effects": {
+            "treasury": -450,
+            "happiness": 6,
+            "reputation": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调物业让利，居民分摊20%费用",
+          "effects": {
+            "treasury": -100,
+            "happiness": -3,
+            "corruption": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "下发书面答复，说明责任归属即可",
+          "effects": {
+            "happiness": -6,
+            "reputation": -5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "时政频道",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0098",
+      "type": "warn",
+      "tag": "环境",
+      "title": "{city}黑臭河道再现",
+      "desc": "{city}东郊一条支流水质再度恶化，沿岸村民晾晒的衣物出现异味。环保站检测显示氨氮超标3倍，上游两家养殖场和一家印染厂疑似偷排。市民拍摄视频上传网络，评论称'又是运动式治污'。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "联合执法关停排污企业，启动生态修复",
+          "effects": {
+            "treasury": -300,
+            "happiness": 5,
+            "reputation": 4,
+            "unemployment": 0.01
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈企业主，限期改造排污设施",
+          "effects": {
+            "treasury": -50,
+            "corruption": 4,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "投放净化剂应急，淡化舆论",
+          "effects": {
+            "treasury": -100,
+            "reputation": -4,
+            "inspection": 8
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习手记 | “环境就是民生”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0099",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}矿山复绿试点",
+      "desc": "自然资源部批复{city}废弃矿山生态修复试点，计划三年内将3000亩裸露山体恢复为林草复合体。林业局已物色本地苗农承接，但复绿后土地权属和后续管护资金尚未明确，村民担忧'种完就荒'。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立管护基金，村民轮岗看山员",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "整体承包给林业公司运营",
+          "effects": {
+            "treasury": 150,
+            "corruption": 3,
+            "happiness": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓启动，等待配套政策",
+          "effects": {
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习卡丨“人不负青山，青山定不负人”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0100",
+      "type": "warn",
+      "tag": "节能",
+      "title": "{city}工厂电价预警",
+      "desc": "全国人大常委会启动节约能源法执法检查，{city}一家纺织厂和两家化工企业被列入重点抽查名单。厂方反映电价上浮后订单外流，工人担心减产降薪。能源监管组下周一进驻，企业负责人私下找过分管副市长。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全额配合检查，公开整改清单",
+          "effects": {
+            "treasury": -250,
+            "reputation": 5,
+            "unemployment": 0.02,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "协助企业申报技改补贴缓冲",
+          "effects": {
+            "treasury": -400,
+            "unemployment": -0.01,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暗示企业低调应对，不主动申报",
+          "effects": {
+            "corruption": 6,
+            "inspection": 12,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0101",
+      "type": "info",
+      "tag": "文旅",
+      "title": "{city}茶馆非遗申报",
+      "desc": "{city}一家百年老茶馆申报省级非遗，其'太极式炒茶'技艺引发关注。文旅局评估后认为申报材料齐备，但当地两家茶企希望'共享'品牌，主张联名申报；茶馆老板则坚持独立申请，双方僵持不下。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "支持茶馆独立申报，配套宣传",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "推动三家企业联合申报",
+          "effects": {
+            "treasury": -50,
+            "corruption": 2,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓申报，避免产业内耗",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "【文脉华章】非遗焕新 生生不息丨用太极招式来炒茶！西湖龙井如",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0102",
+      "type": "success",
+      "tag": "治理",
+      "title": "{city}居民议事会试点",
+      "desc": "参照基层'小议事'经验，{city}试点在三个社区成立居民议事会，由居民推选代表参与老旧小区改造、停车管理等决策。首批议题包括加装电梯费用分摊，居民代表与物业在第一次会议上就吵得面红耳赤。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政补贴议事会运营，配专职协调员",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅设线上投票平台，不派专人",
+          "effects": {
+            "treasury": -50
+          },
+          "color": "blue"
+        },
+        {
+          "text": "叫停试点，避免矛盾上交",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：“小议事”撬动“大治理”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0103",
+      "type": "warn",
+      "tag": "信用",
+      "title": "{city}失信企业维权",
+      "desc": "{city}两家曾被列入经营异常名录的制造企业，因信用修复后仍无法参与政府采购投标，向市场监管局申诉。审查发现，两家企业三年前确有欠税记录，但已补缴完毕，系统却未同步更新。采购部门态度含糊。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "72小时内完成数据修复并致歉",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "解释系统滞后，建议企业走复议",
+          "effects": {
+            "happiness": -3,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "压办申诉，避免上级问询",
+          "effects": {
+            "corruption": 5,
+            "inspection": 10,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "多地升级信用修复服务 助力经营主体重塑良好信用",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0104",
+      "type": "corruption",
+      "tag": "纪检",
+      "title": "{city}党员处分程序争议",
+      "desc": "某市直单位一名科级干部涉嫌违规收受供应商礼品，党组拟给予党内警告。该干部质疑处分程序——党组会议未提前书面告知、表决票未按新规留档。纪委指出，此类程序瑕疵可能导致处分被上级撤销。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "撤回处分，按新规重新走程序",
+          "effects": {
+            "reputation": 4,
+            "corruption": -3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持原处分，仅补书面材料",
+          "effects": {
+            "corruption": 4,
+            "inspection": 8,
+            "reputation": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "搁置处分，等待上级答复",
+          "effects": {
+            "corruption": 6,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中共中央办公厅印发《党组讨论和决定党员处分事项工作程序规定》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0105",
+      "type": "warn",
+      "tag": "农普",
+      "title": "{city}流转地数据打架",
+      "desc": "农业普查预登记中发现，{city}两个镇上报的耕地流转面积相差近400亩，数据源分别是农经站台账和自然资源局地块图。两部门互相指责对方数据'过期'，村干部更是不知该听谁的，农户已开始质疑普查公信力。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "组织三部门联合测绘，统一口径",
+          "effects": {
+            "treasury": -300,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "以自然资源局数据为准上报",
+          "effects": {
+            "treasury": -50,
+            "corruption": 2,
+            "happiness": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "两边数据都报，让上级裁决",
+          "effects": {
+            "corruption": 3,
+            "inspection": 8,
+            "merit": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国务院印发《关于开展第四次全国农业普查的通知》",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0106",
+      "type": "danger",
+      "tag": "安全",
+      "title": "{city}小作坊火灾",
+      "desc": "{city}工业园区边缘一家'三合一'电子小作坊凌晨起火，过火面积300余平方米，所幸疏散及时无人员伤亡。调查初步判定为电气线路老化短路，但该作坊此前已被消防部门两次口头警告，未落实整改。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全区排查同类作坊，强制整改",
+          "effects": {
+            "treasury": -350,
+            "happiness": 4,
+            "reputation": 5,
+            "unemployment": 0.02,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅对涉事作坊重罚，其他观望",
+          "effects": {
+            "treasury": 100,
+            "corruption": 3,
+            "happiness": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "定性为意外事故，低调处理",
+          "effects": {
+            "corruption": 5,
+            "inspection": 10,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "时政频道",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0107",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}湿地候鸟回归",
+      "desc": "湿地监测站记录到{city}南郊湿地越冬候鸟数量同比增加23%，其中包含一只国家一级保护鸟类。环保志愿者自发组织巡护，但湿地边缘仍有人非法挖塘种藕，林业部门呼吁联合执法，村民则担心影响农事。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合执法划界，村民转型生态管护",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "由志愿者自行劝导，不派执法",
+          "effects": {
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "默许现状，待上级挂牌督察",
+          "effects": {
+            "corruption": 4,
+            "reputation": -3,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "学习卡丨“人不负青山，青山定不负人”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0108",
+      "type": "warn",
+      "tag": "节能",
+      "title": "{city}高耗能企业限产",
+      "desc": "配合节能法执法检查，{city}对三家高耗能企业下达限产通知。其中一家陶瓷厂占全镇就业的12%，厂长连夜约谈，声称若不缓释，年底可能裁员200人。工会情绪激动，媒体也在跟踪报道'限产与就业'的张力。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "限产不变，财政补贴员工再就业培训",
+          "effects": {
+            "treasury": -250,
+            "happiness": 3,
+            "reputation": 4,
+            "unemployment": 0.01,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "同意企业申请3个月限产缓冲",
+          "effects": {
+            "treasury": -50,
+            "corruption": 3,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "撤销限产令，避免群体事件",
+          "effects": {
+            "corruption": 5,
+            "inspection": 12,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "全国人大常委会启动节约能源法执法检查",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0109",
+      "type": "info",
+      "tag": "文化",
+      "title": "{city}手工艺振兴计划",
+      "desc": "{city}一家濒临关停的本地手工艺合作社申请文化振兴专项资金，希望将传统竹编技艺与文旅结合。文旅局初步认可方案，但财政局指出该合作社近三年营收持续下滑，担心资金'打水漂'，要求附担保。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "批准专项，由财政担保分年拨付",
+          "effects": {
+            "treasury": -300,
+            "happiness": 4,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "批准但要求合作社引入社会资本",
+          "effects": {
+            "treasury": -100,
+            "corruption": 2,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "驳回申请，避免资金沉淀",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "【文脉华章】非遗焕新 生生不息丨用太极招式来炒茶！西湖龙井如",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260926_0110",
+      "type": "success",
+      "tag": "治理",
+      "title": "{city}议事会扩点",
+      "desc": "首批三个社区议事会运行半年成效初显，老旧小区加装电梯争议率下降60%。{city}拟将议事会模式推广至全市12个街道，但部分街道办担心'议而不决'拖慢工程，已有两处小区因议事僵局导致工期延误。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "制定议事规则与表决时限，配套推广",
+          "effects": {
+            "treasury": -150,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅推广到条件成熟的社区",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "corruption": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂停扩点，先评估首批效果",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "河南卢氏：“小议事”撬动“大治理”",
+      "generatedAt": "2026-09-26",
+      "schemaVersion": 1
+    }
+  ]
+}

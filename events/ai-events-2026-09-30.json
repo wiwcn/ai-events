@@ -1,0 +1,663 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T20:25:28.162Z",
+  "schemaVersion": 1,
+  "model": "sensenova-6.8-flash-lite",
+  "hotTopics": [
+    "中新网即时新闻",
+    "（爱知·名古屋亚运会）综合消息：中国跳水队达成“百金”成就 中国男足无缘决赛",
+    "沃洛金当选连任俄国家杜马主席 普京出席首次全会并讲话",
+    "昆明4.3级地震为正常地震活动",
+    "中网综合：袁悦、布云朝克特迎开门红 德约科维奇首战告捷",
+    "（爱知·名古屋亚运会）中国跳水队达成亚运“百金”",
+    "柬埔寨洪灾影响10省数万户家庭",
+    "机制化的确定性正在重塑中美经贸关系",
+    "《中国发展报告2026》在北京首发",
+    "“广西龙超”吸引逾190支队伍参赛 留学生体验划桨逐浪",
+    "京广高铁车厢里的中国红",
+    "三峡枢纽新通道先行开挖区完成爆破开挖",
+    "纪录片《汤寿潜1911》用AI“复活”百年档案致敬先贤",
+    "西藏：沙冒智化诗集《活在家里的名字》意大利语版全球发行",
+    "WTT中国大满贯2026升级场馆硬件设施 打造沉浸式观赛体验",
+    "浙江杭州迎国庆节前铁路客流高峰",
+    "“窑火中的艺术匠心：V&A博物馆珍藏威基伍德陶瓷”在成都开展",
+    "驻阿德莱德总领馆举办国庆77周年招待会",
+    "广西侗乡青少年展演非遗促美育交流",
+    "应急管理部针对贵州启动国家地质灾害四级应急响应"
+  ],
+  "count": 15,
+  "events": [
+    {
+      "id": "ai_20260930_0001",
+      "type": "warn",
+      "tag": "交通",
+      "title": "{city}国庆前夕客流激增",
+      "desc": "{city}铁路站迎来节前出行高峰，单日进站人数突破历史纪录，进站安检与换乘通道一度排起长队。多家旅行社和通勤企业同步反映票务紧张，市民在社交平台抱怨购票难。若疏导不力，将影响假期出行秩序与城市形象。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增派警力并临时增设安检口",
+          "effects": {
+            "treasury": -100,
+            "happiness": 6,
+            "reputation": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "启用备用通道并加密广播提示",
+          "effects": {
+            "happiness": 3,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，建议市民错峰出行",
+          "effects": {
+            "happiness": -6,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "浙江杭州迎国庆节前铁路客流高峰",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0002",
+      "type": "info",
+      "tag": "文体",
+      "title": "{city}龙舟联赛报名火爆",
+      "desc": "{city}首届龙舟联赛吸引来自全市190余支队伍报名，其中不乏海外留学生组成的混编队。赛事计划沿主河道展开，沿岸商铺和民宿订单明显上涨。组委会担心安全与补给压力，请求政府协调场地与医疗支持。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "批准并拨付专项安全保障经费",
+          "effects": {
+            "treasury": -100,
+            "happiness": 7,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "缩减赛段并要求承办方自筹",
+          "effects": {
+            "happiness": 2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以安全为由暂缓赛事",
+          "effects": {
+            "happiness": -4,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“广西龙超”吸引逾190支队伍参赛 留学生体验划桨逐浪",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0003",
+      "type": "danger",
+      "tag": "灾害",
+      "title": "{city}发生4.3级地震",
+      "desc": "凌晨{city}城区及周边出现明显震感，多家居民楼出现轻微裂缝，学校紧急停课。市地震局研判属正常构造活动，但部分老旧小区居民仍担心余震。民政部门正组织现场勘查，评估是否需要临时安置。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动应急响应并开展房屋排查",
+          "effects": {
+            "treasury": -150,
+            "happiness": 5,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅对重点区域排查并发布公告",
+          "effects": {
+            "treasury": -50,
+            "happiness": -1,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "发布安抚信息后等待上级指示",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "昆明4.3级地震为正常地震活动",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0004",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}非遗展演促美育",
+      "desc": "{city}青少年非遗展演在市文化馆开幕，侗族大歌、刺绣、竹编等节目吸引千余名学生和家长。多位学校校长呼吁将非遗纳入课后服务，但财政经费与师资仍是瓶颈。部分观众建议增加互动体验区。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加美育经费并培训非遗讲师",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 6,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "与文化馆合作引入志愿者师资",
+          "effects": {
+            "educationIndex": 2,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅作为一次性活动举办",
+          "effects": {
+            "educationIndex": -2,
+            "happiness": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西侗乡青少年展演非遗促美育交流",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0005",
+      "type": "info",
+      "tag": "资讯",
+      "title": "{city}新闻聚合平台上线",
+      "desc": "市级融媒体中心推出的即时新闻聚合平台本周上线，整合了政务发布、交通、气象与突发事件信息。上线首日访问量突破50万，但部分市民反映界面广告过多、信息排序不透明。技术团队希望政府协助内容审核规范。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "联合网信办出台内容审核细则",
+          "effects": {
+            "reputation": 4,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "要求平台下架弹窗广告",
+          "effects": {
+            "happiness": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，由市场自行调节",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0006",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}跳水队达成百金",
+      "desc": "{city}市跳水训练基地派出梯队在本届全国赛事上斩获多枚金牌，累计队史达到百金里程碑，市民在短视频平台刷屏祝贺。基地教练组建议将部分奖金用于青少年选材与场馆升级，但地方体育经费紧张。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨款升级训练馆并设立青训基金",
+          "effects": {
+            "treasury": -200,
+            "happiness": 6,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "由基地自筹奖金用于器材",
+          "effects": {
+            "happiness": 2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂不追加投资，控制财政支出",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "（爱知·名古屋亚运会）综合消息：中国跳水队达成“百金”成就 ",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0007",
+      "type": "success",
+      "tag": "出版",
+      "title": "{city}诗人诗集海外发行",
+      "desc": "{city}青年诗人新作诗集翻译版在意大利全球发行，当地书展反响热烈，外国读者关注中国市井生活与方言文化。出版社希望地方政府协助推广本土作家，但地方外宣预算有限，且涉及文化内容审查。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "设立外宣专项并举办作品推介会",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "协助对接文旅部门做轻量推广",
+          "effects": {
+            "reputation": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以内容审查为由暂不介入",
+          "effects": {
+            "reputation": -2,
+            "inspection": 4
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "西藏：沙冒智化诗集《活在家里的名字》意大利语版全球发行",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0008",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "{city}洪灾波及十镇",
+      "desc": "受上游持续强降雨影响，{city}下游多个乡镇遭遇洪涝，约数万户家庭受灾，多处道路与桥梁中断。部分安置点物资紧张，卫生防疫压力上升。防汛指挥部请求协调军地救援与灾后重建资金。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动一级响应并申请上级救灾款",
+          "effects": {
+            "treasury": -300,
+            "happiness": 8,
+            "reputation": 6,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "优先保命，暂缓房屋修复",
+          "effects": {
+            "happiness": 2,
+            "healthcare": 2,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "等待雨季过去再集中处置",
+          "effects": {
+            "happiness": -8,
+            "reputation": -6,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "柬埔寨洪灾影响10省数万户家庭",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0009",
+      "type": "info",
+      "tag": "场馆",
+      "title": "{city}大满贯升级观赛体验",
+      "desc": "{city}承办的WTT大满贯赛事将场馆硬件全面升级，引入沉浸式观赛系统和智能座位。主办方希望政府协助交通疏导与安保，但市民担心施工期扰民和赛事期间出行不便。赛事赞助方也提出冠名权议价诉求。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "批准升级并配套交通管制预案",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 4,
+            "gdpMult": 0.9
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩工期并错峰施工",
+          "effects": {
+            "happiness": 1,
+            "reputation": 1,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以扰民为由叫停升级",
+          "effects": {
+            "happiness": -3,
+            "gdpMult": 0.9,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯2026升级场馆硬件设施 打造沉浸式观赛体验",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0010",
+      "type": "info",
+      "tag": "外交",
+      "title": "{city}接待境外议会代表团",
+      "desc": "{city}接待来自邻国地方议会代表团，对方希望学习{city}基层治理与产业治理经验，市长办公室拟定接待方案。部分公务员担心接待标准超标，涉及外事经费与礼宾礼仪规范。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "按最高标准接待并公开接待清单",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按节俭标准安排并压缩环节",
+          "effects": {
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以涉外风险为由婉拒访问",
+          "effects": {
+            "reputation": -3,
+            "inspection": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "沃洛金当选连任俄国家杜马主席 普京出席首次全会并讲话",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0011",
+      "type": "corruption",
+      "tag": "招采",
+      "title": "{city}洪灾重建招采质疑",
+      "desc": "洪灾重建工程招采公告发布后，三家本地企业联名质疑评标标准模糊、保证金比例偏高。纪检组介入后发现招标代理机构与其中一家投标方存在历史合作关系。舆论发酵迅速，影响重建进度与政府公信力。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "立即暂停招标并全面审计",
+          "effects": {
+            "treasury": -50,
+            "corruption": -6,
+            "reputation": 5,
+            "inspection": 6
+          },
+          "color": "green"
+        },
+        {
+          "text": "补充公示并要求重新评标",
+          "effects": {
+            "corruption": -2,
+            "inspection": 4,
+            "happiness": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持原招标结果推进工期",
+          "effects": {
+            "corruption": 5,
+            "reputation": -4,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "柬埔寨洪灾影响10省数万户家庭",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0012",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}留学生混编赛获好评",
+      "desc": "{city}龙舟联赛因多支留学生混编队参赛获得国际媒体关注，本地高校借势推出双语龙舟文化课程。教育部门和外事办评估后认为可推动留学生招生，但需协调课程认证与安全保障，经费来源仍需明确。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "立项建设龙舟双语课程并招生",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 5,
+            "reputation": 3,
+            "population": 150
+          },
+          "color": "green"
+        },
+        {
+          "text": "先做试点课程观察效果",
+          "effects": {
+            "educationIndex": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "以安全与课程认证为由搁置",
+          "effects": {
+            "educationIndex": -2,
+            "reputation": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "“广西龙超”吸引逾190支队伍参赛 留学生体验划桨逐浪",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0013",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}地震谣言引发抢购",
+      "desc": "{city}4.3级地震后，社交媒体流传'今晚将有更大余震'的谣言，引发市区多家超市囤货抢购，部分居民深夜排队。地震局已辟谣，但超市货架空置与交通拥堵仍在持续，市民情绪紧张。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合发布权威辟谣并保障供应",
+          "effects": {
+            "treasury": -50,
+            "happiness": 5,
+            "reputation": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅由地震局单独回应",
+          "effects": {
+            "happiness": 1,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂不回应，等待谣言自然消退",
+          "effects": {
+            "happiness": -6,
+            "reputation": -5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "昆明4.3级地震为正常地震活动",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0014",
+      "type": "info",
+      "tag": "产业",
+      "title": "{city}争取办大满贯落地",
+      "desc": "{city}体育局争取承接下一届WTT中国大满贯赛事，拟与相邻城市联合申办。评估报告指出{city}现有场馆硬件需升级，且赛事期间住宿与交通承载压力较大，申办成功将带动文旅消费，但存在财政与运营风险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合申办并签订财政分担协议",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 0.9,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "以协办方身份降低财政负担",
+          "effects": {
+            "gdpMult": 0.9,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "因风险过高放弃申办",
+          "effects": {
+            "reputation": -2,
+            "gdpMult": 0.9
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯2026升级场馆硬件设施 打造沉浸式观赛体验",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20260930_0015",
+      "type": "corruption",
+      "tag": "文化",
+      "title": "{city}非遗基金拨付疑云",
+      "desc": "审计组在非遗美育专项资金核查中发现，部分授课费用与实际课时不符，一家培训机构被指虚报课时套取经费。该机构负责人系市人大代表亲属，此事涉及人大代表关联问题，舆论高度关注。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "移送司法并追回违规资金",
+          "effects": {
+            "treasury": 100,
+            "corruption": -8,
+            "reputation": 5,
+            "inspection": 6
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂停拨付并内部核查",
+          "effects": {
+            "corruption": -3,
+            "educationIndex": -2,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "低调处理避免影响赛事",
+          "effects": {
+            "corruption": 6,
+            "reputation": -4,
+            "inspection": 9
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "广西侗乡青少年展演非遗促美育交流",
+      "generatedAt": "2026-09-30",
+      "schemaVersion": 1
+    }
+  ]
+}

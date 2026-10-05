@@ -1,0 +1,7332 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T22:23:28.858Z",
+  "schemaVersion": 1,
+  "model": "sensenova-6.8-flash-lite",
+  "hotTopics": [
+    "中新网即时新闻",
+    "迪拜航空客机上到底发生了什么 遭袭机长等人“还原”惊魂时刻",
+    "国庆假期，游客体验“升级版”",
+    "云岭大地谱新篇",
+    "出行热 体验丰 门市旺——国庆假期消费市场观察",
+    "特写：一粒青稞，两代征途",
+    "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+    "WTT中国大满贯赛：孙颖莎晋级女单32强",
+    "2026年“村BA”球王争霸赛全国总决赛：广西柳州鹿寨镇队卫冕冠军",
+    "首届“东北超”落幕：绿茵聚力，振兴起脚",
+    "国庆档电影票房破8亿！“电影+文旅+美食”激活假日消费新动能",
+    "英国警方在反移民抗议活动中逮捕12人",
+    "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+    "一艘船在黑海沉没 2人死亡",
+    "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+    "2026上海劳力士大师赛男单抽签仪式举行",
+    "俄财政部将大幅增加外汇和黄金购买量",
+    "英国伦敦大范围停电",
+    "胡塞武装称沙特空袭也门萨那省",
+    "假期长途出行晕车怎么办？生姜能治晕车吗？"
+  ],
+  "count": 161,
+  "events": [
+    {
+      "id": "ai_20261005_0001",
+      "type": "danger",
+      "tag": "停电",
+      "title": "{city}城区大范围停电",
+      "desc": "今晨8时，{city}老城区突发大面积停电，波及居民约8000户，电梯困人、供水中断、商户营业停滞。供电局初步判断为老旧变压器过载引发连锁跳闸，抢修队伍已全员到场，预计恢复供电需6-8小时，现场情绪紧张，群众在社交媒体集中投诉。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "调拨应急发电机并设群众安置点",
+          "effects": {
+            "treasury": -200,
+            "reputation": 4,
+            "happiness": 3,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅协调供电局加急抢修",
+          "effects": {
+            "treasury": -50,
+            "reputation": -2,
+            "happiness": -3,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "让供电局自行处置不下场",
+          "effects": {
+            "reputation": -6,
+            "happiness": -5,
+            "inspection": 8,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国伦敦大范围停电",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0002",
+      "type": "info",
+      "tag": "出行",
+      "title": "{city}市民长途出行晕车激增",
+      "desc": "近日长假前出行高峰，{city}客运站、长途大巴候车厅晕车呕吐求助明显增多，多位家长带老人儿童求助。市医院急诊门诊接到\"晕车眩晕\"咨询量翻倍，市民在短视频上讨论生姜能否治晕车，话题引发热议，公共出行秩序与公共服务配套承压。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "在客运枢纽设健康咨询点",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "healthcare": 2,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合公交公司发放晕车贴",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "发布科普视频不做干预",
+          "effects": {
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0003",
+      "type": "warn",
+      "tag": "山景",
+      "title": "{city}景区路段临时管制",
+      "desc": "国庆假期{city}云岭山国家级景区单日接待游客超3万人次，因山路湿滑、能见度低，景区管委会对部分路段实施临时交通管制，数千名游客滞留山脚停车场。景区负责人要求地方协调增派警力疏导，游客在社交媒体集中呼吁恢复通行，舆情发酵迅速。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增派警力+免费接驳车至山脚",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 3,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "延长管制时间劝返游客",
+          "effects": {
+            "happiness": -4,
+            "reputation": -1,
+            "inspection": 4
+          },
+          "color": "orange"
+        },
+        {
+          "text": "开放备选山路保通行",
+          "effects": {
+            "reputation": -3,
+            "inspection": 6,
+            "happiness": 1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0004",
+      "type": "success",
+      "tag": "消费",
+      "title": "{city}国庆消费市场走旺",
+      "desc": "假期三天{city}重点商圈销售额同比增长22%，餐饮、影院、亲子乐园订单翻倍，多家商场延长营业至深夜。市商务局统计全市零售餐饮消费突破历史同期，游客自发在短视频平台分享\"{city}过节体验\"，城市形象与假日经济口碑双上升。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "推出文旅消费券再扩内需",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "reputation": 3,
+            "gdpMult": 1.05,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "加强市场监管防宰客",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任市场自由定价",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0005",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}队首夺年度争霸赛冠军",
+      "desc": "昨夜{city}代表队在超三联赛年度争霸赛中以4:2击败卫冕冠军，实现单赛季三冠王伟业，全市球迷自发聚集市民广场庆祝至深夜。市体育局收到大量市民贺电，地方媒体集中报道，城市自豪感高涨，但街头庆祝也带来垃圾清运和噪音扰民投诉。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "市财政奖励教练团队",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调环卫加强夜间清运",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "发通报批评街头狂欢",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0006",
+      "type": "danger",
+      "tag": "空难",
+      "title": "{city}航班遭劫持惊魂时刻",
+      "desc": "今日上午一架由{city}机场起降的国内航班在巡航阶段遭遇劫机，机组人员凭借专业处置成功制伏劫机者并安全备降邻市。事件经媒体直播后引发市民恐慌，{city}机场安检压力骤增，本地航班起降延误，旅客情绪激动，反恐与民航协调机制紧急启动。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "升级机场反恐预案并公开通报",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 4,
+            "inspection": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调处理避免引发更大恐慌",
+          "effects": {
+            "happiness": -4,
+            "reputation": -2,
+            "inspection": 6
+          },
+          "color": "orange"
+        },
+        {
+          "text": "暂停{city}机场所有航班",
+          "effects": {
+            "treasury": -300,
+            "happiness": -5,
+            "inspection": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人“还原”惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0007",
+      "type": "success",
+      "tag": "网球",
+      "title": "{city}承办国际大师赛抽签",
+      "desc": "市体育部门确认{city}将承办本年度劳力士大师赛，抽签仪式在奥体中心举行，吸引全球媒体现场报道。赛事预计带来直接经济收益超3亿元，酒店预订提前锁定七成，但场馆改造、安保、交通疏导压力同步加大，市民期待与担忧并存。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "加快场馆改造并提升安保",
+          "effects": {
+            "treasury": -400,
+            "reputation": 5,
+            "happiness": 3,
+            "gdpMult": 1.06,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅做基础配套不追加投资",
+          "effects": {
+            "treasury": -100,
+            "reputation": 1,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "转交企业冠名减少财政负担",
+          "effects": {
+            "treasury": 50,
+            "reputation": -2,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026上海劳力士大师赛男单抽签仪式举行",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0008",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}电影联动带动文旅热",
+      "desc": "国庆档一部以{city}老街区为背景的电影票房突破8亿，全国观众\"跟着电影游{city}\"，本地民宿、特色餐馆订单暴涨，老字号糕点铺一度售罄。市文旅局接到大量外地游客问询，但老街区承载力告急，商铺拥挤、停车困难问题涌现。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "开放周边停车场并增派志愿者",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 3,
+            "gdpMult": 1.04
+          },
+          "color": "green"
+        },
+        {
+          "text": "限制老街区人流实行限流",
+          "effects": {
+            "happiness": -3,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "放任拥堵不做疏导",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆档电影票房破8亿！“电影+文旅+美食”激活假日消费新动能",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0009",
+      "type": "warn",
+      "tag": "云岭",
+      "title": "{city}云岭片区乡村振兴受阻",
+      "desc": "市发改委调研发现{city}云岭片区乡村振兴示范村推进滞后，土地流转纠纷、产业链配套不足、青壮年劳动力外流问题突出。村支书反映上级专项资金到位慢、村集体自筹困难，村民对\"云岭新篇\"口号心生疑虑，舆情在地方政务平台发酵。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "下拨专项帮扶资金协调流转",
+          "effects": {
+            "treasury": -250,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入龙头企业托管运营",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "corruption": 4,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓项目待资金到位",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "inspection": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0010",
+      "type": "info",
+      "tag": "舆情",
+      "title": "{city}政务热搜话题引爆",
+      "desc": "今日上午一条关于{city}民生工程的政务新闻登上全国即时新闻热搜榜，转发量超20万。部分网友点赞{city}为民办实事，也有网友质疑资金使用透明度。市宣传部舆情中心24小时值守，要求各单位做好回应口径，防止负面解读扩散。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "发布资金流向公示回应质疑",
+          "effects": {
+            "reputation": 4,
+            "happiness": 2,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅做正面宣传不回应质疑",
+          "effects": {
+            "reputation": -3,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "约谈涉事单位低调处理",
+          "effects": {
+            "reputation": -5,
+            "corruption": 2,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0011",
+      "type": "warn",
+      "tag": "就业",
+      "title": "{city}制造业企业集中裁员",
+      "desc": "本周{city}经开区两家电子制造企业因海外订单下滑宣布合计裁员近800人，涉及员工多为本地年轻人。市人社局接到集体上访，部分工人在厂区拉横幅，社保缴费与再就业安置压力骤增，周边物业与餐饮门店营业额下滑。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动再就业培训+税收减免",
+          "effects": {
+            "treasury": -200,
+            "unemployment": -0.01,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调企业延期裁员",
+          "effects": {
+            "unemployment": -0.02,
+            "reputation": 2,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任市场自然出清",
+          "effects": {
+            "unemployment": 0.03,
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0012",
+      "type": "corruption",
+      "tag": "暗箱",
+      "title": "{city}景区接驳车招标存疑",
+      "desc": "举报人向市纪委监委实名举报{city}云岭山景区接驳车采购招标存在围标串标，中标企业与招标方负责人存在亲属关系。市纪委监委已立案核查，舆情迅速发酵，市民质疑景区近年\"体验升级\"资金去向，景区管委会负责人被要求配合调查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全力配合纪委彻查追责",
+          "effects": {
+            "corruption": -8,
+            "reputation": 3,
+            "inspection": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂停项目待调查结论",
+          "effects": {
+            "corruption": -2,
+            "inspection": 3,
+            "treasury": -50
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "施压纪委尽快结案",
+          "effects": {
+            "corruption": 6,
+            "reputation": -4,
+            "inspection": 8,
+            "merit": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0013",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}学子斩获全国奥赛金牌",
+      "desc": "本市第一中学高三学生在全国数学奥林匹克决赛中斩获两枚金牌，刷新本地升学纪录。校长在市教育局会议上表示，长期投入的\"名师工程\"结出硕果，家长和学生自发在校门口鸣放礼花，市民朋友圈刷屏祝贺，教育口碑显著提升。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加教育专项经费奖励师生",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 3,
+            "happiness": 2,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "要求全市推广该校模式",
+          "effects": {
+            "educationIndex": 2,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "低调处理避免炒作",
+          "effects": {
+            "reputation": -2,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026上海劳力士大师赛男单抽签仪式举行",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0014",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "{city}国庆急诊量翻倍告急",
+      "desc": "国庆假期{city}三甲医院急诊科日均接诊量突破1200人次，同比翻番，急诊床位爆满，部分患者排队超6小时。市卫健委统计节假日期间心脑血管、消化道疾病多发，社区医院分流能力不足，市民呼吁增开临时门诊与120调度扩容。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增开临时门诊并扩容120",
+          "effects": {
+            "treasury": -150,
+            "healthcare": 3,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "向社区医院分流轻症",
+          "effects": {
+            "treasury": -50,
+            "healthcare": 1,
+            "happiness": 1,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状不加派资源",
+          "effects": {
+            "healthcare": -2,
+            "happiness": -4,
+            "reputation": -3,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0015",
+      "type": "success",
+      "tag": "民生",
+      "title": "{city}丰收节青稞开镰",
+      "desc": "秋分过后，{city}城郊高坡村的千亩青稞进入收割期，今年农户引入的机械化收割比往年提前了五天。粮站连夜排班，连夜收购，农户老王把两袋青稞扛到收购点，笑称这是\"两代人的征途\"。市农业农村局邀请返乡青年现场直播带货，订单已破万斤，地方特色农产品品牌打响，但也拉高了物流与补贴压力。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加冷链补贴支持外销",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.04,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "只办丰收节不做外销",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "让市场自行消化库存",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "corruption": 3
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0016",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}首届城市足球联赛落幕",
+      "desc": "为期两个月的{city}城市联赛昨晚决赛落幕，主场三万人观赛，门票与周边收入超八百万。多家企业赛后提出冠名赞助，希望把联赛做成年度品牌。但赛后球迷聚集引发的交通拥堵与商铺投诉也同步上升，城管和交警连夜加班疏导。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "引入企业冠名并扩规",
+          "effects": {
+            "treasury": 300,
+            "gdpMult": 1.03,
+            "happiness": 4,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现状仅办社区赛",
+          "effects": {
+            "treasury": 50,
+            "happiness": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "叫停联赛缩减预算",
+          "effects": {
+            "treasury": -100,
+            "happiness": -4,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届\"东北超\"落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0017",
+      "type": "danger",
+      "tag": "外宣",
+      "title": "{city}外贸订单受地缘波及",
+      "desc": "受中东局势影响，{city}对阿拉伯国家的纺织品与机械配件订单出现大面积延期与信用证冻结，本地两家外贸企业现金流告急，约六百工人面临放假风险。外贸企业联合会紧急请愿，希望市政府协调银行提供短期贷款与关税缓冲，但财政已接近季度末。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政贴息担保企业贷款",
+          "effects": {
+            "treasury": -400,
+            "unemployment": -0.02,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "只补贴受影响工人工资",
+          "effects": {
+            "treasury": -150,
+            "happiness": 3,
+            "unemployment": -0.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不予干预任其自渡",
+          "effects": {
+            "treasury": 100,
+            "unemployment": 0.03,
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0018",
+      "type": "success",
+      "tag": "消费",
+      "title": "{city}国庆消费市场火爆",
+      "desc": "国庆七天，{city}主要商圈营业额同比增长三成，火锅、餐饮、影院成为热门品类，老字号街区排队排到街尾。市商务局统计全市发放的消费券带动了超两亿次交易，但部分商户被质疑\"先涨后降\"，市场监管部门已接到三十余起投诉。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "追加消费券并严打虚标",
+          "effects": {
+            "treasury": -250,
+            "gdpMult": 1.03,
+            "reputation": 3,
+            "corruption": -2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅抽检不追加投入",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "corruption": -1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许商家涨价保税收",
+          "effects": {
+            "treasury": 100,
+            "happiness": -4,
+            "corruption": 3,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0019",
+      "type": "warn",
+      "tag": "文旅",
+      "title": "{city}景区接待能力告急",
+      "desc": "国庆期间{city}新打造的\"升级版\"文化体验游爆火，单日最高接待游客超设计承载量三倍，古镇核心街区出现踩踏风险，投诉与差评同步飙升。文旅局连夜协调，但民宿价格被炒到平日十倍，本地居民也开始抱怨出行受阻。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "限流并补贴本地居民出行",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "继续开放仅加强疏导",
+          "effects": {
+            "treasury": 100,
+            "happiness": -2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "强制封园三天整改",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 0.97,
+            "reputation": -1,
+            "happiness": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验\"升级版\"",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0020",
+      "type": "info",
+      "tag": "赛事",
+      "title": "{city}拟申办职业网球赛",
+      "desc": "一场国际级职业网球巡回赛拟落户{city}，赛事方提出场馆改造与安保经费需求合计三千万元，若落户成功可带来超五亿旅游与转播收益。但{city}现有球馆标准不达标，市政需先行垫付改造资金，议会中部分代表对财政压力提出质疑。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全额出资申办并扩建场馆",
+          "effects": {
+            "treasury": -1500,
+            "gdpMult": 1.06,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入社会资本共建",
+          "effects": {
+            "treasury": -300,
+            "gdpMult": 1.03,
+            "reputation": 3,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒申办节省财政",
+          "effects": {
+            "treasury": 500,
+            "reputation": -2,
+            "happiness": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026上海劳力士大师赛男单抽签仪式举行",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0021",
+      "type": "info",
+      "tag": "民生",
+      "title": "{city}长途客运晕车投诉上升",
+      "desc": "国庆返程高峰，{city}长途客运站收到大量关于晕车、空调故障、发车延迟的投诉，社交媒体上\"生姜治晕车\"的偏方也被市民反复讨论。卫健部门顺势在候车厅发放防晕车药品与生姜糖，但药品储备已告急，药剂科请求紧急采购。",
+      "condition": null,
+      "weight": 1,
+      "choices": [
+        {
+          "text": "紧急采购并发放药品",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "healthcare": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅在站内张贴科普提示",
+          "effects": {
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不予处理任其自行解决",
+          "effects": {
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0022",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}突发事件遭网络炒作",
+      "desc": "一则关于{city}某小区突发\"不明情况\"的短视频在社交平台迅速传播，播放量破百万，大量网民涌入评论区质疑市政管理。市网信办紧急核查，确认系居民楼电梯故障被剪辑夸大，但谣言已扩散至多个城市，官方澄清响应迟缓引发二次舆情。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合平台快速辟谣并溯源",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "happiness": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发官方通报不溯源",
+          "effects": {
+            "reputation": 1,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不回应任其自消",
+          "effects": {
+            "reputation": -5,
+            "happiness": -3,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0023",
+      "type": "corruption",
+      "tag": "廉政",
+      "title": "{city}丰收补贴发放存疑",
+      "desc": "审计部门抽查{city}秋粮补贴发放台账，发现三家合作社存在重复申报与虚增面积嫌疑，涉及补贴资金逾八十万。上级纪委监委已介入，要求本市自查自纠并公开结果。农业局内部开始出现\"捂盖子\"与\"甩锅\"两种倾向，基层干部情绪紧张。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全额追缴并公示处理结果",
+          "effects": {
+            "treasury": 800,
+            "corruption": -8,
+            "reputation": 3,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅内部通报不公开",
+          "effects": {
+            "treasury": 400,
+            "corruption": -2,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "协调关系淡化处理",
+          "effects": {
+            "corruption": 5,
+            "inspection": 8,
+            "reputation": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0024",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}联赛决赛引发消费潮",
+      "desc": "{city}城市足球联赛决赛当晚，主场周边餐饮、酒店、打车平台订单量翻番，本地啤酒厂临时加班生产。多家商户联名向市政府申请延长夜市经营许可至凌晨两点，但环保与噪音部门对扰民投诉表示担忧。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "限定区域限时延长夜市",
+          "effects": {
+            "treasury": 150,
+            "gdpMult": 1.02,
+            "happiness": 2,
+            "inspection": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "全面批准夜市延长",
+          "effects": {
+            "treasury": 250,
+            "happiness": 3,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "拒绝延长维持原状",
+          "effects": {
+            "treasury": -100,
+            "happiness": -3,
+            "reputation": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届\"东北超\"落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0025",
+      "type": "danger",
+      "tag": "经济",
+      "title": "{city}外贸订单集体推迟",
+      "desc": "受国际市场波动影响，{city}外贸园区内四家服装企业集中推迟交货，涉及订单金额超两千万，仓库库存积压、工人工资发放告急。工会已上门交涉，企业主则向政府求援，希望协调银行提供短期周转与出口退税提速。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "银行担保并加速退税",
+          "effects": {
+            "treasury": -300,
+            "unemployment": -0.03,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发放一次性稳岗补贴",
+          "effects": {
+            "treasury": -150,
+            "unemployment": -0.01,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不予干预任市场出清",
+          "effects": {
+            "treasury": 50,
+            "unemployment": 0.04,
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0026",
+      "type": "info",
+      "tag": "文化",
+      "title": "{city}老字号街区升级焕新",
+      "desc": "{city}百年老街启动\"升级版\"文旅改造，计划引入非遗体验、文创市集与沉浸式演艺，预计改造期三个月。街区商户对租金上涨与工期延长心存顾虑，居民则担心施工噪音影响作息，街道办连夜召开听证会安抚情绪。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全额财政补贴商户装修",
+          "effects": {
+            "treasury": -500,
+            "gdpMult": 1.04,
+            "happiness": 3,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "财政补贴一半商户自筹",
+          "effects": {
+            "treasury": -250,
+            "happiness": 1,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "完全市场化自负盈亏",
+          "effects": {
+            "treasury": 200,
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验\"升级版\"",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0027",
+      "type": "warn",
+      "tag": "文旅",
+      "title": "{city}景区临时管控引发投诉",
+      "desc": "为保安全，{city}山岳景区在客流高峰实施临时交通管制，部分游客因无法上山已购票被迫退票，社交媒体上出现\"花钱看山脚\"的吐槽。景区管理方与文旅局相互推诿责任，旅行社联名要求政府出台补偿方案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政兜底全额退票补偿",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按比例退票并致歉",
+          "effects": {
+            "treasury": -100,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不补偿坚持管控",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3,
+            "inspection": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0028",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}承办大满贯选拔赛",
+      "desc": "WTT中国大满贯赛孙颖莎晋级32强引爆全国乒乓球热情，{city}体育局顺势争取承办地方选拔赛分站。场馆、安保、转播三项配套预算同步报批，全市球迷连夜排队预约观赛资格。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额拨付配套预算抢承办",
+          "effects": {
+            "treasury": -600,
+            "happiness": 8,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩规模只办社区预赛",
+          "effects": {
+            "treasury": -150,
+            "happiness": 3,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒承办节省开支",
+          "effects": {
+            "treasury": 50,
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯赛：孙颖莎晋级女单32强",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0029",
+      "type": "danger",
+      "tag": "外交",
+      "title": "{city}侨胞来电紧急求助",
+      "desc": "胡塞武装称沙特空袭也门萨那省的消息传回，{city}在境外务工的侨胞密集来电求助，部分人滞留战区。市侨联、公安出入境、外事办连夜启动应急联络，机场包机方案初步对接。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "申请专机紧急撤侨",
+          "effects": {
+            "treasury": -800,
+            "population": 100,
+            "happiness": 6,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调商航班机护送",
+          "effects": {
+            "treasury": -200,
+            "population": 50,
+            "happiness": 3,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅发布安全提醒",
+          "effects": {
+            "reputation": -4,
+            "happiness": -3,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0030",
+      "type": "info",
+      "tag": "财政",
+      "title": "市财政获外汇购金指导",
+      "desc": "俄财政部将大幅增加外汇和黄金购买量的消息带动国际金价波动，{city}市财政面临国库现金结构优化窗口。上级部门提示可适度增持黄金储备对冲风险，但地方采购流程需走专项审批。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "申请专项增持黄金储备",
+          "effects": {
+            "treasury": -300,
+            "gdpMult": 1.02,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现有现金配置",
+          "effects": {
+            "gdpMult": 1
+          },
+          "color": "gray"
+        },
+        {
+          "text": "借窗口抛售部分资产套现",
+          "effects": {
+            "treasury": 400,
+            "gdpMult": 0.97,
+            "corruption": 2,
+            "inspection": 6
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0031",
+      "type": "success",
+      "tag": "消费",
+      "title": "{city}国庆消费市场大旺",
+      "desc": "出行热、体验丰、门市旺，{city}国庆假期消费市场全面爆发。重点商圈日均客流翻倍，餐饮酒店入住率创历史新高，文旅部门数据显示游客过夜比例显著上升，财政税收同步走高。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "趁热加码文旅促销",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "gdpMult": 1.05,
+            "merit": 3,
+            "population": 200
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现有服务节奏",
+          "effects": {
+            "treasury": 150,
+            "happiness": 2,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "借机上调景区门票",
+          "effects": {
+            "treasury": 500,
+            "happiness": -4,
+            "reputation": -3,
+            "corruption": 3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0032",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "{city}连降暴雨内涝告急",
+      "desc": "泰国洪灾已致31人遇难的消息敲响警钟，{city}气象局连夜升级暴雨红色预警。城区低洼路段已出现积水，地下车库进水报告激增，市政、应急、交通三部门联合启动一级响应。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "全面停工停课紧急避险",
+          "effects": {
+            "treasury": -700,
+            "happiness": 4,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "重点路段抢险其余照常",
+          "effects": {
+            "treasury": -300,
+            "merit": 1,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅发布预警不启动响应",
+          "effects": {
+            "treasury": 50,
+            "happiness": -5,
+            "reputation": -6,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0033",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}车队连夺三冠",
+      "desc": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生，{city}主场车队同样刷新赛史纪录。球迷涌入市中心广场庆祝，城市品牌曝光度飙升，多家企业主动洽商冠名赞助。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "签约冠名扩大品牌影响",
+          "effects": {
+            "treasury": 300,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调庆祝维护财政",
+          "effects": {
+            "treasury": 50,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "拒绝商业赞助坚守公益",
+          "effects": {
+            "reputation": 2,
+            "happiness": -1,
+            "treasury": -50
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0034",
+      "type": "success",
+      "tag": "村BA",
+      "title": "{city}村BA球队再夺全国冠军",
+      "desc": "2026年村BA球王争霸赛全国总决赛，广西柳州鹿寨镇队成功卫冕，{city}代表队在本次比赛中同样打入八强并刷新地方纪录。乡村球迷沸腾，农文旅融合话题登上热搜，赛事衍生消费显著拉动乡镇经济。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "投资村级体育设施建设",
+          "effects": {
+            "treasury": -500,
+            "happiness": 6,
+            "educationIndex": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "举办衍生农文旅市集",
+          "effects": {
+            "treasury": 200,
+            "happiness": 3,
+            "gdpMult": 1.04
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压缩投入回归日常",
+          "effects": {
+            "treasury": 100,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026年“村BA”球王争霸赛全国总决赛：广西柳州鹿寨镇队卫",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0035",
+      "type": "corruption",
+      "tag": "舆情",
+      "title": "{city}即时舆情出现谣言",
+      "desc": "中新网即时新闻滚动播报期间，{city}本地某社交平台流传未经核实的市政工程腐败传言，点击量短时间内突破十万。网信办紧急介入溯源，涉事部门负责人被要求书面说明。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "公开审计结果正面回应",
+          "effects": {
+            "treasury": -200,
+            "reputation": 5,
+            "corruption": -3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部核查再择机通报",
+          "effects": {
+            "reputation": -1,
+            "corruption": 1,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "压制热搜冷处理",
+          "effects": {
+            "reputation": -5,
+            "corruption": 4,
+            "inspection": 8,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0036",
+      "type": "danger",
+      "tag": "海事",
+      "title": "{city}港区货轮沉没事故",
+      "desc": "一艘船在黑海沉没致2人死亡的新闻传开后，{city}海事局接报港区一艘内河货轮在夜间抛锚时发生倾斜沉没，2名船员失踪。现场已启动水上搜救，航道临时封闭引发下游航运拥堵。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动一级应急响应搜救",
+          "effects": {
+            "treasury": -800,
+            "happiness": 3,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "常规搜救并调查船检",
+          "effects": {
+            "treasury": -300,
+            "reputation": 1,
+            "inspection": 5,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "尽快恢复航道通航",
+          "effects": {
+            "treasury": 200,
+            "happiness": -4,
+            "reputation": -5,
+            "inspection": 9
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "一艘船在黑海沉没 2人死亡",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0037",
+      "type": "info",
+      "tag": "教育",
+      "title": "{city}引进乒乓青训计划",
+      "desc": "受WTT中国大满贯赛热度带动，{city}教育局与省乒乓协会洽谈引进青少年培养计划。计划覆盖全市中小学试点，需配套场馆改造和外教补贴，家长咨询量已破千。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全力落地青训计划",
+          "effects": {
+            "treasury": -400,
+            "educationIndex": 5,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "先试点两所重点小学",
+          "effects": {
+            "treasury": -150,
+            "educationIndex": 2,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓等待上级拨款",
+          "effects": {
+            "treasury": 50,
+            "educationIndex": -1,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯赛：孙颖莎晋级女单32强",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0038",
+      "type": "warn",
+      "tag": "外贸",
+      "title": "{city}外贸企业避险需求增",
+      "desc": "俄财政部将大幅增加外汇和黄金购买量的消息令汇率波动加剧，{city}外贸企业密集咨询避险工具。商务局接到数十家中小外贸企业申请汇率补贴和出口信用保险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立外汇风险补偿池",
+          "effects": {
+            "treasury": -500,
+            "gdpMult": 1.04,
+            "unemployment": -0.02,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放小额贴息支持",
+          "effects": {
+            "treasury": -200,
+            "gdpMult": 1.02,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不介入让市场自行调节",
+          "effects": {
+            "gdpMult": 0.96,
+            "unemployment": 0.02,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0039",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}国庆夜游经济升温",
+      "desc": "国庆假期消费市场观察显示体验型消费成主流，{city}依托老城街区推出夜游灯会和非遗市集，单日夜间消费额突破历史峰值。周边县域游客外溢，餐饮酒店订单连日爆满。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "追加夜游灯光工程投入",
+          "effects": {
+            "treasury": -350,
+            "happiness": 5,
+            "gdpMult": 1.06,
+            "reputation": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现有业态自然运营",
+          "effects": {
+            "treasury": 200,
+            "happiness": 2,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "提高摊位费补贴财政",
+          "effects": {
+            "treasury": 400,
+            "happiness": -3,
+            "reputation": -2,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0040",
+      "type": "danger",
+      "tag": "防汛",
+      "title": "{city}堤防险情紧急加固",
+      "desc": "泰国洪灾31人遇难的悲剧引发{city}防汛指挥部高度警觉，巡查中发现北岸一段老堤防出现管涌现象。应急、水利、电力连夜调集沙袋和抢险队，附近三个村千余户居民面临转移。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "全员转移并全面加固堤防",
+          "effects": {
+            "treasury": -900,
+            "happiness": 3,
+            "reputation": 6,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "局部转移优先加固险段",
+          "effects": {
+            "treasury": -400,
+            "merit": 2,
+            "inspection": 4
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅观察暂不转移居民",
+          "effects": {
+            "treasury": 100,
+            "happiness": -5,
+            "reputation": -6,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0041",
+      "type": "corruption",
+      "tag": "基建",
+      "title": "{city}景区管道路段招标疑云",
+      "desc": "参照喀纳斯景区道路临时管制的处置经验，{city}拟对山区旅游公路进行升级改造。招标前夜，市公共资源交易中心收到匿名举报，质疑投标围标串标，监察部门介入调查。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "暂停招标彻底彻查",
+          "effects": {
+            "treasury": -300,
+            "corruption": -4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入第三方审计继续招标",
+          "effects": {
+            "treasury": -150,
+            "corruption": -1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "加快定标规避舆论",
+          "effects": {
+            "treasury": 200,
+            "corruption": 5,
+            "reputation": -4,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0042",
+      "type": "info",
+      "tag": "储备",
+      "title": "{city}财政外汇储备扩容",
+      "desc": "受国际形势影响，市政府研究调整地方储备结构，拟增加黄金与外汇配置。财政处测算需从本年度预算中划拨专项额度，市监委质疑采购透明度，要求公开比价流程。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "划拨专项预算并公开招标",
+          "effects": {
+            "treasury": -800,
+            "reputation": 3,
+            "corruption": -2,
+            "inspection": 2,
+            "gdpMult": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "委托金控公司私下采购",
+          "effects": {
+            "treasury": -500,
+            "privateAccount": 60,
+            "corruption": 6,
+            "inspection": 8,
+            "reputation": -3
+          },
+          "color": "red"
+        },
+        {
+          "text": "推迟采购观望半年",
+          "effects": {
+            "treasury": -50,
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0043",
+      "type": "success",
+      "tag": "文体",
+      "title": "{city}承办国际乒赛分站赛",
+      "desc": "市体育局争取到WTT分站赛落地，需短期扩容训练场馆并增配安保。组委会提出补贴要求，球迷团体抗议票价过高，酒店订单量已上涨三成，但周边交通压力骤增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额补贴并限价售票",
+          "effects": {
+            "treasury": -600,
+            "happiness": 5,
+            "reputation": 4,
+            "population": 150,
+            "gdpMult": 1.05,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入企业冠名置换补贴",
+          "effects": {
+            "treasury": -200,
+            "happiness": 3,
+            "reputation": 3,
+            "gdpMult": 1.03
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压缩规模减少补贴",
+          "effects": {
+            "treasury": -100,
+            "happiness": -3,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯赛：孙颖莎晋级女单32强",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0044",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}长途客运乘客集体投诉",
+      "desc": "假期返程高峰，长途客运站排队超六小时，多名乘客晕车呕吐引发舆情。旅客质疑站内未配备生姜等简易缓解物品，投诉涌入12345平台，媒体记者已抵达现场采访。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "加配晕车包并增派志愿者",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 3,
+            "inspection": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "增设临时售票窗口分流",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "发布通知劝退部分旅客",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4,
+            "inspection": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0045",
+      "type": "success",
+      "tag": "乡村",
+      "title": "{city}村BA联赛引爆乡村",
+      "desc": "本市村级篮球联赛意外走火，决赛观众超两万人，周边农家乐爆满，但停车场严重不足引发事故隐患。省体育厅点名推广，要求市里承办下一届全国总决赛。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "扩建停车场与安保设施",
+          "effects": {
+            "treasury": -400,
+            "happiness": 5,
+            "reputation": 4,
+            "gdpMult": 1.04,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "收取门票与停车费回血",
+          "effects": {
+            "treasury": 150,
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "婉拒承办请求",
+          "effects": {
+            "reputation": -4,
+            "happiness": -2,
+            "merit": -1
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026年“村BA”球王争霸赛全国总决赛：广西柳州鹿寨镇队卫",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0046",
+      "type": "success",
+      "tag": "产业",
+      "title": "{city}足球联赛拉动振兴",
+      "desc": "本市业余足球联赛落幕，吸引周边球队交流，文旅部门联合推广带动酒店入住率提升。部分球迷赛后聚集引发小冲突，体育局希望追加场馆升级投资。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "升级场馆并加派安保",
+          "effects": {
+            "treasury": -300,
+            "happiness": 3,
+            "reputation": 3,
+            "gdpMult": 1.03,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅处置冲突不升级场馆",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": -1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "叫停联赛避免风险",
+          "effects": {
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0047",
+      "type": "success",
+      "tag": "消费",
+      "title": "{city}假期消费创新高",
+      "desc": "国庆假期本市景区门票、餐饮、住宿三项消费同比大涨，商圈营业额刷新纪录。但部分商户违规涨价被投诉，交通拥堵指数居高不下，市监部门正加紧巡查。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "严打违规涨价并发消费券",
+          "effects": {
+            "treasury": -500,
+            "happiness": 5,
+            "reputation": 4,
+            "gdpMult": 1.06,
+            "corruption": -1,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅查处恶性案例",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 1,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "对涨价睁一只眼闭一只眼",
+          "effects": {
+            "treasury": 100,
+            "happiness": -4,
+            "reputation": -3,
+            "corruption": 2,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0048",
+      "type": "danger",
+      "tag": "治安",
+      "title": "{city}外籍人士聚集引发冲突",
+      "desc": "本市某广场出现外籍人士聚集，与本地居民因语言误会爆发推搡，警方现场拘留数人。媒体质疑执法尺度，上级要求迅速稳控并对外统一口径，避免发酵。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "公开执法过程并设翻译岗",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 4,
+            "inspection": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调处理减少曝光",
+          "effects": {
+            "reputation": -3,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "扩大警力强制驱散",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国警方在反移民抗议活动中逮捕12人",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0049",
+      "type": "danger",
+      "tag": "交通",
+      "title": "{city}山区景区临时管制",
+      "desc": "受连续强降雨影响，本市山区景区部分路段塌方，交管部门启动临时管制。数千游客滞留，酒店超售，部分景区门票退款诉求激增，舆情开始升温。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动应急安置并全额退款",
+          "effects": {
+            "treasury": -600,
+            "happiness": 4,
+            "reputation": 4,
+            "inspection": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "引导游客改道周边景区",
+          "effects": {
+            "treasury": -150,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "强制清场不留补偿",
+          "effects": {
+            "treasury": 100,
+            "happiness": -6,
+            "reputation": -5,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0050",
+      "type": "danger",
+      "tag": "空难",
+      "title": "{city}机场航班紧急备降",
+      "desc": "一架客机在{city}机场降落时遭遇异常气流，机组紧急处置未发生伤亡但延误超八小时。旅客滞留机场情绪激动，机务部门正配合调查，航空公司索赔意向明显。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "设立安抚区并由财政补贴",
+          "effects": {
+            "treasury": -400,
+            "happiness": 4,
+            "reputation": 4,
+            "inspection": 2,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调航空公司承担费用",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "建议旅客自行维权",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人“还原”惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0051",
+      "type": "danger",
+      "tag": "水灾",
+      "title": "{city}突发洪灾人员伤亡",
+      "desc": "本市连日强降雨引发山洪，已致多人失联，低洼村镇被淹。武警、消防、医疗力量紧急驰援，上游水库需紧急泄洪，下游数十个村庄面临转移压力。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "全面转移并启动最高响应",
+          "effects": {
+            "treasury": -1200,
+            "happiness": 3,
+            "reputation": 6,
+            "merit": 3,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "局部转移节约财政",
+          "effects": {
+            "treasury": -400,
+            "happiness": -2,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "推迟转移等待水情缓解",
+          "effects": {
+            "treasury": -100,
+            "happiness": -8,
+            "reputation": -6,
+            "population": -200,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0052",
+      "type": "success",
+      "tag": "产业",
+      "title": "{city}外贸出口逆势增长",
+      "desc": "受汇率波动影响，本市出口企业加大海外备货，外贸额环比增长两成。海关与商务局反映单证积压，物流园仓储告急，部分中小企业反映回款周期变长。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增配单证人员并扩仓储",
+          "effects": {
+            "treasury": -250,
+            "happiness": 2,
+            "reputation": 3,
+            "gdpMult": 1.05,
+            "unemployment": -0.01
+          },
+          "color": "green"
+        },
+        {
+          "text": "补贴中小企业回款",
+          "effects": {
+            "treasury": -300,
+            "happiness": 3,
+            "gdpMult": 1.02,
+            "corruption": 2,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓响应观望政策",
+          "effects": {
+            "gdpMult": 0.97,
+            "unemployment": 0.02,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0053",
+      "type": "warn",
+      "tag": "教育",
+      "title": "{city}暑期研学团爆仓",
+      "desc": "本市研学营因赛事热度报名激增，超计划招生导致场地挤兑，家长投诉接送安排混乱。教育部门责令限期整改，部分机构涉嫌无证经营，安全排查压力骤增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全面排查并整改无证机构",
+          "effects": {
+            "treasury": -150,
+            "happiness": 3,
+            "educationIndex": 4,
+            "inspection": 1,
+            "corruption": -2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅处理投诉集中的机构",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "educationIndex": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许超员换取税收",
+          "effects": {
+            "treasury": 100,
+            "educationIndex": -5,
+            "happiness": -3,
+            "corruption": 4,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯赛：孙颖莎晋级女单32强",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0054",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "{city}长途司机突发急病",
+      "desc": "连续假期长途运输高峰，多名司机因疲劳与晕车在服务区突发低血糖昏迷，120调度超负荷。卫生部门呼吁增配急救物资，运输协会要求补贴司机体检费用。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "服务区增设急救角与体检",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 4,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅增派120调度人员",
+          "effects": {
+            "treasury": -50,
+            "healthcare": 1,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "建议司机自备药物",
+          "effects": {
+            "healthcare": -3,
+            "happiness": -2,
+            "reputation": -2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0055",
+      "type": "success",
+      "tag": "文化",
+      "title": "{city}足球之夜拉动夜经济",
+      "desc": "本市承办区域足球联赛，决赛夜观众涌入城区商圈，餐饮、酒吧、夜市营收翻倍。周边居民反映噪音扰民，警方增派警力维持秩序，文旅局希望延续这一模式。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "设立夜经济专项基金",
+          "effects": {
+            "treasury": -250,
+            "happiness": 4,
+            "gdpMult": 1.04,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "限定营业时段降噪",
+          "effects": {
+            "happiness": 1,
+            "gdpMult": 1.01,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "禁止赛后活动延伸",
+          "effects": {
+            "happiness": -3,
+            "gdpMult": 0.98,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0056",
+      "type": "danger",
+      "tag": "舆情",
+      "title": "{city}景区游客滞留事件",
+      "desc": "本市热门景区因临时管制致大量游客滞留，游客在社交平台发布负面视频获高赞。文旅部门连夜发布说明，酒店老板要求平台介入，部分媒体已驻点采访。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "发布官方说明并发放补偿券",
+          "effects": {
+            "treasury": -300,
+            "happiness": 4,
+            "reputation": 5,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "由景区自行协商补偿",
+          "effects": {
+            "happiness": 1,
+            "corruption": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "不回应任舆情自然消退",
+          "effects": {
+            "happiness": -6,
+            "reputation": -6,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0057",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}升级国庆文旅体验",
+      "desc": "国庆黄金周临近，{city}文旅局推出景区导览小程序、错峰预约和网红打卡点位，游客量同比增长35%。但周边餐饮住宿价格被吐槽虚高，本地居民抱怨出行受阻，口碑分化明显。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "补贴商户稳定物价，发放消费券",
+          "effects": {
+            "treasury": -200,
+            "happiness": 8,
+            "reputation": 5,
+            "merit": 2,
+            "gdpMult": 1.03
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持市场自由定价，发布提醒",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "reputation": -2,
+            "gdpMult": 1.05
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "全面限价限流，景区封路一日",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": -4,
+            "gdpMult": 0.9500000000000001
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验“升级版”",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0058",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}申办乒乓球城市赛",
+      "desc": "某位国家队名将近日在WTT中国大满贯赛中晋级32强，其家乡俱乐部顺势在{city}推动承办一项城市级乒乓球公开赛。体育局、教育局希望借此拉动青少年体育培训，但场馆改造预算吃紧，家长群体意见不一。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨款改造体育馆并引进教练",
+          "effects": {
+            "treasury": -250,
+            "educationIndex": 6,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 3,
+            "gdpMult": 1.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合企业赞助，政府少出资",
+          "effects": {
+            "treasury": -100,
+            "corruption": 6,
+            "educationIndex": 3,
+            "reputation": -1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "取消承办，转作社区培训",
+          "effects": {
+            "educationIndex": 2,
+            "reputation": -3
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯赛：孙颖莎晋级女单32强",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0059",
+      "type": "warn",
+      "tag": "公交",
+      "title": "{city}长途客运晕车投诉激增",
+      "desc": "节后返乡客流骤增，{city}客运总站反映长途班线乘客晕车投诉激增，部分线路司机违规使用镇静类药物。旅客质疑安全，交通、卫健、市场监管三部门连夜联合排查，但线路停运将影响务工人员返岗。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全线停运一周排查司机资质",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 5,
+            "happiness": -4,
+            "unemployment": 0.02,
+            "inspection": 8,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "增设免费姜茶和晕车贴",
+          "effects": {
+            "treasury": -50,
+            "healthcare": 3,
+            "happiness": 4,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "默许现状，仅发安全提示",
+          "effects": {
+            "inspection": 12,
+            "corruption": 5,
+            "healthcare": -3,
+            "reputation": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0060",
+      "type": "warn",
+      "tag": "治安",
+      "title": "{city}夜市爆发外籍聚集纠纷",
+      "desc": "近日{city}老城区夜市因外籍商户与本地摊贩争抢摊位引发肢体冲突，被境外媒体剪辑成“反移民抗议”话题。警方介入后逮捕多人，侨胞和企业代表要求澄清，担心影响{city}对外招商引资形象。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "连夜调解并公示处理结果",
+          "effects": {
+            "treasury": -50,
+            "reputation": 6,
+            "happiness": 3,
+            "inspection": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂扣涉事摊位，加强巡查",
+          "effects": {
+            "treasury": 50,
+            "happiness": -5,
+            "reputation": -2,
+            "unemployment": 0.01
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "沉默处理，等舆情自然消退",
+          "effects": {
+            "reputation": -8,
+            "inspection": 10,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国警方在反移民抗议活动中逮捕12人",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0061",
+      "type": "success",
+      "tag": "村赛",
+      "title": "{city}举办村BA村级联赛",
+      "desc": "全国村BA总决赛落幕后，{city}郊区各村效仿成立村级篮球队，自发举办联赛，吸引周边县市观众数千人。但场地简陋、安保薄弱，市体育局既想推广又怕事故，财政所预算仅够基础支持。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨款建村级篮球场并聘安保",
+          "effects": {
+            "treasury": -200,
+            "happiness": 8,
+            "educationIndex": 4,
+            "merit": 3,
+            "gdpMult": 1.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发安全提示，村民自理",
+          "effects": {
+            "reputation": -2,
+            "inspection": 6,
+            "happiness": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "叫停联赛，禁止占道办赛",
+          "effects": {
+            "happiness": -7,
+            "reputation": -3,
+            "inspection": 3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026年“村BA”球王争霸赛全国总决赛：广西柳州鹿寨镇队卫",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0062",
+      "type": "warn",
+      "tag": "外贸",
+      "title": "{city}外贸港口遭遇航运扰动",
+      "desc": "红海局势升级，国际航运公司宣布绕航，{city}港集装箱出口报价飙升、船期延误两周。当地外贸企业订单交付压力骤增，报关行、货代商会请愿政府协调补贴，市级商务局担忧外贸数据滑坡。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "发放航运补贴和保险贴息",
+          "effects": {
+            "treasury": -450,
+            "gdpMult": 1.04,
+            "unemployment": -0.01,
+            "merit": 2,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "鼓励企业改用中欧班列",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.02,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，由企业自行承担",
+          "effects": {
+            "unemployment": 0.02,
+            "gdpMult": 0.9500000000000001,
+            "reputation": -4,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0063",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}高原生态治理新篇",
+      "desc": "{city}位于高原山区，生态环境修复项目入选省级示范。但当地牧民对禁牧补偿标准不满，认为影响冬季放牧收入。林草局与乡镇干部走访百余户，财政所测算补偿缺口较大，压力陡增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "提高补偿标准并配套转移就业",
+          "effects": {
+            "treasury": -400,
+            "happiness": 8,
+            "merit": 3,
+            "unemployment": -0.01,
+            "reputation": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持原标准，分年度递增",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "inspection": 4
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压减项目面积，降低补偿",
+          "effects": {
+            "treasury": 50,
+            "happiness": -6,
+            "reputation": -4,
+            "corruption": 4
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0064",
+      "type": "danger",
+      "tag": "景区",
+      "title": "{city}峡谷景区临时交通管制",
+      "desc": "国庆前夕，{city}辖区峡谷景区因山体落石隐患，部分路段实行临时交通管制。景区单日游客滞留近两万人，索道停运引发投诉，周边农家乐和民宿业者集体请愿，市交旅局压力剧增。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动应急预案，免费接驳疏散",
+          "effects": {
+            "treasury": -300,
+            "happiness": 6,
+            "reputation": 5,
+            "merit": 3,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "缩短管制时间，仅夜间封闭",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "inspection": 8,
+            "corruption": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "取消管制，风险自担",
+          "effects": {
+            "inspection": 15,
+            "reputation": -8,
+            "healthcare": -4,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0065",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}超三联赛再捧冠军奖杯",
+      "desc": "{city}市代表队在上赛季超三联赛中实现单赛季三夺冠军的壮举，球迷自发在广场庆祝。但赛事奖金分账、赞助权益分配引发俱乐部内部争议，体育总会与财政局就奖金使用合规性展开讨论。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨付专项奖金并规范公示",
+          "effects": {
+            "treasury": -150,
+            "happiness": 6,
+            "educationIndex": 3,
+            "merit": 2,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "奖金转为俱乐部自管，政府监管",
+          "effects": {
+            "corruption": 4,
+            "happiness": 3,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓发放，待审计结果",
+          "effects": {
+            "happiness": -3,
+            "reputation": -2,
+            "inspection": 6
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0066",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}杯足球赛圆满落幕",
+      "desc": "首届{city}市民足球联赛经过一个月的激烈角逐顺利落幕，来自各街道和社区的16支队伍为观众奉献了数十场精彩比赛。赛事期间，主场周边餐饮和零售业营业额较平日增长约40%，年轻市民参与热情高涨。但赛后场地恢复和赛事奖金发放仍需在两周内完成。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "拨款修复场地并举办颁奖礼",
+          "effects": {
+            "treasury": -150,
+            "happiness": 8,
+            "reputation": 5,
+            "gdpMult": 1.05,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由承办街道自筹恢复场地",
+          "effects": {
+            "happiness": 2,
+            "reputation": -2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "场地暂不修复留作他用",
+          "effects": {
+            "happiness": -6,
+            "reputation": -3,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0067",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}球队勇夺三项冠军",
+      "desc": "{city}职业棒球队在本赛季连续斩获联赛、全明星赛和争霸赛三冠，成为该地区历史上首支单赛季三冠球队。全城球迷沸腾，球队赞助商主动追加下赛季合约，市队青训体系受到更多家庭关注。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "投入青训补贴扩大梯队",
+          "effects": {
+            "treasury": -200,
+            "educationIndex": 4,
+            "happiness": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "举办冠军巡城庆祝活动",
+          "effects": {
+            "treasury": -100,
+            "happiness": 7,
+            "gdpMult": 1.03,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "低调处理不增投入",
+          "effects": {
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0068",
+      "type": "info",
+      "tag": "文旅",
+      "title": "{city}推出特色新线路",
+      "desc": "文旅局借鉴云南经验，整合本地民俗、美食和自然观光资源，推出多条升级版主题旅游线路。首批试点线路上线当周预订量激增，但景区承载力和配套交通面临考验。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "升级景区基础设施",
+          "effects": {
+            "treasury": -300,
+            "happiness": 6,
+            "gdpMult": 1.08,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "分批开放控制客流",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓推广避免超负",
+          "effects": {
+            "gdpMult": 0.9500000000000001,
+            "reputation": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0069",
+      "type": "danger",
+      "tag": "海上",
+      "title": "{city}近海货船倾覆",
+      "desc": "一艘悬挂{city}籍号的近海货船在强对流天气中失稳倾覆，两名船员不幸遇难。搜救工作仍在持续，港口管理方被质疑对老旧船舶的安全检查流于形式。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动全面港口安全大检查",
+          "effects": {
+            "treasury": -200,
+            "reputation": 5,
+            "corruption": -4,
+            "happiness": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅处理涉事船舶",
+          "effects": {
+            "treasury": -50,
+            "inspection": 5,
+            "reputation": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以天气原因为由结案",
+          "effects": {
+            "happiness": -8,
+            "reputation": -10,
+            "corruption": 5,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "一艘船在黑海沉没 2人死亡",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0070",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "{city}强降雨致灾情",
+      "desc": "受持续强降雨影响，{city}南部低洼片区发生内涝，已有多人被困，部分农作物大面积被淹。气象部门提示未来数日仍有强降雨，水库泄洪压力巨大，转移安置工作刻不容缓。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "全员转移并加固堤坝",
+          "effects": {
+            "treasury": -400,
+            "happiness": 4,
+            "reputation": 7,
+            "population": 100,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "重点转移高危片区",
+          "effects": {
+            "treasury": -150,
+            "happiness": -1,
+            "reputation": -2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "等待水位自然回落",
+          "effects": {
+            "happiness": -12,
+            "reputation": -10,
+            "population": -200,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0071",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}市民晕车投诉增多",
+      "desc": "近期市民反映{city}新开通的城郊公交线路颠簸严重，多人在长途出行后出现晕车症状。媒体追问生姜等传统偏方是否真能缓解晕车，公交公司却表示车辆已合规。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "排查路面并更换新车",
+          "effects": {
+            "treasury": -200,
+            "happiness": 6,
+            "reputation": 4,
+            "healthcare": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "在车内增设提示物料",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "驳回投诉称属个人体质",
+          "effects": {
+            "happiness": -5,
+            "reputation": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0072",
+      "type": "success",
+      "tag": "假日",
+      "title": "{city}假期游客量创新高",
+      "desc": "国庆假期{city}接待游客数量同比增长近三成，市民游客体验到的“升级版”服务包括智慧停车、分时预约和双语导览。热门商圈消费活跃，但部分景区仍出现排队拥堵和投诉。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "追加智慧服务投入",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "gdpMult": 1.06,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "引导错峰与分流",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状不加投入",
+          "effects": {
+            "happiness": -3,
+            "reputation": -3,
+            "gdpMult": 0.98
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验“升级版”",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0073",
+      "type": "success",
+      "tag": "消费",
+      "title": "{city}电影联动消费旺",
+      "desc": "国庆档新片上映后，{city}多家影院与本地美食街、景区推出联票活动，观影后到周边消费形成新链条，相关商铺营业额显著提升。但部分商户借机炒作被市民吐槽。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "扩围联动并整治价格",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "gdpMult": 1.07,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅维持现有联动",
+          "effects": {
+            "gdpMult": 1.02,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "叫停联票避免炒作",
+          "effects": {
+            "gdpMult": 0.96,
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆档电影票房破8亿！“电影+文旅+美食”激活假日消费新动能",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0074",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}涉地缘舆情发酵",
+      "desc": "因中东局势再度升级，本地部分自媒体将境外武装冲突传闻与{city}混为一谈，引发恐慌性囤货和谣言传播。网信部门接到大量举报，市民情绪波动明显。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "发布权威通报辟谣",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈涉事自媒体",
+          "effects": {
+            "reputation": 2,
+            "inspection": 2,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不予回应任其发酵",
+          "effects": {
+            "happiness": -6,
+            "reputation": -5,
+            "corruption": 2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0075",
+      "type": "corruption",
+      "tag": "廉政",
+      "title": "{city}赛事奖金疑被截留",
+      "desc": "在{city}杯足球赛颁奖环节，有球员反映部分奖金未按规定发放，承办公司账目含糊。纪检部门介入调查，发现存在中间环节截留嫌疑，引发社会广泛关注。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "彻查并追回被截款项",
+          "effects": {
+            "treasury": 100,
+            "corruption": -8,
+            "reputation": 4,
+            "happiness": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "由财政补发差额",
+          "effects": {
+            "treasury": -50,
+            "corruption": -2,
+            "inspection": 4,
+            "happiness": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "以承办公司失职结案",
+          "effects": {
+            "corruption": 4,
+            "inspection": 8,
+            "reputation": -5,
+            "happiness": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0076",
+      "type": "danger",
+      "tag": "塌方",
+      "title": "{city}盘山路塌方预警",
+      "desc": "受持续降水影响，{city}通往山区的盘山路段出现多处塌方和落石，公路部门已设临时管制。当地居民出行受影响，但仍有游客执意冒险闯入封闭路段。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "增派警力与救援抢通",
+          "effects": {
+            "treasury": -300,
+            "happiness": 5,
+            "reputation": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "开放备用便道",
+          "effects": {
+            "treasury": -100,
+            "happiness": 1,
+            "inspection": 3,
+            "reputation": -1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持管制不扩道",
+          "effects": {
+            "happiness": -5,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0077",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}少年体育人才涌现",
+      "desc": "受本地球迷热潮带动，{city}多所中小学体育报名人数激增，少年棒球队招募受到家长欢迎。教育部门正在评估如何平衡竞技体育与义务教育之间的关系。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增设体教融合课程",
+          "effects": {
+            "treasury": -150,
+            "educationIndex": 6,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "支持课后体育社团",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 3,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现有教学安排",
+          "effects": {
+            "educationIndex": -1,
+            "happiness": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0078",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}特色线路引爆预订",
+      "desc": "{city}文旅局推出的民族风情与美食主题线路上线一周，预订量突破同期三倍以上。当地民宿、餐饮和非遗手作订单激增，但服务人力明显吃紧。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "短期培训提升服务力",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "gdpMult": 1.06,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "限量售票控制承载",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任市场自然调节",
+          "effects": {
+            "happiness": -3,
+            "reputation": -3,
+            "gdpMult": 0.99
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0079",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "{city}防汛工程疑标黑幕",
+      "desc": "抗洪抢险中使用的部分防汛物资被举报存在以次充好问题，中标单位与某官员亲属关系疑似存在利益输送。舆论持续发酵，上级审计部门已派员进驻。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "彻查并召回劣质物资",
+          "effects": {
+            "treasury": -200,
+            "corruption": -10,
+            "reputation": 5,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂停招标等待审计",
+          "effects": {
+            "treasury": -100,
+            "corruption": -3,
+            "inspection": 6,
+            "reputation": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "内部消化不上报",
+          "effects": {
+            "corruption": 10,
+            "inspection": 15,
+            "reputation": -8,
+            "happiness": -5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0080",
+      "type": "warn",
+      "tag": "赛事",
+      "title": "{city}村BA总决赛抢票",
+      "desc": "{city}迎来年度村BA总决赛，周边乡镇自发组织球迷自驾涌入，主干道拥堵，酒店满房。部分村民借机高价倒卖门票，引发游客投诉。赛事热度虽高，但交通疏导与市场监管压力骤增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增开公交专线并整治黄牛",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "放任市场调节，仅发安全提示",
+          "effects": {
+            "happiness": -2,
+            "corruption": 3,
+            "reputation": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "临时取消夜间赛事",
+          "effects": {
+            "happiness": -5,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026年\"村BA\"球王争霸赛全国总决赛：广西柳州鹿寨镇队卫",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0081",
+      "type": "success",
+      "tag": "文旅",
+      "title": "{city}国庆文旅爆款",
+      "desc": "国庆假期{city}推出升级版文旅线路，游客量同比大增，餐饮民宿连日满档。市文旅局数据显示假日消费突破往年纪录，但景区拥堵与停车难问题引发部分游客吐槽。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "延长景区开放并增设临停",
+          "effects": {
+            "treasury": 100,
+            "happiness": 5,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "维持现状，加强巡逻",
+          "effects": {
+            "treasury": 50,
+            "happiness": -2,
+            "inspection": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "限流入园，分流游客",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验\"升级版\"",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0082",
+      "type": "success",
+      "tag": "消费",
+      "title": "{city}电影+美食联动",
+      "desc": "国庆档{city}影院票房破亿，本地影院联合老字号推出电影票+美食券套餐，带动餐饮、打车等二次消费。文化市场繁荣，但部分商家借机涨价被市民举报。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "查处涨价商户并补贴影院",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发价格提醒",
+          "effects": {
+            "happiness": -1,
+            "corruption": 1,
+            "inspection": 1
+          },
+          "color": "gray"
+        },
+        {
+          "text": "扩大补贴至全城餐饮",
+          "effects": {
+            "treasury": -200,
+            "happiness": 6,
+            "gdpMult": 1.05,
+            "merit": 3
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆档电影票房破8亿！\"电影+文旅+美食\"激活假日消费新动能",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0083",
+      "type": "danger",
+      "tag": "灾害",
+      "title": "{city}暴雨致内涝告急",
+      "desc": "受强降雨影响，{city}南部低洼街区严重内涝，积水最深达1.2米，多户居民被困。地铁线路暂停运营，周边乡镇出现山体滑坡隐患，救援力量紧急调度中。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动应急响应转移群众",
+          "effects": {
+            "treasury": -150,
+            "happiness": 3,
+            "reputation": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅加强排水泵作业",
+          "effects": {
+            "treasury": -50,
+            "happiness": -4,
+            "reputation": -3,
+            "healthcare": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "征用酒店作临时安置点",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0084",
+      "type": "warn",
+      "tag": "安全",
+      "title": "{city}机场航班受扰",
+      "desc": "{city}机场一架客机起飞后突发异常颠簸，机组紧急返航，乘客惊魂未定。航司初步判定为气流扰动，但社交媒体上谣言四起，称飞机遭不明干扰，引发恐慌情绪。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "官方通报并发布视频",
+          "effects": {
+            "reputation": 4,
+            "happiness": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "低调处理避免炒作",
+          "effects": {
+            "reputation": -5,
+            "happiness": -3,
+            "inspection": 3
+          },
+          "color": "red"
+        },
+        {
+          "text": "邀请媒体现场采访",
+          "effects": {
+            "reputation": 3,
+            "happiness": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人\"还原\"惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0085",
+      "type": "info",
+      "tag": "产业",
+      "title": "{city}云岭产业园招商",
+      "desc": "{city}借鉴云岭经验，新设数字经济产业园，首批签约五家企业，涵盖短视频、跨境电商等赛道。地方财政给予三年税收返还，但环保评估尚未完成，群众担忧污染。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "先环保评估后开工",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "happiness": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "同步推进边建设边评估",
+          "effects": {
+            "treasury": 100,
+            "gdpMult": 1.08,
+            "inspection": 5,
+            "happiness": -2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂停招商待评估结果",
+          "effects": {
+            "treasury": -50,
+            "gdpMult": 0.9500000000000001,
+            "reputation": -1,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0086",
+      "type": "corruption",
+      "tag": "腐败",
+      "title": "{city}赛事赞助费疑云",
+      "desc": "审计部门发现{city}年度体育联赛赞助招标存在围标迹象，某本地企业以接近上限报价中标，经办人收受回扣被举报。赛事如期举行，但资金流向成为舆论焦点。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "彻查并追缴违规资金",
+          "effects": {
+            "treasury": 200,
+            "corruption": -5,
+            "reputation": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "内部纪律处分了事",
+          "effects": {
+            "corruption": 2,
+            "inspection": 5,
+            "reputation": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "重启招标公开透明",
+          "effects": {
+            "treasury": -50,
+            "corruption": -3,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0087",
+      "type": "warn",
+      "tag": "外交",
+      "title": "{city}涉外企业舆情",
+      "desc": "受境外局部冲突影响，{city}某外贸企业订单被取消，员工失业风险上升。当地侨商会呼吁政府协调替代市场，外交部已发布安全提示，舆论关注地方应对能力。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "补贴企业开拓新市场",
+          "effects": {
+            "treasury": -100,
+            "unemployment": -0.02,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由企业自行应对",
+          "effects": {
+            "unemployment": 0.03,
+            "happiness": -3,
+            "reputation": -2
+          },
+          "color": "red"
+        },
+        {
+          "text": "组织外贸企业对接会",
+          "effects": {
+            "treasury": -50,
+            "unemployment": -0.01,
+            "gdpMult": 1.03,
+            "merit": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0088",
+      "type": "info",
+      "tag": "教育",
+      "title": "{city}网球进校园试点",
+      "desc": "参照国际网赛热度，{city}教育局拟在中小学试点网球选修课，首批覆盖十所中学。家长担忧场地不足与师资短缺，部分家长已自发报班，社会反响两极。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "改建旧操场为多功能网球场",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 3,
+            "happiness": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "暂缓试点观察家长意愿",
+          "effects": {
+            "educationIndex": -1,
+            "happiness": -1,
+            "inspection": 1
+          },
+          "color": "gray"
+        },
+        {
+          "text": "引入民办培训机构合作",
+          "effects": {
+            "treasury": 50,
+            "educationIndex": 2,
+            "corruption": 2,
+            "inspection": 3
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026上海劳力士大师赛男单抽签仪式举行",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0089",
+      "type": "danger",
+      "tag": "舆情",
+      "title": "{city}新闻速报系统故障",
+      "desc": "{city}政务新闻发布平台突发宕机，正播发的灾情通报中断，导致部分信息被自媒体断章取义传播。技术部门排查为供应商系统升级事故，媒体要求公开道歉。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "公开致歉并升级系统",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "淡化处理仅内部整改",
+          "effects": {
+            "reputation": -4,
+            "happiness": -2,
+            "inspection": 3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "切换备用发布渠道",
+          "effects": {
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0090",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}球队卫冕夺冠",
+      "desc": "{city}主场球队在省级联赛决赛击败卫冕冠军，全城万人空巷庆祝。球队赞助商追加投资，市体育局趁机推动青少年足球培训，市民自豪感高涨。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "扩建青训中心承接热度",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 2,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放市民消费券庆祝",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "gdpMult": 1.04,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状不追加投入",
+          "effects": {
+            "happiness": -1,
+            "reputation": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0091",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}洪灾后续防疫",
+      "desc": "{city}上轮暴雨退水后，低洼区出现饮用水污染与蚊媒传播风险，卫生院报告腹泻病例上升。防汛指挥部要求72小时内完成消杀，但基层物资紧张。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "紧急调配防疫物资下乡",
+          "effects": {
+            "treasury": -100,
+            "healthcare": 3,
+            "happiness": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "依靠卫生院自行处理",
+          "effects": {
+            "healthcare": -3,
+            "happiness": -4,
+            "reputation": -3
+          },
+          "color": "red"
+        },
+        {
+          "text": "启动应急供水保障",
+          "effects": {
+            "treasury": -50,
+            "healthcare": 2,
+            "happiness": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0092",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "{city}排水工程招标疑云",
+      "desc": "暴雨后{city}加急推进排水管网改造工程，某施工方报价异常接近控制价。有群众反映该方与经办科室关系密切，审计厅已介入问询，工程工期受到质疑。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "暂停招标重新审计",
+          "effects": {
+            "treasury": -50,
+            "corruption": -4,
+            "inspection": 4,
+            "reputation": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "加快工期不影响民生",
+          "effects": {
+            "treasury": -200,
+            "corruption": 3,
+            "inspection": 6,
+            "happiness": -2
+          },
+          "color": "orange"
+        },
+        {
+          "text": "公开招标文件接受监督",
+          "effects": {
+            "corruption": -2,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0093",
+      "type": "info",
+      "tag": "招商",
+      "title": "{city}体育产业基金成立",
+      "desc": "借村BA与网球赛事热度，{city}联合社会资本设立体育产业基金，首期规模5000万，重点投向赛事运营与运动场馆。财政局测算年回报稳健，但廉政风险需防范。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "引入第三方托管基金",
+          "effects": {
+            "treasury": 50,
+            "gdpMult": 1.05,
+            "corruption": -2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "由财政局直接管理",
+          "effects": {
+            "treasury": 50,
+            "gdpMult": 1.03,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓设立观察市场",
+          "effects": {
+            "gdpMult": 0.96,
+            "reputation": -1,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026年\"村BA\"球王争霸赛全国总决赛：广西柳州鹿寨镇队卫",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0094",
+      "type": "warn",
+      "tag": "公共安全",
+      "title": "{city}航班延误引发投诉",
+      "desc": "{city}机场连续三天出现航班延误，旅客滞留超2000人次，机场餐饮价格被指虚高。航司与机场责任划分不清，旅客在社交媒体聚集维权，地方舆情压力上升。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立旅客应急服务专班",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "由机场自行协调",
+          "effects": {
+            "happiness": -3,
+            "reputation": -3,
+            "inspection": 3
+          },
+          "color": "orange"
+        },
+        {
+          "text": "约谈航司要求赔偿",
+          "effects": {
+            "treasury": 50,
+            "happiness": 1,
+            "reputation": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人\"还原\"惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0095",
+      "type": "success",
+      "tag": "体育赛事",
+      "title": "{city}球队三夺区域冠军",
+      "desc": "{city}市足球队在省级联赛中实现单赛季三夺冠军，球队连续三场决赛零封对手。球迷自发在市中心广场燃放冷焰火庆祝，周边商户营业额激增，但交通压力骤增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "举办官方庆功会并补贴周边商户",
+          "effects": {
+            "treasury": -100,
+            "happiness": 10,
+            "reputation": 8,
+            "gdpMult": 1.05,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "只发通告，维持常态交通管制",
+          "effects": {
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许庆祝，不投入任何资源",
+          "effects": {
+            "happiness": 5,
+            "corruption": 3,
+            "inspection": 5
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0096",
+      "type": "success",
+      "tag": "文旅消费",
+      "title": "{city}国庆档票房破亿",
+      "desc": "{city}市国庆档本地取景电影票房突破1.2亿，'电影+文旅+美食'套餐带动周边景区日均客流翻番。部分网红餐厅出现排队3小时、黄牛加价乱象，市民对服务体验褒贬不一。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "联合影院推出惠民套票并整治黄牛",
+          "effects": {
+            "treasury": -100,
+            "happiness": 8,
+            "reputation": 9,
+            "gdpMult": 1.08,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅加强景区安保，其他放给市场",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "gdpMult": 1.04,
+            "corruption": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许高价经营，向商户收取管理费",
+          "effects": {
+            "treasury": 150,
+            "corruption": 10,
+            "happiness": -6,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆档电影票房破8亿！“电影+文旅+美食”激活假日消费新动能",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0097",
+      "type": "info",
+      "tag": "民生通报",
+      "title": "{city}发布突发事件通报",
+      "desc": "{city}市政府通过官方渠道发布即时新闻通报，说明近期城区一处老旧燃气管道发生泄漏，影响周边三个小区居民。抢修队伍连夜作业，未造成人员伤亡。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "全网直播抢修并公开时间表",
+          "effects": {
+            "reputation": 12,
+            "happiness": 5,
+            "merit": 3,
+            "treasury": -50
+          },
+          "color": "green"
+        },
+        {
+          "text": "只向媒体发布简版通报",
+          "effects": {
+            "reputation": 3,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "压低调门，称小事不必多言",
+          "effects": {
+            "reputation": -8,
+            "inspection": 8,
+            "happiness": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0098",
+      "type": "success",
+      "tag": "假日消费",
+      "title": "{city}国庆门市旺体验丰",
+      "desc": "{city}国庆七天假期长途出行客流创新高，本地餐饮、民宿、景区营收全线飘红。但景区周边打车排队、停车难问题突出，部分市民吐槽'人挤人、体验差'。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "开通假日专线并增设临时停车场",
+          "effects": {
+            "treasury": -200,
+            "happiness": 10,
+            "reputation": 7,
+            "gdpMult": 1.06,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发布文明出行倡议书",
+          "effects": {
+            "happiness": 2,
+            "reputation": 1,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许出租车随意加价",
+          "effects": {
+            "corruption": 6,
+            "happiness": -5,
+            "inspection": 6,
+            "treasury": 50
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0099",
+      "type": "success",
+      "tag": "群众体育",
+      "title": "{city}首届区域联赛落幕",
+      "desc": "{city}首届城市足球联赛落下帷幕，来自16个街镇的队伍参与，群众参与度高、现场气氛热烈。部分赛区出现观众投掷杂物、轻微冲突，组委会呼吁加强赛场文明建设。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "扩编赛场安保并开展文明观赛教育",
+          "effects": {
+            "treasury": -50,
+            "happiness": 6,
+            "reputation": 5,
+            "educationIndex": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "只对涉事球迷进行批评教育",
+          "effects": {
+            "reputation": 1,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "取消下一届联赛以绝后患",
+          "effects": {
+            "happiness": -6,
+            "reputation": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0100",
+      "type": "warn",
+      "tag": "健康科普",
+      "title": "{city}长途出行晕车咨询激增",
+      "desc": "国庆假期后{city}多家医院和社区卫生服务中心接到大量长途出行晕车、胃肠不适的咨询。市民对'生姜治晕车'等民间偏方信疑参半，基层医生呼吁加强科普。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "联合卫健委发布权威科普短视频",
+          "effects": {
+            "treasury": -50,
+            "healthcare": 5,
+            "happiness": 4,
+            "reputation": 5,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "在医院挂号窗口张贴宣传海报",
+          "effects": {
+            "healthcare": 2,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "不管，让市场自行消化",
+          "effects": {
+            "healthcare": -3,
+            "happiness": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0101",
+      "type": "info",
+      "tag": "金融动向",
+      "title": "{city}地方金控增持黄金外汇",
+      "desc": "受国际局势影响，{city}市属金控平台宣布将大幅增加外汇和黄金储备配置，引发本地银行业调整理财产品。市民对资产保值关注度上升，银行网点咨询量翻倍。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "组织理财知识进社区讲座",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 4,
+            "merit": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅通过公众号发布风险提示",
+          "effects": {
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暗中暗示银行主推高息产品",
+          "effects": {
+            "corruption": 8,
+            "inspection": 10,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0102",
+      "type": "danger",
+      "tag": "公共安全",
+      "title": "{city}客运专线发生惊魂险情",
+      "desc": "{city}至邻市的高速客运班线上一辆大巴在山区路段发生轻微侧滑，司机紧急处置避免重大事故。乘客事后要求公开事故调查，社交媒体出现'疑似疲劳驾驶'的传言。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面停运排查并公开调查结果",
+          "effects": {
+            "treasury": -200,
+            "reputation": 12,
+            "happiness": 6,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅约谈涉事司机和司机公司",
+          "effects": {
+            "reputation": 2,
+            "inspection": 4,
+            "corruption": 3
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "私下处理，不公开细节",
+          "effects": {
+            "reputation": -10,
+            "inspection": 12,
+            "corruption": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人“还原”惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0103",
+      "type": "danger",
+      "tag": "水上救援",
+      "title": "{city}内河货船沉没2人失联",
+      "desc": "{city}辖区一段内河航道一艘小型货船夜间沉没，两名船员失联。当地海事部门启动应急预案，联合消防、民间救援力量连夜展开搜救，航道临时封闭。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "动用财政启动全天候搜救与航道疏浚",
+          "effects": {
+            "treasury": -500,
+            "happiness": 4,
+            "reputation": 10,
+            "merit": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅组织本地力量搜救，等待上级支援",
+          "effects": {
+            "treasury": -150,
+            "reputation": 2,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "压低调门，先处理舆论再谈救援",
+          "effects": {
+            "reputation": -12,
+            "inspection": 15,
+            "happiness": -8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "一艘船在黑海沉没 2人死亡",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0104",
+      "type": "success",
+      "tag": "乡村振兴",
+      "title": "{city}青稞产业两代接力",
+      "desc": "{city}周边山区的青稞种植合作社实现'两代接力'，父辈种粮、子辈搞加工和电商，去年产值翻番。合作社计划扩大规模，但担心土地流转和基础设施跟不上。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "专项补贴基础设施并对接电商平台",
+          "effects": {
+            "treasury": -250,
+            "happiness": 7,
+            "gdpMult": 1.1,
+            "reputation": 6,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅发放小额创业贷款贴息",
+          "effects": {
+            "treasury": -100,
+            "gdpMult": 1.03,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许合作社自行流转周边农田",
+          "effects": {
+            "corruption": 7,
+            "inspection": 9,
+            "happiness": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0105",
+      "type": "warn",
+      "tag": "产业合规",
+      "title": "{city}落实联赛新规",
+      "desc": "省体育局新出台业余联赛管理规定，{city}需对辖区所有民间足球、篮球赛事进行备案登记。短期内合规成本高，部分草根球队担心'被整顿'而退出。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设一站式窗口免费代办备案",
+          "effects": {
+            "treasury": -100,
+            "happiness": 6,
+            "reputation": 6,
+            "educationIndex": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "硬性要求，逾期罚款",
+          "effects": {
+            "treasury": 50,
+            "corruption": 4,
+            "happiness": -4,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "暂缓执行，观望上级态度",
+          "effects": {
+            "inspection": 10,
+            "reputation": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0106",
+      "type": "success",
+      "tag": "文娱融合",
+      "title": "{city}电影IP落地美食街",
+      "desc": "{city}一条百年老街因本地取景电影走红，'电影+美食'联名摊位排队火爆。但沿街建筑老旧，消防隐患突出，市民呼吁在热度中守住安全底线。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "投入消防改造并统一商户形象",
+          "effects": {
+            "treasury": -300,
+            "happiness": 8,
+            "reputation": 8,
+            "gdpMult": 1.07,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅加强巡查，不投入改造",
+          "effects": {
+            "treasury": -50,
+            "reputation": 1,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "借机向商户收取'品牌使用费'",
+          "effects": {
+            "treasury": 200,
+            "corruption": 12,
+            "happiness": -6,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆档电影票房破8亿！“电影+文旅+美食”激活假日消费新动能",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0107",
+      "type": "info",
+      "tag": "舆情监测",
+      "title": "{city}网络舆情即时响应",
+      "desc": "{city}网信办接到上级通知，某本地事件正在全网发酵，需在2小时内发布权威信息、回应网民关切。市政府新闻办连夜组建专班，多渠道同步发声。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "组建专班24小时值守并每日通报",
+          "effects": {
+            "treasury": -50,
+            "reputation": 10,
+            "happiness": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "只在官方账号发布一次声明",
+          "effects": {
+            "reputation": 2,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "买水军'压热搜'引导舆论",
+          "effects": {
+            "treasury": 100,
+            "corruption": 10,
+            "reputation": -8,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0108",
+      "type": "warn",
+      "tag": "文旅秩序",
+      "title": "{city}假日门市旺乱象多",
+      "desc": "{city}国庆假日'门市旺'的表象下，景区周边出现宰客、强买强卖、临时加价等乱象。文旅部门接到大量投诉，本地商户协会内部也存在'劣币驱逐良币'的担忧。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "多部门联合整治并公示黑名单",
+          "effects": {
+            "treasury": -100,
+            "happiness": 9,
+            "reputation": 9,
+            "gdpMult": 1.04,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "只对投诉商家进行处罚",
+          "effects": {
+            "happiness": 3,
+            "corruption": 3,
+            "inspection": 5
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "默许乱象，换取税收不流失",
+          "effects": {
+            "treasury": 100,
+            "corruption": 9,
+            "happiness": -7,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0109",
+      "type": "warn",
+      "tag": "出行健康",
+      "title": "{city}节后健康咨询激增",
+      "desc": "国庆假期长途出行返程后，{city}多家医院收到晕车、腹泻、失眠等健康咨询激增。市民对'生姜治晕车''热水泡脚'等民间偏方反应不一，基层医疗压力上升。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "开设节后健康咨询热线",
+          "effects": {
+            "treasury": -50,
+            "healthcare": 6,
+            "happiness": 5,
+            "reputation": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅在社区公告栏发布提示",
+          "effects": {
+            "healthcare": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许'偏方诊所'借机营销",
+          "effects": {
+            "healthcare": -4,
+            "corruption": 5,
+            "inspection": 6,
+            "happiness": -3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0110",
+      "type": "info",
+      "tag": "文旅",
+      "title": "{city}国庆电影联名档开启",
+      "desc": "国庆档全国票房突破8亿，《电影+文旅+美食》联动模式引爆假日消费。{city}多家影院与本地商圈合作推出联名套餐、限定打卡地图，游客人均停留时间延长2.5小时，餐饮零售订单同比增长41%，但部分网红店出现排队拥堵和客诉高峰。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "协调交警疏导商圈周边路网",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 2,
+            "gdpMult": 1.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布错峰观影消费提示",
+          "effects": {
+            "happiness": 1,
+            "gdpMult": 1.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许商户自处置客诉",
+          "effects": {
+            "treasury": 50,
+            "happiness": -2,
+            "reputation": -2,
+            "inspection": 3
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆档电影票房破8亿！“电影+文旅+美食”激活假日消费新动能",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0111",
+      "type": "danger",
+      "tag": "洪灾",
+      "title": "{city}连日强降雨致下游内涝",
+      "desc": "受持续强降雨影响，{city}上游山洪入河，下游三个街道积水最深达80厘米，31处低洼小区启动临时安置。交通、供水、供电均受冲击，多家工厂停工，居民反映排水效率明显不足，防汛指挥部要求24小时内研判险情。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "抽调消防武警连夜强排",
+          "effects": {
+            "treasury": -300,
+            "happiness": 4,
+            "reputation": 5,
+            "merit": 3,
+            "healthcare": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "启动分级应急响应",
+          "effects": {
+            "treasury": -200,
+            "happiness": 2,
+            "reputation": 3,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "等上级水利部门支援",
+          "effects": {
+            "treasury": -100,
+            "happiness": -5,
+            "reputation": -4,
+            "merit": -3,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0112",
+      "type": "info",
+      "tag": "消费",
+      "title": "{city}假期消费市场回暖",
+      "desc": "国庆期间{city}重点监测商超、餐饮、文旅综合销售额同比上涨34%，本地老字号和网红店同步走旺，夜间经济带动出租车订单翻倍。部分商户反映用工缺口大，临时工招聘渠道不畅，市场监管部门提示存在虚假促销隐患。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "开放政务大厅周末延时办理",
+          "effects": {
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "抽查促销合规情况",
+          "effects": {
+            "happiness": 1,
+            "inspection": 2,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "鼓励商户自行招工",
+          "effects": {
+            "treasury": 50,
+            "gdpMult": 1.01,
+            "unemployment": 0.01,
+            "inspection": 1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0113",
+      "type": "info",
+      "tag": "体验",
+      "title": "{city}游客体验升级获好评",
+      "desc": "国庆假期{city}推出的智慧导览、非遗手作、亲子研学等\"升级版\"文旅项目受到游客好评，社交平台相关话题阅读量突破500万。但部分景区出现预约爆满、退票困难、讲解员不足等问题，文旅局要求连夜协调扩容。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "紧急招募临时讲解志愿者",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 3,
+            "educationIndex": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "上线分时预约系统",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 2,
+            "gdpMult": 1.02
+          },
+          "color": "blue"
+        },
+        {
+          "text": "限制单日游客总量",
+          "effects": {
+            "happiness": -2,
+            "reputation": -1,
+            "gdpMult": 0.99
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验“升级版”",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0114",
+      "type": "warn",
+      "tag": "外汇",
+      "title": "{city}外贸企业结汇异常",
+      "desc": "受国际金融市场波动影响，{city}海关开发区多家外贸企业加大外汇和黄金储备，当地银行结汇额度紧张，部分中小出口企业反映资金周转压力陡增。市金融办监测到3笔大额跨境结算异常，需防范洗钱和逃汇风险。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "组织银企对接稳预期",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.01
+          },
+          "color": "green"
+        },
+        {
+          "text": "联合公安核查异常交易",
+          "effects": {
+            "treasury": -50,
+            "inspection": 3,
+            "reputation": 2,
+            "corruption": -2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由银行自行处理结汇",
+          "effects": {
+            "inspection": 5,
+            "reputation": -2,
+            "corruption": 1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0115",
+      "type": "info",
+      "tag": "赛事",
+      "title": "{city}联赛队伍再夺三连冠",
+      "desc": "{city}本土体育俱乐部在本赛季实现三连冠，成为全国同类联赛中首支达成此成就的队伍。比赛现场涌入超3万观众，带动本地餐饮、住宿、零售销售额单日破亿元。赛事组织方却因安保缺口与志愿者短缺被球迷吐槽体验下滑。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "扩招志愿者并加派安保",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "推出赛事联名消费券",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.03
+          },
+          "color": "blue"
+        },
+        {
+          "text": "将赛事运营完全外包",
+          "effects": {
+            "treasury": 100,
+            "happiness": -2,
+            "reputation": -2,
+            "corruption": 2,
+            "inspection": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0116",
+      "type": "warn",
+      "tag": "舆情",
+      "title": "{city}跨境舆情波及本地",
+      "desc": "中东地区局势升级，{city}跨境电商平台上的中东业务订单骤降60%，部分本地外贸从业者被卷入网络谣言传播，社交平台出现抹黑本地企业的帖子。网信部门需联合公安核查造谣账号，同时安抚受影响的中小商户情绪。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "约谈平台并发布辟谣声明",
+          "effects": {
+            "happiness": 2,
+            "reputation": 3,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "为外贸企业发放纾困补贴",
+          "effects": {
+            "treasury": -150,
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 1.01,
+            "unemployment": -0.01
+          },
+          "color": "blue"
+        },
+        {
+          "text": "等舆情自然平息",
+          "effects": {
+            "happiness": -3,
+            "reputation": -3,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0117",
+      "type": "danger",
+      "tag": "医疗",
+      "title": "{city}卫生院突发用药短缺",
+      "desc": "{city}下辖三所乡镇卫生院因上游物流受阻，出现降压药、胰岛素等基础药品短缺，部分慢病患者被迫前往县城就医，单日门诊量激增。卫健部门核查发现县级医院库存也只能维持一周，紧急协调省级药品调配成为当务之急。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启用省级应急药品调拨",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 4,
+            "happiness": 3,
+            "reputation": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "组织患者转诊县医院",
+          "effects": {
+            "treasury": -100,
+            "healthcare": 1,
+            "happiness": -1,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "允许药房加价售药",
+          "effects": {
+            "treasury": 50,
+            "healthcare": -3,
+            "happiness": -4,
+            "reputation": -3,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "泰国洪灾已致31人遇难 水情趋缓仍需防强降雨",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0118",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}研学营地接待爆棚",
+      "desc": "国庆期间{city}新投运的青少年研学营地单日接待超2000人，覆盖周边六个县区中小学生，课程涵盖农业体验、非遗手作、应急避险等内容。营地负责人反馈师资紧张、餐饮容量告急，教育部门考虑将成功模式推广至更多乡镇学校。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "追加师资并扩容餐饮",
+          "effects": {
+            "treasury": -200,
+            "educationIndex": 3,
+            "happiness": 3,
+            "reputation": 2,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入高校志愿者助教",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 2,
+            "happiness": 1,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂停新团报名",
+          "effects": {
+            "educationIndex": -1,
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验“升级版”",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0119",
+      "type": "corruption",
+      "tag": "腐败",
+      "title": "{city}景区外包招标疑云",
+      "desc": "{city}重点景区外包运营招标公告发布后，举报信直指某公司资质造假、与评审组存在利益关联。审计部门已介入初步核查，涉事项目金额达1200万。若属实，将涉及多名公职人员失职渎职，需在国庆假期结束前给出明确处理意见。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "暂停招标并启动全面审计",
+          "effects": {
+            "treasury": -50,
+            "corruption": -5,
+            "reputation": 3,
+            "inspection": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "重新公开遴选承包商",
+          "effects": {
+            "treasury": -50,
+            "corruption": -2,
+            "reputation": 1,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "继续按原计划推进",
+          "effects": {
+            "treasury": 50,
+            "corruption": 6,
+            "reputation": -4,
+            "inspection": 8,
+            "merit": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0120",
+      "type": "warn",
+      "tag": "就业",
+      "title": "{city}服务业用工缺口告急",
+      "desc": "国庆消费热带动{city}餐饮、住宿、零售用工需求集中爆发，本地劳务市场登记缺口超3500人，外地务工人员也因返程高峰难以到岗。多家小微商户反映面临违约风险，人社部门建议启动跨区域劳务协作机制。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "启动邻县劳务协作",
+          "effects": {
+            "treasury": -100,
+            "unemployment": -0.02,
+            "happiness": 2,
+            "reputation": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放服务业用工补贴",
+          "effects": {
+            "treasury": -150,
+            "unemployment": -0.01,
+            "gdpMult": 1.02,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由商户自行承担缺口",
+          "effects": {
+            "treasury": 50,
+            "unemployment": 0.02,
+            "happiness": -2,
+            "reputation": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0121",
+      "type": "info",
+      "tag": "产业",
+      "title": "{city}青稞深加工项目落地",
+      "desc": "{city}引入一家青稞深加工企业落户农业产业园，计划建设年产5万吨青稞精米及系列产品生产线，预计带动就业800人。但项目环评涉及秸秆焚烧和废水处理问题，周边三个村庄担忧污染，要求政府在开工前召开听证会。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "召开村民听证会并承诺环保",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "reputation": 3,
+            "gdpMult": 1.04,
+            "healthcare": 1,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "先开工再补环评手续",
+          "effects": {
+            "treasury": 100,
+            "gdpMult": 1.05,
+            "happiness": -3,
+            "reputation": -3,
+            "inspection": 6,
+            "corruption": 2
+          },
+          "color": "red"
+        },
+        {
+          "text": "暂缓项目等待评估结果",
+          "effects": {
+            "gdpMult": 0.99,
+            "reputation": 1,
+            "merit": -1
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0122",
+      "type": "danger",
+      "tag": "赛事",
+      "title": "{city}WTT选拔赛临时延期",
+      "desc": "原定本月在{city}体育馆举办的WTT巡回赛选拔赛因场馆空调系统故障被迫延期，现场200余名参赛球员滞留大堂。赛事方要求24小时内解决供电与温控问题，否则启动违约索赔条款。媒体已进驻报道，市民对公共场馆维护能力产生质疑，赛事赞助商亦表达不满。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "紧急调拨备用发电机并修复空调",
+          "effects": {
+            "treasury": -350,
+            "reputation": 8,
+            "merit": 2,
+            "happiness": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调临时借用邻近体育馆举办",
+          "effects": {
+            "treasury": -100,
+            "reputation": 2,
+            "merit": 1,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "正式延期并启动违约赔偿",
+          "effects": {
+            "treasury": -600,
+            "reputation": -6,
+            "merit": -2,
+            "happiness": -3,
+            "inspection": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "WTT中国大满贯赛：孙颖莎晋级女单32强",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0123",
+      "type": "danger",
+      "tag": "航空",
+      "title": "{city}机场航班遭不明抛射物",
+      "desc": "一架由{city}国际机场起降的客运航班起飞后遭遇不明抛射物袭击，机舱前部舷窗破裂，机组人员紧急返航。机上142名旅客全部安全落地，但事件引发周边居民恐慌，社交媒体传言机场安保形同虚设。民航局已启动调查，要求{city}在72小时内提交机场安保整改方案。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "全面升级机场安保并加装雷达",
+          "effects": {
+            "treasury": -800,
+            "reputation": 10,
+            "merit": 3,
+            "happiness": 4,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "加强巡逻并公开致歉安抚",
+          "effects": {
+            "treasury": -200,
+            "reputation": 3,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅加强安保，暂不公开整改",
+          "effects": {
+            "treasury": -100,
+            "reputation": -4,
+            "happiness": -2,
+            "inspection": 5,
+            "merit": -1
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人“还原”惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0124",
+      "type": "warn",
+      "tag": "民生",
+      "title": "{city}长途客运乘客集体晕车投诉",
+      "desc": "{city}汽车客运站接到多名长途线路乘客投诉，反映车辆长时间颠簸、驾驶员操作不规范，导致多人出现严重晕车症状，部分乘客在途中呕吐引发其他乘客不适。乘客要求客运站补贴医疗费用并追责，相关短视频在本地社交群组广泛传播，引发市民对客运安全监管的担忧。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "补贴医疗费用并彻查驾驶员资质",
+          "effects": {
+            "treasury": -200,
+            "reputation": 6,
+            "happiness": 4,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "发放晕车贴并发放安全提示",
+          "effects": {
+            "treasury": -50,
+            "reputation": 2,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅口头警告涉事运输公司",
+          "effects": {
+            "reputation": -3,
+            "happiness": -2,
+            "corruption": 1,
+            "inspection": 2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0125",
+      "type": "warn",
+      "tag": "移民",
+      "title": "{city}外来人口聚集引发抗议",
+      "desc": "{city}老城区某街道近日外来务工人员与本地居民因租房纠纷发生聚集，部分人打出标语表达不满，警方到场后拘捕12名情绪过激者。事件迅速登上本地热搜，舆论对城市对外来人口的接纳政策展开激烈讨论，社区居委会和物业被指管理缺位，部分商户因客流骤降停业。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "召开社区听证会并出台租房新规",
+          "effects": {
+            "treasury": -100,
+            "reputation": 7,
+            "happiness": 4,
+            "merit": 3,
+            "inspection": 1
+          },
+          "color": "green"
+        },
+        {
+          "text": "加强社区调解，柔性处理",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "happiness": 2,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "直接遣散聚集人群并加强管控",
+          "effects": {
+            "treasury": -50,
+            "reputation": -5,
+            "happiness": -3,
+            "corruption": 2,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国警方在反移民抗议活动中逮捕12人",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0126",
+      "type": "success",
+      "tag": "体育",
+      "title": "{city}承办首届“东北超”城市站",
+      "desc": "「东北超」足球联赛宣布将{city}纳入巡回赛城市，赛事为期两周，预计吸引5万名观众到场。赛事组委会要求{city}提供主场场馆、安保与交通保障，并承诺赛事赞助收入将部分返还地方。多家本地商户已提前签约周边餐饮与纪念品销售，但市民担心赛期交通拥堵和场馆周边噪音扰民。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额保障并配套城市形象宣传",
+          "effects": {
+            "treasury": -250,
+            "reputation": 8,
+            "merit": 3,
+            "happiness": 4,
+            "gdpMult": 0.9
+          },
+          "color": "green"
+        },
+        {
+          "text": "提供基础保障，分阶段开放观众",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "merit": 2,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "拒绝承办，节约财政开支",
+          "effects": {
+            "treasury": 50,
+            "reputation": -3,
+            "merit": -1,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0127",
+      "type": "info",
+      "tag": "招商",
+      "title": "{city}外汇储备增长引外资关注",
+      "desc": "受全球避险情绪升温影响，多家跨国企业在区域布局会议上点名{city}为优先选址城市，希望与本市设立合资公司。市商务局统计显示，近两周已有7家外资企业到访考察制造业与物流领域，但企业普遍希望获得税收返还与外汇结算便利，市财政局担忧短期可能影响外汇储备与汇率稳定。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "提供税收返还与外汇便利",
+          "effects": {
+            "treasury": -300,
+            "reputation": 6,
+            "merit": 3,
+            "gdpMult": 0.9,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅提供外汇结算便利",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "merit": 1,
+            "gdpMult": 0.9
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂不接受，规避汇率风险",
+          "effects": {
+            "treasury": 100,
+            "reputation": -2,
+            "merit": -1,
+            "inspection": 1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0128",
+      "type": "success",
+      "tag": "云岭",
+      "title": "{city}云岭新区文旅融合提速",
+      "desc": "{city}云岭新区管委会宣布启动「云岭大地」文旅融合示范工程，整合山地生态、少数民族文化与户外运动资源，计划三年内引入10家文旅企业。首批项目包括云端民宿、山地越野赛道与非遗工坊，预计年接待游客50万人次。本地农户期待通过文旅项目增收，但生态环境部门提醒需严格评估开发强度。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面启动并通过环保前置审批",
+          "effects": {
+            "treasury": -500,
+            "reputation": 8,
+            "merit": 4,
+            "happiness": 4,
+            "gdpMult": 0.9,
+            "inspection": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "分阶段试点，控制开发规模",
+          "effects": {
+            "treasury": -200,
+            "reputation": 4,
+            "merit": 2,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂缓开发，优先保护生态",
+          "effects": {
+            "treasury": 50,
+            "reputation": 1,
+            "merit": -1,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0129",
+      "type": "danger",
+      "tag": "地缘",
+      "title": "{city}外贸企业受地缘局势冲击",
+      "desc": "受中东局势紧张影响，{city}多家与沙特、也门有贸易往来的外贸企业订单骤降，部分工厂被迫减产，约800名一线员工面临待岗。企业联合会请求市政府协调订单转移与员工分流，财政承压的同时，本地物流园区吞吐量也出现下滑，出口退税窗口咨询量激增，舆论开始质疑外贸依赖风险。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "设立外贸纾困基金并对接新订单",
+          "effects": {
+            "treasury": -700,
+            "reputation": 7,
+            "merit": 3,
+            "unemployment": -0.03,
+            "gdpMult": 0.9
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅协助员工再培训与岗位对接",
+          "effects": {
+            "treasury": -150,
+            "reputation": 3,
+            "merit": 1,
+            "unemployment": -0.01,
+            "educationIndex": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "维持现状，等待市场自然修复",
+          "effects": {
+            "reputation": -4,
+            "merit": -2,
+            "unemployment": 0.04,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0130",
+      "type": "info",
+      "tag": "赛事",
+      "title": "{city}网球大师赛抽签仪式落地",
+      "desc": "「劳力士大师赛」中国区组委会宣布将{city}体育馆列为大师赛抽签仪式承办地，届时将邀请全球40位网球明星到场，预计吸引上千家媒体与数万球迷关注。组委会要求{city}提供高规格安保、贵宾接待与国际媒体中心，市文旅局期待借势打造城市网球名片，但市民对赛事期间酒店房价与交通压力表达了担忧。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "全额承办并配套城市形象宣传",
+          "effects": {
+            "treasury": -450,
+            "reputation": 9,
+            "merit": 4,
+            "happiness": 3,
+            "gdpMult": 0.9
+          },
+          "color": "green"
+        },
+        {
+          "text": "承办仪式但限制观赛规模",
+          "effects": {
+            "treasury": -200,
+            "reputation": 5,
+            "merit": 2,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "婉拒承办，规避接待压力",
+          "effects": {
+            "treasury": 50,
+            "reputation": -3,
+            "merit": -1,
+            "happiness": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026上海劳力士大师赛男单抽签仪式举行",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0131",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "{city}长途旅客晕厥致机场医疗告急",
+      "desc": "{city}国际机场近日连续出现3起长途返程旅客在到达区晕厥事件，初步判断与旅途疲劳、脱水及高血糖饮食相关。机场现有医疗点仅能提供基础急救，无法承担后续转运，导致家属与旅客情绪激动，相关视频在本地短视频平台快速传播，市卫健委被要求说明机场医疗保障能力。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增设机场医疗点并配备急救设备",
+          "effects": {
+            "treasury": -300,
+            "healthcare": 5,
+            "reputation": 6,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "建立与最近三甲医院的绿色通道",
+          "effects": {
+            "treasury": -100,
+            "healthcare": 3,
+            "reputation": 3,
+            "happiness": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅在宣传上提示旅客注意身体",
+          "effects": {
+            "reputation": -3,
+            "happiness": -2,
+            "inspection": 2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "假期长途出行晕车怎么办？生姜能治晕车吗？",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0132",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}青稞研学课程上线",
+      "desc": "{city}教育局联合本地农业企业与高校，推出「一粒青稞」中小学研学课程，涵盖青稞种植、酿造工艺与民族历史，计划首年覆盖50所中小学、1万名学生。课程上线后受到家长与教师好评，但也引发部分教育专家对课程科学性、收费合规性与师资配备的质疑，市纪委监委提醒防止借研学之名变相收费。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "免费推广并纳入课后服务",
+          "effects": {
+            "treasury": -200,
+            "educationIndex": 6,
+            "reputation": 5,
+            "merit": 3,
+            "happiness": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "按公益价收费，自愿报名",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 3,
+            "reputation": 3,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂停课程，待合规审查完成",
+          "effects": {
+            "reputation": -2,
+            "inspection": 2,
+            "merit": -1
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0133",
+      "type": "corruption",
+      "tag": "财政",
+      "title": "{city}外汇储备调度疑云",
+      "desc": "市审计部门在例行抽查中发现，财政局去年一笔用于外贸企业扶持的资金被违规挪用于新增外汇与黄金储备购买，账面与实际不符，涉及金额约1200万元。被审计处负责人解释称是为了应对汇率风险，但未提供完整决策记录。事件曝光后，多家媒体要求彻查资金流向，市财政局内部开始自查。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "全额追回并问责相关责任人",
+          "effects": {
+            "treasury": 1200,
+            "corruption": -10,
+            "reputation": 4,
+            "merit": 2,
+            "inspection": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "部分追回并内部整改",
+          "effects": {
+            "treasury": 600,
+            "corruption": -4,
+            "reputation": 1,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅口头批评，维持现状",
+          "effects": {
+            "treasury": -200,
+            "corruption": 6,
+            "reputation": -5,
+            "merit": -2,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "俄财政部将大幅增加外汇和黄金购买量",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0134",
+      "type": "danger",
+      "tag": "空袭",
+      "title": "{city}工业园区遇无人机袭扰",
+      "desc": "一架不明无人机在{city}东部工业园区上空低空盘旋，疑似投下不明物体，所幸未造成人员伤亡与重大财产损失，但一家化工企业启动紧急停产。事件被境外媒体以「{city}工业区遭袭」为题报道，引发外资企业恐慌性撤离，本地警方与国安部门连夜排查可疑人员，舆论对城市安防体系提出质疑。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "启动反无人机系统并追责安防漏洞",
+          "effects": {
+            "treasury": -900,
+            "reputation": 9,
+            "merit": 4,
+            "happiness": 3,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅加强园区安保并对外否认袭击",
+          "effects": {
+            "treasury": -150,
+            "reputation": 2,
+            "happiness": 1,
+            "corruption": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "低调处理，避免舆论发酵",
+          "effects": {
+            "reputation": -7,
+            "merit": -3,
+            "happiness": -4,
+            "corruption": 3,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "胡塞武装称沙特空袭也门萨那省",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0135",
+      "type": "info",
+      "tag": "振兴",
+      "title": "{city}借「东北超」办乡村振兴赛",
+      "desc": "受「东北超」联赛带动，{city}农业农村局发起「振兴起脚」乡村足球联赛，覆盖全市23个乡镇，每个乡镇遴选30支村级球队参赛，赛事期间结合农产品展销与乡村旅游推广。首站赛事在{city}北郊村举行，到场村民与游客合计逾5000人，乡镇干部反映基层接待压力骤增，村集体经济也借机拓展了新收入来源。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "加大补贴并配套基础设施升级",
+          "effects": {
+            "treasury": -350,
+            "reputation": 7,
+            "merit": 3,
+            "happiness": 4,
+            "gdpMult": 0.9
+          },
+          "color": "green"
+        },
+        {
+          "text": "按村自筹为主，市里适度补助",
+          "effects": {
+            "treasury": -100,
+            "reputation": 4,
+            "merit": 2,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂停赛事，避免基层负担",
+          "effects": {
+            "treasury": 50,
+            "reputation": -3,
+            "merit": -1,
+            "happiness": -2
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0136",
+      "type": "danger",
+      "tag": "海事",
+      "title": "{city}码头渔船侧翻",
+      "desc": "凌晨寒潮过境，{city}港汊海域涌浪骤起，一艘近海渔船因缆绳断裂偏离航道侧翻，2名船员落水获救、1人失温遇难。海事部门启动橙色预警，沿岸码头临时封港，水产批发物流受阻，近万户水产加工订单面临违约。",
+      "condition": null,
+      "weight": 5,
+      "choices": [
+        {
+          "text": "调直升机救援并启动渔业保险",
+          "effects": {
+            "treasury": -300,
+            "happiness": 4,
+            "reputation": 5,
+            "inspection": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "就近派执法艇救助并简办理赔",
+          "effects": {
+            "treasury": -100,
+            "happiness": 1,
+            "reputation": 1,
+            "inspection": 5,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "让家属自行协调救助与赔偿",
+          "effects": {
+            "happiness": -6,
+            "reputation": -8,
+            "inspection": 12,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "一艘船在黑海沉没 2人死亡",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0137",
+      "type": "success",
+      "tag": "消费",
+      "title": "{city}黄金周消费爆表",
+      "desc": "国庆七天，{city}各大商圈客流同比翻番，老字号餐饮包房一房难求，影院爆米花销量创下历史新高。但景区停车场一位难求，民宿超售投诉激增，交通拥堵指数连续三日破百，节假日消费红利与治理压力同步攀升。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "增派交警疏导并启动商户奖励补贴",
+          "effects": {
+            "treasury": -250,
+            "happiness": 5,
+            "reputation": 4,
+            "gdpMult": 1.05,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布错峰出游倡议与公交延时",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "gdpMult": 1.02,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任自由经营不加干预",
+          "effects": {
+            "treasury": 50,
+            "gdpMult": 1.03,
+            "happiness": -4,
+            "reputation": -5,
+            "corruption": 2
+          },
+          "color": "orange"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0138",
+      "type": "success",
+      "tag": "生态",
+      "title": "{city}高原生态修复见效",
+      "desc": "三年投入后，{city}北部高原草场退化治理初见成效，封育草场植被覆盖率达72%，羊群与牦牛存栏量回升，牧民人均年收入增长三成。但部分牧民希望恢复超载放牧以短期增收，与生态保护红线形成新博弈。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "发放生态补偿并设禁牧补贴",
+          "effects": {
+            "treasury": -250,
+            "happiness": 4,
+            "reputation": 4,
+            "gdpMult": 0.98,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "划定弹性放牧区与轮牧周期",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许牧民超载放牧",
+          "effects": {
+            "treasury": 50,
+            "happiness": 1,
+            "gdpMult": 1.04,
+            "reputation": -5,
+            "inspection": 8
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0139",
+      "type": "info",
+      "tag": "赛事",
+      "title": "{city}网球公开赛抽签",
+      "desc": "市体育局引进国际网球巡回赛，{city}奥体中心迎来首届大师赛抽签仪式，32位选手齐聚，赛事赞助与转播收益预计达两千万。但场馆改造超支15%，当地出租车协会担忧赛事期间司机分流客源受损。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政兜底缺口并补偿出租车协会",
+          "effects": {
+            "treasury": -400,
+            "happiness": 4,
+            "reputation": 5,
+            "gdpMult": 1.06,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "压缩办赛规模换取收支平衡",
+          "effects": {
+            "treasury": -100,
+            "reputation": -1,
+            "gdpMult": 1.02,
+            "merit": 1
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "取消赛事回收场馆资金",
+          "effects": {
+            "treasury": 200,
+            "happiness": -4,
+            "reputation": -6,
+            "gdpMult": 0.97
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "2026上海劳力士大师赛男单抽签仪式举行",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0140",
+      "type": "success",
+      "tag": "振兴",
+      "title": "{city}东北超足球落幕",
+      "desc": "首届'东北超'城市足球联赛在{city}闭幕，本地球迷组织观赛超3万人，带动体育用品与文旅消费破亿。市里借势谋划职业俱乐部落户，但财政补贴与青训基地用地审批成为新难题。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政配套青训基地并引进俱乐部",
+          "effects": {
+            "treasury": -350,
+            "happiness": 5,
+            "reputation": 4,
+            "educationIndex": 3,
+            "gdpMult": 1.05,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅保留业余联赛不引进职业队",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "educationIndex": 1,
+            "merit": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "叫停赛事腾挪用地",
+          "effects": {
+            "treasury": 150,
+            "happiness": -5,
+            "reputation": -5,
+            "educationIndex": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届“东北超”落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0141",
+      "type": "warn",
+      "tag": "文旅",
+      "title": "{city}游客体验再升级",
+      "desc": "国庆假期，{city}推出AR导览、夜游灯会等'升级版'体验，游客满意度调研高达92%。但部分商户借机抬高门票与餐饮价格，社交平台出现'宰客'投诉，市场监管部门接到举报126起，形象受损隐忧显现。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "明码标价整治并设游客投诉专线",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "reputation": 5,
+            "gdpMult": 1.02,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "发布商户自律倡议不加处罚",
+          "effects": {
+            "happiness": 1,
+            "reputation": -1,
+            "inspection": 4
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "由商户协会自行调解纠纷",
+          "effects": {
+            "happiness": -4,
+            "reputation": -5,
+            "corruption": 3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验“升级版”",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0142",
+      "type": "danger",
+      "tag": "航空",
+      "title": "{city}机场航班备降惊魂",
+      "desc": "一架由外地飞往{city}的民航客机因雷雨绕飞备降，机长与副驾驶回忆'仪表骤失灵'的惊魂时刻，机上142名乘客疏散平稳。但机场跑道关闭4小时，连锁延误17个航班，旅客滞留投诉如潮，航空公司索赔函已送达。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动应急安置并垫付旅客食宿",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调航空公司共担赔付费用",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2,
+            "inspection": 4,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "建议旅客自行维权不介入",
+          "effects": {
+            "happiness": -6,
+            "reputation": -8,
+            "corruption": 2,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人“还原”惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0143",
+      "type": "corruption",
+      "tag": "招投标",
+      "title": "{city}灾后重建招标疑云",
+      "desc": "海事事故后续重建工程招标，3家本地船厂同时被投诉'围标串标'，评标文件出现高度雷同的报价模板。纪检组介入调查，发现评标委员会某成员曾接受投标方宴请，舆论质疑{city}灾后资金被利益输送。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "暂停招标并移交纪检监察组",
+          "effects": {
+            "treasury": -100,
+            "reputation": 5,
+            "corruption": -8,
+            "inspection": 8,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "引入异地评标委员会重评",
+          "effects": {
+            "treasury": -50,
+            "corruption": -3,
+            "reputation": 2,
+            "inspection": 5,
+            "merit": 2
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "维持原中标结果加快速度",
+          "effects": {
+            "treasury": 50,
+            "corruption": 8,
+            "reputation": -6,
+            "inspection": 15,
+            "happiness": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "一艘船在黑海沉没 2人死亡",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0144",
+      "type": "warn",
+      "tag": "客流",
+      "title": "{city}景区民宿超售爆发",
+      "desc": "国庆期间{city}热门古镇民宿超售率高达35%，部分游客到店后被拒入住，社交平台维权帖破千。文旅局接到省厅督办函，要求48小时内完成退房补偿与秩序恢复，否则列入年度考核扣分项。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "财政补贴酒店腾房并设退款专班",
+          "effects": {
+            "treasury": -200,
+            "happiness": 5,
+            "reputation": 5,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "约谈平台下架超售房源",
+          "effects": {
+            "treasury": -50,
+            "happiness": 2,
+            "reputation": 2,
+            "gdpMult": 0.99,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由投诉双方自行协商",
+          "effects": {
+            "happiness": -5,
+            "reputation": -6,
+            "inspection": 10,
+            "corruption": 2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆假期，游客体验“升级版”",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0145",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}高原学校升学提升",
+      "desc": "依托青稞产业带动的乡村教育振兴项目，{city}三所高原中学连续两年本科上线率翻倍，学子走出大山进入重点大学。家长送来'云岭大地谱新篇'锦旗，市里拟追加专项投入扩至更多乡村学校。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "设立乡村教师专项津贴扩面",
+          "effects": {
+            "treasury": -250,
+            "educationIndex": 5,
+            "happiness": 4,
+            "reputation": 4,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "与高校结对帮扶送教下乡",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 3,
+            "happiness": 2,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂停项目资金用于其他民生",
+          "effects": {
+            "treasury": 200,
+            "educationIndex": -5,
+            "happiness": -3,
+            "reputation": -4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0146",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "{city}停电夜急诊告急",
+      "desc": "城区停电当晚，{city}第二人民医院ICU备用电源故障，3名重症患者被迫转运市一院。转运途中交通拥堵导致一位病人血压骤升，患者家属聚集院门口要求追责，省卫健委派员实地督导。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全额兜底救治费用并启动追责",
+          "effects": {
+            "treasury": -200,
+            "healthcare": 4,
+            "happiness": 5,
+            "reputation": 4,
+            "inspection": 6,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "与院方共担费用并整改设备",
+          "effects": {
+            "treasury": -100,
+            "healthcare": 2,
+            "happiness": 2,
+            "inspection": 4,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "定性为院方责任不予兜底",
+          "effects": {
+            "healthcare": -4,
+            "happiness": -6,
+            "reputation": -7,
+            "inspection": 12
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国伦敦大范围停电",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0147",
+      "type": "info",
+      "tag": "舆情",
+      "title": "{city}机长录音引发热议",
+      "desc": "备降事件后，涉事机长与副驾驶还原的'惊魂时刻'录音被自媒体剪辑传播，全网播放量破亿，网民对{city}机场应急能力的讨论持续升温。民航局发函要求本地机场提供完整处置报告，舆情风向待判。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "主动发布完整处置报告并致谢机组",
+          "effects": {
+            "treasury": -50,
+            "reputation": 6,
+            "happiness": 3,
+            "inspection": 4,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅回复官方简报不主动发声",
+          "effects": {
+            "reputation": -2,
+            "inspection": 6
+          },
+          "color": "yellow"
+        },
+        {
+          "text": "施压自媒体下架相关内容",
+          "effects": {
+            "treasury": 50,
+            "reputation": -8,
+            "happiness": -4,
+            "corruption": 3,
+            "inspection": 10
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "迪拜航空客机上到底发生了什么 遭袭机长等人“还原”惊魂时刻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0148",
+      "type": "danger",
+      "tag": "停电",
+      "title": "{city}城区大面积停电",
+      "desc": "继英国伦敦大范围停电后，{city}城东变电站突遭雷击跳闸，波及三个小区、两家医院及一处地铁站。抢修队伍连夜赶赴现场，部分居民在停电期间启用自备发电机，医院备用电源已启动应急方案。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "调拨应急发电车并加班抢修",
+          "effects": {
+            "treasury": -200,
+            "happiness": 4,
+            "reputation": 5,
+            "inspection": 2,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调周边供电局支援",
+          "effects": {
+            "treasury": -100,
+            "happiness": 2,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅安排夜间分区分时抢修",
+          "effects": {
+            "happiness": -6,
+            "reputation": -4,
+            "corruption": 3,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国伦敦大范围停电",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0149",
+      "type": "success",
+      "tag": "青稞",
+      "title": "{city}青稞丰收两代续写",
+      "desc": "效仿高原农户两代人接力种植青稞的故事，{city}北部高原乡镇青稞喜迎丰收，亩产突破600斤。老支书带领儿子返乡创业，把青稞加工成奶茶原料与保健品，带动300户增收。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "立项青稞加工产业园",
+          "effects": {
+            "treasury": -300,
+            "gdpMult": 0.9,
+            "happiness": 5,
+            "merit": 4,
+            "reputation": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "给予农户补贴和保险",
+          "effects": {
+            "treasury": -100,
+            "happiness": 4,
+            "gdpMult": 0.9,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "让市场自由定价",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "corruption": 4,
+            "inspection": 3
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0150",
+      "type": "warn",
+      "tag": "文旅",
+      "title": "{city}国庆票房破8亿",
+      "desc": "受国庆档电影票房破8亿热潮带动，{city}本地影院联合周边文旅推出\"电影+美食\"套票，单日客流超3万人次。影院周边美食街人声鼎沸，商户纷纷延长营业至凌晨两点，交通压力骤增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "开通免费接驳专线",
+          "effects": {
+            "treasury": -100,
+            "happiness": 5,
+            "gdpMult": 0.9,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "增设临时停车位和引导牌",
+          "effects": {
+            "treasury": -50,
+            "happiness": 3,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "放任商户自行处置",
+          "effects": {
+            "treasury": 50,
+            "happiness": -4,
+            "corruption": 5,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "国庆档电影票房破8亿！\"电影+文旅+美食\"激活假日消费新动能",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0151",
+      "type": "warn",
+      "tag": "消费",
+      "title": "{city}假期消费井喷",
+      "desc": "借鉴国庆假期出行热、体验丰、门市旺的消费态势，{city}商业街营业额同比上涨45%，餐饮排队最长逾3小时。部分商户出现临时涨价、卫生不达标等问题，市场监管压力陡增。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "联合市场监管局开展专项巡查",
+          "effects": {
+            "treasury": -50,
+            "happiness": 4,
+            "reputation": 4,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "建立商户信用红黑榜",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "happiness": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许节日溢价",
+          "effects": {
+            "treasury": 100,
+            "happiness": -4,
+            "corruption": 5,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行热 体验丰 门市旺——国庆假期消费市场观察",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0152",
+      "type": "success",
+      "tag": "赛事",
+      "title": "{city}首夺超三联赛冠军",
+      "desc": "效仿超三联赛单赛季三夺争霸赛冠军的盛况，{city}本地俱乐部在首届\"东北超\"总决赛中笑到最后，全城万人空巷庆祝。市政府拟借势打造城市体育IP，推动绿茵经济崛起。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "冠名建设城市足球公园",
+          "effects": {
+            "treasury": -350,
+            "happiness": 5,
+            "educationIndex": 4,
+            "gdpMult": 0.9,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "补贴青少年足球培训",
+          "effects": {
+            "treasury": -100,
+            "educationIndex": 5,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "出售冠名权给企业",
+          "effects": {
+            "treasury": 200,
+            "happiness": -2,
+            "corruption": 4,
+            "inspection": 4
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "超三联赛首支单赛季三夺争霸赛冠军的球队诞生",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0153",
+      "type": "success",
+      "tag": "振兴",
+      "title": "{city}绿茵聚力振兴起脚",
+      "desc": "受首届\"东北超\"绿茵聚力振兴起脚的感召，{city}足球联赛落幕当日，市民自发上街庆贺。地方政府拟借体育振兴地方经济，规划足球小镇项目，预计带动周边产业就业超千人。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "立项足球小镇综合体",
+          "effects": {
+            "treasury": -500,
+            "gdpMult": 0.9,
+            "happiness": 4,
+            "merit": 5,
+            "unemployment": -0.02
+          },
+          "color": "green"
+        },
+        {
+          "text": "补贴退役球员创业",
+          "effects": {
+            "treasury": -100,
+            "happiness": 3,
+            "unemployment": -0.01,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "仅办纪念赛不投基建",
+          "effects": {
+            "treasury": -50,
+            "happiness": -1,
+            "corruption": 3
+          },
+          "color": "gray"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届\"东北超\"落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0154",
+      "type": "danger",
+      "tag": "海难",
+      "title": "{city}内河游船倾覆",
+      "desc": "黑海一艘客船沉没造成2人死亡的消息传来，{city}内河游船管理部门连夜自查。近日{city}南河一艘观光船因超载在码头附近倾覆，所幸救援及时无人死亡，但仍引发游客恐慌。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "全面停运游船开展安全检修",
+          "effects": {
+            "treasury": -200,
+            "reputation": 5,
+            "happiness": -2,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "强制安装超载报警装置",
+          "effects": {
+            "treasury": -100,
+            "reputation": 3,
+            "merit": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "口头警示后恢复运营",
+          "effects": {
+            "happiness": -5,
+            "corruption": 6,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "一艘船在黑海沉没 2人死亡",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0155",
+      "type": "warn",
+      "tag": "文旅",
+      "title": "{city}文旅谱写云岭新篇",
+      "desc": "云岭大地谱新篇的文旅热潮蔓延至{city}，{city}东部山区推出云上梯田、云海民宿等特色线路，单日接待游客突破5000人次。但山路狭窄、停车位不足、厕所超负荷等问题集中爆发。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "拓宽景区道路增建公厕",
+          "effects": {
+            "treasury": -300,
+            "happiness": 4,
+            "reputation": 3,
+            "gdpMult": 0.9,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "预约限流错峰入园",
+          "effects": {
+            "treasury": -50,
+            "happiness": 1,
+            "reputation": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "默许摊贩占道经营",
+          "effects": {
+            "treasury": 50,
+            "happiness": -3,
+            "corruption": 5,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "云岭大地谱新篇",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0156",
+      "type": "corruption",
+      "tag": "工程",
+      "title": "{city}电力抢修采购疑云",
+      "desc": "继伦敦大范围停电后，{city}引入电力抢修服务商过程中被曝出三家竞标公司实为关联关系，中标价较市场价高出35%。市监部门介入调查，供电部门内部举报信纷至沓来。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "移送监察委彻查招投标",
+          "effects": {
+            "treasury": -50,
+            "reputation": 5,
+            "corruption": -8,
+            "inspection": 4,
+            "merit": 4
+          },
+          "color": "green"
+        },
+        {
+          "text": "重招一次并引入第三方审计",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3,
+            "corruption": -4
+          },
+          "color": "blue"
+        },
+        {
+          "text": "内部消化不再追究",
+          "effects": {
+            "treasury": 100,
+            "corruption": 10,
+            "inspection": 8,
+            "reputation": -3
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国伦敦大范围停电",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0157",
+      "type": "info",
+      "tag": "舆情",
+      "title": "{city}热搜舆情突发",
+      "desc": "中新网即时新闻平台上，{city}一名外卖骑手为赶订单闯红灯撞伤老人的视频冲上热搜，评论区质疑交通安全管理缺位。事件发酵仅4小时，全市外卖配送订单量骤降15%。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "约谈平台企业优化派单算法",
+          "effects": {
+            "treasury": -50,
+            "reputation": 4,
+            "happiness": 3,
+            "merit": 2
+          },
+          "color": "green"
+        },
+        {
+          "text": "增派交警高峰时段巡查",
+          "effects": {
+            "treasury": -50,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "发布声明否认监管责任",
+          "effects": {
+            "reputation": -5,
+            "corruption": 3,
+            "inspection": 4
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "中新网即时新闻",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0158",
+      "type": "success",
+      "tag": "产业",
+      "title": "{city}青稞精深加工落地",
+      "desc": "在青稞两代征途精神的感召下，{city}引入一家外资企业投资5亿元建设青稞精深加工基地，可年产青稞啤酒、青稞麦片等系列产品，预计创造就业岗位1200个，带动周边2万亩青稞种植。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "配套建设冷链物流园",
+          "effects": {
+            "treasury": -400,
+            "gdpMult": 0.9,
+            "unemployment": -0.03,
+            "merit": 5
+          },
+          "color": "green"
+        },
+        {
+          "text": "给予税费减免三年",
+          "effects": {
+            "treasury": -150,
+            "gdpMult": 0.9,
+            "unemployment": -0.02,
+            "inspection": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "私下许诺出让土地指标",
+          "effects": {
+            "privateAccount": 60,
+            "corruption": 8,
+            "inspection": 7,
+            "reputation": -2
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "特写：一粒青稞，两代征途",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0159",
+      "type": "warn",
+      "tag": "医疗",
+      "title": "{city}停电医院应急启动",
+      "desc": "受伦敦大范围停电事件警示，{city}三甲医院启动电力应急演练。演练中发现部分病房UPS电池老化、手术室备用发电机启动延迟8分钟，暴露医疗用电安全隐患，患者代表要求公开整改方案。",
+      "condition": null,
+      "weight": 3,
+      "choices": [
+        {
+          "text": "整体更换UPS并升级发电机",
+          "effects": {
+            "treasury": -300,
+            "healthcare": 6,
+            "reputation": 4,
+            "happiness": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "仅更换关键科室设备",
+          "effects": {
+            "treasury": -100,
+            "healthcare": 3,
+            "reputation": 1
+          },
+          "color": "blue"
+        },
+        {
+          "text": "暂不整改，明年再议",
+          "effects": {
+            "treasury": 50,
+            "healthcare": -4,
+            "corruption": 4,
+            "inspection": 5
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "英国伦敦大范围停电",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0160",
+      "type": "success",
+      "tag": "教育",
+      "title": "{city}少年足球青训启航",
+      "desc": "首届\"东北超\"绿茵聚力振兴起脚的余温未散，{city}教育局联合足协在3所小学试点足球课后服务，招募退役球员担任教练，报名学生超1500人，家长反响热烈，但场地设备捉襟见肘。",
+      "condition": null,
+      "weight": 2,
+      "choices": [
+        {
+          "text": "拨款新建五人制球场",
+          "effects": {
+            "treasury": -200,
+            "educationIndex": 5,
+            "happiness": 3,
+            "merit": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "与俱乐部共建训练基地",
+          "effects": {
+            "treasury": -50,
+            "educationIndex": 4,
+            "reputation": 2,
+            "inspection": 2
+          },
+          "color": "blue"
+        },
+        {
+          "text": "由家长自筹器材费用",
+          "effects": {
+            "treasury": 50,
+            "educationIndex": -2,
+            "happiness": -3,
+            "corruption": 2
+          },
+          "color": "yellow"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "首届\"东北超\"落幕：绿茵聚力，振兴起脚",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    },
+    {
+      "id": "ai_20261005_0161",
+      "type": "danger",
+      "tag": "灾害",
+      "title": "{city}景区滑坡游客被困",
+      "desc": "借鉴新疆喀纳斯景区临时管制的教训，{city}西部峡谷景区因连续降雨发生局部山体滑坡，300余名游客被困栈道区域。手机信号减弱，救援直升机因云雾影响无法降落，情况紧急。",
+      "condition": null,
+      "weight": 4,
+      "choices": [
+        {
+          "text": "启动一级响应调集救援力量",
+          "effects": {
+            "treasury": -250,
+            "happiness": 2,
+            "reputation": 5,
+            "merit": 4,
+            "inspection": 3
+          },
+          "color": "green"
+        },
+        {
+          "text": "协调邻近县派救援队支援",
+          "effects": {
+            "treasury": -100,
+            "happiness": 1,
+            "reputation": 3
+          },
+          "color": "blue"
+        },
+        {
+          "text": "拖延通报等待自然恢复",
+          "effects": {
+            "happiness": -7,
+            "reputation": -5,
+            "corruption": 5,
+            "inspection": 6
+          },
+          "color": "red"
+        }
+      ],
+      "postEffect": null,
+      "source": "ai",
+      "hotTopic": "出行注意！新疆喀纳斯景区部分路段实施道路交通临时管制",
+      "generatedAt": "2026-10-05",
+      "schemaVersion": 1
+    }
+  ]
+}
